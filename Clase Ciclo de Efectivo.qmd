@@ -1,0 +1,358 @@
+---
+title: "Administración del Efectivo"
+author: "Docente: Carlos Correa Iñiguez 
+        (ca.correai@profesor.duoc.cl)"
+format:
+    revealjs:
+        theme: solarized
+        css: duoc_uc.css 
+        
+---
+
+### Objetivos de la Clase:
+<br><br>
+1. **Conocer los principales modelos de administración del efectivo**, entendiendo su importancia en la gestión financiera empresarial.
+<br><br>
+<br><br>
+2. **Aplicar los componentes clave de cada modelo**, asegurando una gestión eficiente y óptima del efectivo en la organización.
+
+---
+
+### Administración de la liquidez
+
+![Administración de la liquidez](Imagen2.png)
+
+---
+
+### Administración de Efectivo (Brealey)
+
+Según Brealey, el efectivo se define a menudo como **"un activo que no genera utilidades"**. 
+
+- Su tenencia es necesaria para pagar mano de obra, materia prima, impuestos, dividendos, y comprar activos fijos.
+<br><br>
+- Aunque el efectivo no genera intereses, la tarea del administrador financiero es **minimizar** la cantidad de efectivo manteniendo suficiente liquidez para:
+  - Aprovechar descuentos comerciales
+  - Mantener la reputación crediticia
+  - Satisfacer necesidades imprevistas
+
+---
+
+## Administración del Efectivo (Gitman)
+
+- Es un activo clave en la **gestión del capital de trabajo**.
+<br><br>
+- Permite pagar facturas a tiempo y funciona como un **colchón financiero** para imprevistos.
+<br><br>
+- Los activos circulantes, como cuentas por cobrar e inventarios, se convierten en efectivo, el **denominador común** de los activos líquidos.
+
+---
+
+## Estrategias de Administración de Efectivo
+
+Según Gitman, las principales estrategias son:
+
+1. **Cuentas por pagar**: Pagar lo más tarde posible sin afectar la reputación crediticia, aprovechando descuentos por pronto pago.
+<br><br>
+2. **Inventario**: Rotar el inventario rápidamente para evitar agotamientos que afecten la producción o las ventas.
+<br><br>
+3. **Cuentas por cobrar**: Cobrar lo más rápido posible sin presionar a los clientes, utilizando descuentos por pago de contado cuando sea económicamente viable.
+<br><br>
+
+---
+
+### Objetvos de la administración del efectivo:
+
+El principal objetivo de la administración del efectivo es **minimizar la inversión en efectivo** sin comprometer la eficiencia operativa de la empresa.
+<br><br>
+- **Saldo mínimo de efectivo**: Determinar la cantidad mínima de efectivo que debe mantener la empresa, considerando sus necesidades específicas y características operativas.
+<br><br>
+- **Ciclo de caja**: Definir el número de días que transcurren desde que la empresa realiza pagos a sus proveedores hasta que recibe los cobros de sus clientes, asegurando una gestión óptima del flujo de efectivo.
+
+---
+
+![Ciclo Operativo](Imagen1.png)
+
+---
+
+### Modelos de Administración del Efectivo
+
+1. **Modelo de Pérdida Operativa Mínima (POM)**:
+   Minimiza los costos del mantenimiento de efectivo, asegurando suficiente liquidez para las operaciones.
+<br><br>
+2. **Modelo de Baumol**:
+   Calcula el saldo óptimo de efectivo basado en los costos de transacción y el costo de oportunidad.
+<br><br>
+3. **Modelo de Miller y Orr**:
+   Controla los saldos de efectivo estableciendo límites superior e inferior, ajustando automáticamente según las fluctuaciones.
+
+---
+
+### Modelo de Pérdida Operativa Mínima (POM)
+
+- **Objetivo**: Minimizar los costos de mantener efectivo sin comprometer la operación.
+<br><br>
+- **Principio**: Determina el saldo mínimo de efectivo que la empresa debe mantener para operar eficientemente.
+<br><br>
+- **Ventaja**: Optimiza la liquidez, reduciendo el costo de oportunidad de mantener grandes cantidades de efectivo sin invertir.
+
+---
+
+### Fórmulas del Modelo POM
+
+#### 1. **Rotación de Caja**:
+   $$
+   R_c = \frac{\text{360}}{\text{Ciclo de Caja}}
+   $$
+   - $R_c$: Rotación de caja, mide cuántas veces la empresa "gira" su efectivo durante el año.
+
+### 2. **Caja Mínima**:
+   $$
+   C_{\text{mínima}} = \frac{\text{Desembolsos Anuales}}{\text{Rotación de Caja}}
+   $$
+   - **$C_{\text{mínima}}$**: Cantidad mínima de efectivo que la empresa debe mantener para operar.
+
+### Fórmula del POM (Pérdida Operativa Mínima):
+   $$
+   POM = C_{\text{mínima}} + \text{Costos de Oportunidad}
+   $$
+   - **POM**: Es la pérdida que incurre la empresa por mantener el saldo mínimo de caja, sumando el costo de oportunidad de no invertir ese efectivo.
+
+---
+
+### Ejemplo (POM)
+
+Indicadores de gestión:
+
+- **Período promedio de cobro**: 60 días
+<br><br>
+- **Período promedio de pago**: 45 días
+<br><br>
+- **Período promedio de inventario**: 75 días
+<br><br>
+- **Desembolsos anuales**: $10.000.000
+<br><br>
+- **Costo de oportunidad**: 18%
+
+---
+
+### Solucion Parte I: 
+#### Cálculos del Ciclo de Caja y POM
+
+1. **Ciclo Operativo**:
+   $$
+   \text{Ciclo Operativo} = PPI + PPC
+   $$
+   $$
+   \text{Ciclo Operativo} = 75 + 60 = 135 \, \text{días}
+   $$
+   Donde:
+   - $PPI$: Período Promedio de Inventario
+   - $PPC$: Período Promedio de Cobro
+
+---
+
+### Solucion Parte II: 
+2. **Ciclo de Efectivo**:
+    $$
+    \text{Ciclo de Efectivo} = \text{Ciclo Operativo} - PPP
+    $$
+    $$
+    \text{Ciclo de Efectivo} = 135 - 45 = 90 \, \text{días}
+    $$
+   Donde:
+   - $PPP$: Período Promedio de Pago
+
+---
+
+### Solucion Solucion Parte III
+
+#### Cálculos del Ciclo de Caja y POM
+
+3. **Rotación de Caja**:
+   $$
+   \text{Rotación de Caja} = \frac{360}{\text{Ciclo de Efectivo}} = \frac{360}{90} = 4 \, \text{veces}
+   $$
+
+4. **Caja Mínima**:
+   $$
+   \text{Caja Mínima} = \frac{\text{Desembolsos Anuales}}{\text{Rotación de Caja}} = \frac{10.000.000}{4} = 2.500.000
+   $$
+
+5. **Pérdida Operativa Mínima (POM)**:
+   $$
+   \text{POM} = \text{Caja Mínima} \times k_o = 2.500.000 \times 18\% = 450.000
+   $$
+   Donde:
+   - $k_o$: Costo de Oportunidad.
+
+---
+
+### Ciclo Operativo Ejemplo
+
+![Ciclo Operativo Ejemplo](Imagen4.png)
+
+---
+
+## Interpretación de Resultados I
+
+- **Ciclo Operativo**: La empresa tiene un ciclo operativo de **135 días**, que cubre el tiempo desde la compra de materias primas hasta el cobro de las ventas:
+<br><br>
+  1. Compra de mercaderías o materias primas.
+  2. Producción y obtención de productos terminados.
+  3. Venta de los productos.
+  4. Cobro a clientes (generación del flujo de caja).
+
+---
+
+## Interpretación de Resultados II
+- **Ciclo de Efectivo**: El ciclo de efectivo es de **90 días**, debido a un período de financiación de **45 días** otorgado por los proveedores.
+<br><br>
+- **Rotación de Caja**: La empresa rota su efectivo **4 veces al año**. Una mayor rotación significa que se requiere menos efectivo disponible para operar eficientemente.
+
+---
+
+### Modelo de W. Baumol
+
+- **Objetivo**: Minimizar costos de transacción y mantener un saldo óptimo de efectivo.
+<br><br>
+- **Principio**: Equilibra el costo de mantener efectivo y convertir activos.
+<br><br>
+- **Ventaja**: Ideal para empresas con flujos constantes, reduciendo la frecuencia de transacciones.
+
+---
+
+### Formula de Modelo de W. Baumol
+
+$$ 
+C = \sqrt{\frac{2 \cdot T \cdot b}{i}}
+$$
+- $C$: Saldo óptimo de efectivo.
+<br><br>
+- $T$: Necesidades de efectivo al año.
+<br><br>
+- $b$: Costo de convertir valores negociables.
+<br><br>
+- $i$: Tasa de interés.
+
+---
+
+## Modelo de Baumol
+
+El modelo de Baumol identifica dos costos principales:
+<br><br>
+1. **Costo de Transacción**: Representa el costo por ordenamiento o comercial.
+<br><br>
+2. **Costo de Oportunidad**: Representa el costo de mantener efectivo disponible.
+<br><br>
+- **Costo Total**: La suma de ambos costos corresponde al costo total del efectivo:
+$$
+\text{Costo Total} = \text{Costo de Transacción} + \text{Costo de Oportunidad} 
+$$
+
+---
+
+## Costo de Transacción (b)
+<br><br>
+- **Costo de Transacción (b)**: Es el costo de convertir valores negociables a efectivo. Este costo es constante y está influido por el número de transacciones realizadas, e incluye costos de oficina y transacción.
+<br><br>
+- **Número de Transacciones**: Se calcula como:
+
+  $$ 
+  \text{Número de Transacciones} = \frac{t}{c} 
+  $$
+
+  Donde:
+  
+  - t: Necesidades de efectivo al año.
+  - c: Saldo de efectivo óptimo.
+
+---  
+
+### Costo por Ordenamiento
+
+- El costo por ordenamiento se calcula como:
+    $$
+    \text{Costo por Ordenamiento} = b \times \left( \frac{t}{c} \right)
+    $$
+  Donde $b$ es el costo de cada transacción multiplicado por el número de transacciones necesarias en el periodo.
+    - t: Necesidades de efectivo al año.
+    - c: Saldo de efectivo óptimo.
+
+---
+
+## Costo de Oportunidad (i)
+
+- **Costo de Oportunidad (i)**: Se determina por la tasa de interés no aprovechada, que podría haberse obtenido al invertir el saldo de efectivo $c$ en el mercado financiero.
+
+<br><br>
+- Según el modelo de Baumol, los **saldos de efectivo** siguen un patrón constante, comenzando con un saldo $c$ al inicio del periodo y disminuyendo gradualmente hasta cero.
+
+- El saldo medio de efectivo se representa como:
+
+  $$ 
+  \text{Saldos Medios de Efectivo} = \frac{c}{2}
+  $$
+
+---
+
+### Costo de Mantenimiento de Efectivo
+
+- El costo de oportunidad $i$, multiplicado por los saldos medios de efectivo, da como resultado el **costo de mantenimiento**:
+
+  $$ 
+  \text{Costo de Mantenimiento} = i \times \left( \frac{c}{2} \right)
+  $$
+
+---
+
+## Costo Total de Efectivo
+
+- La suma del costo de mantenimiento y el costo de ordenamiento nos da el **Costo Total de Efectivo**:
+
+  $$ 
+  \text{Costo Total} = b \times \left( \frac{t}{c} \right) + i \times \left( \frac{c}{2} \right)
+  $$
+
+- A medida que **c** aumenta:
+  - El **Costo de Oportunidad** ($i \times \frac{c}{2}$) aumenta.
+  - El **Costo Comercial** ($b \times \frac{t}{c}$) disminuye.
+
+### Equilibrio de Costos
+
+- La cantidad óptima de efectivo se obtiene cuando el **Costo de Oportunidad** es igual al **Costo Comercial**:
+
+  $$ 
+  b \times \left( \frac{t}{c} \right) = i \times \left( \frac{c}{2} \right)
+  $$
+
+---
+
+### Ejemplo (Baumol)
+
+Una  empresa realiza sus compras de mercadería a 30 días (periodo de financiación de proveedor), el periodo de inventarios es de 45 días y el periodo de cuentas por cobrar es de 45 días.
+<br><br>
+Para un periodo de 60 días la empresa requiere $80.000.000.Se ha estimado que para una venta de valores negociables se incurrirá en un costo de $80.000 por cada transacción. La rentabilidad de los valores negociables se estima en 15% anual.
+
+---
+
+### Se pide:
+
+- a) Determinar el ciclo operativo y el ciclo de efectivo
+<br><br>
+- b) Cantidad de dinero por transacción (Modelo de W. Baumol)
+<br><br>
+- c) Número de transacciones en 60 días
+<br><br>
+- d) Costo total aplicado al efectivo
+
+---
+
+## Referencias
+
+1. **Principios de Finanzas Corporativas**  
+   Autores: Brealey, Richard A.; Myers, Stewart C.; Allen, Franklin.
+<br><br>
+2. **Administración del Efectivo y Contabilidad Administrativa**  
+   [Título](https://www.gestiopolis.com/administracion-del-efectivo-y-contabilidad-administrativa/#google_vignette) - Gestiopolis.
+
+---
