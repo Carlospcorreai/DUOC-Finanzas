@@ -6,7 +6,7 @@ format:
     revealjs:
         theme: solarized
         css: duoc_uc.css 
-        
+output-file: index.html
 ---
 
 ### Objetivos de la Clase:
@@ -344,6 +344,152 @@ Para un periodo de 60 días la empresa requiere $80.000.000.Se ha estimado que p
 - c) Número de transacciones en 60 días
 <br><br>
 - d) Costo total aplicado al efectivo
+
+---
+
+## Ciclo Operativo y Ciclo de Efectivo
+
+- **Ciclo Operativo**: 
+
+$$
+Ciclo\ Operativo = \text{PPI} (45\ días) + \text{PPC} (45\ días) = 90\ días
+$$
+
+El Ciclo Operativo corresponde a 90 días, comenzando el día en que se realizan las compras y terminando el día en que se realiza la cobranza de las ventas.
+
+---
+
+## Ciclo de Efectivo
+
+- **Ciclo de Efectivo**:
+
+$$
+Ciclo\ de\ Efectivo = (\text{PPI} - \text{PPP}) + \text{PPC}
+$$
+
+Sustituyendo los valores:
+
+$$
+Ciclo\ de\ Efectivo = (45 - 30) + 45 = 60\ días
+$$
+
+El ciclo de efectivo corresponde a 60 días, comenzando el día en que se debe pagar a proveedores y terminando el día en que se realiza la cobranza.
+
+---
+
+## Datos del Ejemplo
+
+- $t = 80.000.000$ (Requerimiento de efectivo para un periodo de 60 días)
+- $b = 80.000$ (Costo de conversión de valores negociables)
+- $n = 60$ días (Periodo de tiempo)
+- $i = 15\%$ anual
+
+---
+
+## Cálculo de la Tasa Bimestral
+
+La tasa de costo de oportunidad bimestral se calcula como:
+
+$$
+i = \left(\frac{0.15}{360}\right) \times 60 = 0.025 = 2.5\%
+$$
+
+---
+
+## Cálculo del Nivel Óptimo de Efectivo
+
+El nivel óptimo de efectivo ($C$) se calcula utilizando la fórmula de Baumol:
+
+$$
+C = \sqrt{\frac{2 \cdot b \cdot t}{i}}
+$$
+
+Sustituyendo los valores:
+
+$$
+C = \sqrt{\frac{2 \cdot 80.000 \cdot 80.000.000}{0.025}} = 22.627.417
+$$
+
+Este es el **nivel óptimo de efectivo**.
+
+---
+
+## Datos para el Cálculo
+
+- $t = \text{Necesidades de efectivo al año} = 80.000.000$
+- $b = \text{Costo de transacción} = 80.000$
+
+---
+
+## Cálculo del Número de Transacciones
+
+El número de transacciones se calcula como:
+
+$$
+\frac{t}{C} = \frac{80.000.000}{22.627.417} = 3.54
+$$
+
+---
+
+## Cálculo del Costo Comercial
+
+El costo comercial se calcula como:
+
+$$
+\text{Costo Comercial} = b \times \frac{t}{C} = 80.000 \times \frac{80.000.000}{22.627.417} = 282.843
+$$
+
+Este es el **costo comercial** asociado al proceso.
+
+---
+
+## Cálculo del Costo de Mantenimiento
+
+El saldo promedio de efectivo se calcula como:
+
+$$
+\frac{C}{2} = \frac{22.627.417}{2} = 11.313.708
+$$
+
+---
+
+## Cálculo del Costo de Mantenimiento
+
+El costo de mantenimiento se calcula como:
+
+$$
+\text{Costo de Mantenimiento} = i \times \left(\frac{C}{2}\right) = 0.025 \times \left(\frac{22.627.417}{2}\right) = 282.843
+$$
+
+---
+
+## Cálculo del Costo Total
+
+El costo total se calcula sumando el costo comercial y el costo de oportunidad:
+
+$$
+\text{Costo Total} = \text{Costo Comercial} + \text{Costo de Oportunidad} 
+$$
+$$
+\text{Costo Total} = 282.843 + 282.843 = 565.685
+$$
+
+---
+
+## Resumen de Costos
+
+| **Cantidad de dinero** | **Nº de transacciones** | **Saldos medios** | **Costo comercial** | **Costo oportunidad** | **Costo Total** |
+|------------------------|-------------------------|-------------------|---------------------|-----------------------|-----------------|
+| 80.000.000             | 1,00                    | 40.000.000         | 80.000              | 1.000.000             | 1.080.000       |
+| 40.000.000             | 2,00                    | 20.000.000         | 160.000             | 500.000               | 660.000         |
+| 26.666.667             | 3,00                    | 13.333.333         | 240.000             | 333.333               | 573.333         |
+| **22.627.417**         | **3,54**                | **11.313.708**     | **282.843**         | **282.843**           | **565.685**     |
+| 16.000.000             | 5,00                    | 8.000.000          | 400.000             | 200.000               | 600.000         |
+| 13.333.333             | 6,00                    | 6.666.667          | 480.000             | 166.667               | 646.667         |
+
+git add {'/Users/ccorreai/Documents/DUOC/Finanzas/Clase Administracion del Efectivo/Clase Ciclo de Efectivo.qmd} && git commit -m "{commit_message}" && git push
+- En el **óptimo**, el costo total es **mínimo**.
+- En el **óptimo**, el costo comercial es **igual** al costo de oportunidad.
 
 ---
 
