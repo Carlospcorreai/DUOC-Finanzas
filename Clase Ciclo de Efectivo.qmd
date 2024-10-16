@@ -5,7 +5,8 @@ author: "Docente: Carlos Correa Iñiguez
 format:
     revealjs:
         theme: solarized
-        css: duoc_uc.css 
+        css: duoc_uc.css
+output-file: index.html
         
 ---
 
