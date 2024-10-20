@@ -1,0 +1,84 @@
+---
+title: "Demostración de la Fórmula del Modelo de Miller y Orr"
+format: pdf
+eval:
+    false
+---
+
+# Introducción al Modelo de Miller y Orr
+
+El **Modelo de Miller y Orr** es utilizado para optimizar el manejo de efectivo en empresas con flujos de tesorería irregulares. El objetivo es determinar cuándo realizar transacciones para comprar o vender valores negociables para mantener un nivel de efectivo óptimo.
+
+El modelo se basa en tres aspectos fundamentales:
+
+1. **La variabilidad de los flujos de efectivo**, medida a través de la varianza.
+2. **Los costos de transacción**, asociados a comprar o vender valores negociables.
+3. **El costo de oportunidad**, que es el interés que podría haberse ganado invirtiendo en valores.
+
+---
+
+# La Fórmula de Z
+
+La fórmula general para calcular el saldo óptimo \(Z\) es:
+
+$$
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}}
+$$
+
+Donde:
+- $b$ es el costo de transacción.
+- $\sigma^2$ es la varianza de los flujos diarios de efectivo.
+- $i$ es la tasa diaria de interés sobre valores negociables.
+
+---
+
+# Derivación de la Fórmula
+
+## Paso 1: Componentes del Modelo
+
+La fórmula de $Z$ proviene de minimizar los costos totales que incluyen:
+
+- **Costos de transacción**: cada vez que la empresa compra o vende valores, incurre en un costo de transacción $b$.
+- **Costos de oportunidad**: es el costo de mantener efectivo sin invertir, medido a través de la tasa de interés diaria $i$.
+
+## Paso 2: Costos Totales
+
+Los **costos totales esperados** a minimizar son la suma de los **costos de transacción** y los **costos de oportunidad**. Estos se expresan como:
+
+- **Costos de transacción esperados**: Dependen de la cantidad de transacciones realizadas, aproximadamente 
+$$
+\frac{\sigma^2}{Z} \cdot b
+$$
+
+- **Costos de oportunidad esperados**: Proporcionales al saldo medio de efectivo mantenido, que es aproximadamente:
+$$
+\frac{Z}{2} \cdot i
+$$
+
+## Paso 3: Minimización de los Costos
+
+El saldo óptimo $Z$ se obtiene al minimizar la suma de ambos costos. Esto se logra tomando la derivada de los costos totales respecto a $Z$ y resolviendo para $Z$. El resultado de esta minimización da como resultado la fórmula cúbica para el saldo óptimo:
+
+$$
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}}
+$$
+
+---
+
+# Ejemplo Numérico
+
+Si los costos de transacción son $100, la varianza de los flujos diarios es $500,000 y la tasa de interés diaria es 0.05%, el saldo óptimo se calcula como:
+
+$$
+Z = \sqrt[3]{\frac{3 \cdot 100 \cdot 500,000}{4 \cdot 0.0005}} = \sqrt[3]{\frac{150,000,000}{0.002}} = \sqrt[3]{75,000,000,000} \approx 4,241
+$$
+
+Por lo tanto, el saldo óptimo de efectivo que debe mantener la empresa es aproximadamente $4,241.
+
+---
+
+# Conclusión
+
+El **Modelo de Miller y Orr** permite a las empresas gestionar sus saldos de efectivo de manera eficiente al considerar los costos de transacción y los costos de oportunidad, obteniendo así un saldo óptimo $Z$ que minimiza los costos totales. 
+
+Este modelo es particularmente útil para empresas con flujos de caja irregulares y ayuda a optimizar las decisiones de inversión en valores negociables.
