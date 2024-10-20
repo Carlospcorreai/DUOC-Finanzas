@@ -5,8 +5,9 @@ author: "Docente: Carlos Correa Iñiguez
 format:
     revealjs:
         theme: solarized
-        css: duoc_uc.css 
+        css: duoc_uc.css
 output-file: index.html
+        
 ---
 
 ### Objetivos de la Clase:
@@ -357,7 +358,7 @@ $$
 
 El Ciclo Operativo corresponde a 90 días, comenzando el día en que se realizan las compras y terminando el día en que se realiza la cobranza de las ventas.
 
----
+___
 
 ## Ciclo de Efectivo
 
@@ -394,9 +395,7 @@ $$
 i = \left(\frac{0.15}{360}\right) \times 60 = 0.025 = 2.5\%
 $$
 
----
-
-## Cálculo del Nivel Óptimo de Efectivo
+### Cálculo del Nivel Óptimo de Efectivo
 
 El nivel óptimo de efectivo ($C$) se calcula utilizando la fórmula de Baumol:
 
@@ -419,9 +418,7 @@ Este es el **nivel óptimo de efectivo**.
 - $t = \text{Necesidades de efectivo al año} = 80.000.000$
 - $b = \text{Costo de transacción} = 80.000$
 
----
-
-## Cálculo del Número de Transacciones
+### Cálculo del Número de Transacciones
 
 El número de transacciones se calcula como:
 
@@ -429,9 +426,7 @@ $$
 \frac{t}{C} = \frac{80.000.000}{22.627.417} = 3.54
 $$
 
----
-
-## Cálculo del Costo Comercial
+### Cálculo del Costo Comercial
 
 El costo comercial se calcula como:
 
@@ -451,19 +446,13 @@ $$
 \frac{C}{2} = \frac{22.627.417}{2} = 11.313.708
 $$
 
----
-
-## Cálculo del Costo de Mantenimiento
-
 El costo de mantenimiento se calcula como:
 
 $$
 \text{Costo de Mantenimiento} = i \times \left(\frac{C}{2}\right) = 0.025 \times \left(\frac{22.627.417}{2}\right) = 282.843
 $$
 
----
-
-## Cálculo del Costo Total
+### Cálculo del Costo Total
 
 El costo total se calcula sumando el costo comercial y el costo de oportunidad:
 
@@ -524,9 +513,7 @@ $$
 
 El modelo busca minimizar ambos para calcular los límites óptimos de efectivo.
 
----
-
-## Cálculos del Modelo
+### Cálculos del Modelo
 
 El modelo permite calcular:
 
@@ -552,9 +539,7 @@ Donde:
 
 - $i$: Tasa diaria de interés (costo de oportunidad).
 
----
-
-## Punto de Reorden
+### Punto de Reorden
 
 La empresa establece un **mínimo de caja** que se suma a $Z$ para definir el **punto de reorden**:
 
@@ -646,9 +631,9 @@ $$
 2. **Límite superior**: M$ 2.969.94
 3. **Límite inferior**: M$ 4.000
 
-# Ejemplo 2 Modelo Miller-Orr: 
+## Ejemplo 2 Modelo Miller-Orr: 
 
-## Datos del Ejercicio
+### Datos del Ejercicio
 
 - Egresos diarios promedio: $10,000
 - Desviación estándar de los egresos: $1,200
@@ -656,9 +641,7 @@ $$
 - Tasa de interés diaria: 0.01%
 - Caja mínima: $1,500
 
----
-
-## ¿Qué vamos a calcular?
+### ¿Qué vamos a calcular?
 
 - **Punto de retorno o reorden**
 - **Límite superior e inferior** para la compra y venta de valores negociables
@@ -709,6 +692,7 @@ $$
 ## Explicación del Modelo
 
 - Cuando el saldo de efectivo llega al límite superior de $30,585, la empresa compra valores negociables y el saldo de efectivo se reduce al punto de reorden de $11,195.
+
 - Si el saldo cae al límite inferior de $1,500, la empresa vende valores negociables para aumentar el saldo a $11,195.
 
 
