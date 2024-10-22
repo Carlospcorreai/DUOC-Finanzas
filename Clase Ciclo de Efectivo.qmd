@@ -812,7 +812,7 @@ $$
 $$
 - Reemplazando:
 $$
-\text{Cuentas por Cobrar Promedio} = \frac{$1.365.558.000 + $1.036.294.000}{2} = $1.200.926.000
+\text{Cuentas por Cobrar Promedio} = \frac{$58.253.182.000 + $59.112.524.000}{2} = $58.682.853.000
 $$ 
 
 ---
@@ -840,7 +840,7 @@ $$
 
 Reemplazando valores:
 $$
-PPC = \frac{1.200.926.000}{455.075.947,22} \approx 2,64  . \text{días}
+PPC = \frac{58.253.182.000}{455.075.947,22} \approx 127,99 , \text{días}
 $$
 
 ---
@@ -896,15 +896,15 @@ $$
 
 - **Ciclo Operativo**:
 $$
-\text{Ciclo Operativo} = PPI + PPC = 254,73 + 2,64 = 257,37 \, \text{días}
+\text{Ciclo Operativo} = PPI + PPC = 254,73 + 127,99 = 382,72 \, \text{días}
 $$
 
 - **Ciclo de Efectivo**:
 $$
-\text{Ciclo de Efectivo} = PPI + PPC - PPP = 254,73 + 2,64 - 80,77 = 176,60 \, \text{días}
+\text{Ciclo de Efectivo} = Ciclo Operativo - PPP = 382,72 - 80,77 = 301,95 \, \text{días}
 $$
 
-Estos resultados muestran que Viña Santa Rita necesita **176,60 días** en promedio para convertir sus recursos en efectivo.
+Estos resultados muestran que Viña Santa Rita necesita **301,95 días** en promedio para convertir sus recursos en efectivo.
 
 ---
 
