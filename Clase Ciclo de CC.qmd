@@ -1,6 +1,5 @@
 ---
-
-title: "Administración de las Cuentas x Cobrar"
+title: "Estrategias de Administración del Capital de Trabajo y Cuentas por Cobrar"
 author: "Docente: Carlos Correa Iñiguez 
         (<ca.correai@profesor.duoc.cl>)"
 format:
@@ -10,3 +9,232 @@ format:
 output-file: index.html
         
 ---
+
+## Objetivos de la Clase:
+<br><br>
+1. **Conocer las estrategias de administración del capital de trabajo para optimizar la gestión de los recursos financieros de la empresa.
+<br><br>
+2. **Examinar la administración de las cuentas por cobrar y su impacto en el flujo de efectivo y la salud financiera.
+
+---
+
+## Importancia del Capital de Trabajo
+
+- **Objetivo Principal**: Maximizar el valor de la empresa.
+<br><br>
+- **Pregunta Clave**: ¿Podrá una empresa maximizar su valor si no es capaz de sobrevivir en el corto plazo?
+<br><br>
+- **Fundamento**: La administración del capital de trabajo es esencial para la supervivencia de la empresa.
+<br><br>
+- **Operaciones Diarias**: Los activos corrientes fluctúan pero nunca llegan a cero, permitiendo el funcionamiento diario del negocio.
+
+---
+
+## Administración del Capital de Trabajo
+
+- **Clasificación de Activos Corrientes**:
+    - Activos corrientes permanentes: Nivel base de caja, inventario y cuentas por cobrar que se mantienen estables.
+    - Activos corrientes temporales: Fluctuaciones estacionales en caja, inventario y cuentas por cobrar.
+<br><br>
+- **Impacto de Inversiones en Activos Fijos**:
+    - La inversión en activos fijos puede influir en la política de capital de trabajo.
+
+---
+
+## Niveles Óptimos en Activos Corrientes
+
+- **Equilibrio Liquidez y Rentabilidad:** Asegurar liquidez sin comprometer rentabilidad.
+  
+- **Efectivo:** Mantener el efectivo necesario para operaciones diarias y posibles inversiones de excedentes.
+
+- **Deudores Comerciales:** Minimizar deudas incobrables con políticas de crédito efectivas.
+
+- **Inventarios:** Mantener inventarios que cubran la demanda, optimizando costos y evitando deterioro.
+
+---
+
+## Tipos de Activos
+
+- **Activos Corrientes Temporales**: Satisfacen necesidades estacionales o cíclicas, cubriendo fluctuaciones en efectivo, cuentas por cobrar, e inventario.
+
+- **Activos Corrientes Permanentes**: Son activos necesarios para necesidades mínimas continuas. Aunque varían, representan un nivel estable de efectivo, cuentas por cobrar, e inventario.
+
+- **Activos Fijos (No Corrientes)**: Activos a largo plazo como propiedades, planta y equipo (PPE). Estos activos se mantienen a lo largo de períodos prolongados sin intención de venderse.
+
+---
+
+## Tipos de Activos en Capital de Trabajo
+
+![Tipos de Activos](Tipos%20de%20Activos.png)
+
+---
+
+## Financiamiento de los activos
+
+- La forma de financiamiento de los activos puede ser de corto plazo (pasivos corrientes) o de largo plazo (Pasivos no corrientes y Patrimonio)
+
+![Financiamiento de los activos](Financiamiento%20de%20Activos.png)
+
+---
+
+## Políticas de Inversión y Financiamiento
+<br><br>
+*Para determinar el nivel adecuado de activos corrientes y cómo financiarlos, es clave definir las políticas de inversión y financiamiento.*
+<br><br>
+**Claves**:
+<br><br>
+- **Políticas de Inversión**: Determinan el nivel apropiado de activos corrientes que se mantendrán, considerando la necesidad de liquidez y la maximización de la rentabilidad.
+<br><br>
+- **Políticas de Financiamiento**: Ayudan a decidir cómo financiar los activos corrientes, evaluando opciones entre fuentes de corto y largo plazo para optimizar el costo de capital.
+
+---
+
+## Políticas de Inversión en Capital de Trabajo
+
+- **1. Política de Inversión RELAJADA**  
+  Mantiene grandes cantidades de efectivo, valores negociables e inventarios. Las ventas se estimulan mediante una política de crédito liberal, resultando en un alto nivel de cuentas por cobrar.
+<br><br>
+- **2. Política de Inversión RESTRINGIDA**  
+  Minimiza el efectivo, valores negociables, inventarios y cuentas por cobrar, manteniendo todo en un nivel mínimo para reducir costos.
+<br><br>
+- **3. Política de Inversión MODERADA**  
+  Se encuentra entre la política relajada y la restringida, buscando un equilibrio en la gestión de activos.
+
+---
+
+## Políticas de Inversión en Capital de Trabajo
+
+![Políticas de Inversión en Capital de Trabajo](Politica_Inversion.png)
+
+---
+
+## Política de Financiamiento: Enfoque Agresivo
+
+- **Definición**  
+  Bajo esta política, todos los activos fijos de una empresa se financian con capital a largo plazo, mientras que una parte de los activos corrientes permanentes se financia con fuentes no espontáneas de fondos a corto plazo.
+
+- **Riesgos de Financiamiento a Corto Plazo**  
+  Los créditos de corto plazo presentan mayor riesgo, ya que deben cancelarse o refinanciarse rápidamente, lo cual puede incrementar los gastos financieros debido a los intereses y otros costos.
+
+---
+
+## Política de Financiamiento: Enfoque Agresivo
+
+![Políticas de Financiamiento en Capital de Trabajo](Enfoque_Agresivo.png)
+
+---
+
+## Ejemplo: Política de Financiamiento Agresivo
+
+- Menos solvencia en el corto plazo
+- Opera con capitales de trabajo neto mínimos.
+- Financia con fuentes de largo plazo los activos fijos y solo una parte de la componente corriente de carácter permanente.
+- Se requiere concurrir permanentemente a financiamiento de corto plazo.
+- Dificultad para enfrentar imprevistos.
+- Estrategia positiva en cuanto a rentabilidad
+
+---
+
+## Ejemplo: Política de Financiamiento Agresivo
+
+![Políticas de Financiamiento en Capital de Trabajo](Ejemplo_Enfoque_Agresivo.png)
+
+---
+
+## Política de Financiamiento: Enfoque Conservador
+
+- **Definición**  
+  Esta política implica que la empresa financia la totalidad de sus activos fijos, activos corrientes permanentes y una parte de los activos corrientes temporales con deuda y patrimonio a largo plazo.
+
+- **Ventajas de Préstamos a Largo Plazo**  
+  Los préstamos de largo plazo se consideran menos riesgosos, ya que la empresa dispone de más tiempo para cumplir sus obligaciones.
+
+- **Implicaciones Financieras**  
+  Utilizar deudas a largo plazo y capital contable para financiar estos activos puede ser más costoso, ya que el patrimonio suele exigir una rentabilidad mayor.
+
+---
+
+## Política de Financiamiento: Enfoque Conservador
+
+![Políticas de Financiamiento en Capital de Trabajo](Enfoque_Conservador.png)
+
+---
+
+## Ejemplo: Política de Financiamiento Conservador
+
+- Permite mayor solvencia de corto plazo.
+- Activos fijos ,activos corrientes permanentes y una parte de los activos corrientes fluctuantes, se financian con largo plazo.
+- Esta estrategia es negativa en cuanto a rentabilidad.
+- En esta estrategia el capital de trabajo neto es mayor.
+
+---
+
+## Ejemplo: Política de Financiamiento Conservador
+
+![Ejemplo: Política de Financiamiento Conservador](Ejemplo_Enfoque_Conservador.png)
+
+---
+
+## Política de Financiamiento: Enfoque Moderado
+
+- **Definición**  
+  Este enfoque sugiere que el costo de un activo debe distribuirse en el tiempo en que este genera ingresos o beneficios para el negocio.
+
+- **Equilibrio en Financiamiento**  
+  - Equilibra los activos corrientes temporales con los pasivos corrientes.
+  - Los activos corrientes permanentes y los activos fijos se financian con fuentes a largo plazo.
+
+- **Riesgo y Rentabilidad**  
+  La empresa opta por un nivel de riesgo moderado, con una rentabilidad esperada estable.
+
+---
+
+## Política de Financiamiento: Enfoque Moderado
+  
+![Políticas de Inversión en Capital de Trabajo](Enfoque_Moderado.png)
+
+--
+
+## Administración de Cuentas por Cobrar
+
+- **Objetivo**  
+  Conocer los modelos de administración de cuentas por cobrar y sus componentes para gestionar los recursos financieros de la empresa.
+  
+- **Fundamentos**  
+  Toda empresa debe definir cómo realizará el cobro de las mercaderías vendidas.
+
+---
+
+## Políticas de Crédito y Cobranza
+
+- **Elementos Clave**  
+  - **Estándares de crédito**: Establecen las restricciones para otorgar crédito.
+  - **Condiciones de crédito**: Determinan los plazos y descuentos aplicables.
+  
+- **Tipos de Políticas de Crédito**  
+  - **Restrictivas**: Pueden reducir el volumen de ventas.
+  - **Liberales**: Pueden aumentar el volumen de ventas.
+
+---
+
+## Impacto de las Políticas de Crédito
+
+- **Balance entre Utilidades y Flujos de Caja**  
+  - Utilidades y flujos de caja deben crecer juntos.
+  - Las ventas al contado aportan caja líquida; las ventas a crédito devengan utilidades sin generar caja inmediata.
+
+- **Ejemplo**  
+  Una venta a crédito en noviembre se reflejará en utilidades de diciembre, pero el ingreso de efectivo ocurrirá en el año siguiente.
+
+---
+
+## Evaluación de Estrategias de Cuentas por Cobrar
+
+- **Consideraciones Positivas y Negativas**  
+  - **Efecto Positivo**: Aumento de la utilidad.
+  - **Efecto Negativo**: Mayor costo de oportunidad y riesgo de incobrables debido al incremento en cuentas por cobrar.
+  
+- **Decisión Estratégica**  
+  Balancear los beneficios de utilidad con los costos adicionales de inversión y posibles incobrables.
+
+  ---
