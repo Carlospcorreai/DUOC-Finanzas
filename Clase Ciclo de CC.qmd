@@ -1,0 +1,12 @@
+---
+
+title: "Administración de las Cuentas x Cobrar"
+author: "Docente: Carlos Correa Iñiguez 
+        (<ca.correai@profesor.duoc.cl>)"
+format:
+    revealjs:
+        theme: solarized
+        css: duoc_uc.css
+output-file: index.html
+        
+---
