@@ -800,7 +800,7 @@ $$
 
 ---
 
-### Paso 2: Cálculo del PPC Viña Santa Rita
+### Cálculo del PPC Viña Santa Rita
 
 - **PPC** (Período Promedio de Cobro):
 $$ 
@@ -911,5 +911,264 @@ Estos resultados muestran que Viña Santa Rita necesita **301,95 días** en prom
 ## Ciclo Operativo: Viña Santa Rita
 
 ![Ciclo Operativo](Ejemplo_Sta_Rita.png)
+
+---
+
+- En una situación general, la empresa tiene dos opciones de financiamiento de corto plazo:  
+   - 1. Usar financiamiento de corto plazo, tales como factoring, línea crédito, créditos bancarios etc., lo cual genera un costo financiero por la tasa de interés y otros de la deuda financiera.
+   - 2. Si tuviera excedentes de Capital de Trabajo, tiene un costo de oportunidad ya que esos recursos podrían estar invertidos en depósitos a plazo, fondos mutuos, etc. y se dejaría de generar ganancia por intereses. (ingresos financieros)
+
+---
+
+## Paso 2: Cálculos en administración del Ciclo de Efectivo
+
+- 1. Calculo de POM.
+- 2. Calculo Modelo LEC: Lote Económico de Compras (Baumol)
+- 3. Miller-Orr, Saldo óptimo de efectivo, con límites y saldo para inversión de corto plazo en equivalentes al efectivo.
+
+---
+
+## 1. Calculo de POM.
+
+- Determinar la pérdida operativa mínima: 
+
+#### 1. **Rotación de Caja**:
+   $$
+   R_c = \frac{\text{360}}{\text{Ciclo de Caja}}
+   $$
+   - $R_c$: Rotación de caja, mide cuántas veces la empresa "gira" su efectivo durante el año.
+
+   $$
+   R_c = \frac{360}{\text{302 dias}}  \approx 1,19
+   $$
+
+---
+
+## Interpretación
+
+- Este resultado indica que la rotación de las cuentas en el período es de aproximadamente 1.19 veces por año.
+
+- Esto sugiere que la empresa convierte sus cuentas en efectivo alrededor de 1.19 veces al año, ya sea a través de inventarios o cuentas por cobrar, según el contexto.
+
+---
+
+## 2. Calcular Caja mínima o Saldo medio de Tesorería: (Egresos anuales/Rotación Caja)
+
+- Para calcular los egresos anuales, consideraremos las siguientes partidas clave del flujo de efectivo:
+	1.	**Pagos a proveedores por bienes y servicios**: Estos egresos representan los costos operativos esenciales para mantener el ciclo productivo de la empresa.
+	2.	**Pagos a y por cuenta de los empleados**: Incluye salarios, bonos y otros beneficios, reflejando el gasto en capital humano necesario para las operaciones.
+	3.	**Otros pagos por actividades de operación**: Comprende otros egresos menores que impactan en la caja y son parte de los costos operativos, como gastos administrativos o pagos menores.
+
+---
+
+## Calculo de Egresos Anuales
+
+- **Egresos Anuales:**
+$$
+\text{Egresos Anuales} = 125.825.795.000 + 26.234.231.000 + 8.780.316.000
+$$
+
+$$
+\text{Egresos Anuales} = 160.840.342.000
+$$
+
+**Caja Mínima:**
+
+$$
+\text{Caja Mínima} = \frac{\text{Egresos Anuales}}{\text{Rotación de Caja}} = \frac{160.840.342.000}{1,19} \approx 135.588.957.983
+$$
+
+---
+
+## Interpretación de los Cálculos
+
+Egresos Anuales:
+
+   - Representan la salida total de efectivo necesaria para la operación anual.
+   - Incluyen pagos esenciales como proveedores, empleados y gastos menores.
+
+Caja Mínima:
+
+   - Muestra el efectivo mínimo para operar sin interrupciones.
+   - Asegura liquidez para cubrir compromisos de corto plazo y enfrentar imprevistos.
+
+---
+
+
+## 3. Cálculo de la Pérdida Operativa Mínima (POM)
+
+- **Definición**: La POM representa la pérdida de rentabilidad asociada a mantener efectivo en caja, en lugar de invertirlo en activos alternativos.
+
+- **Cálculo**:
+   $$
+   \text{POM} = \text{Caja Mínima} \times \text{Costo de Oportunidad}
+   $$
+
+- **Interpretación**:
+   - La **POM** indica el monto que la empresa estaría perdiendo anualmente al mantener un saldo mínimo de caja.
+   - Destaca la importancia de equilibrar la **liquidez** con la **rentabilidad** mediante una gestión óptima de recursos.
+
+---
+
+## 3. Cálculo de la Pérdida Operativa Mínima (POM)
+
+$$
+\text{POM} = 135.588.957.983 \times 0,08 = 10.847.116.638,64
+$$
+
+- **Interpretación de la POM**:
+  - La Pérdida Operativa Mínima representa el costo de mantener el efectivo sin invertirlo en activos que generen rentabilidad.
+  - Este monto indica una "pérdida" teórica de oportunidades de inversión, basada en el costo de oportunidad del capital (8% en este caso).
+  - Es una herramienta para evaluar si el efectivo disponible podría ser mejor utilizado en inversiones rentables para optimizar la eficiencia financiera.
+
+### Referencia Costo de Oportunidad (WACC)
+
+- [Tesis - Alfonso Olmos](https://repositorio.uchile.cl/bitstream/handle/2250/181880/Tesis%20-%20Alfonso%20Olmos%20-%20Parte%20II.pdf?sequence=2)
+
+---
+
+## Paso 2: Cálculos en administración del Ciclo de Efectivo
+
+- 1. Calculo de POM.
+- 2. **Calculo Modelo LEC: Lote Económico de Compras (Baumol)**
+- 3. Miller-Orr, Saldo óptimo de efectivo, con límites y saldo para inversión de corto plazo en equivalentes al efectivo.
+
+---
+
+## Modelo LEC: Lote Económico de Compras (Modelo Baumol)
+
+- **Objetivo**: Calcular el nivel óptimo de efectivo a mantener en caja.
+- Este modelo se aplica en condiciones de certeza, teniendo en cuenta:
+  - Costos de transacción al convertir valores en efectivo.
+  - Rentabilidad de mantener el dinero invertido.
+  
+- **Dos enfoques**:
+  - Hacer conversiones pequeñas y frecuentes, reduciendo la pérdida de rentabilidad, pero aumentando los costos de transacción.
+  - Hacer conversiones grandes y poco frecuentes, lo que disminuye los costos de transacción, pero aumenta la pérdida de rentabilidad.
+
+---
+
+## Fórmula del Modelo LEC
+
+$$
+C(o) = \sqrt{\frac{2 \cdot b \cdot M}{i}}
+$$
+
+- **Donde**:
+  - $C(o)$: Monto óptimo de cada transacción ($).
+  - $b$: Costo de cada transacción ($).
+  - $M$: Monto total de efectivo necesario ($).
+  - $i$: Costo de oportunidad o tasa de interés.
+
+---
+
+## Cálculo del Monto Óptimo de Efectivo de Viña Santa Rita
+
+**Datos**:
+
+- **Monto total mensual de egresos**:  
+$$
+M = \frac{160,840,342,000}{12} \approx 13,403,361,833.33
+$$
+
+- **Costo de cada transacción**:  
+$$
+b = 150
+$$
+
+- **Tasa de interés mensual (i)**:  
+   - Rentabilidad promedio del mercado financiero chileno: 
+  $ i = 0.0065 $ (aproximadamente 0.65% mensual)
+
+---
+
+## Cálculo del Monto Óptimo de Transacción
+
+$$
+C(o) = \sqrt{\frac{2 \cdot 150 \cdot 13,403,361,833.33}{0.0065}} 
+= \sqrt{6,178,674,149,307.69} \approx 2,485,679.38
+$$
+
+- **Monto óptimo de cada transacción**: 
+$$
+\approx 2,485,679.38
+$$
+
+---
+
+## Interpretación de los Resultados del Monto Óptimo de Transacción
+
+- El cálculo indica un **monto óptimo de efectivo** de aproximadamente $2,485,679.38 por transacción.
+- Esto sugiere que, para minimizar costos de transacción y maximizar la eficiencia de caja, la empresa debería realizar transacciones de efectivo en este monto.
+
+- **Interpretación adicional**:
+  - Un mayor número de transacciones pequeñas aumentaría los costos de transacción sin optimizar el rendimiento de caja.
+  - Transacciones grandes menos frecuentes podrían reducir estos costos pero aumentarían el riesgo de mantener altos montos de efectivo inactivo.
+  - Este equilibrio optimizado entre costo de transacción y costo de oportunidad permite mantener la liquidez con menor impacto en la rentabilidad.
+
+---
+
+## Paso 2: Cálculos en administración del Ciclo de Efectivo
+
+- 1. Calculo de POM.
+- 2. Calculo Modelo LEC: Lote Económico de Compras (Baumol)
+- 3. **Miller-Orr, Saldo óptimo de efectivo, con límites y saldo para inversión de corto plazo en equivalentes al efectivo.**
+
+---
+
+## Modelo de Miller y Orr: Administración Óptima de Caja
+
+- **Objetivo**: Mantener un saldo de caja adecuado, considerando la variabilidad de los flujos diarios.
+
+- **Aplicación**:
+  - Ajusta el saldo de caja entre un **límite superior** y un **límite inferior** para optimizar la liquidez.
+  
+- **Enfoques**:
+  - **Límite Superior**: Invertir el exceso de efectivo al alcanzarlo.
+  - **Límite Inferior**: Convertir inversiones en efectivo para mantener la liquidez.
+  - **Saldo Óptimo (Z)**: Nivel de efectivo que minimiza los costos de transacción y mantenimiento.
+
+- **Consideraciones**:
+  - Costos de transacción y el costo de oportunidad de mantener efectivo.
+
+---
+
+## Ejercicio: Cálculo del Monto Óptimo de Efectivo con el Modelo de Miller y Orr
+
+**Datos**:
+
+- **Monto mínimo de caja**:  
+   $L = 1,500,000$ (definido por la empresa)
+
+- **Costo de cada transacción**:  
+  $b = 150$
+
+- **Varianza de los flujos diarios de efectivo**:  
+   $\sigma^2 = 1,500,000$
+
+- **Tasa de interés diaria (i)**:  
+  Rentabilidad promedio del mercado financiero chileno: 
+  $i = 0.00021$ (aproximadamente 0.021% diario)
+
+---
+
+## Cálculo del Saldo Óptimo (Z) con Miller y Orr
+
+$$
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}} = \sqrt[3]{\frac{3 \cdot 150 \cdot 1,500,000}{4 \cdot 0.00021}} = \sqrt[3]{535,714,285.71} \approx 819.23
+$$
+
+- **Saldo óptimo (Z)**: \( \approx 819,230 \)
+
+---
+
+## Interpretación de los Resultados del Modelo de Miller y Orr
+
+- **Saldo Óptimo de Efectivo (Z)**: El modelo nos da un saldo óptimo para el efectivo de aproximadamente $819,230.
+  - Este saldo permite cubrir fluctuaciones de caja diarias sin incurrir en demasiadas transacciones, optimizando así los costos.
+
+- **Límites de Caja**:
+  - **Límite Superior**: Cuando el saldo alcanza este límite, la empresa debe invertir el exceso para maximizar el rendimiento y evitar tener demasiado efectivo sin utilidad.
+  - **Límite Inferior**: Cuando el saldo cae a este nivel, es momento de convertir inversiones en efectivo, asegurando liquidez para las operaciones.
 
 ---
