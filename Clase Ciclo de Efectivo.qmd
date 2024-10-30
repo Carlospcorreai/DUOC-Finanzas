@@ -110,11 +110,11 @@ El principal objetivo de la administración del efectivo es **minimizar la inver
    $$
    C_{\text{mínima}} = \frac{\text{Desembolsos Anuales}}{\text{Rotación de Caja}}
    $$
-   - **$C_{\text{mínima}}$**: Cantidad mínima de efectivo que la empresa debe mantener para operar.
+   - **C_{\text{mínima}}**: Cantidad mínima de efectivo que la empresa debe mantener para operar.
 
 ### Fórmula del POM (Pérdida Operativa Mínima):
    $$
-   POM = C_{\text{mínima}} + \text{Costos de Oportunidad}
+   \text{POM} = C_{\text{mínima}} + \text{Costos de Oportunidad}
    $$
    - **POM**: Es la pérdida que incurre la empresa por mantener el saldo mínimo de caja, sumando el costo de oportunidad de no invertir ese efectivo.
 
@@ -760,14 +760,17 @@ $$
 
 #### Viña Santa Rita (CMF):
 
-- Inventario Inicial: $80.509.166.000
-- Inventario Final: $77.701.915.000
+- Inventario Inicial: 80.509.166.000
+- Inventario Final: 77.701.915.000
 
 El Inventario Promedio sería:
 
 $$
-\text{Inventario Promedio} = \frac{77.701.915.000 + 80.509.166.000}{2} = $79.105.540.500
+\text{Inventario Promedio} = \frac{77.701.915.000 + 80.509.166.000}{2}
 $$
+
+
+- Inventario Promedio = 79.105.540.500
 
 ---
 
@@ -782,7 +785,7 @@ $$
 - Costo de Ventas Anual: $111.797.509.000
 
 $$
-\text{Costo de Ventas Diario}= \frac{$111.797.509.000}{360} = $310.548.636
+\text{Costo de Ventas Diario}= \frac{111.797.509.000}{360} = 310.548.636
 $$
 
 ---
@@ -795,7 +798,7 @@ PPI = \frac{\text{Inventario Promedio}}{\text{Costo de Ventas Diario}}
 $$
 
 $$
-PPI = \frac{$79.105.540.500}{$310.548.636} \approx 254.73 , \text{días}
+PPI = \frac{79.105.540.500}{310.548.636} \approx 254.73 , \text{días}
 $$
 
 ---
@@ -812,7 +815,7 @@ $$
 $$
 - Reemplazando:
 $$
-\text{Cuentas por Cobrar Promedio} = \frac{$58.253.182.000 + $59.112.524.000}{2} = $58.682.853.000
+\text{Cuentas por Cobrar Promedio} = \frac{58.253.182.000 + 59.112.524.000}{2} = 58.682.853.000
 $$ 
 
 ---
@@ -828,7 +831,7 @@ $$
 - Ventas Anuales: $163.827.341.000
 
 $$
-\text{Ventas Diarias} = \frac{$163.827.341.000}{360} = $455.075.947,22
+\text{Ventas Diarias} = \frac{163.827.341.000}{360} = 455.075.947,22
 $$
 
 ## Cálculo del PPC
@@ -859,7 +862,7 @@ $$
 
 Reemplazando valores:
 $$
-\text{Cuentas por Pagar Promedio} = \frac{$27.068.515.000 + $23.094.061.000}{2} = \$25.081.288.000
+\text{Cuentas por Pagar Promedio} = \frac{27.068.515.000 + 23.094.061.000}{2} = 25.081.288.000
 $$
 
 ---
@@ -1078,20 +1081,19 @@ $$
 
 - **Tasa de interés mensual (i)**:  
    - Rentabilidad promedio del mercado financiero chileno: 
-  $ i = 0.0065 $ (aproximadamente 0.65% mensual)
+  $i = 0.0065$ (aproximadamente 0.65% mensual)
 
 ---
 
 ## Cálculo del Monto Óptimo de Transacción
 
 $$
-C(o) = \sqrt{\frac{2 \cdot 150 \cdot 13,403,361,833.33}{0.0065}} 
-= \sqrt{6,178,674,149,307.69} \approx 2,485,679.38
+C(o) = \sqrt{\frac{2 \cdot 150 \cdot 13.403.361.833,33}{0.0065}} = \sqrt{6.178.674.149.307,69} \approx 2.485.679,38
 $$
 
 - **Monto óptimo de cada transacción**: 
 $$
-\approx 2,485,679.38
+\approx 2.485.679
 $$
 
 ---
@@ -1138,7 +1140,8 @@ $$
 **Datos**:
 
 - **Monto mínimo de caja**:  
-   $L = 1,500,000$ (definido por la empresa)
+   $L = 135,588,957,983$
+   Este monto fue obtenido previamente a partir del modelo de Caja Mínima.
 
 - **Costo de cada transacción**:  
   $b = 150$
@@ -1154,11 +1157,18 @@ $$
 
 ## Cálculo del Saldo Óptimo (Z) con Miller y Orr
 
+**Fórmula:**
+
 $$
-Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}} = \sqrt[3]{\frac{3 \cdot 150 \cdot 1,500,000}{4 \cdot 0.00021}} = \sqrt[3]{535,714,285.71} \approx 819.23
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}} = \sqrt[3]{\frac{3 \cdot 150 \cdot 1.500.000}{4 \cdot 0,00021}} = \sqrt[3]{535.714.285.714,29} \approx 9.279.889,59
 $$
 
-- **Saldo óptimo (Z)**: \( \approx 819,230 \)
+---
+
+## Resultados
+
+- **Saldo mínimo de caja (L)**: $135.588.958$
+- **Saldo óptimo (Z)**: $\approx 819,230$
 
 ---
 
