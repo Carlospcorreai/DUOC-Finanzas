@@ -7,30 +7,30 @@ format:
         theme: solarized
         css: duoc_uc.css
 output-file: index.html
-        
+         
 ---
 
+# Objetivos de la Clase
+
+1. **Diferenciar Activos Financieros y Activos Reales**  
+   - Comprender cómo los activos financieros representan derechos sobre los ingresos de los activos reales.
+
+2. **Analizar la Relación entre Riesgo y Retorno**  
+   - Explorar cómo la diversificación y la teoría de carteras ayudan a gestionar el riesgo en las inversiones.
+
+3. **Introducir la Hipótesis de Mercados Eficientes**  
+   - Entender las implicaciones de los mercados eficientes para la toma de decisiones en la inversión.
+
 ---
 
-## Objetivos de la Clase
-
-- **Comprender la importancia** de la distinción entre activos reales y activos financieros en la economía.
-- **Analizar cómo los activos reales** determinan la riqueza material y la capacidad productiva de una sociedad.
-- **Examinar el rol de los activos financieros** como herramientas de asignación de ingresos en lugar de generación directa de riqueza.
-- **Explorar la relación** entre la riqueza nacional y los activos reales como indicador del bienestar económico.
-
----
-
----
-
-## La Riqueza Material y la Capacidad Productiva
+# La Riqueza Material y la Capacidad Productiva
 
 - La riqueza material de una sociedad está determinada por la **capacidad productiva** de su economía, es decir, los bienes y servicios que pueden crear sus miembros.
 - Esta capacidad depende de los **activos reales** de la economía: tierras, edificios, maquinaria y conocimientos para producir bienes y servicios.
 
 ---
 
-## Activos Financieros vs Activos Reales
+# Activos Financieros vs Activos Reales
 
 - En contraste, los **activos financieros** como acciones y bonos son simplemente registros en papel o digitales.
 - No contribuyen directamente a la capacidad productiva de la economía, sino que representan derechos sobre los ingresos generados por los activos reales.
@@ -38,7 +38,7 @@ output-file: index.html
 
 ---
 
-## Generación y Distribución de Ingresos
+# Generación y Distribución de Ingresos
 
 - Los **activos reales** generan ingresos netos a la economía.
 - Los **activos financieros** simplemente definen la asignación de ingresos entre los inversores.
@@ -46,7 +46,7 @@ output-file: index.html
 
 ---
 
-## Activos Reales como Riqueza Nacional
+# Activos Reales como Riqueza Nacional
 
 - La diferencia entre activos reales y financieros es clara en los balances de hogares y en la **riqueza nacional**.
 - La riqueza incluye activos financieros (cuentas bancarias, acciones), pero estos son pasivos para sus emisores.
@@ -55,7 +55,7 @@ output-file: index.html
 
 ---
 
-## ¿Son los siguientes activos reales o financieros?
+# ¿Son los siguientes activos reales o financieros?
 
 - **a. Patentes**
 - **c. Buena voluntad del cliente**
@@ -64,7 +64,7 @@ output-file: index.html
 
 ---
 
-## Activos Reales vs. Activos Financieros
+# Activos Reales vs. Activos Financieros
 
 | Activo                 | Tipo de Activo      |
 |------------------------|---------------------|
@@ -81,7 +81,7 @@ output-file: index.html
 
 ---
 
-## Activos Financieros
+# Activos Financieros
 
 - Existen tres tipos principales de activos financieros:
   - Renta fija
@@ -90,7 +90,7 @@ output-file: index.html
 
 ---
 
-## Renta Fija
+# Renta Fija
 
 - **Activos de Renta Fija o Deuda**: Prometen un flujo de ingresos fijo o determinado por una fórmula específica.
   - Ejemplo: Bonos corporativos que prometen pagos de intereses anuales.
@@ -100,7 +100,7 @@ output-file: index.html
   
 ---
 
-## Renta Variable
+# Renta Variable
 
 - **Acciones comunes o Renta Variable**: Representan participación en la propiedad de una empresa.
   - No garantizan pagos específicos.
@@ -110,7 +110,7 @@ output-file: index.html
 
 ---
 
-## Derivados
+# Derivados
 
 - **Activos Derivados**: Como las opciones y contratos de futuros, cuyo valor se determina por el precio de otros activos (ej. acciones o bonos).
   - **Ejemplo**: Una opción de compra sobre una acción de Intel.
@@ -119,7 +119,7 @@ output-file: index.html
 
 ---
 
-## Comparación de Activos Financieros
+# Comparación de Activos Financieros
 
 | Tipo de Activo   | Ejemplo                  | Característica Principal                       |
 |------------------|--------------------------|------------------------------------------------|
@@ -129,13 +129,13 @@ output-file: index.html
 
 ---
 
-## Diagrama de Activos Financieros
+# Diagrama de Activos Financieros
 
 ![Tipos de Activos Financieros](Diagrama_Activos_Financieros.png)
 
 ---
 
-## Mercados de Divisas y Commodities
+# Mercados de Divisas y Commodities
 
 - **Mercados de Divisas**:
   - Importante en transacciones internacionales.
@@ -146,40 +146,40 @@ output-file: index.html
 
 ---
 
-## Actores Mercado Financiero
+# Actores Mercado Financiero
 
 ![Actores Mercado Financiero](Actores_Mercado_Financiero.png)
 
 ---
 
-## Importancia de los Activos Financieros
+# Importancia de los Activos Financieros
 
 - Los **activos reales** determinan la riqueza de una economía, mientras que los **activos financieros** representan derechos sobre esos activos.
 - Permiten optimizar el uso de los activos reales de una economía.
 
 ---
 
-## Papel Informativo del Mercado Financiero
+# Papel Informativo del Mercado Financiero
 
 - Los precios de las acciones reflejan el rendimiento actual y futuro de una empresa.
 - Aumentos en el precio de las acciones facilitan la obtención de capital y fomentan la inversión en sectores prometedores.
 
 ---
 
-## Ejemplo de Asignación de Capital
+# Ejemplo de Asignación de Capital
 
 - En 2021, se realizaron grandes inversiones en startups de tecnologías de baterías para energías renovables, impulsadas por la expectativa de altos beneficios.
 
 ---
 
-## Temporalidad de Consumo
+# Temporalidad de Consumo
 
 - Los mercados financieros permiten **almacenar poder adquisitivo** a través de activos financieros.
 - Facilita el consumo a lo largo del ciclo de vida, ajustando periodos de mayores ingresos a periodos de menor capacidad de compra.
 
 ---
 
-## Asignación de Riesgo
+# Asignación de Riesgo
 
 - Todos los activos reales implican cierto riesgo.
 - **Mercados financieros** permiten a los inversores decidir su nivel de tolerancia al riesgo.
@@ -188,14 +188,14 @@ output-file: index.html
 
 ---
 
-## Separación de Propiedad y Gestión
+# Separación de Propiedad y Gestión
 
 - La estructura de las corporaciones modernas permite la **separación entre propietarios y gerentes**.
 - Esto otorga estabilidad, permitiendo la compra y venta de acciones sin afectar la gestión diaria.
 
 ---
 
-## Proceso de Inversión: Portafolio
+# Proceso de Inversión: Portafolio
 
 - Un portafolio representa la **colección de activos de inversión** de un inversor.
 - Se actualiza mediante:
@@ -205,7 +205,7 @@ output-file: index.html
 
 ---
 
-## Tipos de Decisiones de Inversión
+# Tipos de Decisiones de Inversión
 
 1. **Asignación de Activos**:
    - Elección entre clases de activos amplias: acciones, bonos, bienes raíces, etc.
@@ -214,7 +214,7 @@ output-file: index.html
 
 ---
 
-## Estrategia de Inversión: Top-Down
+# Estrategia de Inversión: Top-Down
 
 - Comienza con la **Asignación de Activos**.
 - Establece las características generales del portafolio:
@@ -225,13 +225,13 @@ output-file: index.html
 
 ---
 
-## Estrategia de Inversión: Top-Down
+# Estrategia de Inversión: Top-Down
 
 ![Enfoque_Top_Down](Enfoque_Top_Down.png)
 
 ---
 
-## Análisis de Valores
+# Análisis de Valores
 
 - Implica evaluar el **precio y atractivo** de valores específicos.
 - Ejemplo: Comparar acciones de **Ripley** y **Falabella**.
@@ -239,7 +239,7 @@ output-file: index.html
 
 ---
 
-## Estrategia de Inversión: Bottom-Up
+# Estrategia de Inversión: Bottom-Up
 
 - Se centra en seleccionar valores **atractivos individualmente**.
 - Pone menos énfasis en la asignación de activos.
@@ -247,7 +247,7 @@ output-file: index.html
 
 ---
 
-## Estrategia de Inversión: Top-Down
+# Estrategia de Inversión: Top-Down
 
 ![Enfoque Abajo hacia Arriba](Enfoque_Abajo_Arriba.png)
 
@@ -257,7 +257,7 @@ output-file: index.html
 
 ---
 
-## Mercados Financieros Competitivos
+# Mercados Financieros Competitivos
 - Los mercados financieros son altamente competitivos.
 - Miles de analistas inteligentes exploran constantemente los mercados buscando las mejores oportunidades.
 - Esto implica que pocas veces encontraremos "almuerzos gratis" o valores claramente subvalorados.
@@ -312,3 +312,104 @@ output-file: index.html
 - En un mercado extremadamente eficiente, el análisis activo no sería necesario.
 - Sin embargo, la eficiencia no es perfecta, lo que permite oportunidades de ganancia para inversores creativos.
 - Se examinan los desafíos a esta hipótesis y las estrategias de gestión activa.
+
+---
+
+# Actores Principales en los Mercados Financieros
+
+1. **Empresas**  
+   - Demandantes netos de capital.
+   - Emiten valores para financiar inversiones en activos reales, generando ingresos para los inversores.
+
+2. **Hogares**  
+   - Proveedores netos de capital.
+   - Compran valores emitidos por empresas, canalizando sus ahorros al mercado.
+
+3. **Gobierno**  
+   - Puede ser prestamista o prestatario.
+   - Emite T-Bills, bonos y notas para cubrir déficits presupuestarios y financiar gastos.
+
+---
+
+# Intermediarios Financieros
+
+- **Instituciones Financieras**:
+  - Bancos, fondos de inversión, compañías de seguros, y uniones de crédito.
+  - Facilitan el flujo de capital entre los demandantes (empresas/gobierno) y los proveedores (hogares).
+
+- **Funciones Clave**:
+  - Agrupan recursos de pequeños inversores.
+  - Ofrecen diversificación para reducir riesgos.
+  - Usan economías de escala para evaluar y monitorizar riesgos.
+
+---
+
+# Ejemplos de Intermediarios Financieros
+
+1. **Bancos**  
+   - Recaudan fondos mediante depósitos y los prestan a otros.
+   - Generan ganancias a través de la diferencia de tasas entre depósitos y préstamos.
+
+2. **Fondos de Inversión**  
+   - Agrupan dinero de muchos inversores, permitiendo el acceso a carteras diversificadas.
+
+3. **Fondos de Cobertura (Hedge Funds)**  
+   - Exclusivos para inversores institucionales y de alto capital, con estrategias más arriesgadas.
+
+---
+
+# Inversión a Escala: Fondos de Inversión
+
+- **Mutual Funds**:  
+  - Acceso a carteras diversificadas con baja inversión inicial.
+  - Cobran una tarifa de administración.
+
+- **Hedge Funds**:
+  - Acceso restringido y estrategias complejas.
+  - Tarifa basada en activos gestionados y porcentaje de beneficios generados.
+
+---
+
+# Innovaciones Financieras y Fintech
+
+- **Fintech**: Uso de tecnología para simplificar las finanzas, reduciendo costos y mejorando la accesibilidad.
+
+- **Finanzas Descentralizadas (DeFi)**:
+  - Permite interacción directa entre prestamistas y prestatarios.
+  - Ejemplo: LendingClub permite préstamos directos entre usuarios sin intermediario bancario.
+
+---
+
+# Blockchain y Criptomonedas
+
+1. **Blockchain**  
+   - Libro contable descentralizado para registrar transacciones sin un administrador central.
+
+2. **Criptomonedas**  
+   - Ejemplo: Bitcoin y Ethereum, usados como sistemas de pago alternativos.
+   - Ofrecen anonimato y mayor seguridad en transacciones.
+
+3. **Stablecoins**  
+   - Criptomonedas vinculadas a monedas tradicionales para reducir volatilidad.
+
+---
+
+# Servicios de Asesoría Automática (Robo Advisors)
+
+- Asesores financieros automatizados para inversores.
+- Basados en algoritmos que recomiendan carteras de inversión de bajo costo.
+- Diseñados para mantener un equilibrio adecuado según la tolerancia al riesgo del cliente.
+
+---
+
+# Venture Capital y Private Equity
+
+- **Venture Capital (VC)**:
+  - Fondos para startups y empresas jóvenes.
+  - Inversores como capitalistas de riesgo y "ángeles inversionistas".
+
+- **Private Equity**:
+  - Inversiones en empresas que no cotizan en bolsa, con enfoque en reorganización para obtener ganancias.
+
+---
+
