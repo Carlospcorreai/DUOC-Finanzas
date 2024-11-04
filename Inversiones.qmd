@@ -12,14 +12,10 @@ output-file: index.html
 
 # Objetivos de la Clase
 
-1. **Diferenciar Activos Financieros y Activos Reales**  
-   - Comprender cómo los activos financieros representan derechos sobre los ingresos de los activos reales.
-
-2. **Analizar la Relación entre Riesgo y Retorno**  
-   - Explorar cómo la diversificación y la teoría de carteras ayudan a gestionar el riesgo en las inversiones.
-
-3. **Introducir la Hipótesis de Mercados Eficientes**  
-   - Entender las implicaciones de los mercados eficientes para la toma de decisiones en la inversión.
+- Comprender la diferencia entre activos reales y activos financieros y su papel en la economía.
+- Analizar los distintos tipos de activos financieros: renta fija, renta variable y derivados.
+- Identificar los actores principales en los mercados financieros y su rol en la inversión y asignación de capital.
+- Explorar las estrategias de inversión y su impacto en el riesgo y rendimiento de portafolios.
 
 ---
 
@@ -412,4 +408,29 @@ output-file: index.html
   - Inversiones en empresas que no cotizan en bolsa, con enfoque en reorganización para obtener ganancias.
 
 ---
+
+# Actores Principales en los Mercados Financieros
+
+![Actores Mercado Financiero](Actores.png)
+
+---
+
+# Conclusiones de la Clase
+
+- Los activos reales son la base de la riqueza económica de una sociedad, mientras que los activos financieros representan derechos sobre estos activos.
+- Existen diferentes tipos de activos financieros, cada uno con características y niveles de riesgo distintos.
+- La diversificación es clave en la inversión para gestionar el riesgo y maximizar el retorno.
+- La tecnología, incluyendo blockchain y Fintech, está transformando los mercados financieros y facilitando el acceso a inversiones.
+
+---
+
+# Referencias
+
+- Bodie, Z., Kane, A., & Marcus, A. (2021). Investments (13th Edition). McGraw-Hill Education.
+- Bolsa de Santiago. Sitio web oficial: www.bolsadesantiago.com
+- Comisión para el Mercado Financiero (CMF) de Chile. Sitio web oficial: www.cmfchile.cl
+
+---
+
+
 
