@@ -6,7 +6,7 @@ format:
     revealjs:
         theme: solarized
         css: duoc_uc.css
-#output-file: index.html
+output-file: index.html
         
 ---
 
@@ -1265,5 +1265,160 @@ $$
   - Estados financieros de Viña Santa Rita.
 - **Tasa de Interés**:
   - Rentabilidad promedio del mercado financiero chileno.
+
+---
+
+---
+
+## 4. Cálculo del Lote Económico de Inventario (EOQ)
+
+### Introducción
+
+El **Lote Económico de Pedido (EOQ)** es una herramienta que permite determinar la cantidad óptima de unidades que una empresa debe solicitar para minimizar los costos totales de inventario, que incluyen los costos de pedido y los costos de mantenimiento.
+
+---
+
+### Supuestos Necesarios
+
+Para realizar el cálculo del EOQ para Viña Santa Rita, asumiremos los siguientes datos:
+
+- **Demanda anual (D)**: 500,000 unidades.
+- **Costo de realizar un pedido (S)**: \$200 por pedido.
+- **Costo de mantenimiento por unidad (H)**: \$5 por unidad al año.
+- **Cantidad óptima a pedir (Q\*)**: Por determinar.
+
+---
+
+### Datos del Ejercicio
+
+- **Demanda anual (D)**: 500,000 unidades.
+- **Costo de realizar un pedido (S)**: \$200.
+- **Costo de mantenimiento por unidad (H)**: \$5.
+
+---
+
+### Fórmula del EOQ
+
+El Lote Económico de Pedido se calcula utilizando la siguiente fórmula:
+
+$$
+Q^* = \sqrt{\dfrac{2DS}{H}}
+$$
+
+Donde:
+
+- \( Q^* \): Cantidad óptima de pedido.
+- \( D \): Demanda anual en unidades.
+- \( S \): Costo de realizar un pedido.
+- \( H \): Costo de mantenimiento por unidad.
+
+---
+
+### Cálculo del EOQ
+
+Reemplazando los valores en la fórmula:
+
+$$
+\begin{align*}
+Q^* &= \sqrt{\dfrac{2 \times 500,000 \times 200}{5}} \\
+&= \sqrt{\dfrac{200,000,000}{5}} \\
+&= \sqrt{40,000,000} \\
+&= 6,324.56 \text{ unidades}
+\end{align*}
+$$
+
+---
+
+### Interpretación del Resultado
+
+- **Cantidad Óptima de Pedido (Q\*)**: Aproximadamente **6,325 unidades**.
+  - Viña Santa Rita debería realizar pedidos de 6,325 unidades cada vez para minimizar sus costos totales de inventario.
+- **Número de Pedidos Anuales**:
+  $$
+  N = \dfrac{D}{Q^*} = \dfrac{500,000}{6,324.56} \approx 79.06
+  $$
+  - La empresa debería realizar aproximadamente **79 pedidos al año**.
+
+---
+
+### Costo Total de Inventario
+
+El costo total anual asociado al inventario se calcula como:
+
+$$
+\text{Costo Total} = \left( \dfrac{D}{Q^*} \times S \right) + \left( \dfrac{Q^*}{2} \times H \right)
+$$
+
+---
+
+### Cálculo del Costo Total
+
+#### 1. Costo de Pedido Anual
+
+$$
+\text{Costo de Pedido} = \dfrac{D}{Q^*} \times S = \dfrac{500,000}{6,324.56} \times 200 \approx 15,812.5
+$$
+
+#### 2. Costo de Mantenimiento Anual
+
+$$
+\text{Costo de Mantenimiento} = \dfrac{Q^*}{2} \times H = \dfrac{6,324.56}{2} \times 5 = 15,811.4
+$$
+
+#### 3. Costo Total Anual
+
+$$
+\text{Costo Total} = 15,812.5 + 15,811.4 = \$31,623.9
+$$
+
+---
+
+### Interpretación del Costo Total
+
+- El **costo total anual** de mantener y ordenar el inventario es aproximadamente **\$31,624**.
+- Al utilizar el EOQ, Viña Santa Rita minimiza los costos asociados al inventario.
+
+---
+
+### Sensibilidad del EOQ a Cambios en los Parámetros
+
+Es importante analizar cómo cambios en la demanda, el costo de pedido o el costo de mantenimiento afectan el EOQ.
+
+#### Ejemplo: Incremento del 10% en la Demanda
+
+- Nueva demanda: \( D = 500,000 \times 1.10 = 550,000 \) unidades.
+
+Nuevo EOQ:
+
+$$
+Q^* = \sqrt{\dfrac{2 \times 550,000 \times 200}{5}} = \sqrt{44,000,000} = 6,633.25 \text{ unidades}
+$$
+
+- El EOQ aumenta, lo que indica que se deben pedir más unidades por pedido para mantener los costos mínimos.
+
+---
+
+## Conclusiones
+
+- El **EOQ** es una herramienta esencial para optimizar la gestión de inventarios.
+- Viña Santa Rita debe realizar pedidos de aproximadamente **6,325 unidades** para minimizar sus costos totales de inventario.
+- Es importante revisar periódicamente los parámetros del EOQ para adaptarse a cambios en la demanda y costos.
+
+---
+
+## Recomendaciones
+
+1. **Monitoreo Constante**: Revisar regularmente los niveles de demanda y costos asociados.
+2. **Análisis de Sensibilidad**: Evaluar el impacto de cambios en los parámetros clave.
+3. **Tecnología**: Implementar sistemas de gestión de inventario que automaticen el cálculo del EOQ.
+
+---
+
+## Referencias
+
+- **Modelo de Lote Económico de Pedido (EOQ)**:
+  - Harris, F. W. (1913). *How Many Parts to Make at Once*.
+- **Gestión de Inventarios**:
+  - Arnold, J. R., Chapman, S. N., & Clive, L. M. (2008). *Introducción a la administración de operaciones*.
 
 ---
