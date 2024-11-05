@@ -6,7 +6,7 @@ format:
     revealjs:
         theme: solarized
         css: duoc_uc.css
-output-file: index.html
+#output-file: index.html
         
 ---
 
@@ -1118,67 +1118,152 @@ $$
 
 ---
 
-## Modelo de Miller y Orr: Administración Óptima de Caja
+## Recalculando el Modelo de Miller y Orr en Pesos
 
-- **Objetivo**: Mantener un saldo de caja adecuado, considerando la variabilidad de los flujos diarios.
+### Ajuste del Saldo Mínimo de Caja Diario
 
-- **Aplicación**:
-  - Ajusta el saldo de caja entre un **límite superior** y un **límite inferior** para optimizar la liquidez.
-  
-- **Enfoques**:
-  - **Límite Superior**: Invertir el exceso de efectivo al alcanzarlo.
-  - **Límite Inferior**: Convertir inversiones en efectivo para mantener la liquidez.
-  - **Saldo Óptimo (Z)**: Nivel de efectivo que minimiza los costos de transacción y mantenimiento.
-
-- **Consideraciones**:
-  - Costos de transacción y el costo de oportunidad de mantener efectivo.
-
----
-
-## Ejercicio: Cálculo del Monto Óptimo de Efectivo con el Modelo de Miller y Orr
-
-**Datos**:
-
-- **Monto mínimo de caja**:  
-   $L = 135,588,957,983$
-   Este monto fue obtenido previamente a partir del modelo de Caja Mínima.
-
-- **Costo de cada transacción**:  
-  $b = 150$
-
-- **Varianza de los flujos diarios de efectivo**:  
-   $\sigma^2 = 1,500,000$
-
-- **Tasa de interés diaria (i)**:  
-  Rentabilidad promedio del mercado financiero chileno: 
-  $i = 0.00021$ (aproximadamente 0.021% diario)
-
----
-
-## Cálculo del Saldo Óptimo (Z) con Miller y Orr
-
-**Fórmula:**
+Para reflejar el **saldo mínimo de caja diario**, dividimos el saldo anual por 360:
 
 $$
-Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}} = \sqrt[3]{\frac{3 \cdot 150 \cdot 1.500.000}{4 \cdot 0,00021}} = \sqrt[3]{535.714.285.714,29} \approx 9.279.889,59
+L_{\text{diario}} = \frac{135.588.957.983}{360} \approx 376.636.050
+$$
+
+- **Saldo mínimo de caja diario (L)**: \$376.636.050
+
+---
+
+### Parámetros del Modelo en Pesos
+
+- **Saldo mínimo de caja diario (L)**: \$376.636.050
+- **Costo de transacción (b)**: \$150
+- **Varianza de los flujos diarios de efectivo (\(\sigma^2\))**: \$1.500.000
+- **Tasa de interés diaria (i)**: 0,00021
+
+---
+
+### Aplicando la Fórmula de Miller y Orr
+
+La fórmula para calcular el **saldo óptimo de efectivo (Z)** es:
+
+$$
+Z = L + \sqrt[3]{\dfrac{3b\sigma^2}{4i}}
 $$
 
 ---
 
-## Resultados
+### Cálculo Paso a Paso
 
-- **Saldo mínimo de caja (L)**: $135.588.958$
-- **Saldo óptimo (Z)**: $\approx 819,230$
+#### 1. Calcular el Numerador
+
+$$
+\text{Numerador} = 3 \times b \times \sigma^2 = 3 \times 150 \times 1.500.000 = 675.000.000
+$$
+
+#### 2. Calcular el Denominador
+
+$$
+\text{Denominador} = 4 \times i = 4 \times 0,00021 = 0,00084
+$$
+
+#### 3. Calcular la Fracción
+
+$$
+\frac{\text{Numerador}}{\text{Denominador}} = \frac{675.000.000}{0,00084} = 803.571.428.571,43
+$$
 
 ---
 
-## Interpretación de los Resultados del Modelo de Miller y Orr
+#### 4. Calcular la Raíz Cúbica
 
-- **Saldo Óptimo de Efectivo (Z)**: El modelo nos da un saldo óptimo para el efectivo de aproximadamente $819,230.
-  - Este saldo permite cubrir fluctuaciones de caja diarias sin incurrir en demasiadas transacciones, optimizando así los costos.
+$$
+\sqrt[3]{803.571.428.571,43} \approx 9.283
+$$
 
-- **Límites de Caja**:
-  - **Límite Superior**: Cuando el saldo alcanza este límite, la empresa debe invertir el exceso para maximizar el rendimiento y evitar tener demasiado efectivo sin utilidad.
-  - **Límite Inferior**: Cuando el saldo cae a este nivel, es momento de convertir inversiones en efectivo, asegurando liquidez para las operaciones.
+#### 5. Calcular el Saldo Óptimo (Z)
+
+$$
+Z = L + \sqrt[3]{\dfrac{3b\sigma^2}{4i}} = 376.636.050 + 9.283 = 376.645.333
+$$
+
+---
+
+### Determinación de los Límites
+
+#### Límite Superior (H)
+
+$$
+\begin{align*}
+H &= 3Z - 2L \\
+  &= 3 \times 376.645.333 - 2 \times 376.636.050 \\
+  &= 1.129.935.999 - 753.272.100 \\
+  &= 376.663.899
+\end{align*}
+$$
+
+#### Límite Inferior (L)
+
+$$
+L = 376.636.050
+$$
+
+---
+
+## Resultados Finales en Pesos
+
+- **Saldo mínimo de caja diario (L)**: \$376.636.050
+- **Saldo óptimo de efectivo (Z)**: \$376.645.333
+- **Límite superior (H)**: \$376.663.899
+
+---
+
+## Interpretación de los Resultados
+
+### Saldo Mínimo de Caja Diario (L)
+
+- **\$376.636.050** es el saldo mínimo que la empresa debe mantener diariamente para asegurar sus operaciones sin problemas de liquidez.
+
+### Saldo Óptimo de Efectivo (Z)
+
+- **\$376.645.333** es el saldo óptimo que equilibra los costos de mantener efectivo y los costos de transacción.
+
+---
+
+### Límite Superior (H)
+
+- **\$376.663.899** es el límite superior. Al alcanzarlo, la empresa debe invertir el excedente para evitar fondos ociosos.
+
+### Operaciones Diarias
+
+- **Si el saldo cae por debajo de L**: Convertir inversiones en efectivo hasta alcanzar Z.
+- **Si el saldo supera H**: Invertir el excedente hasta reducir el saldo a Z.
+
+---
+
+## Conclusiones
+
+- **Ajuste en Pesos**: Al realizar los cálculos en pesos, obtenemos resultados más precisos y relevantes para la gestión financiera.
+- **Aplicación del Modelo**: El modelo de Miller y Orr ayuda a mantener un equilibrio óptimo entre liquidez y rentabilidad.
+- **Margen Estrecho**: La diferencia reducida entre los límites indica una alta estabilidad en los flujos de efectivo.
+
+---
+
+## Recomendaciones
+
+1. **Monitoreo Diario**: Implementar sistemas para seguimiento diario del saldo de caja en pesos.
+2. **Actualizar Parámetros**:
+   - Revisar periódicamente la **varianza (\(\sigma^2\))** de los flujos de efectivo.
+   - Actualizar la **tasa de interés (i)** según el mercado.
+3. **Análisis de Sensibilidad**: Evaluar cómo cambios en los parámetros afectan el modelo.
+
+---
+
+## Referencias
+
+- **Modelo de Miller y Orr**:
+  - Miller, M. H., & Orr, D. (1966). *A Model of the Demand for Money by Firms*.
+- **Datos Financieros**:
+  - Estados financieros de Viña Santa Rita.
+- **Tasa de Interés**:
+  - Rentabilidad promedio del mercado financiero chileno.
 
 ---
