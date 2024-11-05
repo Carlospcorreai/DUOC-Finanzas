@@ -231,10 +231,10 @@ $$
 # Resultados de la Actividad
 
 - ¿Promedio de cada grupo?
-  - Aproximadamente 9%
+  - Aproximadamente ___%
   
 - ¿Promedio de todos los grupos?
-  - Aún más cercano al 9%
+  - Aún más cercano al ___%
 
 - **¿Por qué?**
   - Esta es la **tasa de retorno esperada**.
