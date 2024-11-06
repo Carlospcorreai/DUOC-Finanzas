@@ -275,3 +275,260 @@ $$
 3. La **tasa de retorno esperada** es una herramienta útil para proyectar resultados, aunque siempre existe incertidumbre debido a la variabilidad de los mercados.
 
 ---
+
+# ¿Qué es Riesgo?
+
+---
+
+### “... Es la posibilidad de no alcanzar tus objetivos"
+
+### Hay muchas razones por las que puedes no lograr tus objetivos:
+
+- Ya hemos abordado el riesgo de poder adquisitivo.
+
+- Ahora abordaremos otra fuente clave de riesgo.”
+
+---
+
+# Riesgo de Volatilidad del Mercado
+
+---
+
+## Observen este portafolio:
+
+- Estable y constante: nov 23 - nov 24
+
+![Portafolio Seguro](portafolio_seguro.png)
+
+---
+
+## Que tal este portafolio:
+
+- Algo más movido: nov 23 - nov 24
+
+![Portafolio Riesgoso](portafolio_riesgoso.png)
+
+---
+
+## ¿Por qué alguien tomaría este riesgo?
+
+![Riesgo](riesgo1.png)
+
+---
+
+## Recordemos economía:
+
+![Beneficio](chocolate.png)
+
+- “Cuando nos comeremos el chocolate:
+
+- Cuando, B(X) > C(X),
+
+- ¡Elige la barra con la recompensa!
+
+- donde B(X) = beneficio de la acción X”
+
+---
+
+## ¿Montarías un toro?
+
+![Beneficio](toro.png)
+
+- Por $10?
+- Por $10.000?
+- Por $500.000?
+
+---
+
+## Dado que la elección tiene un costo: 
+
+- ¿Por qué elegirlo?
+
+- Las personas eligen X si:
+
+- B(X) > C(X)
+
+![Balanza](balanza.png)
+
+---
+
+## Retorno Esperado
+
+- Si el retorno esperado es mayor que el costo…
+- Estamos dispuestos a aceptar un portafolio riesgoso.
+- Tomamos riesgos calculados para obtener mayores beneficios.
+- Como “montar un toro”, asumimos riesgos por recompensas potenciales.
+
+---
+
+## Acciones, Bonos, Pagares e Inflación: 1926–2017
+
+![Riesgo - Retorno](Riesgo_Retorno.png)
+
+---
+
+## Relacion Riesgo-Retorno:
+
+![Riesgo - Retorno](relacion_riesgo_retorno.png)
+
+---
+
+## Relacion Riesgo-Retorno:
+
+- Una forma de reducir el riesgo de volatilidad: 
+- Elegir inversiones con menor variabilidad de retornos.
+
+![Riesgo - Retorno](relacion_riesgo_retorno1.png)
+
+---
+
+## Pero, como aprendimos en economía:
+
+- Cada elección conlleva un costo.
+
+![Riesgo - Retorno](relacion_riesgo_retorno2.png)
+
+___
+
+# Estrategias para enfrentar el riesgo
+
+---
+
+## Market Timing: Comprar Barato, Vender Caro
+
+![Riesgo - Retorno](relacion_riesgo_retorno3.png)
+
+- Intenta aprovechar la volatilidad mediante el ‘timing
+
+---
+
+## ¿Por qué fallamos al invertir?
+
+- **Falta de Disciplina**: Los inversores carecen de la disciplina para “comprar y mantener”.
+- **Persecución del Fondo de Moda**: Los inversores tienden a seguir el fondo que está de moda.
+- **Realidad del Mercado**: ¡La estrella de este año es la basura del próximo año!
+- ** Comportamiento Erróneo**: Compran alto y venden bajo.
+
+---
+
+## Diferencias en Retornos: Fondos Mutuos vs. Inversores
+
+- Retorno Total de Fondos Mutuos a 10 Años: 6.94%
+- Retorno Promedio del Inversor en los 10 Años: -20.24%
+
+![Market Timing](market_timing.png)
+
+---
+
+## Not Market Timing
+
+![Market Timing](market_timing1.png)
+
+---
+
+## Estrategias Prudentes para Enfrentar el Riesgo
+
+- Invierte a largo plazo.
+
+![Market Timing](market_timing2.png)
+
+---
+
+## Rendimiento a largo plazo de acciones de empresas pequeñas.
+
+![Market Timing](market_timing3.png)
+
+---
+
+# ¿Por qué muchos inversores tienen problemas para seguir una estrategia de inversión a largo plazo?
+
+---
+
+## ¿Qué ves?
+
+![Market Timing](market_timing4.png)
+
+---
+
+## Perspectiva Clave de la Economía Conductual
+
+### Los humanos no siempre ven las cosas de manera racional
+
+- **Influencia de Emociones**: Las decisiones están afectadas por sesgos y percepciones.
+  
+- **Errores Comunes**: 
+  - Apegos emocionales.
+  - Reacciones exageradas ante pérdidas o ganancias.
+
+- **Implicaciones para Inversores**: 
+  - Decisiones subóptimas que afectan el rendimiento financiero.
+  - La conciencia de estos sesgos puede mejorar la toma de decisiones.
+
+  ---
+
+## Enfoque en el Riesgo a Corto Plazo
+
+### Comportamiento Inconsistente en el Tiempo
+
+- **Interés en el Largo Plazo**:
+  - Reconocen la importancia de una estrategia a largo plazo, pero actúan con una mentalidad de corto plazo.
+
+- **Sensibilidad Excesiva a la Volatilidad Reciente**:
+  - Reaccionan de manera exagerada a los cambios recientes en el mercado.
+
+- **Horizonte Temporal Reducido**:
+  - Actúan como si su horizonte de inversión fuera mucho más corto de lo que realmente es.
+
+---
+
+## Fluctuaciones del S&P 500: Bulls and Bears (1926 - 2013)
+
+![Market Timing](market_timing5.png)
+
+___
+
+# Estrategias para enfrentar el riesgo
+
+---
+
+## Diversificación: No pongas todos tus huevos en una canasta
+
+- **Reducción del Riesgo**: Minimiza el impacto negativo de la caída de un solo activo en la cartera.
+- **Estabilidad en los Rendimientos**: Ayuda a suavizar las fluctuaciones en el rendimiento general de la inversión.
+- **Acceso a Oportunidades**:Permite beneficiarse de diferentes sectores o mercados que pueden ofrecer mejores rendimientos.
+
+---
+
+## Diversificación: No pongas todos tus huevos en una canasta
+
+![Diversificación](diversification.png)
+
+---
+
+## Evita la tentación de poner todos los huevos en una sola canasta
+
+![Diversificación](SQM_A.png)
+
+---
+
+## Evita la tentación de poner todos los huevos en una sola canasta
+
+![Diversificación](ITAU.png)
+
+---
+
+## Conclusiones
+
+- **Adopta una Perspectiva a Largo Plazo**:
+  - Reinvierte intereses y dividendos.
+  - No retires el capital; evita perseguir fondos de moda.
+
+- **Importancia de Comenzar Temprano**:
+  - El tiempo es un aliado en el crecimiento del capital.
+
+- **Presta Atención a las Tasas de Retorno**:
+  - Considera las diferencias en los rendimientos.
+
+- **Diversificación en la Cartera**:
+  - Incluir acciones a través de fondos mutuos para mitigar riesgos.
+
