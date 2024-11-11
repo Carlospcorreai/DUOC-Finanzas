@@ -4,7 +4,10 @@ author: "Docente: Carlos Correa Iñiguez (<ca.correai@profesor.duoc.cl>)"
 format:
     revealjs:
         theme: solarized
+        slideNumber: true
         css: duoc_uc.css
+        self-contained: true
+        pdf: true   # Esta opción activa la exportación a PDF
 output-file: index.html  
 
 ---
