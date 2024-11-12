@@ -1,13 +1,16 @@
 ---
 title: "Administración del Efectivo"
-author: "Docente: Carlos Correa Iñiguez 
-        (<ca.correai@profesor.duoc.cl>)"
+author: "Docente: Carlos Correa Iñiguez (<ca.correai@profesor.duoc.cl>)"
 format:
+  revealjs:
+    theme: solarized
+    css: duoc_uc.css
+    self-contained: true
+    pdf: default   # Activa la exportación a PDF para Reveal.js
+    output-file: index.html
+  pdf:
     revealjs:
-        theme: solarized
-        css: duoc_uc.css
-output-file: index.html
-        
+    pdf: default
 ---
 
 ### Objetivos de la Clase:
@@ -1422,3 +1425,272 @@ $$
   - Arnold, J. R., Chapman, S. N., & Clive, L. M. (2008). *Introducción a la administración de operaciones*.
 
 ---
+
+---
+
+# Ejercicio: Evaluación de Cambios en Políticas de Crédito
+
+Una empresa chilena, **Compañía XYZ S.A.**, dedicada a la fabricación de productos industriales, está evaluando modificar su política de crédito para aumentar sus ventas en un 15%. Actualmente, la empresa tiene una capacidad de producción ociosa que le permite aumentar la producción sin incurrir en costos fijos adicionales.
+
+---
+
+---
+
+# Ejercicio: Evaluación de Cambios en Políticas de Crédito
+
+La empresa presenta los siguientes datos extraídos de sus estados financieros (valores en millones de pesos chilenos):
+
+- **Ventas anuales actuales**: $12.000 millones
+- **Precio de venta unitario**: $60.000
+- **Costo variable unitario**: $40.000
+- **Costo fijo anual**: $2.000 millones
+- **Plazo medio de cobro actual**: 60 días
+- **Proporción de cuentas incobrables actual**: 1,5%
+- **Tasa de costo de oportunidad**: 14% anual
+
+---
+
+# Ejercicio: Evaluación de Cambios en Políticas de Crédito
+
+**Propuesta de nueva política de crédito:**
+
+- **Aumento esperado de ventas**: 15%
+- **Nuevo plazo medio de cobro**: 90 días
+- **Proporción esperada de cuentas incobrables**: 3%
+- **Aumento en gastos de cobranza**: $30 millones anuales
+
+Se requiere determinar si la empresa debería implementar la nueva política de crédito, calculando la ganancia o pérdida neta.
+
+---
+
+## Cálculos:
+
+### 1) Cálculo del Incremento en Ganancia Adicional:
+
+- **Unidades vendidas actualmente**:
+
+  $$
+  \text{Unidades actuales} = \frac{\text{Ventas anuales}}{\text{Precio de venta unitario}} = \frac{12.000.000.000}{60.000} = 200.000 \text{ unidades}
+  $$
+
+- **Aumento en unidades vendidas**:
+
+  $$
+  \text{Aumento en unidades} = 200.000 \times 15\% = 30.000 \text{ unidades}
+  $$
+
+- **Margen de contribución unitario**:
+
+  $$
+  \text{Margen} = 60.000 - 40.000 = 20.000 \text{ pesos}
+  $$
+
+---
+
+## 1) Cálculo del Incremento en Ganancia Adicional:
+
+- **Ganancia adicional**:
+
+  $$
+  \text{Ganancia adicional} = 30.000 \times 20.000 = 600.000.000 \text{ pesos}
+  $$
+
+
+  $$
+   = 600.000.000 \text{ pesos}
+  $$
+
+---
+
+### 2) Cálculo de Pérdidas por Deudas Incobrables Adicionales:
+
+- **Ventas adicionales**:
+
+  $$
+  \text{Ventas adicionales} = 30.000 \times 60.000 = 1.800.000.000 \text{ pesos}
+  $$
+
+- **Pérdida por deudas incobrables adicionales**:
+
+  $$
+  \text{Pérdida incobrable adicional} = \text{Ventas adicionales} \times (\text{Proporción nueva} - \text{Proporción actual}) 
+  $$
+
+  $$
+  = 1.800.000.000 \times (3\% - 1,5\%) = 27.000.000 \text{ pesos}
+  $$
+
+---
+
+### 3) Cálculo del Costo de Oportunidad por Aumento en Cuentas por Cobrar:
+
+- **Rotación actual**:
+
+  $$
+  \text{Rotación actual} = \frac{360}{60} = 6 \text{ veces al año}
+  $$
+
+- **Cuentas por cobrar actuales**:
+
+  $$
+  \text{Cuentas por cobrar actuales} = \frac{\text{Ventas anuales}}{\text{Rotación actual}} = \frac{12.000.000.000}{6} = 2.000.000.000 \text{ pesos}
+  $$
+
+---
+
+### 3) Cálculo del Costo de Oportunidad por Aumento en Cuentas por Cobrar:
+
+- **Ventas anuales nuevas**:
+
+  $$
+  \text{Ventas anuales nuevas} = 12.000.000.000 \times 1,15 = 13.800.000.000 \text{ pesos}
+  $$
+
+- **Rotación nueva**:
+
+  $$
+  \text{Rotación nueva} = \frac{360}{90} = 4 \text{ veces al año}
+  $$
+
+---
+
+### 3) Cálculo del Costo de Oportunidad por Aumento en Cuentas por Cobrar:
+
+- **Cuentas por cobrar nuevas**:
+
+  $$
+  \text{Cuentas por cobrar nuevas} = \frac{13.800.000.000}{4} = 3.450.000.000 \text{ pesos}
+  $$
+
+- **Incremento en cuentas por cobrar**:
+
+  $$
+  \Delta \text{Cuentas por cobrar} = 3.450.000.000 - 2.000.000.000 = 1.450.000.000 \text{ pesos}
+  $$
+
+- **Costo de oportunidad**:
+
+  $$
+  \text{Costo de oportunidad} = \Delta \text{Cuentas por cobrar} \times 14\% = 1.450.000.000 \times 14\% = 203.000.000 \text{ pesos}
+  $$
+
+---
+
+### 4) Resumen de Cálculos:
+
+| Concepto                                            | Monto ($)        |
+|-----------------------------------------------------|------------------|
+| **(+) Incremento de Ganancia Adicional**            | $600.000.000     |
+| **(-) Pérdidas por Deudas Incobrables Adicionales** | $(27.000.000)$   |
+| **(-) Costo de Oportunidad por Aumento en CxC**     | $(203.000.000)$  |
+| **(-) Aumento en Gastos de Cobranza**               | $(30.000.000)$   |
+| **(=) Ganancia (Pérdida) Neta**                     | **$340.000.000** |
+
+---
+
+## Conclusión:
+
+La propuesta genera una ganancia neta adicional de $340.000.000. Por lo tanto, es recomendable que **Compañía XYZ S.A.** implemente la nueva política de crédito.
+
+---
+
+# Ejercicio: Evaluación de Descuentos por Pronto Pago
+
+**Compañía XYZ S.A.** enfrenta problemas de liquidez y considera ofrecer a sus clientes un descuento por pronto pago del 2% si cancelan sus facturas dentro de los primeros 10 días. Las ventas anuales de la empresa son $13.800 millones, y su periodo promedio de cobro actual es de 90 días. Se estima que el 30% de las ventas se acogerían al descuento. La tasa de costo de oportunidad es del 14% anual.
+
+Determine el beneficio o pérdida de implementar el descuento por pronto pago.
+
+---
+
+## Cálculos:
+
+### 1) Cálculo del Monto de Cuentas por Cobrar Actual:
+
+- **Cuentas por cobrar actuales**:
+
+  $$
+  \text{Cuentas por cobrar} = \frac{\text{Periodo de cobro} \times \text{Ventas anuales}}{360} = \frac{90 \times 13.800.000.000}{360} 
+  $$
+  $$
+  = 3.450.000.000 \text{ pesos}
+  $$
+
+---
+
+### 2) Cálculo del Nuevo Monto de Cuentas por Cobrar:
+
+- **Ventas que aprovechan el descuento**:
+
+  $$
+  \text{Ventas con descuento} = 13.800.000.000 \times 30\% = 4.140.000.000 \text{ pesos}
+  $$
+
+- **Ventas a crédito normales**:
+
+  $$
+  \text{Ventas normales} = 13.800.000.000 \times 70\% = 9.660.000.000 \text{ pesos}
+  $$
+
+- **Cuentas por cobrar de ventas con descuento**:
+
+  $$
+  \text{Cuentas por cobrar descuento} = \frac{10 \times 4.140.000.000}{360} = 115.000.000 \text{ pesos}
+  $$
+
+---
+
+### 2) Cálculo del Nuevo Monto de Cuentas por Cobrar:
+
+- **Cuentas por cobrar de ventas normales**:
+
+  $$
+  \text{Cuentas por cobrar normales} = \frac{90 \times 9.660.000.000}{360} = 2.415.000.000 \text{ pesos}
+  $$
+
+- **Nuevo monto total en cuentas por cobrar**:
+
+  $$
+  \text{Cuentas por cobrar nuevas} = 115.000.000 + 2.415.000.000 = 2.530.000.000 \text{ pesos}
+  $$
+
+### 3) Disminución en Cuentas por Cobrar:
+
+$$
+\Delta \text{Cuentas por cobrar} = 3.450.000.000 - 2.530.000.000 = 920.000.000 \text{ pesos}
+$$
+
+### 4) Beneficio por Disminución de Cuentas por Cobrar:
+
+$$
+\text{Beneficio por reducción} = \Delta \text{Cuentas por cobrar} \times 14\% = 920.000.000 \times 14\% = 128.800.000 \text{ pesos}
+$$
+
+---
+
+### 5) Costo del Descuento por Pronto Pago:
+
+$$
+\text{Costo del descuento} = \text{Ventas con descuento} \times 2\% = 4.140.000.000 \times 2\% = 82.800.000 \text{ pesos}
+$$
+
+### 6) Beneficio (Pérdida) Neto:
+
+$$
+\text{Beneficio neto} = \text{Beneficio por reducción} - \text{Costo del descuento} = 128.800.000 - 82.800.000
+$$
+
+$$
+= 46.000.000 \text{ pesos}
+$$
+
+---
+
+## Conclusión:
+
+La implementación del descuento por pronto pago generaría una ganancia neta de $46.000.000. Por lo tanto, es recomendable que **Compañía XYZ S.A.** implemente este descuento.
+
+---
+
+# Notas:
+
+Este ejercicio ha sido creado utilizando datos hipotéticos basados en los estados financieros de una empresa chilena real obtenidos de la CMF. Se han realizado supuestos razonables para las variables no disponibles directamente.

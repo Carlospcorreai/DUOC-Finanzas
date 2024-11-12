@@ -1,71 +1,71 @@
 /* Global Styles for DUOC UC Presentations */
 .reveal {
     font-family: 'Arial', sans-serif;
-    font-size: 28px;  /* Increased font size from 24px to 28px */
+    font-size: 2vw;  /* Tamaño de fuente responsivo */
     color: #333;
     background-color: #f4f4f4;
-    background-image: url('duoc-uc-logo.png'); /* Path to the DUOC UC logo */
+    background-image: url('duoc-uc-logo.png'); /* Ruta al logo de DUOC UC */
     background-repeat: no-repeat;
-    background-position: top right; /* Position the logo on the top right */
-    background-size: 80px 80px; /* Smaller logo size */
+    background-position: top right; /* Posiciona el logo en la esquina superior derecha */
+    background-size: 6vw 6vw; /* Tamaño del logo responsivo */
 }
 
 /* Header Styles */
 .reveal h1, .reveal h2, .reveal h3 {
-    color: #00467f; /* DUOC UC branding color */
-    margin-bottom: 20px;
+    color: #00467f; /* Color de marca de DUOC UC */
+    margin-bottom: 1vh;
     font-weight: bold;
-    font-size: 36px; /* Increased header font size */
+    font-size: 3vw; /* Tamaño de fuente responsivo para encabezados */
 }
 
 /* Bullet Points */
 .reveal ul {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     line-height: 1.8;
-    font-size: 28px; /* Increased font size for bullet points */
+    font-size: 2vw; /* Tamaño de fuente responsivo para viñetas */
 }
 
 /* Highlight important text */
 .reveal em {
     color: #d9534f;
     font-weight: bold;
-    font-size: 28px; /* Increased size for emphasized text */
+    font-size: 2vw; /* Tamaño de fuente responsivo para texto enfatizado */
 }
 
 /* Customize blockquotes */
 .reveal blockquote {
-    border-left: 5px solid #00467f;
-    padding-left: 15px;
+    border-left: 0.5vw solid #00467f;
+    padding-left: 1vw;
     font-style: italic;
     color: #555;
-    font-size: 28px; /* Increased blockquote font size */
+    font-size: 2vw; /* Tamaño de fuente responsivo para citas */
 }
 
 /* Code block */
 .reveal code {
     background-color: #e7e7e7;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 24px; /* Increased font size for code blocks */
+    padding: 0.5vw;
+    border-radius: 0.3vw;
+    font-size: 1.8vw; /* Tamaño de fuente responsivo para bloques de código */
 }
 
 /* Slide Footer */
 .reveal .footer {
-    font-size: 22px;  /* Slightly larger footer font size */
+    font-size: 1.5vw;  /* Tamaño de fuente responsivo para el pie de página */
     color: #666;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 2vh;
 }
 
 /* Auto-scale text to fit the slide */
 .fit-text {
-    font-size: 2.5vw;  /* Slightly increased for larger screens */
+    font-size: 2.5vw;
     line-height: 1.3;
     text-align: center;
     white-space: normal;
     word-wrap: break-word;
-    max-width: 90%;  /* Optional: Limit the width to avoid overflow */
+    max-width: 90%;  /* Limita el ancho para evitar desbordamientos */
 }
 
 /* Logo styling for individual slides */
@@ -73,5 +73,5 @@
     background-image: url('duoc-uc-logo.png');
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 80px 80px;  /* Smaller logo size */
+    background-size: 6vw 6vw;  /* Tamaño del logo responsivo */
 }

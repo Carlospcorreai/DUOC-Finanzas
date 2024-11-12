@@ -1,15 +1,12 @@
 ---
 title: "Clase de Inversiones 2"
-author: "Docente: Carlos Correa Iñiguez (<ca.correai@profesor.duoc.cl>)"
+author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
 format:
     revealjs:
         theme: solarized
         slideNumber: true
-        css: duoc_uc.css
-        self-contained: true
-        pdf: true   # Esta opción activa la exportación a PDF
+        css: ./duoc_uc.css
 output-file: index.html  
-
 ---
 
 # Objetivos de la Clase
@@ -517,6 +514,150 @@ ___
 ## Evita la tentación de poner todos los huevos en una sola canasta
 
 ![Diversificación](ITAU.png)
+
+---
+
+## Actividad: Lanzamiento de Dados
+
+1. Divide en grupos de cuatro.
+2. Cada persona lanza un dado 10 veces.
+3. Registra los resultados en un gráfico de puntos, utilizando la hoja de trabajo proporcionada.
+
+---
+
+## Ejemplo de Gráfico de Puntos
+
+![Grafico de Puntos](dados.png)
+
+---
+
+## Actividad: Lanzamiento de Dados
+
+Divide en grupos de 4
+Cada persona lanza un dado 10 veces
+Registra en un gráfico de puntos, utilizando la hoja de trabajo proporcionada
+
+Observa todos los gráficos de puntos en tu mesa
+cada persona adivina quién tiene:
+la media más alta
+la mayor volatilidad (medida por la desviación estándar)
+
+Opcional: calcula tu propia media y desviación estándar
+compártelo con otros en el grupo
+punto extra por cada adivinanza correcta
+
+---
+
+## Resultados
+
+![Resultados](dados1.png)
+
+---
+
+## Media y Desviación Estándar
+
+La media es relativamente fácil de adivinar.
+La desviación estándar es más complicada.
+
+Objetivo: ver que la desviación estándar es una medida de dispersión,
+la medida más común del riesgo de volatilidad.
+
+---
+
+## Resultados en el mercado financiero
+
+![Resultados](histograma.png)
+
+---
+
+## Resultados Concha y Toro
+
+![Resultados](conchaytoro.png)
+
+---
+
+## Resultados SQM
+
+![Resultados](SQM.png)
+
+---
+
+## Dispersion Concha y Toro
+
+![Resultados](dis_cyt.png)
+
+---
+
+## Dispersion Concha y Toro
+
+![Resultados](dis_sqm.png)
+
+---
+
+# Administración del Riesgo en Inversiones de Departamentos
+
+---
+
+## Exposición al Riesgo Negativo
+
+- **Disminución del Valor Comercial:**
+  - El departamento pierde valor si el barrio se vuelve peligroso.
+  - **Impacto:** Pérdida de capital.
+  
+- **Siniestros:**
+  - Incidentes como incendios o desastres naturales.
+  - **Impacto:** Pérdidas de capital.
+  
+- **Incapacidad para Arrendar:**
+  - Dificultad para encontrar inquilinos.
+  - **Impacto:** Reducción de dividendos.
+  
+- **Retrasos o Reducción en Pagos de Arriendo:**
+  - Inquilinos que no pagan a tiempo o pagan menos de lo esperado.
+  - **Impacto:** Menor flujo de ingresos (- dividendos).
+
+---
+
+## Exposición al Riesgo Positivo
+
+- **Aumento en los Arriendos:**
+  - Incremento en las tarifas de arrendamiento.
+  - **Impacto:** Mayor flujo de ingresos (+ dividendos).
+  
+- **Incremento en el Valor de las Propiedades:**
+  - Crecimiento del valor de mercado de los departamentos.
+  - **Impacto:** Ganancias de capital.
+  
+- **Crecimiento Económico del Barrio:**
+  - Mejoras en infraestructura y servicios que aumentan la demanda.
+  - **Impacto:** Aumento del valor comercial y de los arriendos.
+
+---
+
+## Comparación con Bonos
+
+- **Dividendos Fijos y Conocidos:**
+  - Si los dividendos fueran siempre fijos y conocidos, similar a los pagos de intereses de un bono.
+  
+- **Precio Final Conocido:**
+  - Si el precio final de la acción fuera predecible, reduciendo la incertidumbre.
+  
+- **Nivel de Riesgo:**
+  - Invertir en departamentos con dividendos fijos y precios conocidos se asemeja a invertir en bonos, ofreciendo un nivel de riesgo menor.
+
+---
+
+# Conclusión
+
+Entender tanto los riesgos negativos como los positivos es fundamental para gestionar eficazmente las inversiones en departamentos. **La diversificación y la evaluación constante del mercado** pueden ayudar a mitigar las pérdidas y maximizar las ganancias, optimizando así el rendimiento de la inversión.
+
+---
+
+# Preguntas y Discusión
+
+- ¿Qué estrategias podrías implementar para reducir el riesgo de no conseguir arrendar un departamento?
+- ¿Cómo influye la ubicación en la gestión del riesgo de inversión inmobiliaria?
+- ¿Qué medidas preventivas son efectivas para proteger tu inversión contra siniestros?
 
 ---
 
