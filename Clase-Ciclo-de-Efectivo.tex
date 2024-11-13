@@ -2272,6 +2272,626 @@ Resultados}\label{interpretaciuxf3n-de-los-resultados}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4. Cálculo del Lote Económico de Inventario
+(EOQ)}\label{cuxe1lculo-del-lote-econuxf3mico-de-inventario-eoq}
+
+\subsubsection{Introducción}\label{introducciuxf3n}
+
+El \textbf{Lote Económico de Pedido (EOQ)} es una herramienta que
+permite determinar la cantidad óptima de unidades que una empresa debe
+solicitar para minimizar los costos totales de inventario, que incluyen
+los costos de pedido y los costos de mantenimiento.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Supuestos Necesarios}\label{supuestos-necesarios}
+
+Para realizar el cálculo del EOQ para Viña Santa Rita, asumiremos los
+siguientes datos:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Demanda anual (D)}: 500,000 unidades.
+\item
+  \textbf{Costo de realizar un pedido (S)}: \$200 por pedido.
+\item
+  \textbf{Costo de mantenimiento por unidad (H)}: \$5 por unidad al año.
+\item
+  \textbf{Cantidad óptima a pedir (Q*)}: Por determinar.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Datos del Ejercicio}\label{datos-del-ejercicio-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Demanda anual (D)}: 500,000 unidades.
+\item
+  \textbf{Costo de realizar un pedido (S)}: \$200.
+\item
+  \textbf{Costo de mantenimiento por unidad (H)}: \$5.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Fórmula del EOQ}\label{fuxf3rmula-del-eoq}
+
+El Lote Económico de Pedido se calcula utilizando la siguiente fórmula:
+
+\[
+Q^* = \sqrt{\dfrac{2DS}{H}}
+\]
+
+Donde:
+
+\begin{itemize}
+\tightlist
+\item
+  ( Q\^{}* ): Cantidad óptima de pedido.
+\item
+  ( D ): Demanda anual en unidades.
+\item
+  ( S ): Costo de realizar un pedido.
+\item
+  ( H ): Costo de mantenimiento por unidad.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Cálculo del EOQ}\label{cuxe1lculo-del-eoq}
+
+Reemplazando los valores en la fórmula:
+
+\[
+\begin{align*}
+Q^* &= \sqrt{\dfrac{2 \times 500,000 \times 200}{5}} \\
+&= \sqrt{\dfrac{200,000,000}{5}} \\
+&= \sqrt{40,000,000} \\
+&= 6,324.56 \text{ unidades}
+\end{align*}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Interpretación del
+Resultado}\label{interpretaciuxf3n-del-resultado}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cantidad Óptima de Pedido (Q*)}: Aproximadamente \textbf{6,325
+  unidades}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Viña Santa Rita debería realizar pedidos de 6,325 unidades cada vez
+    para minimizar sus costos totales de inventario.
+  \end{itemize}
+\item
+  \textbf{Número de Pedidos Anuales}: \[
+  N = \dfrac{D}{Q^*} = \dfrac{500,000}{6,324.56} \approx 79.06
+  \]
+
+  \begin{itemize}
+  \tightlist
+  \item
+    La empresa debería realizar aproximadamente \textbf{79 pedidos al
+    año}.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Costo Total de
+Inventario}\label{costo-total-de-inventario}
+
+El costo total anual asociado al inventario se calcula como:
+
+\[
+\text{Costo Total} = \left( \dfrac{D}{Q^*} \times S \right) + \left( \dfrac{Q^*}{2} \times H \right)
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Cálculo del Costo
+Total}\label{cuxe1lculo-del-costo-total-1}
+
+\paragraph{1. Costo de Pedido Anual}\label{costo-de-pedido-anual}
+
+\[
+\text{Costo de Pedido} = \dfrac{D}{Q^*} \times S = \dfrac{500,000}{6,324.56} \times 200 \approx 15,812.5
+\]
+
+\paragraph{2. Costo de Mantenimiento
+Anual}\label{costo-de-mantenimiento-anual}
+
+\[
+\text{Costo de Mantenimiento} = \dfrac{Q^*}{2} \times H = \dfrac{6,324.56}{2} \times 5 = 15,811.4
+\]
+
+\paragraph{3. Costo Total Anual}\label{costo-total-anual}
+
+\[
+\text{Costo Total} = 15,812.5 + 15,811.4 = \$31,623.9
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Interpretación del Costo
+Total}\label{interpretaciuxf3n-del-costo-total}
+
+\begin{itemize}
+\tightlist
+\item
+  El \textbf{costo total anual} de mantener y ordenar el inventario es
+  aproximadamente \textbf{\$31,624}.
+\item
+  Al utilizar el EOQ, Viña Santa Rita minimiza los costos asociados al
+  inventario.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Sensibilidad del EOQ a Cambios en los
+Parámetros}\label{sensibilidad-del-eoq-a-cambios-en-los-paruxe1metros}
+
+Es importante analizar cómo cambios en la demanda, el costo de pedido o
+el costo de mantenimiento afectan el EOQ.
+
+\paragraph{Ejemplo: Incremento del 10\% en la
+Demanda}\label{ejemplo-incremento-del-10-en-la-demanda}
+
+\begin{itemize}
+\tightlist
+\item
+  Nueva demanda: ( D = 500,000 \times 1.10 = 550,000 ) unidades.
+\end{itemize}
+
+Nuevo EOQ:
+
+\[
+Q^* = \sqrt{\dfrac{2 \times 550,000 \times 200}{5}} = \sqrt{44,000,000} = 6,633.25 \text{ unidades}
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  El EOQ aumenta, lo que indica que se deben pedir más unidades por
+  pedido para mantener los costos mínimos.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Conclusiones}\label{conclusiones-1}
+
+\begin{itemize}
+\tightlist
+\item
+  El \textbf{EOQ} es una herramienta esencial para optimizar la gestión
+  de inventarios.
+\item
+  Viña Santa Rita debe realizar pedidos de aproximadamente \textbf{6,325
+  unidades} para minimizar sus costos totales de inventario.
+\item
+  Es importante revisar periódicamente los parámetros del EOQ para
+  adaptarse a cambios en la demanda y costos.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Recomendaciones}\label{recomendaciones-1}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Monitoreo Constante}: Revisar regularmente los niveles de
+  demanda y costos asociados.
+\item
+  \textbf{Análisis de Sensibilidad}: Evaluar el impacto de cambios en
+  los parámetros clave.
+\item
+  \textbf{Tecnología}: Implementar sistemas de gestión de inventario que
+  automaticen el cálculo del EOQ.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Referencias}\label{referencias-2}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Modelo de Lote Económico de Pedido (EOQ)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Harris, F. W. (1913). \emph{How Many Parts to Make at Once}.
+  \end{itemize}
+\item
+  \textbf{Gestión de Inventarios}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Arnold, J. R., Chapman, S. N., \& Clive, L. M. (2008).
+    \emph{Introducción a la administración de operaciones}.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Ejercicio: Evaluación de Cambios en Políticas de
+Crédito}\label{ejercicio-evaluaciuxf3n-de-cambios-en-poluxedticas-de-cruxe9dito}
+
+Una empresa chilena, \textbf{Compañía XYZ S.A.}, dedicada a la
+fabricación de productos industriales, está evaluando modificar su
+política de crédito para aumentar sus ventas en un 15\%. Actualmente, la
+empresa tiene una capacidad de producción ociosa que le permite aumentar
+la producción sin incurrir en costos fijos adicionales.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Ejercicio: Evaluación de Cambios en Políticas de
+Crédito}\label{ejercicio-evaluaciuxf3n-de-cambios-en-poluxedticas-de-cruxe9dito-1}
+
+La empresa presenta los siguientes datos extraídos de sus estados
+financieros (valores en millones de pesos chilenos):
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Ventas anuales actuales}: \$12.000 millones
+\item
+  \textbf{Precio de venta unitario}: \$60.000
+\item
+  \textbf{Costo variable unitario}: \$40.000
+\item
+  \textbf{Costo fijo anual}: \$2.000 millones
+\item
+  \textbf{Plazo medio de cobro actual}: 60 días
+\item
+  \textbf{Proporción de cuentas incobrables actual}: 1,5\%
+\item
+  \textbf{Tasa de costo de oportunidad}: 14\% anual
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Ejercicio: Evaluación de Cambios en Políticas de
+Crédito}\label{ejercicio-evaluaciuxf3n-de-cambios-en-poluxedticas-de-cruxe9dito-2}
+
+\textbf{Propuesta de nueva política de crédito:}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aumento esperado de ventas}: 15\%
+\item
+  \textbf{Nuevo plazo medio de cobro}: 90 días
+\item
+  \textbf{Proporción esperada de cuentas incobrables}: 3\%
+\item
+  \textbf{Aumento en gastos de cobranza}: \$30 millones anuales
+\end{itemize}
+
+Se requiere determinar si la empresa debería implementar la nueva
+política de crédito, calculando la ganancia o pérdida neta.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Cálculos:}\label{cuxe1lculos-1}
+
+\subsubsection{1) Cálculo del Incremento en Ganancia
+Adicional:}\label{cuxe1lculo-del-incremento-en-ganancia-adicional}
+
+\begin{itemize}
+\item
+  \textbf{Unidades vendidas actualmente}:
+
+  \[
+  \text{Unidades actuales} = \frac{\text{Ventas anuales}}{\text{Precio de venta unitario}} = \frac{12.000.000.000}{60.000} = 200.000 \text{ unidades}
+  \]
+\item
+  \textbf{Aumento en unidades vendidas}:
+
+  \[
+  \text{Aumento en unidades} = 200.000 \times 15\% = 30.000 \text{ unidades}
+  \]
+\item
+  \textbf{Margen de contribución unitario}:
+
+  \[
+  \text{Margen} = 60.000 - 40.000 = 20.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1) Cálculo del Incremento en Ganancia
+Adicional:}\label{cuxe1lculo-del-incremento-en-ganancia-adicional-1}
+
+\begin{itemize}
+\item
+  \textbf{Ganancia adicional}:
+
+  \[
+  \text{Ganancia adicional} = 30.000 \times 20.000 = 600.000.000 \text{ pesos}
+  \]
+
+  \[
+   = 600.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{2) Cálculo de Pérdidas por Deudas Incobrables
+Adicionales:}\label{cuxe1lculo-de-puxe9rdidas-por-deudas-incobrables-adicionales}
+
+\begin{itemize}
+\item
+  \textbf{Ventas adicionales}:
+
+  \[
+  \text{Ventas adicionales} = 30.000 \times 60.000 = 1.800.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Pérdida por deudas incobrables adicionales}:
+
+  \[
+  \text{Pérdida incobrable adicional} = \text{Ventas adicionales} \times (\text{Proporción nueva} - \text{Proporción actual}) 
+  \]
+
+  \[
+  = 1.800.000.000 \times (3\% - 1,5\%) = 27.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{3) Cálculo del Costo de Oportunidad por Aumento en
+Cuentas por
+Cobrar:}\label{cuxe1lculo-del-costo-de-oportunidad-por-aumento-en-cuentas-por-cobrar}
+
+\begin{itemize}
+\item
+  \textbf{Rotación actual}:
+
+  \[
+  \text{Rotación actual} = \frac{360}{60} = 6 \text{ veces al año}
+  \]
+\item
+  \textbf{Cuentas por cobrar actuales}:
+
+  \[
+  \text{Cuentas por cobrar actuales} = \frac{\text{Ventas anuales}}{\text{Rotación actual}} = \frac{12.000.000.000}{6} = 2.000.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{3) Cálculo del Costo de Oportunidad por Aumento en
+Cuentas por
+Cobrar:}\label{cuxe1lculo-del-costo-de-oportunidad-por-aumento-en-cuentas-por-cobrar-1}
+
+\begin{itemize}
+\item
+  \textbf{Ventas anuales nuevas}:
+
+  \[
+  \text{Ventas anuales nuevas} = 12.000.000.000 \times 1,15 = 13.800.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Rotación nueva}:
+
+  \[
+  \text{Rotación nueva} = \frac{360}{90} = 4 \text{ veces al año}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{3) Cálculo del Costo de Oportunidad por Aumento en
+Cuentas por
+Cobrar:}\label{cuxe1lculo-del-costo-de-oportunidad-por-aumento-en-cuentas-por-cobrar-2}
+
+\begin{itemize}
+\item
+  \textbf{Cuentas por cobrar nuevas}:
+
+  \[
+  \text{Cuentas por cobrar nuevas} = \frac{13.800.000.000}{4} = 3.450.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Incremento en cuentas por cobrar}:
+
+  \[
+  \Delta \text{Cuentas por cobrar} = 3.450.000.000 - 2.000.000.000 = 1.450.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Costo de oportunidad}:
+
+  \[
+  \text{Costo de oportunidad} = \Delta \text{Cuentas por cobrar} \times 14\% = 1.450.000.000 \times 14\% = 203.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{4) Resumen de Cálculos:}\label{resumen-de-cuxe1lculos}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7465}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2535}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Concepto
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Monto (\$)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{(+) Incremento de Ganancia Adicional} & \$600.000.000 \\
+\textbf{(-) Pérdidas por Deudas Incobrables Adicionales} &
+\((27.000.000)\) \\
+\textbf{(-) Costo de Oportunidad por Aumento en CxC} &
+\((203.000.000)\) \\
+\textbf{(-) Aumento en Gastos de Cobranza} & \((30.000.000)\) \\
+\textbf{(=) Ganancia (Pérdida) Neta} & \textbf{\$340.000.000} \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Conclusión:}\label{conclusiuxf3n}
+
+La propuesta genera una ganancia neta adicional de \$340.000.000. Por lo
+tanto, es recomendable que \textbf{Compañía XYZ S.A.} implemente la
+nueva política de crédito.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Ejercicio: Evaluación de Descuentos por Pronto
+Pago}\label{ejercicio-evaluaciuxf3n-de-descuentos-por-pronto-pago}
+
+\textbf{Compañía XYZ S.A.} enfrenta problemas de liquidez y considera
+ofrecer a sus clientes un descuento por pronto pago del 2\% si cancelan
+sus facturas dentro de los primeros 10 días. Las ventas anuales de la
+empresa son \$13.800 millones, y su periodo promedio de cobro actual es
+de 90 días. Se estima que el 30\% de las ventas se acogerían al
+descuento. La tasa de costo de oportunidad es del 14\% anual.
+
+Determine el beneficio o pérdida de implementar el descuento por pronto
+pago.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Cálculos:}\label{cuxe1lculos-2}
+
+\subsubsection{1) Cálculo del Monto de Cuentas por Cobrar
+Actual:}\label{cuxe1lculo-del-monto-de-cuentas-por-cobrar-actual}
+
+\begin{itemize}
+\item
+  \textbf{Cuentas por cobrar actuales}:
+
+  \[
+  \text{Cuentas por cobrar} = \frac{\text{Periodo de cobro} \times \text{Ventas anuales}}{360} = \frac{90 \times 13.800.000.000}{360} 
+  \] \[
+  = 3.450.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{2) Cálculo del Nuevo Monto de Cuentas por
+Cobrar:}\label{cuxe1lculo-del-nuevo-monto-de-cuentas-por-cobrar}
+
+\begin{itemize}
+\item
+  \textbf{Ventas que aprovechan el descuento}:
+
+  \[
+  \text{Ventas con descuento} = 13.800.000.000 \times 30\% = 4.140.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Ventas a crédito normales}:
+
+  \[
+  \text{Ventas normales} = 13.800.000.000 \times 70\% = 9.660.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Cuentas por cobrar de ventas con descuento}:
+
+  \[
+  \text{Cuentas por cobrar descuento} = \frac{10 \times 4.140.000.000}{360} = 115.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{2) Cálculo del Nuevo Monto de Cuentas por
+Cobrar:}\label{cuxe1lculo-del-nuevo-monto-de-cuentas-por-cobrar-1}
+
+\begin{itemize}
+\item
+  \textbf{Cuentas por cobrar de ventas normales}:
+
+  \[
+  \text{Cuentas por cobrar normales} = \frac{90 \times 9.660.000.000}{360} = 2.415.000.000 \text{ pesos}
+  \]
+\item
+  \textbf{Nuevo monto total en cuentas por cobrar}:
+
+  \[
+  \text{Cuentas por cobrar nuevas} = 115.000.000 + 2.415.000.000 = 2.530.000.000 \text{ pesos}
+  \]
+\end{itemize}
+
+\subsubsection{3) Disminución en Cuentas por
+Cobrar:}\label{disminuciuxf3n-en-cuentas-por-cobrar}
+
+\[
+\Delta \text{Cuentas por cobrar} = 3.450.000.000 - 2.530.000.000 = 920.000.000 \text{ pesos}
+\]
+
+\subsubsection{4) Beneficio por Disminución de Cuentas por
+Cobrar:}\label{beneficio-por-disminuciuxf3n-de-cuentas-por-cobrar}
+
+\[
+\text{Beneficio por reducción} = \Delta \text{Cuentas por cobrar} \times 14\% = 920.000.000 \times 14\% = 128.800.000 \text{ pesos}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{5) Costo del Descuento por Pronto
+Pago:}\label{costo-del-descuento-por-pronto-pago}
+
+\[
+\text{Costo del descuento} = \text{Ventas con descuento} \times 2\% = 4.140.000.000 \times 2\% = 82.800.000 \text{ pesos}
+\]
+
+\subsubsection{6) Beneficio (Pérdida)
+Neto:}\label{beneficio-puxe9rdida-neto}
+
+\[
+\text{Beneficio neto} = \text{Beneficio por reducción} - \text{Costo del descuento} = 128.800.000 - 82.800.000
+\]
+
+\[
+= 46.000.000 \text{ pesos}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Conclusión:}\label{conclusiuxf3n-1}
+
+La implementación del descuento por pronto pago generaría una ganancia
+neta de \$46.000.000. Por lo tanto, es recomendable que \textbf{Compañía
+XYZ S.A.} implemente este descuento.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Notas:}\label{notas}
+
+Este ejercicio ha sido creado utilizando datos hipotéticos basados en
+los estados financieros de una empresa chilena real obtenidos de la CMF.
+Se han realizado supuestos razonables para las variables no disponibles
+directamente.
+
 
 
 
