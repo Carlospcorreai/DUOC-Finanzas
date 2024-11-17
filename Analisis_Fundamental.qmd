@@ -1,0 +1,881 @@
+---
+title: "Introduccion al Análisis Fundamental"
+author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
+format:
+    revealjs:
+        theme: solarized
+        slideNumber: true
+        css: ./duoc_uc.css
+output-file: index.html  
+---
+
+# Objetivos de la Clase
+
+## ¿Qué aprenderemos hoy?
+
+1. Comprender los conceptos básicos del análisis fundamental.
+2. Diferenciar entre el **valor de mercado** y el **valor intrínseco** de una acción.
+3. Analizar los principales indicadores financieros:
+   - Dividend Yield
+   - Precio / Utilidad (P/U)
+   - Precio / Valor Libro (P/B)
+4. Aplicar el modelo de Gordon y Shapiro en valuaciones.
+5. Explorar casos reales para entender cómo los mercados reaccionan de manera irracional.
+
+---
+
+# Introduccion al Analisis Fundamental
+
+---
+
+## Introducción al Análisis Fundamental
+
+- **Herramienta principal** para valorar acciones bajo condiciones ideales
+- Basado en el conocimiento de los **FCF (Flujos de Caja Libre)**
+- Asociación de FCF con el nivel de riesgo correspondiente
+- Cálculo matemático del precio justo: **VPFCF (Valor Presente de los Flujos de Caja Libre)**
+
+---
+
+# Diferencia entre Valor de Mercado y Valor Intrínseco
+
+![Market Value](economist.png)
+
+--- 
+
+## Diferencia entre Valor de Mercado y Valor Intrínseco
+
+- **Vínculo entre comportamiento humano y ambiente**
+  - Las interacciones humanas están influenciadas por el contexto social y económico.
+  
+- **Comportamiento humano no se ajusta a modelos matemáticos**
+  - La complejidad y variabilidad del comportamiento humano dificultan su modelación precisa.
+  
+- **Crisis son recurrentes a través del tiempo**
+  - Eventos económicos adversos tienden a repetirse debido a patrones de comportamiento similares.
+
+## Diferencia entre Valor de Mercado y Valor Intrínseco
+  
+- **No siempre los mercados financieros siguen leyes económicas**
+  - Factores emocionales y psicológicos pueden desviar a los mercados de las teorías económicas tradicionales.
+  
+- **Precios ≠ valor económico**
+  - El precio de mercado puede estar influenciado por factores especulativos, mientras que el valor intrínseco se basa en fundamentos sólidos.
+
+---
+
+## Diferencia entre Valor de Mercado y Valor Intrínseco
+  
+- **Mercados financieros son el producto de la evolución humana y siguen las leyes de la biología**
+  - **Competencia**: Empresas compiten por recursos y participación de mercado.
+  - **Mutación**: Innovación y adaptación constante en estrategias y productos.
+  - **Selección natural**: Solo las empresas más eficientes y adaptativas sobreviven a largo plazo.
+  - **Innovación**: Desarrollo continuo de nuevas tecnologías y métodos para mantenerse relevante.
+
+---
+
+# Irracionalidad del Mercado
+
+---
+
+## Factores que Crean Mercados Irracionales
+
+- **Exceso de confianza**
+  - Los inversores sobreestiman sus habilidades y conocimientos, tomando decisiones arriesgadas sin suficiente análisis.
+
+- **Juicios sesgados**
+  - Interpretación de información de manera que confirma creencias preexistentes, ignorando datos contradictorios.
+
+- **Mentalidad de manada**
+  - Tendencia a seguir las acciones de la mayoría, sin realizar un análisis independiente.
+
+---
+
+## Factores que Crean Mercados Irracionales
+
+- **Aversión a las pérdidas**
+  - Preferencia por evitar pérdidas antes que obtener ganancias equivalentes, afectando la toma de decisiones.
+
+- **Ambientes cambiantes**
+  - Reacciones impredecibles del mercado ante cambios económicos, políticos o sociales.
+
+---
+
+# Ejemplos
+
+---
+
+## Ejemplo: La Burbuja Puntocom de finales de los 90
+
+### Advertencia inicial
+
+- **Alan Greenspan**, presidente de la Reserva Federal, advirtió sobre la **"exuberancia irracional"** el 5 de diciembre de 1996.
+- Fuente: *Sistema de la Reserva Federal. "El desafío de la banca central en una sociedad democrática".*
+
+---
+
+### Contexto
+- La Reserva Federal creó **liquidez excesiva** en preparación para el problema del **Y2K**.
+- Bancos y corredoras la usaron para **financiar acciones de internet**.
+
+---
+
+### Consecuencias
+- Greenspan endureció la política monetaria en la primavera de 2000.
+- Esto llevó al estallido de la burbuja.
+
+---
+
+### Impacto
+- **Caída del mercado bursátil**:
+  - Nasdaq perdió más de **cuatro años de ganancias**.
+  - Se borraron miles de millones de dólares en **capitalización de mercado**.
+
+---
+
+## Ejemplo: La Burbuja Puntocom de finales de los 90
+
+![Burbuja Puntocom](bubble_com.jpg)
+
+---
+
+## Crisis Financiera del 2008
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GPOv72Awo68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Caso GameStop del 2021
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zeiv64HpCJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# ¿Qué es el Análisis Fundamental?
+
+---
+
+## ¿Qué es el Análisis Fundamental?
+
+### Definición
+El **análisis fundamental** es un enfoque utilizado para evaluar el valor intrínseco de un activo, empresa o mercado, basado en factores económicos, financieros y cualitativos.
+
+### Objetivo
+Determinar si un activo está:
+
+- **Subvalorado**: Precio de mercado menor a su valor intrínseco.
+- **Sobrevalorado**: Precio de mercado mayor a su valor intrínseco.
+
+---
+
+### Componentes clave
+1. **Análisis económico**:
+   - Evaluación de las condiciones macroeconómicas como tasas de interés, inflación y PIB.
+   
+2. **Análisis de la industria**:
+   - Identificación de tendencias y oportunidades en sectores específicos.
+
+3. **Análisis de la empresa**:
+   - Estudio de los estados financieros, modelos de negocio y gestión empresarial.
+
+---
+
+### Herramientas comunes
+
+- Ratios financieros como **PER**, **ROE**, **ROA**.
+- Estudio de indicadores económicos.
+- Proyecciones de crecimiento y flujo de caja.
+
+---
+
+## ¿Qué es el Análisis Fundamental?
+
+### ¿Por qué es importante?
+Permite tomar decisiones de inversión fundamentadas en datos y no en especulación, maximizando la probabilidad de obtener rendimientos sostenibles.
+
+---
+
+# Valuación de Acciones: Flujos Futuros
+
+---
+
+### Flujos Futuros
+
+Los flujos futuros de una acción serán:
+
+- Sus dividendos ($Div$).
+
+- El precio de la acción ($P$) en el momento de su venta.
+
+Si se planea vender la acción dentro de un período, el precio actual ($P_0$) será:
+
+$$
+P_0 = \frac{Div_1 + P_1}{1 + r}
+$$
+
+### Valuación a dos períodos
+
+Si se piensa vender la acción dentro de dos períodos, el precio actual será:
+
+$$
+P_0 = \frac{Div_1}{1 + r} + \frac{Div_2 + P_2}{(1 + r)^2}
+$$
+
+---
+
+### Fórmula General
+
+Si se planea vender la acción dentro de $N$ períodos, el precio actual ($P_0$) será:
+
+$$
+P_0 = \frac{Div_1}{1 + r} + \frac{Div_2}{(1 + r)^2} + \cdots + \frac{Div_N + P_N}{(1 + r)^N}
+$$
+
+### Reflexión
+
+- **Principio clave**:  
+  Sin importar en cuántos períodos ($N$) se planee vender la acción, el precio actual ($P_0$) será el mismo para todos los inversionistas.
+
+- Esto implica que:
+  - El precio hoy ($P_0$) refleja el valor presente de todos los flujos de caja futuros.
+  - Incluye los dividendos ($Div_i$) y el precio final ($P_N$).
+
+---
+
+## Valuación a Largo Plazo
+
+### Precio Actual de una Acción
+
+Pensando en el largo plazo, el precio actual de una acción ($P_0$) es igual a:
+
+$$
+P_0 = \frac{Div_1}{1 + r} + \frac{Div_2}{(1 + r)^2} + \frac{Div_3}{(1 + r)^3} + \cdots
+$$
+
+En términos generales, esto se puede expresar como:
+
+$$
+P_0 = \sum_{t=1}^{\infty} \frac{Div_t}{(1 + r)^t}
+$$
+
+---
+
+### Modelo de Gordon y Shapiro (1956)
+
+Gordon y Shapiro desarrollaron una fórmula simplificada para representar el precio actual de una acción como:
+
+$$
+P_0 = \frac{Div_1}{r - g}
+$$
+
+Donde:
+
+- $Div_1$: Dividendo esperado para el próximo período o año.
+
+- $r$: Tasa de retorno requerida según el riesgo de la empresa.
+
+- $g$: Tasa esperada de crecimiento de los dividendos.
+
+---
+
+### Factores que Influyen en el Valor de una Acción
+
+1. **Dividendos ($Div_1$):**  
+
+   A mayor dividendo esperado, mayor será el precio de la acción. **(+)**
+
+2. **Crecimiento de los dividendos ($g$):** 
+
+   Un mayor crecimiento esperado aumenta el precio de la acción. **(+)**
+
+3. **Tasa de retorno requerida ($r$):**  
+
+   A mayor retorno exigido, menor será el precio de la acción. **(-)**
+
+---
+
+### Fórmula Extendida
+Si consideramos que los dividendos crecen a una tasa constante ($g$):
+
+$$
+P_0 = \frac{Div_1 (1 + g)}{r - g}
+$$
+
+Este modelo simplifica la relación entre los dividendos, su crecimiento, y el retorno esperado.
+
+---
+
+## Ejemplo: Banco de Chile
+
+### Contexto
+- Se espera que Banco de Chile pague un dividendo de $5,2$ por acción el próximo año ($Div_1$).
+- La tasa de crecimiento promedio estimada de los dividendos es de **2% anual** ($g = 0.02$).
+- La tasa de retorno requerida por los inversionistas para Banco de Chile es de **12% anual** ($r = 0.12$).
+
+---
+
+## Ejemplo: Banco de Chile
+
+### Precio de la acción
+Utilizando el modelo de Gordon & Shapiro:
+
+$$
+P_0 = \frac{Div_1}{r - g}
+$$
+
+Sustituyendo los valores:
+
+$$
+P_0 = \frac{5.2}{0.12 - 0.02} = \frac{5.2}{0.10} = 52
+$$
+
+El precio actual de la acción debería ser de **$52,00**.
+
+---
+
+## Ejemplo: Banco de Chile
+
+### ¿Qué sucede si la tasa de retorno disminuye al 10%?
+
+Si la tasa de retorno requerida ($r$) baja a **10%** ($r = 0.10$):
+
+$$
+P_0 = \frac{5.2}{0.10 - 0.02} = \frac{5.2}{0.08} = 65
+$$
+
+El precio de la acción aumenta a **$65,00**.
+
+---
+
+### ¿Qué sucede si la tasa de crecimiento aumenta al 3%?
+
+Si la tasa de crecimiento promedio de los dividendos ($g$) aumenta al **3%** ($g = 0.03$):
+
+$$
+P_0 = \frac{5.2}{0.12 - 0.03} = \frac{5.2}{0.09} = 57.78
+$$
+
+El precio de la acción se incrementa a **$57,78**.
+
+---
+
+### Factores que influyen en el precio
+
+1. **Dividendos ($Div_1$)**:  
+   A mayor dividendo, mayor será el precio.  
+
+2. **Crecimiento ($g$)**:  
+   Un mayor crecimiento futuro de los dividendos aumenta el precio. 
+
+3. **Tasa de retorno ($r$)**:  
+   Una menor tasa de retorno requerida aumenta el precio.
+
+---
+
+## Relación entre Dividendos, Tasa de Descuento y Precio
+
+### Principios Clave
+
+1. **Relación directa entre dividendos y precio:**
+
+   - A mayores dividendos futuros, mayor será el precio de una acción.
+   - A menores dividendos, menor será el precio.
+
+2. **Relación inversa entre tasa de rentabilidad y precio:**
+
+   - A mayor retorno exigido ($r$), menor será el precio de una acción.
+   - A menor retorno exigido, mayor será el precio.
+
+---
+
+## ¿Qué es el Beta ($\beta$)?
+
+### Tasa de descuento ($r$)
+
+La tasa de descuento exigida depende de varios factores:
+
+- **Tasa de interés libre de riesgo ($r_f$):**  
+
+  Ejemplo: Tasa de bonos del BCCH o TGR.
+
+- **Riesgo de la acción ($\beta$):**  
+
+  Medida de la sensibilidad de una acción frente a movimientos del mercado.
+
+---
+
+### El Beta y su impacto:
+
+1. **Definición:**  
+
+   - $\beta$ mide el riesgo sistemático de una acción en comparación con el mercado.  
+   - $\beta > 1$: Acción más volátil que el mercado (mayor riesgo).  
+   - $\beta < 1$: Acción menos volátil que el mercado (menor riesgo).
+
+2. **Impacto en el precio:**  
+
+   - A mayor $\beta$, mayor será la tasa de retorno exigido ($r$), lo que reduce el precio de la acción.  
+   - A menor $\beta$, menor será el retorno exigido, lo que aumenta el precio.
+
+---
+
+### Otros Factores de la Tasa de Retorno
+
+- **Factores adicionales:**  
+
+  - Modelo de 3, 4 o 5 factores: Incorporan variables como tamaño de la empresa, valor, momentum, entre otros.
+
+  - **Liquidez:** Acciones con menor liquidez suelen requerir mayor retorno exigido.
+
+### Conclusión
+
+El precio de una acción es una combinación del retorno esperado, el riesgo sistemático ($\beta$), y los dividendos futuros.
+
+---
+
+# Relación entre Múltiplos Financieros y el Precio de las Acciones
+
+---
+
+## Introducción
+
+- Los **múltiplos financieros** son herramientas clave para valorar empresas y estimar el precio de sus acciones.
+
+- Se basan en comparaciones relativas con métricas como:
+
+  - **Precio/Utilidad (P/E):** Evalúa el precio de la acción respecto a las utilidades por acción.
+  - **Precio/Valor Libro (P/B):** Relaciona el precio de mercado con el valor contable.
+  - **EV/EBITDA:** Considera el valor de la empresa ajustado por ganancias antes de intereses, impuestos, depreciación y amortización.
+
+---
+
+## Relación entre Múltiplos Financieros y el Precio de las Acciones
+
+- Estos múltiplos permiten identificar si una acción está:
+  - **Subvalorada:** Precio de mercado menor al promedio del sector.
+  - **Sobrevalorada:** Precio de mercado mayor al promedio del sector.
+
+---
+
+## Rentabilidad por Dividendos (Dividend Yield)
+
+### Fórmula
+
+La rentabilidad por dividendos se calcula como:
+
+$$
+\text{Dividend Yield} = \left( \frac{\text{Dividendo Anual por Acción}}{\text{Precio Actual de la Acción}} \right) \times 100
+$$
+
+---
+
+### Características
+
+- **Relación con el crecimiento**:
+  - Empresas con **altos beneficios** y **bajo crecimiento** suelen tener un **dividend yield** más alto.
+  - Empresas con **alto crecimiento** tienden a retener utilidades, resultando en un menor dividend yield.
+
+- **Relación con las ganancias de capital**:
+  - Un **alto dividend yield** puede estar asociado a **menores ganancias de capital**.
+  - Un **bajo dividend yield** puede indicar potencial para **mayores ganancias de capital**.
+
+---
+
+### Ejemplo: Banco de Chile
+
+- **Dividendo Anual por Acción**: $4,00 CLP
+- **Precio Actual de la Acción**: $100,00 CLP
+
+**Cálculo del Dividend Yield**:
+
+$$
+\text{Dividend Yield} = \left( \frac{4,00}{100,00} \right) \times 100 = 4\%
+$$
+
+Esto indica que, sin considerar las posibles ganancias o pérdidas de capital, el retorno anual para un inversionista sería del **4%**.
+
+---
+
+### Consideraciones
+
+- Un **dividend yield** del 4% sugiere que Banco de Chile ofrece un retorno atractivo en forma de dividendos.
+
+- Es importante analizar otros factores, como el potencial de apreciación del precio de la acción y la estabilidad financiera de la empresa, antes de tomar decisiones de inversión.
+
+---
+
+## Relación entre Precio, Dividendos y Rentabilidad
+
+### Fórmulas Clave
+
+1. **Cálculo del precio de la acción**:
+
+$$
+\text{Precio} = \frac{\text{DIV}}{r - g}
+$$
+
+2. **Cálculo de la tasa de retorno requerida ($r$)**:
+
+$$
+r = \frac{\text{DIV}}{\text{Precio}} + g
+$$
+
+3. **Relación porcentual (\(r\%\))**:
+
+$$
+r\% = \text{Dividend Yield}\% + g\%
+$$
+
+---
+
+### Interpretación de las Fórmulas de Gordon y Shapiro
+
+- **Precio y dividendos**:  
+  - A mayor dividendo ($DIV$), mayor será el precio de la acción.
+  - A mayor tasa de retorno requerida ($r$), menor será el precio.
+
+- **Retorno requerido ($r$)**:  
+  - Incluye dos componentes:
+    - Rentabilidad por dividendos (**Dividend Yield**).
+    - Crecimiento esperado de los dividendos ($g$).
+
+---
+
+### Ejemplo: Banco de Chile
+
+- **Dividendo Anual por Acción ($DIV$)**: $4,00 CLP.  
+- **Crecimiento esperado de dividendos ($g$)**: 2% anual.  
+- **Precio Actual ($P_0$)**: $100,00 CLP.
+
+#### Cálculo de la Tasa de Retorno ($r$):
+$$
+r = \frac{4,00}{100,00} + 0,02 = 0,04 + 0,02 = 0,06 \, (6\%)
+$$
+
+#### Rentabilidad porcentual:
+$$
+r\% = \text{Dividend Yield}\% + g\% = 4\% + 2\% = 6\%
+$$
+
+---
+
+### Conclusión
+
+Estas fórmulas muestran cómo los dividendos, el precio de la acción y la tasa de crecimiento interactúan para determinar la rentabilidad esperada por los inversionistas.
+
+---
+
+## Dividend Yield
+
+![Dividend Yield](Dividend_Yield_BCH.png)
+
+---
+
+## Indicador Precio / Utilidad (RPU)
+
+### Fórmula
+
+El indicador Precio / Utilidad se calcula como:
+
+$$
+RPU = \frac{\text{Precio}}{\text{UPA}}
+$$
+
+Donde:
+
+- **Precio**: Precio actual de la acción.
+
+- **UPA**: Utilidad por acción (utilidad neta dividida por el número de acciones en circulación).
+
+---
+
+### Interpretación del RPU
+
+1. **Propósito**:
+   - Mide si una acción está cara o barata en comparación con:
+     - Otras acciones.
+     - Otros mercados.
+     - Otros períodos de tiempo.
+
+2. **Significado**:
+   - Representa cuántas veces estamos pagando, a través del precio de la acción, la utilidad esperada de ésta.
+
+---
+
+### Interpretación del RPU
+
+3. **Valores típicos**:
+   - Un **RPU alto** puede indicar:
+     - Expectativas de crecimiento elevado.
+     - Una acción sobrevalorada.
+   - Un **RPU bajo** puede indicar:
+     - Menor crecimiento esperado.
+     - Una acción infravalorada.
+
+---
+
+### Ejemplo: Banco de Chile
+
+- **Precio de la acción**: $100,00 CLP.
+
+- **Utilidad por acción (UPA)**: $8,00 CLP.
+
+#### Cálculo:
+$$
+RPU = \frac{100,00}{8,00} = 12.5
+$$
+
+#### Interpretación:
+
+- El RPU de **12.5** indica que los inversionistas están dispuestos a pagar 12.5 veces la utilidad esperada por acción.
+
+---
+
+### Conclusión
+
+El indicador **Precio / Utilidad (RPU)** es una herramienta clave para comparar valoraciones entre empresas y mercados, y para identificar posibles oportunidades de inversión.
+
+---
+
+## Ratio Precio / Utilidad
+
+![Ratio Precio / Utilidad Banco de Chile](Ratio_RPU.png)
+
+---
+
+## Indicador Precio / Valor Libro (RBL)
+
+### Fórmula
+
+El indicador Precio / Valor Libro se calcula como:
+
+$$
+RBL = \frac{\text{Precio}}{\text{Valor Libro}}
+$$
+
+Donde:
+
+- **Precio**: Precio actual de la acción.
+
+- **Valor Libro**: Patrimonio neto por acción, obtenido dividiendo el patrimonio contable de la empresa entre el número de acciones en circulación.
+
+---
+
+### Interpretación del RBL
+
+1. **Propósito**:
+
+   - Similar al RPU, mide si una acción está **cara o barata** en comparación con:
+
+     - Otras acciones.
+     - Otros mercados.
+     - Otros períodos de tiempo.
+
+---
+
+2. **Valores típicos**:
+
+   - **RBL < 1** o muy bajo:
+
+     - Indica que el mercado no valora las oportunidades de crecimiento de la empresa.
+     - Suele asociarse a empresas subvaloradas o con baja rentabilidad.
+
+   - **RBL > 1**:
+
+     - Indica que el mercado valora la empresa por encima de su patrimonio contable, usualmente por su potencial de crecimiento.
+
+---
+
+### Ejemplo
+
+Supongamos una empresa chilena, **CMPC**, con los siguientes datos:
+
+- **Precio de la acción**: $50 CLP.
+
+- **Valor Libro por Acción**: $40 CLP.
+
+#### Cálculo:
+$$
+RBL = \frac{50}{40} = 1.25
+$$
+
+#### Interpretación:
+
+- Un RBL de **1.25** indica que el mercado está dispuesto a pagar 1.25 veces el valor contable de la empresa, reflejando su potencial de crecimiento.
+
+---
+
+### Consideraciones
+
+- **Comparación relativa**:
+  - Es importante comparar el RBL con otras empresas del mismo sector.
+- **Limitaciones**:
+  - El valor libro no siempre refleja el valor real de los activos de la empresa.
+  - Empresas intensivas en capital (industria, minería) suelen tener valores libro altos, afectando la interpretación.
+
+---
+
+### Conclusión
+
+El **RBL (Precio / Valor Libro)** es un indicador útil para identificar oportunidades de inversión y valorar si una acción está subvalorada o sobrevalorada en función de su patrimonio contable.
+
+---
+
+## ¿Qué es EV/EBITDA?
+
+- El **EV/EBITDA** es un múltiplo financiero utilizado para valorar empresas y compararlas dentro de un sector.
+- Mide la relación entre:
+  - **Enterprise Value (EV):** Valor total de la empresa.
+  - **EBITDA:** Ganancias antes de intereses, impuestos, depreciación y amortización.
+
+---
+
+## Fórmula
+
+La fórmula general del EV/EBITDA es:
+
+$$
+\text{EV/EBITDA} = \frac{\text{Enterprise Value (EV)}}{\text{EBITDA}}
+$$
+
+Donde:
+- **Enterprise Value (EV):**
+  $$
+  EV = \text{Capitalización de mercado} + \text{Deuda total} - \text{Efectivo y equivalentes}
+  $$
+
+- **EBITDA:** Mide la rentabilidad operativa de la empresa.
+
+---
+
+## ¿Qué es el Enterprise Value (EV)?
+
+### Fórmula:
+
+$$
+EV = \text{Capitalización de Mercado} + \text{Deuda Total} - \text{Efectivo y Equivalentes}
+$$
+
+### Componentes:
+
+1. **Capitalización de Mercado**:
+   - Precio de la acción multiplicado por el número de acciones en circulación.
+
+2. **Deuda Total**:
+   - Suma de deuda a corto y largo plazo, incluyendo obligaciones de arrendamiento financiero.
+
+3. **Efectivo y Equivalentes**:
+   - Dinero disponible en caja, depósitos bancarios y activos líquidos equivalentes.
+
+---
+
+## Ejemplo: Cálculo del EV
+
+### Datos de una empresa chilena:
+- **Precio de la acción**: $50 CLP.
+- **Número de acciones en circulación**: 100 millones.
+- **Deuda total**: $1,500 millones CLP.
+- **Efectivo y equivalentes**: $300 millones CLP.
+
+### Cálculo del EV:
+
+1. **Capitalización de Mercado**:
+   $$
+   \text{Capitalización de Mercado} = 50 \times 100 = 5,000 \, \text{millones CLP}
+   $$
+
+2. **Enterprise Value**:
+   $$
+   EV = 5,000 + 1,500 - 300 = 6,200 \, \text{millones CLP}
+   $$
+
+El **Enterprise Value** es de **6,200 millones CLP**.
+
+---
+
+## Ejemplo: EV/EBITDA
+
+### Datos adicionales:
+- **EBITDA reportado**: 620 millones CLP.
+
+### Cálculo del EV/EBITDA:
+$$
+\text{EV/EBITDA} = \frac{EV}{EBITDA}
+$$
+$$
+\text{EV/EBITDA} = \frac{6,200}{620} = 10
+$$
+
+---
+
+## Interpretación
+
+- **EV/EBITDA de 10**:
+  - Indica que el valor de la empresa es **10 veces su EBITDA anual**.
+  - Puede compararse con otras empresas del sector para identificar si está subvalorada o sobrevalorada.
+
+---
+
+## Conclusión
+
+- El **EV/EBITDA** combina el valor total de la empresa y su rentabilidad operativa para ofrecer una métrica clave en la valoración financiera.
+- La correcta interpretación del múltiplo requiere comparar con otras empresas del mismo sector y analizar su contexto financiero.
+
+---
+
+## Sitios de Interés
+
+### Información Financiera y Mercados
+1. **Bolsa de Santiago**  
+   - Página oficial de la bolsa chilena con información sobre precios de acciones, índices y noticias.  
+   - [www.bolsadesantiago.com](https://www.bolsadesantiago.com)
+
+2. **TradingView**  
+   - Plataforma para análisis de gráficos y datos financieros, incluyendo empresas chilenas.  
+   - [www.tradingview.com](https://www.tradingview.com)
+
+3. **Simply Wall St**  
+   - Análisis visual de datos financieros, dividendos y valoración de empresas.  
+   - [www.simplywall.st](https://www.simplywall.st)
+
+---
+
+### Recursos Académicos
+1. **Investopedia**  
+   - Recursos educativos sobre finanzas, inversión y mercados globales.  
+   - [www.investopedia.com](https://www.investopedia.com)
+
+2. **Morningstar**  
+   - Análisis detallado de acciones, fondos mutuos y ETFs.  
+   - [www.morningstar.cl](https://www.morningstar.cl)
+
+---
+
+### Análisis y Comparaciones
+1. **Yahoo Finance**  
+   - Noticias financieras, análisis y datos históricos de acciones.  
+   - [www.finance.yahoo.com](https://finance.yahoo.com)
+
+2. **Bloomberg Markets**  
+   - Información actualizada de mercados globales y análisis financiero.  
+   - [www.bloomberg.com](https://www.bloomberg.com/markets)
+
+---
+
+# Conclusiones de la Clase
+
+## Resumen
+
+1. El análisis fundamental permite evaluar el **valor intrínseco** de una acción considerando factores económicos, financieros y cualitativos.
+
+2. Herramientas como el **Dividend Yield**, **P/U**, y **P/B** son esenciales para identificar si una acción está subvalorada o sobrevalorada.
+
+3. El modelo de **Gordon y Shapiro** ayuda a valorar empresas considerando crecimiento y retorno esperado.
+
+4. Factores emocionales y psicológicos pueden generar mercados irracionales, como lo evidencian casos como la burbuja puntocom y GameStop.
+
+## Reflexión Final
+
+- Aplicar estas herramientas no solo nos ayuda a tomar decisiones de inversión más informadas, sino también a entender el comportamiento de los mercados en distintos contextos.
+
+---
