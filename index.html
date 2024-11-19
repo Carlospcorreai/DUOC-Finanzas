@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="Analisis_Fundamental_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Analisis_Fundamental_files/libs/quarto-html/tabby.min.js"></script>
-<script src="Analisis_Fundamental_files/libs/quarto-html/popper.min.js"></script>
-<script src="Analisis_Fundamental_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="Analisis_Fundamental_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Analisis_Fundamental_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="Analisis_Fundamental_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="Analisis_Fundamental_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="Analisis_Fundamental_simple_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Analisis_Fundamental_simple_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Analisis_Fundamental_simple_files/libs/quarto-html/popper.min.js"></script>
+<script src="Analisis_Fundamental_simple_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Analisis_Fundamental_simple_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Analisis_Fundamental_simple_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="Analisis_Fundamental_simple_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="Analisis_Fundamental_simple_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Docente: Carlos Correa Iñiguez ca.correai@profesor.duoc.cl">
-  <title>Introduccion al Análisis Fundamental</title>
+  <title>Introducción al Análisis Fundamental</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="Analisis_Fundamental_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="Analisis_Fundamental_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="Analisis_Fundamental_simple_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Analisis_Fundamental_simple_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,12 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="Analisis_Fundamental_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="Analisis_Fundamental_simple_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="./duoc_uc.css">
-  <link href="Analisis_Fundamental_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="Analisis_Fundamental_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="Analisis_Fundamental_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="Analisis_Fundamental_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="Analisis_Fundamental_simple_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Analisis_Fundamental_simple_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Analisis_Fundamental_simple_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Analisis_Fundamental_simple_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -327,7 +327,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduccion al Análisis Fundamental</h1>
+  <h1 class="title">Introducción al Análisis Fundamental</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -339,921 +339,192 @@ Docente: Carlos Correa Iñiguez <a href="mailto:ca.correai@profesor.duoc.cl" cla
 
 </section>
 <section>
-<section id="objetivos-de-la-clase" class="title-slide slide level1 center">
-<h1>Objetivos de la Clase</h1>
+<section id="introducción-al-análisis-fundamental" class="title-slide slide level1 center">
+<h1>Introducción al Análisis Fundamental</h1>
 
 </section>
-<section id="qué-aprenderemos-hoy" class="slide level2">
-<h2>¿Qué aprenderemos hoy?</h2>
-<ol type="1">
-<li>Comprender los conceptos básicos del análisis fundamental.</li>
-<li>Diferenciar entre el <strong>valor de mercado</strong> y el <strong>valor intrínseco</strong> de una acción.</li>
-<li>Analizar los principales indicadores financieros:
+<section id="objetivos-de-la-clase" class="slide level2">
+<h2>Objetivos de la Clase</h2>
 <ul>
-<li>Dividend Yield</li>
+<li>Entender los conceptos básicos del análisis fundamental.</li>
+<li>Diferenciar entre <strong>valor de mercado</strong> y <strong>valor intrínseco</strong> de una acción.</li>
+<li>Conocer los principales indicadores financieros:
+<ul>
+<li>Rentabilidad por Dividendos (Dividend Yield)</li>
 <li>Precio / Utilidad (P/U)</li>
 <li>Precio / Valor Libro (P/B)</li>
 </ul></li>
-<li>Aplicar el modelo de Gordon y Shapiro en valuaciones.</li>
-<li>Explorar casos reales para entender cómo los mercados reaccionan de manera irracional.</li>
-</ol>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="introduccion-al-analisis-fundamental" class="title-slide slide level1 center">
-<h1>Introduccion al Analisis Fundamental</h1>
-
-</section>
-<section id="introducción-al-análisis-fundamental" class="slide level2">
-<h2>Introducción al Análisis Fundamental</h2>
-<ul>
-<li><strong>Herramienta principal</strong> para valorar acciones bajo condiciones ideales</li>
-<li>Basado en el conocimiento de los <strong>FCF (Flujos de Caja Libre)</strong></li>
-<li>Asociación de FCF con el nivel de riesgo correspondiente</li>
-<li>Cálculo matemático del precio justo: <strong>VPFCF (Valor Presente de los Flujos de Caja Libre)</strong></li>
+<li>Aprender el modelo de valuación de Gordon y Shapiro.</li>
+<li>Reconocer cómo los mercados pueden comportarse de manera irracional.</li>
 </ul>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="diferencia-entre-valor-de-mercado-y-valor-intrínseco" class="title-slide slide level1 center">
-<h1>Diferencia entre Valor de Mercado y Valor Intrínseco</h1>
-
-<img data-src="economist.png" class="r-stretch quarto-figure-center"><p class="caption">Market Value</p></section>
-<section id="diferencia-entre-valor-de-mercado-y-valor-intrínseco-1" class="slide level2">
-<h2>Diferencia entre Valor de Mercado y Valor Intrínseco</h2>
+<section id="qué-es-el-análisis-fundamental" class="slide level2">
+<h2>¿Qué es el Análisis Fundamental?</h2>
+<p>El <strong>análisis fundamental</strong> es una herramienta que nos ayuda a determinar el valor real (intrínseco) de una acción o empresa, basándonos en datos económicos y financieros.</p>
+<p><strong>Objetivo</strong>:</p>
 <ul>
-<li><strong>Vínculo entre comportamiento humano y ambiente</strong>
+<li>Identificar si una acción está:
 <ul>
-<li>Las interacciones humanas están influenciadas por el contexto social y económico.</li>
-</ul></li>
-<li><strong>Comportamiento humano no se ajusta a modelos matemáticos</strong>
-<ul>
-<li>La complejidad y variabilidad del comportamiento humano dificultan su modelación precisa.</li>
-</ul></li>
-<li><strong>Crisis son recurrentes a través del tiempo</strong>
-<ul>
-<li>Eventos económicos adversos tienden a repetirse debido a patrones de comportamiento similares.</li>
+<li><strong>Subvalorada</strong>: precio de mercado menor que su valor intrínseco.</li>
+<li><strong>Sobrevalorada</strong>: precio de mercado mayor que su valor intrínseco.</li>
 </ul></li>
 </ul>
-</section>
-<section id="diferencia-entre-valor-de-mercado-y-valor-intrínseco-2" class="slide level2">
-<h2>Diferencia entre Valor de Mercado y Valor Intrínseco</h2>
+<p><strong>Factores Analizados</strong>:</p>
 <ul>
-<li><strong>No siempre los mercados financieros siguen leyes económicas</strong>
-<ul>
-<li>Factores emocionales y psicológicos pueden desviar a los mercados de las teorías económicas tradicionales.</li>
-</ul></li>
-<li><strong>Precios ≠ valor económico</strong>
-<ul>
-<li>El precio de mercado puede estar influenciado por factores especulativos, mientras que el valor intrínseco se basa en fundamentos sólidos.</li>
-</ul></li>
+<li><strong>Situación económica</strong>: tasas de interés, inflación, crecimiento económico.</li>
+<li><strong>Industria o sector</strong>: tendencias y competencia.</li>
+<li><strong>Empresa</strong>: estados financieros, ganancias, perspectivas de crecimiento.</li>
 </ul>
 </section>
-<section id="diferencia-entre-valor-de-mercado-y-valor-intrínseco-3" class="slide level2">
-<h2>Diferencia entre Valor de Mercado y Valor Intrínseco</h2>
+<section id="valor-de-mercado-vs.-valor-intrínseco" class="slide level2">
+<h2>Valor de Mercado vs.&nbsp;Valor Intrínseco</h2>
 <ul>
-<li><strong>Mercados financieros son el producto de la evolución humana y siguen las leyes de la biología</strong>
+<li><strong>Valor de Mercado</strong>: Precio al que se negocia una acción en el mercado; influenciado por emociones y especulación.</li>
+<li><strong>Valor Intrínseco</strong>: Valor “real” calculado mediante análisis financiero y económico.</li>
+</ul>
+<p><strong>Importante</strong>:</p>
 <ul>
-<li><strong>Competencia</strong>: Empresas compiten por recursos y participación de mercado.</li>
-<li><strong>Mutación</strong>: Innovación y adaptación constante en estrategias y productos.</li>
-<li><strong>Selección natural</strong>: Solo las empresas más eficientes y adaptativas sobreviven a largo plazo.</li>
-<li><strong>Innovación</strong>: Desarrollo continuo de nuevas tecnologías y métodos para mantenerse relevante.</li>
+<li>El precio de mercado no siempre refleja el valor intrínseco.</li>
+<li>Los mercados pueden ser influenciados por emociones y comportamientos irracionales.</li>
+</ul>
+</section>
+<section id="comportamiento-del-mercado" class="slide level2">
+<h2>Comportamiento del Mercado</h2>
+<ul>
+<li><p>Los mercados pueden ser irracionales debido a:</p>
+<ul>
+<li><strong>Exceso de confianza</strong>: inversores sobreestiman sus conocimientos.</li>
+<li><strong>Efecto manada</strong>: seguir a la mayoría sin análisis propio.</li>
+<li><strong>Sesgos emocionales</strong>: decisiones basadas en emociones.</li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 
-</section></section>
-<section>
-<section id="irracionalidad-del-mercado" class="title-slide slide level1 center">
-<h1>Irracionalidad del Mercado</h1>
-
-</section>
-<section id="factores-que-crean-mercados-irracionales" class="slide level2">
-<h2>Factores que Crean Mercados Irracionales</h2>
+<p><strong>Ejemplos</strong>:</p>
 <ul>
-<li><strong>Exceso de confianza</strong>
+<li><p><strong>Burbuja Puntocom (años 90)</strong>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="bubble_com.jpg"></p>
+<figcaption>Burbuja Puntocom</figcaption>
+</figure>
+</div>
 <ul>
-<li>Los inversores sobreestiman sus habilidades y conocimientos, tomando decisiones arriesgadas sin suficiente análisis.</li>
-</ul></li>
-<li><strong>Juicios sesgados</strong>
-<ul>
-<li>Interpretación de información de manera que confirma creencias preexistentes, ignorando datos contradictorios.</li>
-</ul></li>
-<li><strong>Mentalidad de manada</strong>
-<ul>
-<li>Tendencia a seguir las acciones de la mayoría, sin realizar un análisis independiente.</li>
-</ul></li>
-</ul>
-</section>
-<section id="factores-que-crean-mercados-irracionales-1" class="slide level2">
-<h2>Factores que Crean Mercados Irracionales</h2>
-<ul>
-<li><strong>Aversión a las pérdidas</strong>
-<ul>
-<li>Preferencia por evitar pérdidas antes que obtener ganancias equivalentes, afectando la toma de decisiones.</li>
-</ul></li>
-<li><strong>Ambientes cambiantes</strong>
-<ul>
-<li>Reacciones impredecibles del mercado ante cambios económicos, políticos o sociales.</li>
+<li>Empresas de internet con valores inflados sin fundamentos sólidos.</li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 
-</section></section>
-<section>
-<section id="ejemplos" class="title-slide slide level1 center">
-<h1>Ejemplos</h1>
-
-</section>
-<section id="ejemplo-la-burbuja-puntocom-de-finales-de-los-90" class="slide level2">
-<h2>Ejemplo: La Burbuja Puntocom de finales de los 90</h2>
-<h3 id="advertencia-inicial">Advertencia inicial</h3>
 <ul>
-<li><strong>Alan Greenspan</strong>, presidente de la Reserva Federal, advirtió sobre la <strong>“exuberancia irracional”</strong> el 5 de diciembre de 1996.</li>
-<li>Fuente: <em>Sistema de la Reserva Federal. “El desafío de la banca central en una sociedad democrática”.</em></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="contexto">Contexto</h3>
-<ul>
-<li>La Reserva Federal creó <strong>liquidez excesiva</strong> en preparación para el problema del <strong>Y2K</strong>.</li>
-<li>Bancos y corredoras la usaron para <strong>financiar acciones de internet</strong>.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="consecuencias">Consecuencias</h3>
-<ul>
-<li>Greenspan endureció la política monetaria en la primavera de 2000.</li>
-<li>Esto llevó al estallido de la burbuja.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="impacto">Impacto</h3>
-<ul>
-<li><strong>Caída del mercado bursátil</strong>:
-<ul>
-<li>Nasdaq perdió más de <strong>cuatro años de ganancias</strong>.</li>
-<li>Se borraron miles de millones de dólares en <strong>capitalización de mercado</strong>.</li>
-</ul></li>
-</ul>
-</section>
-<section id="ejemplo-la-burbuja-puntocom-de-finales-de-los-90-1" class="slide level2">
-<h2>Ejemplo: La Burbuja Puntocom de finales de los 90</h2>
-
-<img data-src="bubble_com.jpg" class="r-stretch quarto-figure-center"><p class="caption">Burbuja Puntocom</p></section>
-<section id="crisis-financiera-del-2008" class="slide level2">
-<h2>Crisis Financiera del 2008</h2>
+<li><p><strong>Crisis financiera de 2008</strong>:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GPOv72Awo68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
-</section>
-<section id="caso-gamestop-del-2021" class="slide level2">
-<h2>Caso GameStop del 2021</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zeiv64HpCJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="qué-es-el-análisis-fundamental" class="title-slide slide level1 center">
-<h1>¿Qué es el Análisis Fundamental?</h1>
-
-</section>
-<section id="qué-es-el-análisis-fundamental-1" class="slide level2">
-<h2>¿Qué es el Análisis Fundamental?</h2>
-<h3 id="definición">Definición</h3>
-<p>El <strong>análisis fundamental</strong> es un enfoque utilizado para evaluar el valor intrínseco de un activo, empresa o mercado, basado en factores económicos, financieros y cualitativos.</p>
-<h3 id="objetivo">Objetivo</h3>
-<p>Determinar si un activo está:</p>
 <ul>
-<li><strong>Subvalorado</strong>: Precio de mercado menor a su valor intrínseco.</li>
-<li><strong>Sobrevalorado</strong>: Precio de mercado mayor a su valor intrínseco.</li>
+<li>Exceso de confianza en el mercado inmobiliario y productos financieros complejos.</li>
+</ul></li>
+</ul>
+</section>
+<section id="indicadores-financieros-clave" class="slide level2">
+<h2>Indicadores Financieros Clave</h2>
+<h3 id="rentabilidad-por-dividendos-dividend-yield">1. Rentabilidad por Dividendos (Dividend Yield)</h3>
+<p><strong>Fórmula</strong>:</p>
+<p><span class="math display">\[
+\text{Dividend Yield} = \left( \frac{\text{Dividendo Anual por Acción}}{\text{Precio de la Acción}} \right) \times 100
+\]</span></p>
+<p><strong>Interpretación</strong>:</p>
+<ul>
+<li>Indica el retorno anual en dividendos por cada peso invertido.</li>
 </ul>
 </section>
 <section class="slide level2">
 
-<h3 id="componentes-clave">Componentes clave</h3>
-<ol type="1">
-<li><strong>Análisis económico</strong>:
+<h3 id="precio-utilidad-pu">2. Precio / Utilidad (P/U)</h3>
+<p><strong>Fórmula</strong>:</p>
+<p><span class="math display">\[
+P/U = \frac{\text{Precio de la Acción}}{\text{Utilidad por Acción}}
+\]</span></p>
+<p><strong>Interpretación</strong>:</p>
 <ul>
-<li>Evaluación de las condiciones macroeconómicas como tasas de interés, inflación y PIB.</li>
-</ul></li>
-<li><strong>Análisis de la industria</strong>:
-<ul>
-<li>Identificación de tendencias y oportunidades en sectores específicos.</li>
-</ul></li>
-<li><strong>Análisis de la empresa</strong>:
-<ul>
-<li>Estudio de los estados financieros, modelos de negocio y gestión empresarial.</li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="herramientas-comunes">Herramientas comunes</h3>
-<ul>
-<li>Ratios financieros como <strong>PER</strong>, <strong>ROE</strong>, <strong>ROA</strong>.</li>
-<li>Estudio de indicadores económicos.</li>
-<li>Proyecciones de crecimiento y flujo de caja.</li>
+<li>Mide cuántas veces el precio de la acción contiene las ganancias anuales por acción.</li>
+<li>Un P/U alto puede indicar expectativas de alto crecimiento.</li>
 </ul>
 </section>
-<section id="qué-es-el-análisis-fundamental-2" class="slide level2">
-<h2>¿Qué es el Análisis Fundamental?</h2>
-<h3 id="por-qué-es-importante">¿Por qué es importante?</h3>
-<p>Permite tomar decisiones de inversión fundamentadas en datos y no en especulación, maximizando la probabilidad de obtener rendimientos sostenibles.</p>
-</section>
 <section class="slide level2">
 
-</section></section>
-<section>
-<section id="valuación-de-acciones-flujos-futuros" class="title-slide slide level1 center">
-<h1>Valuación de Acciones: Flujos Futuros</h1>
-
-</section>
-<section class="slide level2">
-
-<h3 id="flujos-futuros">Flujos Futuros</h3>
-<p>Los flujos futuros de una acción serán:</p>
-<ul>
-<li><p>Sus dividendos (<span class="math inline">\(Div\)</span>).</p></li>
-<li><p>El precio de la acción (<span class="math inline">\(P\)</span>) en el momento de su venta.</p></li>
-</ul>
-<p>Si se planea vender la acción dentro de un período, el precio actual (<span class="math inline">\(P_0\)</span>) será:</p>
+<h3 id="precio-valor-libro-pb">3. Precio / Valor Libro (P/B)</h3>
+<p><strong>Fórmula</strong>:</p>
 <p><span class="math display">\[
-P_0 = \frac{Div_1 + P_1}{1 + r}
+P/B = \frac{\text{Precio de la Acción}}{\text{Valor en Libros por Acción}}
 \]</span></p>
-<h3 id="valuación-a-dos-períodos">Valuación a dos períodos</h3>
-<p>Si se piensa vender la acción dentro de dos períodos, el precio actual será:</p>
-<p><span class="math display">\[
-P_0 = \frac{Div_1}{1 + r} + \frac{Div_2 + P_2}{(1 + r)^2}
-\]</span></p>
-</section>
-<section class="slide level2">
-
-<h3 id="fórmula-general">Fórmula General</h3>
-<p>Si se planea vender la acción dentro de <span class="math inline">\(N\)</span> períodos, el precio actual (<span class="math inline">\(P_0\)</span>) será:</p>
-<p><span class="math display">\[
-P_0 = \frac{Div_1}{1 + r} + \frac{Div_2}{(1 + r)^2} + \cdots + \frac{Div_N + P_N}{(1 + r)^N}
-\]</span></p>
-<h3 id="reflexión">Reflexión</h3>
+<p><strong>Interpretación</strong>:</p>
 <ul>
-<li><p><strong>Principio clave</strong>:<br>
-Sin importar en cuántos períodos (<span class="math inline">\(N\)</span>) se planee vender la acción, el precio actual (<span class="math inline">\(P_0\)</span>) será el mismo para todos los inversionistas.</p></li>
-<li><p>Esto implica que:</p>
-<ul>
-<li>El precio hoy (<span class="math inline">\(P_0\)</span>) refleja el valor presente de todos los flujos de caja futuros.</li>
-<li>Incluye los dividendos (<span class="math inline">\(Div_i\)</span>) y el precio final (<span class="math inline">\(P_N\)</span>).</li>
-</ul></li>
+<li>Compara el precio de mercado con el valor contable.</li>
+<li>Un P/B menor a 1 puede indicar que la acción está subvalorada.</li>
 </ul>
 </section>
-<section id="valuación-a-largo-plazo" class="slide level2">
-<h2>Valuación a Largo Plazo</h2>
-<h3 id="precio-actual-de-una-acción">Precio Actual de una Acción</h3>
-<p>Pensando en el largo plazo, el precio actual de una acción (<span class="math inline">\(P_0\)</span>) es igual a:</p>
-<p><span class="math display">\[
-P_0 = \frac{Div_1}{1 + r} + \frac{Div_2}{(1 + r)^2} + \frac{Div_3}{(1 + r)^3} + \cdots
-\]</span></p>
-<p>En términos generales, esto se puede expresar como:</p>
-<p><span class="math display">\[
-P_0 = \sum_{t=1}^{\infty} \frac{Div_t}{(1 + r)^t}
-\]</span></p>
-</section>
-<section class="slide level2">
-
-<h3 id="modelo-de-gordon-y-shapiro-1956">Modelo de Gordon y Shapiro (1956)</h3>
-<p>Gordon y Shapiro desarrollaron una fórmula simplificada para representar el precio actual de una acción como:</p>
+<section id="modelo-de-gordon-y-shapiro" class="slide level2">
+<h2>Modelo de Gordon y Shapiro</h2>
+<p>Ayuda a valorar una acción basándose en sus dividendos futuros.</p>
+<p><strong>Fórmula</strong>:</p>
 <p><span class="math display">\[
 P_0 = \frac{Div_1}{r - g}
 \]</span></p>
 <p>Donde:</p>
 <ul>
-<li><p><span class="math inline">\(Div_1\)</span>: Dividendo esperado para el próximo período o año.</p></li>
-<li><p><span class="math inline">\(r\)</span>: Tasa de retorno requerida según el riesgo de la empresa.</p></li>
-<li><p><span class="math inline">\(g\)</span>: Tasa esperada de crecimiento de los dividendos.</p></li>
+<li>( P_0 ): Precio actual de la acción.</li>
+<li>( Div_1 ): Dividendo esperado el próximo año.</li>
+<li>( r ): Tasa de retorno requerida.</li>
+<li>( g ): Tasa de crecimiento esperada de los dividendos.</li>
+</ul>
+<p><strong>Interpretación</strong>:</p>
+<ul>
+<li>El precio es el valor presente de todos los dividendos futuros, creciendo a una tasa constante ( g ).</li>
 </ul>
 </section>
 <section class="slide level2">
 
-<h3 id="factores-que-influyen-en-el-valor-de-una-acción">Factores que Influyen en el Valor de una Acción</h3>
-<ol type="1">
-<li><p><strong>Dividendos (<span class="math inline">\(Div_1\)</span>):</strong></p>
-<p>A mayor dividendo esperado, mayor será el precio de la acción. <strong>(+)</strong></p></li>
-<li><p><strong>Crecimiento de los dividendos (<span class="math inline">\(g\)</span>):</strong></p>
-<p>Un mayor crecimiento esperado aumenta el precio de la acción. <strong>(+)</strong></p></li>
-<li><p><strong>Tasa de retorno requerida (<span class="math inline">\(r\)</span>):</strong></p>
-<p>A mayor retorno exigido, menor será el precio de la acción. <strong>(-)</strong></p></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="fórmula-extendida">Fórmula Extendida</h3>
-<p>Si consideramos que los dividendos crecen a una tasa constante (<span class="math inline">\(g\)</span>):</p>
-<p><span class="math display">\[
-P_0 = \frac{Div_1 (1 + g)}{r - g}
-\]</span></p>
-<p>Este modelo simplifica la relación entre los dividendos, su crecimiento, y el retorno esperado.</p>
-</section>
-<section id="ejemplo-banco-de-chile" class="slide level2">
-<h2>Ejemplo: Banco de Chile</h2>
-<h3 id="contexto-1">Contexto</h3>
+<h3 id="ejemplo-simplificado">Ejemplo Simplificado</h3>
 <ul>
-<li>Se espera que Banco de Chile pague un dividendo de <span class="math inline">\(5,2\)</span> por acción el próximo año (<span class="math inline">\(Div_1\)</span>).</li>
-<li>La tasa de crecimiento promedio estimada de los dividendos es de <strong>2% anual</strong> (<span class="math inline">\(g = 0.02\)</span>).</li>
-<li>La tasa de retorno requerida por los inversionistas para Banco de Chile es de <strong>12% anual</strong> (<span class="math inline">\(r = 0.12\)</span>).</li>
+<li><strong>Dividendo anual</strong>: $5 por acción.</li>
+<li><strong>Crecimiento esperado</strong>: 2% anual.</li>
+<li><strong>Retorno requerido</strong>: 10%.</li>
 </ul>
-</section>
-<section id="ejemplo-banco-de-chile-1" class="slide level2">
-<h2>Ejemplo: Banco de Chile</h2>
-<h3 id="precio-de-la-acción">Precio de la acción</h3>
-<p>Utilizando el modelo de Gordon &amp; Shapiro:</p>
+<p><strong>Cálculo</strong>:</p>
 <p><span class="math display">\[
-P_0 = \frac{Div_1}{r - g}
-\]</span></p>
-<p>Sustituyendo los valores:</p>
-<p><span class="math display">\[
-P_0 = \frac{5.2}{0.12 - 0.02} = \frac{5.2}{0.10} = 52
-\]</span></p>
-<p>El precio actual de la acción debería ser de <strong>$52,00</strong>.</p>
-</section>
-<section id="ejemplo-banco-de-chile-2" class="slide level2">
-<h2>Ejemplo: Banco de Chile</h2>
-<h3 id="qué-sucede-si-la-tasa-de-retorno-disminuye-al-10">¿Qué sucede si la tasa de retorno disminuye al 10%?</h3>
-<p>Si la tasa de retorno requerida (<span class="math inline">\(r\)</span>) baja a <strong>10%</strong> (<span class="math inline">\(r = 0.10\)</span>):</p>
-<p><span class="math display">\[
-P_0 = \frac{5.2}{0.10 - 0.02} = \frac{5.2}{0.08} = 65
-\]</span></p>
-<p>El precio de la acción aumenta a <strong>$65,00</strong>.</p>
-</section>
-<section class="slide level2">
-
-<h3 id="qué-sucede-si-la-tasa-de-crecimiento-aumenta-al-3">¿Qué sucede si la tasa de crecimiento aumenta al 3%?</h3>
-<p>Si la tasa de crecimiento promedio de los dividendos (<span class="math inline">\(g\)</span>) aumenta al <strong>3%</strong> (<span class="math inline">\(g = 0.03\)</span>):</p>
-<p><span class="math display">\[
-P_0 = \frac{5.2}{0.12 - 0.03} = \frac{5.2}{0.09} = 57.78
-\]</span></p>
-<p>El precio de la acción se incrementa a <strong>$57,78</strong>.</p>
-</section>
-<section class="slide level2">
-
-<h3 id="factores-que-influyen-en-el-precio">Factores que influyen en el precio</h3>
-<ol type="1">
-<li><p><strong>Dividendos (<span class="math inline">\(Div_1\)</span>)</strong>:<br>
-A mayor dividendo, mayor será el precio.</p></li>
-<li><p><strong>Crecimiento (<span class="math inline">\(g\)</span>)</strong>:<br>
-Un mayor crecimiento futuro de los dividendos aumenta el precio.</p></li>
-<li><p><strong>Tasa de retorno (<span class="math inline">\(r\)</span>)</strong>:<br>
-Una menor tasa de retorno requerida aumenta el precio.</p></li>
-</ol>
-</section>
-<section id="relación-entre-dividendos-tasa-de-descuento-y-precio" class="slide level2">
-<h2>Relación entre Dividendos, Tasa de Descuento y Precio</h2>
-<h3 id="principios-clave">Principios Clave</h3>
-<ol type="1">
-<li><p><strong>Relación directa entre dividendos y precio:</strong></p>
-<ul>
-<li>A mayores dividendos futuros, mayor será el precio de una acción.</li>
-<li>A menores dividendos, menor será el precio.</li>
-</ul></li>
-<li><p><strong>Relación inversa entre tasa de rentabilidad y precio:</strong></p>
-<ul>
-<li>A mayor retorno exigido (<span class="math inline">\(r\)</span>), menor será el precio de una acción.</li>
-<li>A menor retorno exigido, mayor será el precio.</li>
-</ul></li>
-</ol>
-</section>
-<section id="qué-es-el-beta-beta" class="slide level2">
-<h2>¿Qué es el Beta (<span class="math inline">\(\beta\)</span>)?</h2>
-<h3 id="tasa-de-descuento-r">Tasa de descuento (<span class="math inline">\(r\)</span>)</h3>
-<p>La tasa de descuento exigida depende de varios factores:</p>
-<ul>
-<li><p><strong>Tasa de interés libre de riesgo (<span class="math inline">\(r_f\)</span>):</strong></p>
-<p>Ejemplo: Tasa de bonos del BCCH o TGR.</p></li>
-<li><p><strong>Riesgo de la acción (<span class="math inline">\(\beta\)</span>):</strong></p>
-<p>Medida de la sensibilidad de una acción frente a movimientos del mercado.</p></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="el-beta-y-su-impacto">El Beta y su impacto:</h3>
-<ol type="1">
-<li><p><strong>Definición:</strong></p>
-<ul>
-<li><span class="math inline">\(\beta\)</span> mide el riesgo sistemático de una acción en comparación con el mercado.<br>
-</li>
-<li><span class="math inline">\(\beta &gt; 1\)</span>: Acción más volátil que el mercado (mayor riesgo).<br>
-</li>
-<li><span class="math inline">\(\beta &lt; 1\)</span>: Acción menos volátil que el mercado (menor riesgo).</li>
-</ul></li>
-<li><p><strong>Impacto en el precio:</strong></p>
-<ul>
-<li>A mayor <span class="math inline">\(\beta\)</span>, mayor será la tasa de retorno exigido (<span class="math inline">\(r\)</span>), lo que reduce el precio de la acción.<br>
-</li>
-<li>A menor <span class="math inline">\(\beta\)</span>, menor será el retorno exigido, lo que aumenta el precio.</li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="otros-factores-de-la-tasa-de-retorno">Otros Factores de la Tasa de Retorno</h3>
-<ul>
-<li><p><strong>Factores adicionales:</strong></p>
-<ul>
-<li><p>Modelo de 3, 4 o 5 factores: Incorporan variables como tamaño de la empresa, valor, momentum, entre otros.</p></li>
-<li><p><strong>Liquidez:</strong> Acciones con menor liquidez suelen requerir mayor retorno exigido.</p></li>
-</ul></li>
-</ul>
-<h3 id="conclusión">Conclusión</h3>
-<p>El precio de una acción es una combinación del retorno esperado, el riesgo sistemático (<span class="math inline">\(\beta\)</span>), y los dividendos futuros.</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="relación-entre-múltiplos-financieros-y-el-precio-de-las-acciones" class="title-slide slide level1 center">
-<h1>Relación entre Múltiplos Financieros y el Precio de las Acciones</h1>
-
-</section>
-<section id="introducción" class="slide level2">
-<h2>Introducción</h2>
-<ul>
-<li><p>Los <strong>múltiplos financieros</strong> son herramientas clave para valorar empresas y estimar el precio de sus acciones.</p></li>
-<li><p>Se basan en comparaciones relativas con métricas como:</p>
-<ul>
-<li><strong>Precio/Utilidad (P/E):</strong> Evalúa el precio de la acción respecto a las utilidades por acción.</li>
-<li><strong>Precio/Valor Libro (P/B):</strong> Relaciona el precio de mercado con el valor contable.</li>
-<li><strong>EV/EBITDA:</strong> Considera el valor de la empresa ajustado por ganancias antes de intereses, impuestos, depreciación y amortización.</li>
-</ul></li>
-</ul>
-</section>
-<section id="relación-entre-múltiplos-financieros-y-el-precio-de-las-acciones-1" class="slide level2">
-<h2>Relación entre Múltiplos Financieros y el Precio de las Acciones</h2>
-<ul>
-<li>Estos múltiplos permiten identificar si una acción está:
-<ul>
-<li><strong>Subvalorada:</strong> Precio de mercado menor al promedio del sector.</li>
-<li><strong>Sobrevalorada:</strong> Precio de mercado mayor al promedio del sector.</li>
-</ul></li>
-</ul>
-</section>
-<section id="rentabilidad-por-dividendos-dividend-yield" class="slide level2">
-<h2>Rentabilidad por Dividendos (Dividend Yield)</h2>
-<h3 id="fórmula">Fórmula</h3>
-<p>La rentabilidad por dividendos se calcula como:</p>
-<p><span class="math display">\[
-\text{Dividend Yield} = \left( \frac{\text{Dividendo Anual por Acción}}{\text{Precio Actual de la Acción}} \right) \times 100
+P_0 = \frac{5}{0.10 - 0.02} = \frac{5}{0.08} = \$62.50
 \]</span></p>
 </section>
-<section class="slide level2">
-
-<h3 id="características">Características</h3>
+<section id="conclusiones" class="slide level2">
+<h2>Conclusiones</h2>
 <ul>
-<li><strong>Relación con el crecimiento</strong>:
-<ul>
-<li>Empresas con <strong>altos beneficios</strong> y <strong>bajo crecimiento</strong> suelen tener un <strong>dividend yield</strong> más alto.</li>
-<li>Empresas con <strong>alto crecimiento</strong> tienden a retener utilidades, resultando en un menor dividend yield.</li>
-</ul></li>
-<li><strong>Relación con las ganancias de capital</strong>:
-<ul>
-<li>Un <strong>alto dividend yield</strong> puede estar asociado a <strong>menores ganancias de capital</strong>.</li>
-<li>Un <strong>bajo dividend yield</strong> puede indicar potencial para <strong>mayores ganancias de capital</strong>.</li>
-</ul></li>
+<li>El análisis fundamental es esencial para evaluar el valor real de las empresas.</li>
+<li>Los indicadores financieros ayudan a determinar si una acción está subvalorada o sobrevalorada.</li>
+<li>Los mercados pueden ser influenciados por comportamientos irracionales.</li>
+<li>El modelo de Gordon y Shapiro permite estimar el valor intrínseco considerando dividendos futuros y crecimiento.</li>
 </ul>
 </section>
-<section class="slide level2">
-
-<h3 id="ejemplo-banco-de-chile-3">Ejemplo: Banco de Chile</h3>
+<section id="recursos-adicionales" class="slide level2">
+<h2>Recursos Adicionales</h2>
 <ul>
-<li><strong>Dividendo Anual por Acción</strong>: $4,00 CLP</li>
-<li><strong>Precio Actual de la Acción</strong>: $100,00 CLP</li>
-</ul>
-<p><strong>Cálculo del Dividend Yield</strong>:</p>
-<p><span class="math display">\[
-\text{Dividend Yield} = \left( \frac{4,00}{100,00} \right) \times 100 = 4\%
-\]</span></p>
-<p>Esto indica que, sin considerar las posibles ganancias o pérdidas de capital, el retorno anual para un inversionista sería del <strong>4%</strong>.</p>
-</section>
-<section class="slide level2">
-
-<h3 id="consideraciones">Consideraciones</h3>
+<li><strong>Bolsa de Santiago</strong>: Información actualizada del mercado chileno.
 <ul>
-<li><p>Un <strong>dividend yield</strong> del 4% sugiere que Banco de Chile ofrece un retorno atractivo en forma de dividendos.</p></li>
-<li><p>Es importante analizar otros factores, como el potencial de apreciación del precio de la acción y la estabilidad financiera de la empresa, antes de tomar decisiones de inversión.</p></li>
-</ul>
-</section>
-<section id="relación-entre-precio-dividendos-y-rentabilidad" class="slide level2">
-<h2>Relación entre Precio, Dividendos y Rentabilidad</h2>
-<h3 id="fórmulas-clave">Fórmulas Clave</h3>
-<ol type="1">
-<li><strong>Cálculo del precio de la acción</strong>:</li>
-</ol>
-<p><span class="math display">\[
-\text{Precio} = \frac{\text{DIV}}{r - g}
-\]</span></p>
-<ol start="2" type="1">
-<li><strong>Cálculo de la tasa de retorno requerida (<span class="math inline">\(r\)</span>)</strong>:</li>
-</ol>
-<p><span class="math display">\[
-r = \frac{\text{DIV}}{\text{Precio}} + g
-\]</span></p>
-<ol start="3" type="1">
-<li><strong>Relación porcentual ((r%))</strong>:</li>
-</ol>
-<p><span class="math display">\[
-r\% = \text{Dividend Yield}\% + g\%
-\]</span></p>
-</section>
-<section class="slide level2">
-
-<h3 id="interpretación-de-las-fórmulas-de-gordon-y-shapiro">Interpretación de las Fórmulas de Gordon y Shapiro</h3>
-<ul>
-<li><strong>Precio y dividendos</strong>:
-<ul>
-<li>A mayor dividendo (<span class="math inline">\(DIV\)</span>), mayor será el precio de la acción.</li>
-<li>A mayor tasa de retorno requerida (<span class="math inline">\(r\)</span>), menor será el precio.</li>
-</ul></li>
-<li><strong>Retorno requerido (<span class="math inline">\(r\)</span>)</strong>:
-<ul>
-<li>Incluye dos componentes:
-<ul>
-<li>Rentabilidad por dividendos (<strong>Dividend Yield</strong>).</li>
-<li>Crecimiento esperado de los dividendos (<span class="math inline">\(g\)</span>).</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="ejemplo-banco-de-chile-4">Ejemplo: Banco de Chile</h3>
-<ul>
-<li><strong>Dividendo Anual por Acción (<span class="math inline">\(DIV\)</span>)</strong>: $4,00 CLP.<br>
-</li>
-<li><strong>Crecimiento esperado de dividendos (<span class="math inline">\(g\)</span>)</strong>: 2% anual.<br>
-</li>
-<li><strong>Precio Actual (<span class="math inline">\(P_0\)</span>)</strong>: $100,00 CLP.</li>
-</ul>
-<h4 id="cálculo-de-la-tasa-de-retorno-r">Cálculo de la Tasa de Retorno (<span class="math inline">\(r\)</span>):</h4>
-<p><span class="math display">\[
-r = \frac{4,00}{100,00} + 0,02 = 0,04 + 0,02 = 0,06 \, (6\%)
-\]</span></p>
-<h4 id="rentabilidad-porcentual">Rentabilidad porcentual:</h4>
-<p><span class="math display">\[
-r\% = \text{Dividend Yield}\% + g\% = 4\% + 2\% = 6\%
-\]</span></p>
-</section>
-<section class="slide level2">
-
-<h3 id="conclusión-1">Conclusión</h3>
-<p>Estas fórmulas muestran cómo los dividendos, el precio de la acción y la tasa de crecimiento interactúan para determinar la rentabilidad esperada por los inversionistas.</p>
-</section>
-<section id="dividend-yield" class="slide level2">
-<h2>Dividend Yield</h2>
-
-<img data-src="Dividend_Yield_BCH.png" class="r-stretch quarto-figure-center"><p class="caption">Dividend Yield</p></section>
-<section id="indicador-precio-utilidad-rpu" class="slide level2">
-<h2>Indicador Precio / Utilidad (RPU)</h2>
-<h3 id="fórmula-1">Fórmula</h3>
-<p>El indicador Precio / Utilidad se calcula como:</p>
-<p><span class="math display">\[
-RPU = \frac{\text{Precio}}{\text{UPA}}
-\]</span></p>
-<p>Donde:</p>
-<ul>
-<li><p><strong>Precio</strong>: Precio actual de la acción.</p></li>
-<li><p><strong>UPA</strong>: Utilidad por acción (utilidad neta dividida por el número de acciones en circulación).</p></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="interpretación-del-rpu">Interpretación del RPU</h3>
-<ol type="1">
-<li><strong>Propósito</strong>:
-<ul>
-<li>Mide si una acción está cara o barata en comparación con:
-<ul>
-<li>Otras acciones.</li>
-<li>Otros mercados.</li>
-<li>Otros períodos de tiempo.</li>
-</ul></li>
-</ul></li>
-<li><strong>Significado</strong>:
-<ul>
-<li>Representa cuántas veces estamos pagando, a través del precio de la acción, la utilidad esperada de ésta.</li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="interpretación-del-rpu-1">Interpretación del RPU</h3>
-<ol start="3" type="1">
-<li><strong>Valores típicos</strong>:
-<ul>
-<li>Un <strong>RPU alto</strong> puede indicar:
-<ul>
-<li>Expectativas de crecimiento elevado.</li>
-<li>Una acción sobrevalorada.</li>
-</ul></li>
-<li>Un <strong>RPU bajo</strong> puede indicar:
-<ul>
-<li>Menor crecimiento esperado.</li>
-<li>Una acción infravalorada.</li>
-</ul></li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="ejemplo-banco-de-chile-5">Ejemplo: Banco de Chile</h3>
-<ul>
-<li><p><strong>Precio de la acción</strong>: $100,00 CLP.</p></li>
-<li><p><strong>Utilidad por acción (UPA)</strong>: $8,00 CLP.</p></li>
-</ul>
-<h4 id="cálculo">Cálculo:</h4>
-<p><span class="math display">\[
-RPU = \frac{100,00}{8,00} = 12.5
-\]</span></p>
-<h4 id="interpretación">Interpretación:</h4>
-<ul>
-<li>El RPU de <strong>12.5</strong> indica que los inversionistas están dispuestos a pagar 12.5 veces la utilidad esperada por acción.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="conclusión-2">Conclusión</h3>
-<p>El indicador <strong>Precio / Utilidad (RPU)</strong> es una herramienta clave para comparar valoraciones entre empresas y mercados, y para identificar posibles oportunidades de inversión.</p>
-</section>
-<section id="ratio-precio-utilidad" class="slide level2">
-<h2>Ratio Precio / Utilidad</h2>
-
-<img data-src="Ratio_RPU.png" class="r-stretch quarto-figure-center"><p class="caption">Ratio Precio / Utilidad Banco de Chile</p></section>
-<section id="indicador-precio-valor-libro-rbl" class="slide level2">
-<h2>Indicador Precio / Valor Libro (RBL)</h2>
-<h3 id="fórmula-2">Fórmula</h3>
-<p>El indicador Precio / Valor Libro se calcula como:</p>
-<p><span class="math display">\[
-RBL = \frac{\text{Precio}}{\text{Valor Libro}}
-\]</span></p>
-<p>Donde:</p>
-<ul>
-<li><p><strong>Precio</strong>: Precio actual de la acción.</p></li>
-<li><p><strong>Valor Libro</strong>: Patrimonio neto por acción, obtenido dividiendo el patrimonio contable de la empresa entre el número de acciones en circulación.</p></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="interpretación-del-rbl">Interpretación del RBL</h3>
-<ol type="1">
-<li><p><strong>Propósito</strong>:</p>
-<ul>
-<li><p>Similar al RPU, mide si una acción está <strong>cara o barata</strong> en comparación con:</p>
-<ul>
-<li>Otras acciones.</li>
-<li>Otros mercados.</li>
-<li>Otros períodos de tiempo.</li>
-</ul></li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<ol start="2" type="1">
-<li><p><strong>Valores típicos</strong>:</p>
-<ul>
-<li><p><strong>RBL &lt; 1</strong> o muy bajo:</p>
-<ul>
-<li>Indica que el mercado no valora las oportunidades de crecimiento de la empresa.</li>
-<li>Suele asociarse a empresas subvaloradas o con baja rentabilidad.</li>
-</ul></li>
-<li><p><strong>RBL &gt; 1</strong>:</p>
-<ul>
-<li>Indica que el mercado valora la empresa por encima de su patrimonio contable, usualmente por su potencial de crecimiento.</li>
-</ul></li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="ejemplo">Ejemplo</h3>
-<p>Supongamos una empresa chilena, <strong>CMPC</strong>, con los siguientes datos:</p>
-<ul>
-<li><p><strong>Precio de la acción</strong>: $50 CLP.</p></li>
-<li><p><strong>Valor Libro por Acción</strong>: $40 CLP.</p></li>
-</ul>
-<h4 id="cálculo-1">Cálculo:</h4>
-<p><span class="math display">\[
-RBL = \frac{50}{40} = 1.25
-\]</span></p>
-<h4 id="interpretación-1">Interpretación:</h4>
-<ul>
-<li>Un RBL de <strong>1.25</strong> indica que el mercado está dispuesto a pagar 1.25 veces el valor contable de la empresa, reflejando su potencial de crecimiento.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="consideraciones-1">Consideraciones</h3>
-<ul>
-<li><strong>Comparación relativa</strong>:
-<ul>
-<li>Es importante comparar el RBL con otras empresas del mismo sector.</li>
-</ul></li>
-<li><strong>Limitaciones</strong>:
-<ul>
-<li>El valor libro no siempre refleja el valor real de los activos de la empresa.</li>
-<li>Empresas intensivas en capital (industria, minería) suelen tener valores libro altos, afectando la interpretación.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="conclusión-3">Conclusión</h3>
-<p>El <strong>RBL (Precio / Valor Libro)</strong> es un indicador útil para identificar oportunidades de inversión y valorar si una acción está subvalorada o sobrevalorada en función de su patrimonio contable.</p>
-</section>
-<section id="qué-es-evebitda" class="slide level2">
-<h2>¿Qué es EV/EBITDA?</h2>
-<ul>
-<li>El <strong>EV/EBITDA</strong> es un múltiplo financiero utilizado para valorar empresas y compararlas dentro de un sector.</li>
-<li>Mide la relación entre:
-<ul>
-<li><strong>Enterprise Value (EV):</strong> Valor total de la empresa.</li>
-<li><strong>EBITDA:</strong> Ganancias antes de intereses, impuestos, depreciación y amortización.</li>
-</ul></li>
-</ul>
-</section>
-<section id="fórmula-3" class="slide level2">
-<h2>Fórmula</h2>
-<p>La fórmula general del EV/EBITDA es:</p>
-<p><span class="math display">\[
-\text{EV/EBITDA} = \frac{\text{Enterprise Value (EV)}}{\text{EBITDA}}
-\]</span></p>
-<p>Donde: - <strong>Enterprise Value (EV):</strong> <span class="math display">\[
-  EV = \text{Capitalización de mercado} + \text{Deuda total} - \text{Efectivo y equivalentes}
-  \]</span></p>
-<ul>
-<li><strong>EBITDA:</strong> Mide la rentabilidad operativa de la empresa.</li>
-</ul>
-</section>
-<section id="qué-es-el-enterprise-value-ev" class="slide level2">
-<h2>¿Qué es el Enterprise Value (EV)?</h2>
-<h3 id="fórmula-4">Fórmula:</h3>
-<p><span class="math display">\[
-EV = \text{Capitalización de Mercado} + \text{Deuda Total} - \text{Efectivo y Equivalentes}
-\]</span></p>
-<h3 id="componentes">Componentes:</h3>
-<ol type="1">
-<li><strong>Capitalización de Mercado</strong>:
-<ul>
-<li>Precio de la acción multiplicado por el número de acciones en circulación.</li>
-</ul></li>
-<li><strong>Deuda Total</strong>:
-<ul>
-<li>Suma de deuda a corto y largo plazo, incluyendo obligaciones de arrendamiento financiero.</li>
-</ul></li>
-<li><strong>Efectivo y Equivalentes</strong>:
-<ul>
-<li>Dinero disponible en caja, depósitos bancarios y activos líquidos equivalentes.</li>
-</ul></li>
-</ol>
-</section>
-<section id="ejemplo-cálculo-del-ev" class="slide level2">
-<h2>Ejemplo: Cálculo del EV</h2>
-<h3 id="datos-de-una-empresa-chilena">Datos de una empresa chilena:</h3>
-<ul>
-<li><strong>Precio de la acción</strong>: $50 CLP.</li>
-<li><strong>Número de acciones en circulación</strong>: 100 millones.</li>
-<li><strong>Deuda total</strong>: $1,500 millones CLP.</li>
-<li><strong>Efectivo y equivalentes</strong>: $300 millones CLP.</li>
-</ul>
-<h3 id="cálculo-del-ev">Cálculo del EV:</h3>
-<ol type="1">
-<li><p><strong>Capitalización de Mercado</strong>: <span class="math display">\[
-\text{Capitalización de Mercado} = 50 \times 100 = 5,000 \, \text{millones CLP}
-\]</span></p></li>
-<li><p><strong>Enterprise Value</strong>: <span class="math display">\[
-EV = 5,000 + 1,500 - 300 = 6,200 \, \text{millones CLP}
-\]</span></p></li>
-</ol>
-<p>El <strong>Enterprise Value</strong> es de <strong>6,200 millones CLP</strong>.</p>
-</section>
-<section id="ejemplo-evebitda" class="slide level2">
-<h2>Ejemplo: EV/EBITDA</h2>
-<h3 id="datos-adicionales">Datos adicionales:</h3>
-<ul>
-<li><strong>EBITDA reportado</strong>: 620 millones CLP.</li>
-</ul>
-<h3 id="cálculo-del-evebitda">Cálculo del EV/EBITDA:</h3>
-<p><span class="math display">\[
-\text{EV/EBITDA} = \frac{EV}{EBITDA}
-\]</span> <span class="math display">\[
-\text{EV/EBITDA} = \frac{6,200}{620} = 10
-\]</span></p>
-</section>
-<section id="interpretación-2" class="slide level2">
-<h2>Interpretación</h2>
-<ul>
-<li><strong>EV/EBITDA de 10</strong>:
-<ul>
-<li>Indica que el valor de la empresa es <strong>10 veces su EBITDA anual</strong>.</li>
-<li>Puede compararse con otras empresas del sector para identificar si está subvalorada o sobrevalorada.</li>
-</ul></li>
-</ul>
-</section>
-<section id="conclusión-4" class="slide level2">
-<h2>Conclusión</h2>
-<ul>
-<li>El <strong>EV/EBITDA</strong> combina el valor total de la empresa y su rentabilidad operativa para ofrecer una métrica clave en la valoración financiera.</li>
-<li>La correcta interpretación del múltiplo requiere comparar con otras empresas del mismo sector y analizar su contexto financiero.</li>
-</ul>
-</section>
-<section id="sitios-de-interés" class="slide level2">
-<h2>Sitios de Interés</h2>
-<h3 id="información-financiera-y-mercados">Información Financiera y Mercados</h3>
-<ol type="1">
-<li><strong>Bolsa de Santiago</strong>
-<ul>
-<li>Página oficial de la bolsa chilena con información sobre precios de acciones, índices y noticias.<br>
-</li>
 <li><a href="https://www.bolsadesantiago.com">www.bolsadesantiago.com</a></li>
 </ul></li>
-<li><strong>TradingView</strong>
+<li><strong>Investopedia</strong>: Recursos sobre finanzas e inversión.
 <ul>
-<li>Plataforma para análisis de gráficos y datos financieros, incluyendo empresas chilenas.<br>
-</li>
-<li><a href="https://www.tradingview.com">www.tradingview.com</a></li>
-</ul></li>
-<li><strong>Simply Wall St</strong>
-<ul>
-<li>Análisis visual de datos financieros, dividendos y valoración de empresas.<br>
-</li>
-<li><a href="https://www.simplywall.st">www.simplywall.st</a></li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="recursos-académicos">Recursos Académicos</h3>
-<ol type="1">
-<li><strong>Investopedia</strong>
-<ul>
-<li>Recursos educativos sobre finanzas, inversión y mercados globales.<br>
-</li>
 <li><a href="https://www.investopedia.com">www.investopedia.com</a></li>
 </ul></li>
-<li><strong>Morningstar</strong>
-<ul>
-<li>Análisis detallado de acciones, fondos mutuos y ETFs.<br>
-</li>
-<li><a href="https://www.morningstar.cl">www.morningstar.cl</a></li>
-</ul></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<h3 id="análisis-y-comparaciones">Análisis y Comparaciones</h3>
-<ol type="1">
-<li><strong>Yahoo Finance</strong>
-<ul>
-<li>Noticias financieras, análisis y datos históricos de acciones.<br>
-</li>
-<li><a href="https://finance.yahoo.com">www.finance.yahoo.com</a></li>
-</ul></li>
-<li><strong>Bloomberg Markets</strong>
-<ul>
-<li>Información actualizada de mercados globales y análisis financiero.<br>
-</li>
-<li><a href="https://www.bloomberg.com/markets">www.bloomberg.com</a></li>
-</ul></li>
-</ol>
+</ul>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="conclusiones-de-la-clase" class="title-slide slide level1 center">
-<h1>Conclusiones de la Clase</h1>
-
-</section>
-<section id="resumen" class="slide level2">
-<h2>Resumen</h2>
-<ol type="1">
-<li><p>El análisis fundamental permite evaluar el <strong>valor intrínseco</strong> de una acción considerando factores económicos, financieros y cualitativos.</p></li>
-<li><p>Herramientas como el <strong>Dividend Yield</strong>, <strong>P/U</strong>, y <strong>P/B</strong> son esenciales para identificar si una acción está subvalorada o sobrevalorada.</p></li>
-<li><p>El modelo de <strong>Gordon y Shapiro</strong> ayuda a valorar empresas considerando crecimiento y retorno esperado.</p></li>
-<li><p>Factores emocionales y psicológicos pueden generar mercados irracionales, como lo evidencian casos como la burbuja puntocom y GameStop.</p></li>
-</ol>
-</section>
-<section id="reflexión-final" class="slide level2">
-<h2>Reflexión Final</h2>
-<ul>
-<li>Aplicar estas herramientas no solo nos ayuda a tomar decisiones de inversión más informadas, sino también a entender el comportamiento de los mercados en distintos contextos.</li>
-</ul>
+<section id="fin-de-la-clase" class="title-slide slide level1 center">
+<h1>Fin de la Clase</h1>
+<p><strong>¡Gracias por tu atención!</strong></p>
 </section>
 <section class="slide level2">
 
@@ -1267,19 +538,19 @@ EV = 5,000 + 1,500 - 300 = 6,200 \, \text{millones CLP}
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="Analisis_Fundamental_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Analisis_Fundamental_simple_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

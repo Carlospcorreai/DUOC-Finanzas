@@ -1,0 +1,190 @@
+---
+title: "Introducción al Análisis Fundamental"
+author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
+format:
+  revealjs:
+    theme: solarized
+    slideNumber: true
+    css: ./duoc_uc.css
+output-file: index.html
+---
+
+# Introducción al Análisis Fundamental
+
+## Objetivos de la Clase
+
+- Entender los conceptos básicos del análisis fundamental.
+- Diferenciar entre **valor de mercado** y **valor intrínseco** de una acción.
+- Conocer los principales indicadores financieros:
+  - Rentabilidad por Dividendos (Dividend Yield)
+  - Precio / Utilidad (P/U)
+  - Precio / Valor Libro (P/B)
+- Aprender el modelo de valuación de Gordon y Shapiro.
+- Reconocer cómo los mercados pueden comportarse de manera irracional.
+
+---
+
+## ¿Qué es el Análisis Fundamental?
+
+El **análisis fundamental** es una herramienta que nos ayuda a determinar el valor real (intrínseco) de una acción o empresa, basándonos en datos económicos y financieros.
+
+**Objetivo**:
+
+- Identificar si una acción está:
+  - **Subvalorada**: precio de mercado menor que su valor intrínseco.
+  - **Sobrevalorada**: precio de mercado mayor que su valor intrínseco.
+
+**Factores Analizados**:
+
+- **Situación económica**: tasas de interés, inflación, crecimiento económico.
+- **Industria o sector**: tendencias y competencia.
+- **Empresa**: estados financieros, ganancias, perspectivas de crecimiento.
+
+---
+
+## Valor de Mercado vs. Valor Intrínseco
+
+- **Valor de Mercado**: Precio al que se negocia una acción en el mercado; influenciado por emociones y especulación.
+- **Valor Intrínseco**: Valor "real" calculado mediante análisis financiero y económico.
+
+**Importante**:
+
+- El precio de mercado no siempre refleja el valor intrínseco.
+- Los mercados pueden ser influenciados por emociones y comportamientos irracionales.
+
+---
+
+## Comportamiento del Mercado
+
+- Los mercados pueden ser irracionales debido a:
+
+  - **Exceso de confianza**: inversores sobreestiman sus conocimientos.
+  - **Efecto manada**: seguir a la mayoría sin análisis propio.
+  - **Sesgos emocionales**: decisiones basadas en emociones.
+
+---
+
+**Ejemplos**:
+
+- **Burbuja Puntocom (años 90)**:
+
+  ![Burbuja Puntocom](bubble_com.jpg)
+
+  - Empresas de internet con valores inflados sin fundamentos sólidos.
+
+---
+
+- **Crisis financiera de 2008**:
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GPOv72Awo68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  - Exceso de confianza en el mercado inmobiliario y productos financieros complejos.
+
+---
+
+## Indicadores Financieros Clave
+
+### 1. Rentabilidad por Dividendos (Dividend Yield)
+
+**Fórmula**:
+
+$$
+\text{Dividend Yield} = \left( \frac{\text{Dividendo Anual por Acción}}{\text{Precio de la Acción}} \right) \times 100
+$$
+
+**Interpretación**:
+
+- Indica el retorno anual en dividendos por cada peso invertido.
+
+---
+
+### 2. Precio / Utilidad (P/U)
+
+**Fórmula**:
+
+$$
+P/U = \frac{\text{Precio de la Acción}}{\text{Utilidad por Acción}}
+$$
+
+**Interpretación**:
+
+- Mide cuántas veces el precio de la acción contiene las ganancias anuales por acción.
+- Un P/U alto puede indicar expectativas de alto crecimiento.
+
+---
+
+### 3. Precio / Valor Libro (P/B)
+
+**Fórmula**:
+
+$$
+P/B = \frac{\text{Precio de la Acción}}{\text{Valor en Libros por Acción}}
+$$
+
+**Interpretación**:
+
+- Compara el precio de mercado con el valor contable.
+- Un P/B menor a 1 puede indicar que la acción está subvalorada.
+
+---
+
+## Modelo de Gordon y Shapiro
+
+Ayuda a valorar una acción basándose en sus dividendos futuros.
+
+**Fórmula**:
+
+$$
+P_0 = \frac{Div_1}{r - g}
+$$
+
+Donde:
+
+- \( P_0 \): Precio actual de la acción.
+- \( Div_1 \): Dividendo esperado el próximo año.
+- \( r \): Tasa de retorno requerida.
+- \( g \): Tasa de crecimiento esperada de los dividendos.
+
+**Interpretación**:
+
+- El precio es el valor presente de todos los dividendos futuros, creciendo a una tasa constante \( g \).
+
+---
+
+### Ejemplo Simplificado
+
+- **Dividendo anual**: $5 por acción.
+- **Crecimiento esperado**: 2% anual.
+- **Retorno requerido**: 10%.
+
+**Cálculo**:
+
+$$
+P_0 = \frac{5}{0.10 - 0.02} = \frac{5}{0.08} = \$62.50
+$$
+
+---
+
+## Conclusiones
+
+- El análisis fundamental es esencial para evaluar el valor real de las empresas.
+- Los indicadores financieros ayudan a determinar si una acción está subvalorada o sobrevalorada.
+- Los mercados pueden ser influenciados por comportamientos irracionales.
+- El modelo de Gordon y Shapiro permite estimar el valor intrínseco considerando dividendos futuros y crecimiento.
+
+---
+
+## Recursos Adicionales
+
+- **Bolsa de Santiago**: Información actualizada del mercado chileno.
+  - [www.bolsadesantiago.com](https://www.bolsadesantiago.com)
+- **Investopedia**: Recursos sobre finanzas e inversión.
+  - [www.investopedia.com](https://www.investopedia.com)
+
+---
+
+# Fin de la Clase
+
+**¡Gracias por tu atención!**
+
+---
