@@ -1,0 +1,394 @@
+---
+title: "Clase: Valorización Financiera y Portafolios de Inversión"
+author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
+format:
+  revealjs:
+    theme: solarized
+    slideNumber: true
+    css: duoc_uc.css
+output-file: index.html
+---
+
+# Introducción
+
+**Objetivo General:**
+
+- Comprender las fórmulas básicas de valorización de instrumentos financieros y los conceptos esenciales en la construcción de portafolios de inversión.
+
+**Contenidos:**
+
+1. Valorización de Bonos.
+2. Valorización de Acciones.
+3. Portafolios de Inversión.
+
+---
+
+# Valorización de Bonos
+
+## Conceptos Básicos
+
+- **Bono:** Instrumento de deuda emitido por entidades para financiar operaciones.
+- **Valor Nominal (M):** Monto a devolver al vencimiento.
+- **Tasa Cupón (i):** Tasa de interés anual del bono.
+- **Vencimiento (N):** Plazo hasta la devolución del principal.
+
+## Fórmula de Valorización de Bonos
+
+El precio de un bono es el valor presente de sus flujos futuros:
+
+$$
+Precio\ del\ Bono = \sum_{t=1}^{N} \frac{C}{(1 + r)^t} + \frac{M}{(1 + r)^N}
+$$
+
+Donde:
+
+- $C$: Pago del cupón (interés) por periodo.
+- $r$: Tasa de mercado o rendimiento requerido.
+- $N$: Número de periodos hasta el vencimiento.
+- $M$: Valor nominal o principal del bono.**
+---
+
+# Valorización de Acciones
+
+## Modelo de Dividendos
+
+El valor de una acción es el valor presente de los dividendos futuros esperados.
+
+### Modelo de Dividendos Constantes (Perpetuidad)
+
+$$
+P_0 = \frac{D}{k_e}
+$$
+
+Donde:
+
+- $P_0$: Precio actual de la acción.
+- $D$: Dividendo anual constante.
+- $k_e$: Rentabilidad requerida por los accionistas.
+
+---
+
+## Modelo de Dividendos
+
+### Modelo de Crecimiento de Gordon
+
+$$
+P_0 = \frac{D_1}{k_e - g}
+$$
+
+Donde:
+
+- $D_1$: Dividendo esperado en el próximo periodo.
+- $g$: Tasa de crecimiento constante de los dividendos.
+
+---
+
+# Portafolios de Inversión
+
+## Conceptos Esenciales
+
+- **Diversificación:** Estrategia para reducir el riesgo invirtiendo en una variedad de activos.
+
+- **Retorno Esperado del Portafolio ($E[R_p]$):**
+
+$$
+E[R_p] = \sum_{i=1}^{n} w_i \times E[R_i]
+$$
+
+Donde:
+
+- $w_i$: Peso del activo $i$ en el portafolio.
+- $E[R_i]$: Retorno esperado del activo $i$.
+
+---
+
+## Conceptos Esenciales
+
+- **Riesgo del Portafolio ($\sigma_p$):**
+
+Para dos activos:
+
+$$
+\sigma_p = \sqrt{w_A^2 \sigma_A^2 + w_B^2 \sigma_B^2 + 2 w_A w_B \sigma_A \sigma_B \rho_{AB}}
+$$
+
+Donde:
+
+- $\sigma_A$,$\sigma_B$: Desviaciones estándar de los activos.
+- $\rho_{AB}$: Correlación entre los activos A y B.
+
+---
+
+# Actividad
+
+**Ejercicio Práctico:**
+
+1. **Valorización de Bonos:**
+   - Determine el precio de un bono tipo francés con las siguientes características:
+     - Valor nominal: **2.000 UF**.
+     - Tasa cupón anual: **8%**.
+     - Vencimiento en **8 años**.
+     - Rentabilidad esperada: **5%** anual.
+
+---
+
+## **Ejercicio Práctico:**
+
+2. **Valorización de Acciones:**
+   - Determine el precio de una acción que paga un dividendo anual de \$2,50, con una tasa de crecimiento de dividendos del 4% y una rentabilidad requerida del 10%.
+
+3. **Portafolios de Inversión:**
+   - Construya un portafolio con dos activos:
+     - Activo X: Retorno esperado 12%, riesgo 20%.
+     - Activo Y: Retorno esperado 8%, riesgo 15%.
+     - Asuma una correlación de 0,3 entre los activos.
+     - Si invierte el 50% en cada activo, calcule el retorno esperado y el riesgo del portafolio.
+
+---
+
+# Soluciones de la Actividad
+
+## 1. Valorización de Bonos
+
+**Datos:**
+
+- **Valor nominal (M):** 2.000 UF.
+- **Tasa cupón anual (i):** 8%.
+- **Vencimiento (N):** 8 años.
+- **Rentabilidad esperada (r):** 5% anual.
+
+**Cálculos:**
+
+1. **Pago del cupón por periodo (C):**
+
+   $$
+   C = \text{Valor Nominal} \times \text{Tasa Cupón} = 2.000\ \text{UF} \times 8\% = 160\ \text{UF} \text{ por año}
+   $$
+
+---
+
+## 1. Valorización de Bonos
+
+2. **Precio del bono:**
+
+   El precio del bono es la suma del valor presente de los cupones y el valor nominal al vencimiento:
+
+   $$
+   Precio = \sum_{t=1}^{8} \frac{C}{(1 + r)^t} + \frac{M}{(1 + r)^N}
+   $$
+
+   **Calculando el valor presente de los cupones (anualidades):**
+
+   - Fórmula del valor presente de una anualidad:
+
+     $$
+     PV\ de\ Cupones = C \times \left( \frac{1 - (1 + r)^{-N}}{r} \right)
+     $$
+
+---
+
+## 1. Valorización de Bonos
+
+   - Cálculo:
+
+     $$
+     PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - (1 + 0,05)^{-8}}{0,05} \right)
+     $$
+
+     Primero, calcular $(1 + 0,05)^{-8}$:
+
+     $$
+     (1 + 0,05)^{-8} = (1,05)^{-8} \approx 0,6768
+     $$
+
+---
+
+## 1. Valorización de Bonos
+
+Luego:
+
+$$
+     PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - 0,6768}{0,05} \right) = 160\ \text{UF} \times \left( \frac{0,3232}{0,05} \right) 
+$$
+
+$$
+     = 160\ \text{UF} \times 6,464 = 1.034,24\ \text{UF}
+$$
+
+---
+
+## 1. Valorización de Bonos
+
+   **Calculando el valor presente del valor nominal:**
+
+$$
+   PV\ del\ Valor\ Nominal = \frac{M}{(1 + r)^N} = \frac{2.000\ \text{UF}}{(1,05)^8} = 2.000\ \text{UF} \times 0,6768
+$$
+
+$$
+= 1.353,60\ \text{UF}
+$$
+
+---
+
+## 1. Valorización de Bonos
+
+3. **Precio total del bono:**
+
+   $$
+   Precio = PV\ de\ Cupones + PV\ del\ Valor\ Nominal = 1.034,24\ \text{UF} + 1.353,60\ \text{UF} = 2.387,84\ \text{UF}
+   $$
+
+**Respuesta:**
+
+El precio del bono es aproximadamente **2.387,84 UF**.
+
+---
+
+## 1. Valorización de Bonos
+
+2. **Precio del bono:**
+
+   $$
+   Precio = \sum_{t=1}^{10} \frac{\$30}{(1 + 0,04)^t} + \frac{\$1.000}{(1 + 0,04)^{10}}
+   $$
+
+---
+
+## 1. Valorización de Bonos
+
+Calculando el valor presente de los cupones y del valor nominal:
+
+Valor presente de los cupones:
+
+$$
+PV\ de\ Cupones = \$30 \times \left( \frac{1 - (1 + 0,04)^{-10}}{0,04} \right) = \$30 \times 8,1109 = \$243,33
+$$
+
+   - Valor presente del valor nominal:
+
+$$
+PV\ del\ Valor\ Nominal = \frac{\$1.000}{(1 + 0,04)^{10}} = \$1.000 \times 0,6756 = \$675,56
+$$
+
+---
+
+## 1. Valorización de Bonos
+
+   - **Precio total del bono:**
+
+$$
+     Precio = \$243,33 + \$675,56 = \$918,89
+$$
+
+**Respuesta:**
+
+El precio del bono es aproximadamente **\$918,89**.
+
+---
+
+## 2. Valorización de Acciones
+
+**Datos:**
+
+- Dividendo actual (D₀): \$2,50.
+- Tasa de crecimiento de dividendos (g): 4% anual.
+- Rentabilidad requerida (kₑ): 10% anual.
+
+**Cálculos:**
+
+1. **Dividendo esperado próximo año (D₁):**
+
+   $$
+   D_1 = D_0 \times (1 + g) = \$2,50 \times 1,04 = \$2,60
+   $$
+
+2. **Precio de la acción (P₀):**
+
+   $$
+   P_0 = \frac{D_1}{k_e - g} = \frac{\$2,60}{0,10 - 0,04} = \frac{\$2,60}{0,06} = \$43,33
+   $$
+
+**Respuesta:**
+
+El precio de la acción es **\$43,33**.
+
+---
+
+## 3. Portafolios de Inversión
+
+**Datos:**
+
+- **Activo X:**
+  - Retorno esperado ($E[R_X]$): 12%.
+  - Riesgo ($\sigma_X$): 20%.
+- **Activo Y:**
+  - Retorno esperado (\( E[R_Y] \)): 8%.
+  - Riesgo ($sigma_Y$): 15%.
+
+---
+
+## 3. Portafolios de Inversión
+
+- Correlación ($\rho_{XY}$): 0,3.
+- Pesos en el portafolio:
+  - $w_X = 50\%$.
+  - $w_Y = 50\%$.
+
+**Cálculos:**
+
+1. **Retorno esperado del portafolio ($E[R_p]$):**
+
+   $$
+   E[R_p] = w_X \times E[R_X] + w_Y \times E[R_Y] = 0,5 \times 12\% + 0,5 \times 8\% = 10\%
+   $$
+
+---
+
+## 3. Portafolios de Inversión
+
+2. **Riesgo del portafolio ($\sigma_p$):**
+
+   $$
+   \sigma_p = \sqrt{(w_X \times \sigma_X)^2 + (w_Y \times \sigma_Y)^2 + 2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY}}
+   $$
+
+   - Calculando cada término:
+
+     - $(w_X \times \sigma_X)^2 = (0,5 \times 20\%)^2 = (10\%)^2 = 0,01$.
+     - $(w_Y \times \sigma_Y)^2 = (0,5 \times 15\%)^2 = (7,5\%)^2 = 0,005625$.
+     - $2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY} = 2 \times 0,5 \times 0,5 \times 20\% \times 15\% \times 0,3 = 0,0045$.
+
+   - Sumando:
+
+    $$
+     \sigma_p^2 = 0,01 + 0,005625 + 0,0045 = 0,020125
+    $$
+
+---
+
+## 3. Portafolios de Inversión
+
+   - Calculando la desviación estándar:
+
+$$
+    \sigma_p = \sqrt{0,020125} \approx 14,18\%
+$$
+
+**Respuesta:**
+
+El retorno esperado del portafolio es **10%** y el riesgo es aproximadamente **14,18%**.
+
+---
+
+# Conclusiones
+
+- Las fórmulas básicas de valorización permiten estimar el valor justo de bonos y acciones.
+- La diversificación es clave para gestionar el riesgo en un portafolio.
+- Comprender estos conceptos esenciales es fundamental para la toma de decisiones financieras.
+
+---
+
+# Referencias
+
+- Richard Brealey y Stewart Myers, *Principios de Finanzas Corporativas*. McGraw Hill.
