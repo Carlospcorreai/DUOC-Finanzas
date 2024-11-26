@@ -1,0 +1,4 @@
+- source: Valorizacion_Instrumentos.qmd
+  quarto-pub:
+    - id: 81c5b6b1-5cd4-4d3d-b931-2465a8667db3
+      url: 'https://carlospcorreai.quarto.pub/clase-valorización-financiera-y-portafolios-de-inversión'
