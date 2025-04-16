@@ -1,6 +1,6 @@
 ---
 title: "Clase: Valorización Financiera y Portafolios de Inversión"
-author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
+author: "Docente: Master en Finanzas Carlos Correa Iñiguez <c.correainiguez@uandresbello.edu>"
 format:
   revealjs:
     theme: solarized
@@ -45,7 +45,81 @@ Donde:
 - $C$: Pago del cupón (interés) por periodo.
 - $r$: Tasa de mercado o rendimiento requerido.
 - $N$: Número de periodos hasta el vencimiento.
-- $M$: Valor nominal o principal del bono.**
+- $M$: Valor nominal o principal del bono.
+
+---
+
+## Caso Práctico: Reemplazo de Bonos
+
+**Contexto:**  
+Una empresa emitió bonos hace 8 años (vencimiento original: 10 años) con:
+- Valor nominal: **UF 1.000**.
+- Tasa cupón anual: **8%**.
+- Quedan **2 años** para su vencimiento.
+
+La empresa planea emitir nuevos bonos con:
+- Valor nominal: **UF 1.000**.
+- Vencimiento: **12 años**.
+- **Condición:** Tenedores antiguos reciben un descuento del 15%:  
+  $$ VP_{\text{antiguo}} = 0.85 \times VP_{\text{nuevo}} $$
+- Tasa de mercado relevante: **9%**.
+
+**Pregunta:**  
+Determine la tasa de cupón de los nuevos bonos.
+
+---
+
+## Solución Paso a Paso
+
+1. **Calcular el valor presente de los bonos antiguos:**
+
+   - Cupón anual: $C = 8\% \times 1.000 = 80$ UF.
+   - Flujos restantes: 80 UF (Año 1) + 1.080 UF (Año 2).
+
+   $$
+   VP_{\text{antiguo}} = \frac{80}{1.09} + \frac{1.080}{(1.09)^2} \approx 73.39 + 909.17 = 982.56\ \text{UF}
+   $$
+
+---
+
+2. **Plantear la ecuación para los nuevos bonos:**
+
+   - Cupón desconocido: $C$.
+   - Valor presente del nuevo bono:
+
+   $$
+   VP_{\text{nuevo}} = C \times \left( \frac{1 - (1.09)^{-12}}{0.09} \right) + \frac{1.000}{(1.09)^{12}}
+   $$
+
+---
+
+## Solución Paso a Paso (Cont.)
+
+3. **Calcular términos numéricos:**
+
+   - Factor de anualidad a 12 años (9%):  
+     $$\frac{1 - (1.09)^{-12}}{0.09} \approx 7.1607$$
+   - VP del valor nominal:  
+     $$\frac{1.000}{(1.09)^{12}} \approx 355.5\ \text{UF}$$
+   - Ecuación resultante:  
+     $$VP_{\text{nuevo}} = 7.1607C + 355.5$$
+
+---
+
+4. **Aplicar la condición de descuento:**
+
+   $$
+   982.56 = 0.85 \times (7.1607C + 355.5)
+   $$
+
+   - Resolver para $C$:  
+     $$C \approx 111.86\ \text{UF}$$
+   - Tasa de cupón:  
+     $$\frac{111.86}{1.000} \times 100\% \approx 11.19\%$$
+
+**Respuesta Final:**  
+La nueva emisión requiere una **tasa de cupón del 11.19%**.
+
 ---
 
 # Valorización de Acciones
@@ -123,26 +197,27 @@ Donde:
 
 **Ejercicio Práctico:**
 
-1. **Valorización de Bonos:**
-   - Determine el precio de un bono tipo francés con las siguientes características:
-     - Valor nominal: **2.000 UF**.
-     - Tasa cupón anual: **8%**.
-     - Vencimiento en **8 años**.
-     - Rentabilidad esperada: **5%** anual.
+1. **Valorización de Bonos:**  
+   Determine el precio de un bono tipo francés con:
+   - Valor nominal: **2.000 UF**.
+   - Tasa cupón anual: **8%**.
+   - Vencimiento en **8 años**.
+   - Rentabilidad esperada: **5%** anual.
 
 ---
 
 ## **Ejercicio Práctico:**
 
-2. **Valorización de Acciones:**
-   - Determine el precio de una acción que paga un dividendo anual de \$2,50, con una tasa de crecimiento de dividendos del 4% y una rentabilidad requerida del 10%.
+2. **Valorización de Acciones:**  
+   Determine el precio de una acción que paga un dividendo anual de \$2,50, con una tasa de crecimiento de dividendos del 4% y una rentabilidad requerida del 10%.
 
-3. **Portafolios de Inversión:**
-   - Construya un portafolio con dos activos:
-     - Activo X: Retorno esperado 12%, riesgo 20%.
-     - Activo Y: Retorno esperado 8%, riesgo 15%.
-     - Asuma una correlación de 0,3 entre los activos.
-     - Si invierte el 50% en cada activo, calcule el retorno esperado y el riesgo del portafolio.
+3. **Portafolios de Inversión:**  
+   Construya un portafolio con dos activos:
+   - Activo X: Retorno esperado 12%, riesgo 20%.
+   - Activo Y: Retorno esperado 8%, riesgo 15%.
+   - Correlación: 0,3.
+   - Inversión: 50% en cada activo.
+   - Calcule retorno esperado y riesgo del portafolio.
 
 ---
 
@@ -151,233 +226,50 @@ Donde:
 ## 1. Valorización de Bonos
 
 **Datos:**
-
-- **Valor nominal (M):** 2.000 UF.
-- **Tasa cupón anual (i):** 8%.
-- **Vencimiento (N):** 8 años.
-- **Rentabilidad esperada (r):** 5% anual.
+- $M = 2.000$ UF, $i = 8\%$, $N = 8$ años, $r = 5\%$.
 
 **Cálculos:**
+- Cupón anual: $C = 2.000 \times 8\% = 160$ UF.
+- VP de cupones:  
+  $$160 \times \frac{1 - (1.05)^{-8}}{0.05} \approx 1.034,24\ \text{UF}$$
+- VP del valor nominal:  
+  $$\frac{2.000}{(1.05)^8} \approx 1.353,60\ \text{UF}$$
+- Precio total:  
+  $$1.034,24 + 1.353,60 = 2.387,84\ \text{UF}$$
 
-1. **Pago del cupón por periodo (C):**
-
-   $$
-   C = \text{Valor Nominal} \times \text{Tasa Cupón} = 2.000\ \text{UF} \times 8\% = 160\ \text{UF} \text{ por año}
-   $$
-
----
-
-## 1. Valorización de Bonos
-
-2. **Precio del bono:**
-
-   El precio del bono es la suma del valor presente de los cupones y el valor nominal al vencimiento:
-
-   $$
-   Precio = \sum_{t=1}^{8} \frac{C}{(1 + r)^t} + \frac{M}{(1 + r)^N}
-   $$
-
-   **Calculando el valor presente de los cupones (anualidades):**
-
-   - Fórmula del valor presente de una anualidad:
-
-     $$
-     PV\ de\ Cupones = C \times \left( \frac{1 - (1 + r)^{-N}}{r} \right)
-     $$
-
----
-
-## 1. Valorización de Bonos
-
-   - Cálculo:
-
-     $$
-     PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - (1 + 0,05)^{-8}}{0,05} \right)
-     $$
-
-     Primero, calcular $(1 + 0,05)^{-8}$:
-
-     $$
-     (1 + 0,05)^{-8} = (1,05)^{-8} \approx 0,6768
-     $$
-
----
-
-## 1. Valorización de Bonos
-
-Luego:
-
-$$
-     PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - 0,6768}{0,05} \right) = 160\ \text{UF} \times \left( \frac{0,3232}{0,05} \right) 
-$$
-
-$$
-     = 160\ \text{UF} \times 6,464 = 1.034,24\ \text{UF}
-$$
-
----
-
-## 1. Valorización de Bonos
-
-   **Calculando el valor presente del valor nominal:**
-
-$$
-   PV\ del\ Valor\ Nominal = \frac{M}{(1 + r)^N} = \frac{2.000\ \text{UF}}{(1,05)^8} = 2.000\ \text{UF} \times 0,6768
-$$
-
-$$
-= 1.353,60\ \text{UF}
-$$
-
----
-
-## 1. Valorización de Bonos
-
-3. **Precio total del bono:**
-
-   $$
-   Precio = PV\ de\ Cupones + PV\ del\ Valor\ Nominal = 1.034,24\ \text{UF} + 1.353,60\ \text{UF} = 2.387,84\ \text{UF}
-   $$
-
-**Respuesta:**
-
-El precio del bono es aproximadamente **2.387,84 UF**.
-
----
-
-## 1. Valorización de Bonos
-
-2. **Precio del bono:**
-
-   $$
-   Precio = \sum_{t=1}^{10} \frac{\$30}{(1 + 0,04)^t} + \frac{\$1.000}{(1 + 0,04)^{10}}
-   $$
-
----
-
-## 1. Valorización de Bonos
-
-Calculando el valor presente de los cupones y del valor nominal:
-
-Valor presente de los cupones:
-
-$$
-PV\ de\ Cupones = \$30 \times \left( \frac{1 - (1 + 0,04)^{-10}}{0,04} \right) = \$30 \times 8,1109 = \$243,33
-$$
-
-   - Valor presente del valor nominal:
-
-$$
-PV\ del\ Valor\ Nominal = \frac{\$1.000}{(1 + 0,04)^{10}} = \$1.000 \times 0,6756 = \$675,56
-$$
-
----
-
-## 1. Valorización de Bonos
-
-   - **Precio total del bono:**
-
-$$
-     Precio = \$243,33 + \$675,56 = \$918,89
-$$
-
-**Respuesta:**
-
-El precio del bono es aproximadamente **\$918,89**.
+**Respuesta:** 2.387,84 UF.
 
 ---
 
 ## 2. Valorización de Acciones
 
 **Datos:**
-
-- Dividendo actual (D₀): \$2,50.
-- Tasa de crecimiento de dividendos (g): 4% anual.
-- Rentabilidad requerida (kₑ): 10% anual.
+- $D_0 = \$2,50$, $g = 4\%$, $k_e = 10\%$.
 
 **Cálculos:**
+- Dividendo próximo año:  
+  $$D_1 = 2,50 \times 1,04 = \$2,60$$
+- Precio de la acción:  
+  $$\frac{2,60}{0,10 - 0,04} = \$43,33$$
 
-1. **Dividendo esperado próximo año (D₁):**
-
-   $$
-   D_1 = D_0 \times (1 + g) = \$2,50 \times 1,04 = \$2,60
-   $$
-
-2. **Precio de la acción (P₀):**
-
-   $$
-   P_0 = \frac{D_1}{k_e - g} = \frac{\$2,60}{0,10 - 0,04} = \frac{\$2,60}{0,06} = \$43,33
-   $$
-
-**Respuesta:**
-
-El precio de la acción es **\$43,33**.
+**Respuesta:** \$43,33.
 
 ---
 
 ## 3. Portafolios de Inversión
 
 **Datos:**
-
-- **Activo X:**
-  - Retorno esperado ($E[R_X]$): 12%.
-  - Riesgo ($\sigma_X$): 20%.
-- **Activo Y:**
-  - Retorno esperado (\( E[R_Y] \)): 8%.
-  - Riesgo ($sigma_Y$): 15%.
-
----
-
-## 3. Portafolios de Inversión
-
-- Correlación ($\rho_{XY}$): 0,3.
-- Pesos en el portafolio:
-  - $w_X = 50\%$.
-  - $w_Y = 50\%$.
+- $E[R_X] = 12\%$, $\sigma_X = 20\%$.
+- $E[R_Y] = 8\%$, $\sigma_Y = 15\%$.
+- $\rho_{XY} = 0,3$, $w_X = w_Y = 50\%$.
 
 **Cálculos:**
+- Retorno esperado:  
+  $$0,5 \times 12\% + 0,5 \times 8\% = 10\%$$
+- Riesgo:  
+  $$\sqrt{(0,5^2 \times 0,2^2) + (0,5^2 \times 0,15^2) + 2 \times 0,5 \times 0,5 \times 0,2 \times 0,15 \times 0,3} \approx 14,18\%$$
 
-1. **Retorno esperado del portafolio ($E[R_p]$):**
-
-   $$
-   E[R_p] = w_X \times E[R_X] + w_Y \times E[R_Y] = 0,5 \times 12\% + 0,5 \times 8\% = 10\%
-   $$
-
----
-
-## 3. Portafolios de Inversión
-
-2. **Riesgo del portafolio ($\sigma_p$):**
-
-   $$
-   \sigma_p = \sqrt{(w_X \times \sigma_X)^2 + (w_Y \times \sigma_Y)^2 + 2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY}}
-   $$
-
-   - Calculando cada término:
-
-     - $(w_X \times \sigma_X)^2 = (0,5 \times 20\%)^2 = (10\%)^2 = 0,01$.
-     - $(w_Y \times \sigma_Y)^2 = (0,5 \times 15\%)^2 = (7,5\%)^2 = 0,005625$.
-     - $2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY} = 2 \times 0,5 \times 0,5 \times 20\% \times 15\% \times 0,3 = 0,0045$.
-
-   - Sumando:
-
-    $$
-     \sigma_p^2 = 0,01 + 0,005625 + 0,0045 = 0,020125
-    $$
-
----
-
-## 3. Portafolios de Inversión
-
-   - Calculando la desviación estándar:
-
-$$
-    \sigma_p = \sqrt{0,020125} \approx 14,18\%
-$$
-
-**Respuesta:**
-
-El retorno esperado del portafolio es **10%** y el riesgo es aproximadamente **14,18%**.
+**Respuesta:** Retorno = 10%, Riesgo ≈ 14,18%.
 
 ---
 

@@ -10,7 +10,7 @@
 <link href="Valorizacion_Instrumentos_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="Docente: Carlos Correa Iñiguez ca.correai@profesor.duoc.cl">
+  <meta name="author" content="Docente: Master en Finanzas Carlos Correa Iñiguez c.correainiguez@uandresbello.edu">
   <title>Clase: Valorización Financiera y Portafolios de Inversión</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -332,7 +332,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Docente: Carlos Correa Iñiguez <a href="mailto:ca.correai@profesor.duoc.cl" class="email">ca.correai@profesor.duoc.cl</a> 
+Docente: Master en Finanzas Carlos Correa Iñiguez <a href="mailto:c.correainiguez@uandresbello.edu" class="email">c.correainiguez@uandresbello.edu</a> 
 </div>
 </div>
 </div>
@@ -380,8 +380,74 @@ Precio\ del\ Bono = \sum_{t=1}^{N} \frac{C}{(1 + r)^t} + \frac{M}{(1 + r)^N}
 <li><span class="math inline">\(C\)</span>: Pago del cupón (interés) por periodo.</li>
 <li><span class="math inline">\(r\)</span>: Tasa de mercado o rendimiento requerido.</li>
 <li><span class="math inline">\(N\)</span>: Número de periodos hasta el vencimiento.</li>
-<li><span class="math inline">\(M\)</span>: Valor nominal o principal del bono.**</li>
+<li><span class="math inline">\(M\)</span>: Valor nominal o principal del bono.</li>
 </ul>
+</section>
+<section id="caso-práctico-reemplazo-de-bonos" class="slide level2">
+<h2>Caso Práctico: Reemplazo de Bonos</h2>
+<p><strong>Contexto:</strong><br>
+Una empresa emitió bonos hace 8 años (vencimiento original: 10 años) con: - Valor nominal: <strong>UF 1.000</strong>. - Tasa cupón anual: <strong>8%</strong>. - Quedan <strong>2 años</strong> para su vencimiento.</p>
+<p>La empresa planea emitir nuevos bonos con: - Valor nominal: <strong>UF 1.000</strong>. - Vencimiento: <strong>12 años</strong>. - <strong>Condición:</strong> Tenedores antiguos reciben un descuento del 15%:<br>
+<span class="math display">\[ VP_{\text{antiguo}} = 0.85 \times VP_{\text{nuevo}} \]</span> - Tasa de mercado relevante: <strong>9%</strong>.</p>
+<p><strong>Pregunta:</strong><br>
+Determine la tasa de cupón de los nuevos bonos.</p>
+</section>
+<section id="solución-paso-a-paso" class="slide level2">
+<h2>Solución Paso a Paso</h2>
+<ol type="1">
+<li><p><strong>Calcular el valor presente de los bonos antiguos:</strong></p>
+<ul>
+<li>Cupón anual: <span class="math inline">\(C = 8\% \times 1.000 = 80\)</span> UF.</li>
+<li>Flujos restantes: 80 UF (Año 1) + 1.080 UF (Año 2).</li>
+</ul>
+<p><span class="math display">\[
+VP_{\text{antiguo}} = \frac{80}{1.09} + \frac{1.080}{(1.09)^2} \approx 73.39 + 909.17 = 982.56\ \text{UF}
+\]</span></p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<ol start="2" type="1">
+<li><p><strong>Plantear la ecuación para los nuevos bonos:</strong></p>
+<ul>
+<li>Cupón desconocido: <span class="math inline">\(C\)</span>.</li>
+<li>Valor presente del nuevo bono:</li>
+</ul>
+<p><span class="math display">\[
+VP_{\text{nuevo}} = C \times \left( \frac{1 - (1.09)^{-12}}{0.09} \right) + \frac{1.000}{(1.09)^{12}}
+\]</span></p></li>
+</ol>
+</section>
+<section id="solución-paso-a-paso-cont." class="slide level2">
+<h2>Solución Paso a Paso (Cont.)</h2>
+<ol start="3" type="1">
+<li><p><strong>Calcular términos numéricos:</strong></p>
+<ul>
+<li>Factor de anualidad a 12 años (9%):<br>
+<span class="math display">\[\frac{1 - (1.09)^{-12}}{0.09} \approx 7.1607\]</span></li>
+<li>VP del valor nominal:<br>
+<span class="math display">\[\frac{1.000}{(1.09)^{12}} \approx 355.5\ \text{UF}\]</span></li>
+<li>Ecuación resultante:<br>
+<span class="math display">\[VP_{\text{nuevo}} = 7.1607C + 355.5\]</span></li>
+</ul></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<ol start="4" type="1">
+<li><p><strong>Aplicar la condición de descuento:</strong></p>
+<p><span class="math display">\[
+982.56 = 0.85 \times (7.1607C + 355.5)
+\]</span></p>
+<ul>
+<li>Resolver para <span class="math inline">\(C\)</span>:<br>
+<span class="math display">\[C \approx 111.86\ \text{UF}\]</span></li>
+<li>Tasa de cupón:<br>
+<span class="math display">\[\frac{111.86}{1.000} \times 100\% \approx 11.19\%\]</span></li>
+</ul></li>
+</ol>
+<p><strong>Respuesta Final:</strong><br>
+La nueva emisión requiere una <strong>tasa de cupón del 11.19%</strong>.</p>
 </section>
 <section class="slide level2">
 
@@ -463,34 +529,29 @@ E[R_p] = \sum_{i=1}^{n} w_i \times E[R_i]
 <h1>Actividad</h1>
 <p><strong>Ejercicio Práctico:</strong></p>
 <ol type="1">
-<li><strong>Valorización de Bonos:</strong>
-<ul>
-<li>Determine el precio de un bono tipo francés con las siguientes características:
+<li><strong>Valorización de Bonos:</strong><br>
+Determine el precio de un bono tipo francés con:
 <ul>
 <li>Valor nominal: <strong>2.000 UF</strong>.</li>
 <li>Tasa cupón anual: <strong>8%</strong>.</li>
 <li>Vencimiento en <strong>8 años</strong>.</li>
 <li>Rentabilidad esperada: <strong>5%</strong> anual.</li>
 </ul></li>
-</ul></li>
 </ol>
 </section>
 <section id="ejercicio-práctico" class="slide level2">
 <h2><strong>Ejercicio Práctico:</strong></h2>
 <ol start="2" type="1">
-<li><strong>Valorización de Acciones:</strong>
-<ul>
-<li>Determine el precio de una acción que paga un dividendo anual de $2,50, con una tasa de crecimiento de dividendos del 4% y una rentabilidad requerida del 10%.</li>
-</ul></li>
-<li><strong>Portafolios de Inversión:</strong>
-<ul>
-<li>Construya un portafolio con dos activos:
+<li><p><strong>Valorización de Acciones:</strong><br>
+Determine el precio de una acción que paga un dividendo anual de $2,50, con una tasa de crecimiento de dividendos del 4% y una rentabilidad requerida del 10%.</p></li>
+<li><p><strong>Portafolios de Inversión:</strong><br>
+Construya un portafolio con dos activos:</p>
 <ul>
 <li>Activo X: Retorno esperado 12%, riesgo 20%.</li>
 <li>Activo Y: Retorno esperado 8%, riesgo 15%.</li>
-<li>Asuma una correlación de 0,3 entre los activos.</li>
-<li>Si invierte el 50% en cada activo, calcule el retorno esperado y el riesgo del portafolio.</li>
-</ul></li>
+<li>Correlación: 0,3.</li>
+<li>Inversión: 50% en cada activo.</li>
+<li>Calcule retorno esperado y riesgo del portafolio.</li>
 </ul></li>
 </ol>
 </section>
@@ -504,203 +565,28 @@ E[R_p] = \sum_{i=1}^{n} w_i \times E[R_i]
 </section>
 <section id="valorización-de-bonos-1" class="slide level2">
 <h2>1. Valorización de Bonos</h2>
-<p><strong>Datos:</strong></p>
-<ul>
-<li><strong>Valor nominal (M):</strong> 2.000 UF.</li>
-<li><strong>Tasa cupón anual (i):</strong> 8%.</li>
-<li><strong>Vencimiento (N):</strong> 8 años.</li>
-<li><strong>Rentabilidad esperada (r):</strong> 5% anual.</li>
-</ul>
-<p><strong>Cálculos:</strong></p>
-<ol type="1">
-<li><p><strong>Pago del cupón por periodo (C):</strong></p>
-<p><span class="math display">\[
-C = \text{Valor Nominal} \times \text{Tasa Cupón} = 2.000\ \text{UF} \times 8\% = 160\ \text{UF} \text{ por año}
-\]</span></p></li>
-</ol>
-</section>
-<section id="valorización-de-bonos-2" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<ol start="2" type="1">
-<li><p><strong>Precio del bono:</strong></p>
-<p>El precio del bono es la suma del valor presente de los cupones y el valor nominal al vencimiento:</p>
-<p><span class="math display">\[
-Precio = \sum_{t=1}^{8} \frac{C}{(1 + r)^t} + \frac{M}{(1 + r)^N}
-\]</span></p>
-<p><strong>Calculando el valor presente de los cupones (anualidades):</strong></p>
-<ul>
-<li><p>Fórmula del valor presente de una anualidad:</p>
-<p><span class="math display">\[
-PV\ de\ Cupones = C \times \left( \frac{1 - (1 + r)^{-N}}{r} \right)
-\]</span></p></li>
-</ul></li>
-</ol>
-</section>
-<section id="valorización-de-bonos-3" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<ul>
-<li><p>Cálculo:</p>
-<p><span class="math display">\[
-PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - (1 + 0,05)^{-8}}{0,05} \right)
-\]</span></p>
-<p>Primero, calcular <span class="math inline">\((1 + 0,05)^{-8}\)</span>:</p>
-<p><span class="math display">\[
-(1 + 0,05)^{-8} = (1,05)^{-8} \approx 0,6768
-\]</span></p></li>
-</ul>
-</section>
-<section id="valorización-de-bonos-4" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<p>Luego:</p>
-<p><span class="math display">\[
-     PV\ de\ Cupones = 160\ \text{UF} \times \left( \frac{1 - 0,6768}{0,05} \right) = 160\ \text{UF} \times \left( \frac{0,3232}{0,05} \right)
-\]</span></p>
-<p><span class="math display">\[
-     = 160\ \text{UF} \times 6,464 = 1.034,24\ \text{UF}
-\]</span></p>
-</section>
-<section id="valorización-de-bonos-5" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<p><strong>Calculando el valor presente del valor nominal:</strong></p>
-<p><span class="math display">\[
-   PV\ del\ Valor\ Nominal = \frac{M}{(1 + r)^N} = \frac{2.000\ \text{UF}}{(1,05)^8} = 2.000\ \text{UF} \times 0,6768
-\]</span></p>
-<p><span class="math display">\[
-= 1.353,60\ \text{UF}
-\]</span></p>
-</section>
-<section id="valorización-de-bonos-6" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<ol start="3" type="1">
-<li><p><strong>Precio total del bono:</strong></p>
-<p><span class="math display">\[
-Precio = PV\ de\ Cupones + PV\ del\ Valor\ Nominal = 1.034,24\ \text{UF} + 1.353,60\ \text{UF} = 2.387,84\ \text{UF}
-\]</span></p></li>
-</ol>
-<p><strong>Respuesta:</strong></p>
-<p>El precio del bono es aproximadamente <strong>2.387,84 UF</strong>.</p>
-</section>
-<section id="valorización-de-bonos-7" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<ol start="2" type="1">
-<li><p><strong>Precio del bono:</strong></p>
-<p><span class="math display">\[
-Precio = \sum_{t=1}^{10} \frac{\$30}{(1 + 0,04)^t} + \frac{\$1.000}{(1 + 0,04)^{10}}
-\]</span></p></li>
-</ol>
-</section>
-<section id="valorización-de-bonos-8" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<p>Calculando el valor presente de los cupones y del valor nominal:</p>
-<p>Valor presente de los cupones:</p>
-<p><span class="math display">\[
-PV\ de\ Cupones = \$30 \times \left( \frac{1 - (1 + 0,04)^{-10}}{0,04} \right) = \$30 \times 8,1109 = \$243,33
-\]</span></p>
-<ul>
-<li>Valor presente del valor nominal:</li>
-</ul>
-<p><span class="math display">\[
-PV\ del\ Valor\ Nominal = \frac{\$1.000}{(1 + 0,04)^{10}} = \$1.000 \times 0,6756 = \$675,56
-\]</span></p>
-</section>
-<section id="valorización-de-bonos-9" class="slide level2">
-<h2>1. Valorización de Bonos</h2>
-<ul>
-<li><strong>Precio total del bono:</strong></li>
-</ul>
-<p><span class="math display">\[
-     Precio = \$243,33 + \$675,56 = \$918,89
-\]</span></p>
-<p><strong>Respuesta:</strong></p>
-<p>El precio del bono es aproximadamente <strong>$918,89</strong>.</p>
+<p><strong>Datos:</strong> - <span class="math inline">\(M = 2.000\)</span> UF, <span class="math inline">\(i = 8\%\)</span>, <span class="math inline">\(N = 8\)</span> años, <span class="math inline">\(r = 5\%\)</span>.</p>
+<p><strong>Cálculos:</strong> - Cupón anual: <span class="math inline">\(C = 2.000 \times 8\% = 160\)</span> UF. - VP de cupones:<br>
+<span class="math display">\[160 \times \frac{1 - (1.05)^{-8}}{0.05} \approx 1.034,24\ \text{UF}\]</span> - VP del valor nominal:<br>
+<span class="math display">\[\frac{2.000}{(1.05)^8} \approx 1.353,60\ \text{UF}\]</span> - Precio total:<br>
+<span class="math display">\[1.034,24 + 1.353,60 = 2.387,84\ \text{UF}\]</span></p>
+<p><strong>Respuesta:</strong> 2.387,84 UF.</p>
 </section>
 <section id="valorización-de-acciones-1" class="slide level2">
 <h2>2. Valorización de Acciones</h2>
-<p><strong>Datos:</strong></p>
-<ul>
-<li>Dividendo actual (D₀): $2,50.</li>
-<li>Tasa de crecimiento de dividendos (g): 4% anual.</li>
-<li>Rentabilidad requerida (kₑ): 10% anual.</li>
-</ul>
-<p><strong>Cálculos:</strong></p>
-<ol type="1">
-<li><p><strong>Dividendo esperado próximo año (D₁):</strong></p>
-<p><span class="math display">\[
-D_1 = D_0 \times (1 + g) = \$2,50 \times 1,04 = \$2,60
-\]</span></p></li>
-<li><p><strong>Precio de la acción (P₀):</strong></p>
-<p><span class="math display">\[
-P_0 = \frac{D_1}{k_e - g} = \frac{\$2,60}{0,10 - 0,04} = \frac{\$2,60}{0,06} = \$43,33
-\]</span></p></li>
-</ol>
-<p><strong>Respuesta:</strong></p>
-<p>El precio de la acción es <strong>$43,33</strong>.</p>
+<p><strong>Datos:</strong> - <span class="math inline">\(D_0 = \$2,50\)</span>, <span class="math inline">\(g = 4\%\)</span>, <span class="math inline">\(k_e = 10\%\)</span>.</p>
+<p><strong>Cálculos:</strong> - Dividendo próximo año:<br>
+<span class="math display">\[D_1 = 2,50 \times 1,04 = \$2,60\]</span> - Precio de la acción:<br>
+<span class="math display">\[\frac{2,60}{0,10 - 0,04} = \$43,33\]</span></p>
+<p><strong>Respuesta:</strong> $43,33.</p>
 </section>
 <section id="portafolios-de-inversión-1" class="slide level2">
 <h2>3. Portafolios de Inversión</h2>
-<p><strong>Datos:</strong></p>
-<ul>
-<li><strong>Activo X:</strong>
-<ul>
-<li>Retorno esperado (<span class="math inline">\(E[R_X]\)</span>): 12%.</li>
-<li>Riesgo (<span class="math inline">\(\sigma_X\)</span>): 20%.</li>
-</ul></li>
-<li><strong>Activo Y:</strong>
-<ul>
-<li>Retorno esperado (( E[R_Y] )): 8%.</li>
-<li>Riesgo (<span class="math inline">\(sigma_Y\)</span>): 15%.</li>
-</ul></li>
-</ul>
-</section>
-<section id="portafolios-de-inversión-2" class="slide level2">
-<h2>3. Portafolios de Inversión</h2>
-<ul>
-<li>Correlación (<span class="math inline">\(\rho_{XY}\)</span>): 0,3.</li>
-<li>Pesos en el portafolio:
-<ul>
-<li><span class="math inline">\(w_X = 50\%\)</span>.</li>
-<li><span class="math inline">\(w_Y = 50\%\)</span>.</li>
-</ul></li>
-</ul>
-<p><strong>Cálculos:</strong></p>
-<ol type="1">
-<li><p><strong>Retorno esperado del portafolio (<span class="math inline">\(E[R_p]\)</span>):</strong></p>
-<p><span class="math display">\[
-E[R_p] = w_X \times E[R_X] + w_Y \times E[R_Y] = 0,5 \times 12\% + 0,5 \times 8\% = 10\%
-\]</span></p></li>
-</ol>
-</section>
-<section id="portafolios-de-inversión-3" class="slide level2">
-<h2>3. Portafolios de Inversión</h2>
-<ol start="2" type="1">
-<li><p><strong>Riesgo del portafolio (<span class="math inline">\(\sigma_p\)</span>):</strong></p>
-<p><span class="math display">\[
-\sigma_p = \sqrt{(w_X \times \sigma_X)^2 + (w_Y \times \sigma_Y)^2 + 2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY}}
-\]</span></p>
-<ul>
-<li><p>Calculando cada término:</p>
-<ul>
-<li><span class="math inline">\((w_X \times \sigma_X)^2 = (0,5 \times 20\%)^2 = (10\%)^2 = 0,01\)</span>.</li>
-<li><span class="math inline">\((w_Y \times \sigma_Y)^2 = (0,5 \times 15\%)^2 = (7,5\%)^2 = 0,005625\)</span>.</li>
-<li><span class="math inline">\(2 \times w_X \times w_Y \times \sigma_X \times \sigma_Y \times \rho_{XY} = 2 \times 0,5 \times 0,5 \times 20\% \times 15\% \times 0,3 = 0,0045\)</span>.</li>
-</ul></li>
-<li><p>Sumando:</p></li>
-</ul>
-<p><span class="math display">\[
-  \sigma_p^2 = 0,01 + 0,005625 + 0,0045 = 0,020125
-\]</span></p></li>
-</ol>
-</section>
-<section id="portafolios-de-inversión-4" class="slide level2">
-<h2>3. Portafolios de Inversión</h2>
-<ul>
-<li>Calculando la desviación estándar:</li>
-</ul>
-<p><span class="math display">\[
-    \sigma_p = \sqrt{0,020125} \approx 14,18\%
-\]</span></p>
-<p><strong>Respuesta:</strong></p>
-<p>El retorno esperado del portafolio es <strong>10%</strong> y el riesgo es aproximadamente <strong>14,18%</strong>.</p>
+<p><strong>Datos:</strong> - <span class="math inline">\(E[R_X] = 12\%\)</span>, <span class="math inline">\(\sigma_X = 20\%\)</span>. - <span class="math inline">\(E[R_Y] = 8\%\)</span>, <span class="math inline">\(\sigma_Y = 15\%\)</span>. - <span class="math inline">\(\rho_{XY} = 0,3\)</span>, <span class="math inline">\(w_X = w_Y = 50\%\)</span>.</p>
+<p><strong>Cálculos:</strong> - Retorno esperado:<br>
+<span class="math display">\[0,5 \times 12\% + 0,5 \times 8\% = 10\%\]</span> - Riesgo:<br>
+<span class="math display">\[\sqrt{(0,5^2 \times 0,2^2) + (0,5^2 \times 0,15^2) + 2 \times 0,5 \times 0,5 \times 0,2 \times 0,15 \times 0,3} \approx 14,18\%\]</span></p>
+<p><strong>Respuesta:</strong> Retorno = 10%, Riesgo ≈ 14,18%.</p>
 </section>
 <section class="slide level2">
 
