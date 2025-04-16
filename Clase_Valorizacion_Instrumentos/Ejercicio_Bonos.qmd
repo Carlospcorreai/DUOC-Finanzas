@@ -1,0 +1,101 @@
+---
+title: "Ejercicio: Reemplazo de Bonos"
+author: "Docente: Carlos Correa Iñiguez"
+format: 
+  pdf:
+    documentclass: article
+    geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+    fontsize: 12pt
+    header-includes:
+      - \usepackage{amsmath}
+output-file: ejercicio_bonos.pdf
+---
+
+# Contexto
+
+Una empresa emitió 1.000.000 de bonos hace 8 años con las siguientes características:
+
+- **Valor nominal:** UF 1.000  
+- **Tasa cupón anual:** 8%  
+- **Vencimiento original:** 10 años (quedan 2 años)  
+
+La empresa planea emitir nuevos bonos con:
+
+- **Valor nominal:** UF 1.000  
+- **Vencimiento:** 12 años  
+- **Condición especial:** VP bonos antiguos = 0.85 × VP bonos nuevos  
+- **Tasa de mercado relevante:** 9%  
+
+# Desarrollo del Ejercicio
+
+## Paso 1: Valor Presente Bonos Antiguos
+
+**Flujos restantes:**
+- Año 1: Cupón = $8\% \times 1.000 = 80$ UF  
+- Año 2: Cupón + Principal = $80 + 1.000 = 1.080$ UF  
+
+**Fórmula de valor presente:**
+$$
+VP_{\text{antiguo}} = \frac{80}{(1.09)^1} + \frac{1.080}{(1.09)^2}
+$$
+
+**Cálculos:**
+$$
+= \frac{80}{1.09} + \frac{1.080}{1.1881} \approx 73.39 + 909.17 = 982.56\ \text{UF}
+$$
+
+## Paso 2: Fórmula Bonos Nuevos
+
+Para los nuevos bonos (12 años, tasa cupón $C$ desconocida):
+
+$$
+VP_{\text{nuevo}} = \underbrace{C \times \left(\frac{1 - (1.09)^{-12}}{0.09}\right)}_{\text{Valor cupones}} + \underbrace{\frac{1.000}{(1.09)^{12}}}_{\text{Valor nominal}}
+$$
+
+## Paso 3: Cálculo de Componentes
+
+1. **Factor de anualidad:**
+$$
+\frac{1 - (1.09)^{-12}}{0.09} \approx 7.1607
+$$
+
+2. **Valor presente del nominal:**
+$$
+\frac{1.000}{(1.09)^{12}} \approx 355.5\ \text{UF}
+$$
+
+3. **Ecuación completa:**
+$$
+VP_{\text{nuevo}} = 7.1607C + 355.5
+$$
+
+## Paso 4: Aplicación del Descuento
+
+Relación requerida:
+$$
+982.56 = 0.85 \times (7.1607C + 355.5)
+$$
+
+**Resolución:**
+1. $\frac{982.56}{0.85} = 1.156 \approx 7.1607C + 355.5$  
+2. $7.1607C = 1.156 - 355.5 \approx 800.5$  
+3. $C \approx \frac{800.5}{7.1607} \approx 111.86\ \text{UF}$  
+
+## Paso 5: Cálculo de la Tasa Cupón
+
+$$
+\text{Tasa Cupón} = \frac{111.86}{1.000} \times 100\% = 11.19\%
+$$
+
+# Respuesta Final
+
+Los nuevos bonos deben emitirse con una **tasa cupón del 11.19\%** para cumplir con la condición de descuento del 15\%.
+
+# Explicación Conceptual
+
+La relación $VP_{\text{antiguo}} = 0.85 \times VP_{\text{nuevo}}$ implica que:
+
+1. Los tenedores aceptan menor valor presente por mayor plazo (12 vs 2 años)
+2. La tasa cupón más alta compensa:  
+   - Mayor riesgo por plazo extendido  
+   - Tasa de mercado actual (9%) vs cupón original (8%)
