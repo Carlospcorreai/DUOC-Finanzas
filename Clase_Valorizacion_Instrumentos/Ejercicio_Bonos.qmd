@@ -6,8 +6,6 @@ format:
     documentclass: article
     geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
     fontsize: 12pt
-    header-includes:
-      - \usepackage{amsmath}
 output-file: ejercicio_bonos.pdf
 ---
 
