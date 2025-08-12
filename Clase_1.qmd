@@ -1,0 +1,280 @@
+---
+title: "Finanzas para la toma de decisiones"
+author: "Duoc UC – Escuela de Administración y Negocios"
+date: "Segundo semestre 2025"
+format:
+  revealjs:
+    slide-number: true
+    incremental: true
+    css: duoc.css
+    transition: slide
+---
+
+<!--
+Esta presentación está construida en formato Quarto/reveal.js y sigue la
+paleta de colores corporativos de Duoc UC (azul intenso y amarillo dorado).
+El contenido resume la asignatura «Finanzas para la toma de decisiones», el
+cronograma para el segundo semestre de 2026, las experiencias de aprendizaje
+definidas en el plan de estudios y la base conceptual del análisis financiero
+y del entorno.  Las citas al final de algunas diapositivas hacen referencia
+al material original entregado por el docente【512352231817837†screenshot】【461168549601125†screenshot】.
+-->
+
+##  {data-background-image="cached_assets_used/title_bg.png" data-background-size="cover"}
+
+### **Finanzas para la toma de decisiones**
+
+#### Administración del capital de trabajo y análisis del entorno
+
+##### Certificado en Gestión de Recursos de la Empresa – Auditoría (FZA6157)
+
+<span class="footnote">&nbsp;</span>
+
+## Descripción de la asignatura
+
+- **Asignatura de especialidad (6.º semestre)**. Forma parte del certificado en
+  Gestión de Recursos de la Empresa y comparte competencias con *Costos para la
+  toma de decisiones*, *Planificación estratégica* y *Evaluación de proyectos*.
+- **Administración de los recursos financieros**. La gestión diaria de
+  liquidez y capital de trabajo apoya la toma de decisiones en las
+  organizaciones.
+- **Foco en el capital de trabajo**. Determinación de niveles óptimos de
+  activos de corto plazo (efectivo, cuentas por cobrar, inventarios) y su
+  financiación para maximizar el valor de la empresa.
+- **Propósito**. A partir de datos reales de una empresa y del mercado
+  financiero, los estudiantes calculan y analizan estados financieros,
+  determinan el capital de trabajo óptimo y valoran instrumentos financieros
+  de corto plazo.
+- **Tres experiencias de aprendizaje** guían el desarrollo: análisis con
+  ratios financieros, determinación del capital de trabajo mediante modelos
+  LEC/Baumol/Miller–Orr y cálculo de la rentabilidad de instrumentos de
+  inversión.
+
+## Resultados de aprendizaje
+
+- **RA1 – Análisis de estados financieros**. Analiza los estados financieros
+  de la organización y propone observaciones a partir de las razones de
+  liquidez, endeudamiento, gestión, rentabilidad y bursatilidad para apoyar la
+  toma de decisiones.
+- **RA2 – Administración del capital de trabajo**. Plantea formas de
+  administrar el capital de trabajo que permitan apoyar la toma de decisiones
+  de la organización y optimizar el ciclo de efectivo.
+- **RA3 – Valorización e inversión**. Valoriza los recursos financieros de la
+  organización para proponer la mejor alternativa de inversión considerando
+  el análisis y cálculo de instrumentos financieros de renta fija y variable.
+
+## Evaluaciones
+
+| Evaluación        | Descripción breve                                                                                                                                                      | Peso |
+|------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----:|
+| **Parcial 1**     | Presentación de la empresa y sus estados financieros; cálculo e interpretación de ratios de liquidez, financiamiento, gestión, rentabilidad y valorización.            | 30 % |
+| **Parcial 2**     | Determinación del capital de trabajo: niveles óptimos de activos y su financiación, ciclo de efectivo, efectivo y equivalentes, cuentas por cobrar e inventario.       | 40 % |
+| **Parcial 3**     | Cálculo de la rentabilidad de instrumentos de inversión y análisis de una cartera diversificada para evaluar el mejor portafolio.                                     | 30 % |
+| **Examen transv.**| Informe de la situación financiera de una empresa con información cualitativa y cuantitativa para plantear objetivos financieros y sugerir alternativas de inversión. | 40 % |
+
+<p class="footnote">El promedio de los parciales representa el 60 % de la asignatura; el examen transversal corresponde al 40 % restante.</p>
+
+## Cronograma – semanas 1‑9
+
+| Semana    | Fechas (2025)           | Principales actividades                           |
+|:---------:|:-----------------------:|:--------------------------------------------------|
+| **1**     | 18–22 Agosto            | Presentación inicial; 1.1 Entorno de la empresa    |
+| **2**     | 25–29 Agosto            | 1.2 Análisis vertical y horizontal; 1.3 Ratios de liquidez |
+| **3**     | 1–5 Septiembre          | Ejercicios prácticos; 1.4 Ratios de endeudamiento |
+| **4**     | 8–12 Septiembre         | 1.5 Ratios de rentabilidad; 1.6 Ratios de gestión  |
+| **5**     | 15–19 Septiembre        | 1.7 Ratios bursátiles; feriado institucional       |
+| **6**     | 22–26 Septiembre        | Ejercicios prácticos; **Prueba 1**                |
+| **7**     | 29 Sept.–3 Octubre      | 2.2 Administración del efectivo                    |
+| **8**     | 6–10 Octubre            | 2.2 Adm. del efectivo; 2.3 Adm. del inventario     |
+| **9**     | 13–17 Octubre           | 2.4 Adm. de cuentas por cobrar; ejercicios         |
+
+
+## Cronograma – semanas 10‑18
+
+| Semana    | Fechas (2025)           | Principales actividades                           |
+|:---------:|:-----------------------:|:--------------------------------------------------|
+| **10**    | 20–24 Octubre           | — (sin actividades programadas)                   |
+| **11**    | 27–31 Octubre           | Repaso de materia; **Prueba 2**                   |
+| **12**    | 3–7 Noviembre           | 3.1 Base conceptual; 3.2 Valorización de acciones  |
+| **13**    | 10–14 Noviembre         | 3.3 Bonos; 3.4 Derivados                          |
+| **14**    | 17–21 Noviembre         | 3.5 Valorización de opciones; 3.6 Portafolio de inversión |
+| **15**    | 24–28 Noviembre         | Ejercicios integradores; **Prueba 3**             |
+| **16**    | 1–5 Diciembre           | Entrega de nota práctica; prueba recuperativa     |
+| **17**    | 8–12 Diciembre          | Feriado; semana sin actividades                   |
+| **18**    | 15–19 Diciembre         | Repaso para examen transversal                    |
+
+## Experiencia de aprendizaje EA1: *¿Cómo está la empresa?*
+
+**Objetivo.** Comprender cómo las variables del entorno influyen en la situación
+financiera de una organización y aplicar técnicas de análisis financiero para
+emitir un diagnóstico fundamentado.
+
+**Componentes de aprendizaje**
+
+- **Procedimentales.**
+  - Elaborar informes que diagnostican la situación financiera de la empresa.
+  - Calcular ratios de liquidez, endeudamiento, gestión, rentabilidad y bursatilidad.
+  - Analizar variables cualitativas del entorno político, económico, social,
+    tecnológico y ambiental.
+  - Aplicar análisis horizontal y vertical para explicar variaciones.
+  - Formular objetivos financieros de corto plazo.
+- **Actitudinales.**
+  - Fomentar un trabajo metódico y sistemático.
+  - Actuar con ética en el uso de información confidencial.
+  - Presentar los resultados de manera ordenada y responsable.
+- **Conceptuales.**
+  - Reconocer variables cuantitativas y cualitativas que determinan la posición financiera.
+  - Identificar modelos de análisis vertical y horizontal.
+  - Comprender los componentes de los objetivos financieros de corto plazo.
+
+## Actividades de la EA1 (I)
+
+La experiencia se desarrolla mediante actividades presenciales y no
+presenciales que combinan estudio de material, cálculo y análisis.  Las
+primeras siete actividades introducen la base conceptual y los métodos de
+análisis:
+
+- **1. Entorno de la empresa.** Base conceptual del análisis financiero y
+  variables del entorno (presentación 1.1).
+- **2. Variables del entorno.** Identificación de las variables PESTEA a
+  partir de un análisis razonado de una empresa registrada en la CMF.
+- **3. Análisis horizontal y vertical.** Fórmulas e interpretación de las
+  variaciones de cada cuenta de los estados financieros (presentación 1.3).
+- **4. Variaciones y participación.** Aplicación práctica del análisis
+  horizontal y vertical sobre datos reales.
+- **5. Ratios de liquidez.** Fórmulas y cuentas involucradas en el cálculo
+  de la liquidez.
+- **6. Liquidez en telecomunicaciones.** Análisis de liquidez de empresas
+  del sector de telecomunicaciones utilizando información de la CMF.
+- **7. Ratios de endeudamiento.** Revisión de fórmulas e interpretación.
+
+## Actividades de la EA1 (II)
+
+Las actividades restantes profundizan en otros ratios y en casos prácticos:
+
+- **8. Análisis de endeudamiento.** Aplicación de los ratios de
+  endeudamiento sobre empresas reales.
+- **9. Ratios de rentabilidad.** Estudio de indicadores de rentabilidad y
+  su interpretación.
+- **10. Caso Remolacha.** Análisis financiero integral de un caso de estudio.
+- **11. Ratios de gestión.** Evaluación de la eficiencia operativa de la
+  organización.
+- **12. Gestión – caso Remolacha.** Aplicación de la teoría de ratios de
+  gestión a un caso real.
+- **13. Ratios bursátiles.** Indicadores bursátiles y su relación con el
+  mercado de capitales.
+- **14. Análisis de ratios bursátiles.** Evaluación de oportunidades y
+  amenazas en los mercados financieros.
+
+## ¿Qué es el análisis financiero?
+
+- **Definición.** Conjunto de técnicas que permiten diagnosticar la situación
+  económica de una empresa y proyectar sus resultados futuros【512352231817837†screenshot】.
+- **Objetivo.** Apoyar la toma de decisiones corrigiendo desviaciones y
+  potenciando fortalezas.
+- **Interesados.** Acreedores (evaluar capacidad de pago), accionistas
+  (rentabilidad y riesgo), proveedores (solvencia de corto plazo),
+  trabajadores (estabilidad laboral) y clientes (continuidad de la empresa)【512352231817837†screenshot】.
+
+## Dimensiones del análisis financiero
+
+- **Variables cuantitativas y cualitativas.** El análisis integra
+  indicadores numéricos (ratios, tendencias) con datos cualitativos del
+  entorno político, económico, social, tecnológico y ambiental.
+- **Análisis interno.** Estudia los procesos operacionales, la cadena de
+  valor, los objetivos corporativos (misión, visión, valores) y los estados
+  financieros para identificar fortalezas y debilidades.
+- **Análisis externo.** Examina el macro y micro entorno, incluyendo
+  políticas públicas, economía, sociedad, tecnología, medio ambiente y
+  relaciones con proveedores, clientes y competidores【512352231817837†screenshot】.
+
+<!-- La sección "Análisis financiero: interno y externo" fue sintetizada en la
+"Dimensiones del análisis financiero" para reducir la carga textual y
+mantener la presentación dentro del tamaño de la pantalla. -->
+
+## Macro entorno: factores PESTEA
+
+El análisis del **macro entorno** identifica los factores generales que afectan
+a todas las empresas del mercado【512352231817837†screenshot】:
+
+| Factor       | Variables principales |
+|-------------:|:---------------------|
+| **Político** | Políticas públicas, subvenciones, política fiscal,
+                  estabilidad gubernamental, regulación del comercio exterior,
+                  legislación laboral y antimonopolios【512352231817837†screenshot】 |
+| **Económico**| Ciclo económico, evolución del PIB, tipos de interés, oferta
+                  monetaria, inflación, desempleo, ingreso disponible y nivel
+                  de desarrollo【512352231817837†screenshot】 |
+| **Social**   | Evolución demográfica, distribución del ingreso, movilidad
+                  social, estilo de vida, actitud consumista, nivel educativo
+                  y patrones culturales【461168549601125†screenshot】 |
+| **Tecnológico** | Innovación en TIC, inversión en I+D, grado de
+                    obsolescencia, madurez de tecnologías convencionales,
+                    desarrollo de nuevos productos y velocidad de difusión
+                    tecnológica【461168549601125†screenshot】 |
+| **Ambiental** | Normas de protección del medio ambiente, política
+                  energética, promoción del reciclaje y tratamiento de
+                  desechos【461168549601125†screenshot】 |
+
+## Caso de la empresa naviera chilena
+
+Un ejemplo de análisis externo es el caso de una naviera chilena que, debido
+a diversos factores del entorno, experimentó una situación financiera
+comprometida【884362243500699†screenshot】:
+
+- **Crecimiento del comercio mundial** → compra masiva de buques.
+- **Exceso de optimismo** tras un gran período para la industria → exceso de
+  oferta y disminución de márgenes.
+- **Industria comoditizada** → guerra de precios y presión sobre los
+  costos【884362243500699†screenshot】.
+- **Economías de escala** → entrada de competidores extranjeros.
+- **Tipo de cambio**: baja del dólar y alza del precio del cobre → incentivo
+  a la importación【884362243500699†screenshot】.
+- **Alza del petróleo** → mayores gastos operativos.
+- **Amenazas externas**: terrorismo marítimo y volatilidad de la economía de
+  EE. UU.
+- **Política comercial**: imposición de aranceles en EE. UU. a mercancías
+  asiáticas.
+- **Marcos regulatorios** para la industria marítima.
+
+## Actividad 1.2 – Variables del entorno
+
+En la actividad **Variables del entorno** se analiza el entorno competitivo
+de una empresa de telecomunicaciones (Entel) a partir de su análisis
+razonado.  La compañía opera en un mercado altamente competitivo y en
+constante cambio tecnológico.  Algunos aspectos destacados del análisis son:
+
+- **Mercado maduro y competitivo.** La industria móvil muestra saturación y
+  una fuerte presión competitiva, lo que obliga a las empresas a innovar y
+  diferenciarse.
+- **Transformación digital y 4G+.** El despliegue de redes 4G+ y la alta
+  penetración de teléfonos inteligentes favorecen la migración de clientes
+  desde planes de prepago hacia pospago de mayor valor.
+- **Estrategias comerciales.** Lanzamiento de planes *Multi Smart* con datos
+  ilimitados, conectividad para múltiples dispositivos y alianzas con
+  plataformas digitales para mejorar la experiencia del cliente.
+- **Riesgos regulatorios y tarifarios.** Cambios en las normas de acceso y
+  tarifas de interconexión requieren un monitoreo constante.
+- **Oportunidades y amenazas.** La consolidación de clientes de alto
+  valor representa una oportunidad, mientras que la baja en recargas de
+  prepago, las promociones agresivas de la competencia y la incertidumbre
+  regulatoria constituyen amenazas.
+
+## Conclusiones
+
+- La asignatura **Finanzas para la toma de decisiones** permite integrar
+  técnicas de análisis financiero, administración del capital de trabajo y
+  valoración de instrumentos para apoyar la gestión en las organizaciones.
+- El **cronograma del segundo semestre de 2025** guía el desarrollo de los
+  contenidos mediante clases, ejercicios y evaluaciones distribuidas a lo
+  largo de dieciocho semanas.
+- La **experiencia de aprendizaje “¿Cómo está la empresa?”** desarrolla
+  competencias procedimentales, conceptuales y actitudinales para emitir un
+  diagnóstico financiero basado en datos y variables del entorno.
+- El **análisis del entorno (PESTEA)** complementa el análisis interno y es
+  esencial para anticipar oportunidades y amenazas, como demuestra el
+  ejemplo de la naviera chilena y el caso de la empresa de telecomunicaciones.
+- Finalmente, los modelos de administración del capital de trabajo (LEC,
+  Baumol, Miller–Orr) y la evaluación de inversiones de corto plazo serán
+  herramientas claves para aumentar el valor de la empresa y fundamentar
+  decisiones informadas.

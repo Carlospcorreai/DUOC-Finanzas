@@ -1,0 +1,66 @@
+/* Duoc UC – Reveal.js theme for Quarto
+   Colores aproximados institucionales */
+:root{
+  --duoc-blue:#002e5d;
+  --duoc-yellow:#ffd200;
+  --duoc-gray-900:#1e1e1e;
+  --duoc-gray-600:#5c6670;
+
+  /* Reveal variables */
+  --r-background-color:#ffffff;
+  --r-main-color:var(--duoc-gray-900);
+  --r-heading-color:var(--duoc-blue);
+  --r-link-color:var(--duoc-blue);
+  --r-link-hover-color:#f3b400;      /* amarillo cálido */
+  --r-selection-background-color:rgba(255,210,0,.35);
+}
+
+.reveal{ font-size:32px; }
+.reveal section{ text-align:left; }
+.reveal p{ line-height:1.25; }
+.reveal ul, .reveal ol{ line-height:1.25; margin:.4em 0 0 1.1em; }
+.reveal li{ margin:.15em 0; }
+.reveal strong{ color:var(--duoc-blue); }
+
+.reveal h1{ font-size:1.8em; font-weight:800; letter-spacing:.2px; }
+.reveal h2{ font-size:1.4em; font-weight:800; }
+.reveal h3{ font-size:1.15em; font-weight:700; }
+.reveal small, .footnote{ color:var(--duoc-gray-600); font-size:.6em; }
+
+/* Tablas compactas */
+.reveal table{ width:100%; border-collapse:collapse; font-size:.85em; }
+.reveal th, .reveal td{ border:1px solid #e5e7eb; padding:.45em .55em; }
+.reveal thead th{ background:#f7f7f9; color:var(--duoc-blue); }
+.reveal tbody tr:nth-child(even){ background:#fafafa; }
+
+/* Código */
+.reveal pre code{
+  font-size:.75em; line-height:1.35; border-radius:10px;
+  box-shadow:0 6px 22px rgba(0,0,0,.08);
+}
+
+/* Imágenes */
+.reveal img{
+  max-height:70vh; border-radius:14px;
+  box-shadow:0 8px 28px rgba(0,0,0,.12);
+}
+
+/* Número de diapositiva */
+.reveal .slide-number{
+  background:rgba(0,0,0,.5); color:#fff; border-radius:6px; padding:.2em .45em;
+}
+
+/* Utilidades */
+.cols-2{ display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
+.cols-3{ display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+.compact ul>li{ margin:.05em 0; }
+.note{ font-size:.7em; color:var(--duoc-gray-600); }
+
+/* Título con caja (opcional) */
+.title-overlay{
+  background:rgba(255,255,255,.84); padding:1.2rem 1.4rem; border-radius:16px; display:inline-block;
+}
+
+/* Ajuste en pantallas pequeñas */
+@media (max-width:1280px){ .reveal{ font-size:28px; } }
+@media (max-width:1024px){ .reveal{ font-size:26px; } }
