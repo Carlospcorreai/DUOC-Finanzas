@@ -1,7 +1,8 @@
 ---
 title: "Finanzas para la toma de decisiones"
-author: "Duoc UC – Escuela de Administración y Negocios"
-date: "Segundo semestre 2025"
+subtitle: "Duoc UC – Escuela de Administración y Negocios"
+author: "Carlos Correa Iñiguez"
+date: "2024-08-12"
 format:
   revealjs:
     slide-number: true
@@ -12,7 +13,7 @@ format:
 
 <!--
 Esta presentación está construida en formato Quarto/reveal.js y sigue la
-paleta de colores corporativos de Duoc UC (azul intenso y amarillo dorado).
+paleta de colores corporativos de Duoc UC (azul intenso y amarillo dorado).
 El contenido resume la asignatura «Finanzas para la toma de decisiones», el
 cronograma para el segundo semestre de 2026, las experiencias de aprendizaje
 definidas en el plan de estudios y la base conceptual del análisis financiero
@@ -32,7 +33,7 @@ al material original entregado por el docente【512352231817837†screenshot】�
 
 ## Descripción de la asignatura
 
-- **Asignatura de especialidad (6.º semestre)**. Forma parte del certificado en
+- **Asignatura de especialidad (6.º semestre)**. Forma parte del área en
   Gestión de Recursos de la Empresa y comparte competencias con *Costos para la
   toma de decisiones*, *Planificación estratégica* y *Evaluación de proyectos*.
 - **Administración de los recursos financieros**. La gestión diaria de
@@ -41,6 +42,9 @@ al material original entregado por el docente【512352231817837†screenshot】�
 - **Foco en el capital de trabajo**. Determinación de niveles óptimos de
   activos de corto plazo (efectivo, cuentas por cobrar, inventarios) y su
   financiación para maximizar el valor de la empresa.
+
+## Descripción de la asignatura (continuación)
+
 - **Propósito**. A partir de datos reales de una empresa y del mercado
   financiero, los estudiantes calculan y analizan estados financieros,
   determinan el capital de trabajo óptimo y valoran instrumentos financieros
@@ -118,10 +122,16 @@ emitir un diagnóstico fundamentado.
     tecnológico y ambiental.
   - Aplicar análisis horizontal y vertical para explicar variaciones.
   - Formular objetivos financieros de corto plazo.
+
+## Experiencia de aprendizaje EA1 (continuación)
+
+**Componentes de aprendizaje (continuación)**
+
 - **Actitudinales.**
   - Fomentar un trabajo metódico y sistemático.
   - Actuar con ética en el uso de información confidencial.
   - Presentar los resultados de manera ordenada y responsable.
+
 - **Conceptuales.**
   - Reconocer variables cuantitativas y cualitativas que determinan la posición financiera.
   - Identificar modelos de análisis vertical y horizontal.
@@ -136,7 +146,7 @@ análisis:
 
 - **1. Entorno de la empresa.** Base conceptual del análisis financiero y
   variables del entorno (presentación 1.1).
-- **2. Variables del entorno.** Identificación de las variables PESTEA a
+- **2. Variables del entorno.** Identificación de las variables PESTAL a
   partir de un análisis razonado de una empresa registrada en la CMF.
 - **3. Análisis horizontal y vertical.** Fórmulas e interpretación de las
   variaciones de cada cuenta de los estados financieros (presentación 1.3).
@@ -156,10 +166,10 @@ Las actividades restantes profundizan en otros ratios y en casos prácticos:
   endeudamiento sobre empresas reales.
 - **9. Ratios de rentabilidad.** Estudio de indicadores de rentabilidad y
   su interpretación.
-- **10. Caso Remolacha.** Análisis financiero integral de un caso de estudio.
+- **10. Casos.** Análisis financiero integral de un caso de estudio.
 - **11. Ratios de gestión.** Evaluación de la eficiencia operativa de la
   organización.
-- **12. Gestión – caso Remolacha.** Aplicación de la teoría de ratios de
+- **12. Gestión – Casos.** Aplicación de la teoría de ratios de
   gestión a un caso real.
 - **13. Ratios bursátiles.** Indicadores bursátiles y su relación con el
   mercado de capitales.
@@ -169,12 +179,33 @@ Las actividades restantes profundizan en otros ratios y en casos prácticos:
 ## ¿Qué es el análisis financiero?
 
 - **Definición.** Conjunto de técnicas que permiten diagnosticar la situación
-  económica de una empresa y proyectar sus resultados futuros【512352231817837†screenshot】.
+  económica de una empresa y proyectar sus resultados futuros.
+
+. . .
+
+<div style="text-align: center;">
+  ![Fuente: Invenio Consultoria](Clase_1_files/images/Imagen1.png)
+</div>
+
+## ¿Qué es el análisis financiero?
+
 - **Objetivo.** Apoyar la toma de decisiones corrigiendo desviaciones y
   potenciando fortalezas.
 - **Interesados.** Acreedores (evaluar capacidad de pago), accionistas
   (rentabilidad y riesgo), proveedores (solvencia de corto plazo),
-  trabajadores (estabilidad laboral) y clientes (continuidad de la empresa)【512352231817837†screenshot】.
+  trabajadores (estabilidad laboral) y clientes (continuidad de la empresa).
+
+## Usuarios de información Financiera
+
+![](Clase_1_files/images/usuarios_financieros_duoc.png)
+
+*Fuente:* Chat GPT IA
+
+## Flujos de información y fondos entre partes interesadas
+
+<div style="text-align: center;">
+  ![Palomares, J. & Peset, M. J. (s.f.). Estados financieros Interpretación y análisis.](Clase_1_files/images/Imagen2.png)
+</div>
 
 ## Dimensiones del análisis financiero
 
@@ -186,7 +217,7 @@ Las actividades restantes profundizan en otros ratios y en casos prácticos:
   financieros para identificar fortalezas y debilidades.
 - **Análisis externo.** Examina el macro y micro entorno, incluyendo
   políticas públicas, economía, sociedad, tecnología, medio ambiente y
-  relaciones con proveedores, clientes y competidores【512352231817837†screenshot】.
+  relaciones con proveedores, clientes y competidores.
 
 <!-- La sección "Análisis financiero: interno y externo" fue sintetizada en la
 "Dimensiones del análisis financiero" para reducir la carga textual y
@@ -195,70 +226,33 @@ mantener la presentación dentro del tamaño de la pantalla. -->
 ## Macro entorno: factores PESTEA
 
 El análisis del **macro entorno** identifica los factores generales que afectan
-a todas las empresas del mercado【512352231817837†screenshot】:
+a todas las empresas del mercado:
 
-| Factor       | Variables principales |
-|-------------:|:---------------------|
-| **Político** | Políticas públicas, subvenciones, política fiscal,
-                  estabilidad gubernamental, regulación del comercio exterior,
-                  legislación laboral y antimonopolios【512352231817837†screenshot】 |
-| **Económico**| Ciclo económico, evolución del PIB, tipos de interés, oferta
-                  monetaria, inflación, desempleo, ingreso disponible y nivel
-                  de desarrollo【512352231817837†screenshot】 |
-| **Social**   | Evolución demográfica, distribución del ingreso, movilidad
-                  social, estilo de vida, actitud consumista, nivel educativo
-                  y patrones culturales【461168549601125†screenshot】 |
-| **Tecnológico** | Innovación en TIC, inversión en I+D, grado de
-                    obsolescencia, madurez de tecnologías convencionales,
-                    desarrollo de nuevos productos y velocidad de difusión
-                    tecnológica【461168549601125†screenshot】 |
-| **Ambiental** | Normas de protección del medio ambiente, política
-                  energética, promoción del reciclaje y tratamiento de
-                  desechos【461168549601125†screenshot】 |
+| Factor | Variables principales |
+|:------:|:---------------------|
+| **Político** | Políticas públicas, subvenciones, política fiscal, estabilidad gubernamental, regulación del comercio exterior, legislación laboral y antimonopolios |
+| **Económico** | Ciclo económico, evolución del PIB, tipos de interés, oferta monetaria, inflación, desempleo, ingreso disponible y nivel de desarrollo |
+| **Social** | Evolución demográfica, distribución del ingreso, movilidad social, estilo de vida, actitud consumista, nivel educativo y patrones culturales |
+| **Tecnológico** | Innovación en TIC, inversión en I+D, grado de obsolescencia, madurez de tecnologías convencionales, desarrollo de nuevos productos y velocidad de difusión tecnológica |
+| **Ambiental** | Normas de protección del medio ambiente, política energética, promoción del reciclaje y tratamiento de desechos |
 
-## Caso de la empresa naviera chilena
+: Factores del macro entorno PESTA {.striped .hover}
 
-Un ejemplo de análisis externo es el caso de una naviera chilena que, debido
-a diversos factores del entorno, experimentó una situación financiera
-comprometida【884362243500699†screenshot】:
-
-- **Crecimiento del comercio mundial** → compra masiva de buques.
-- **Exceso de optimismo** tras un gran período para la industria → exceso de
-  oferta y disminución de márgenes.
-- **Industria comoditizada** → guerra de precios y presión sobre los
-  costos【884362243500699†screenshot】.
-- **Economías de escala** → entrada de competidores extranjeros.
-- **Tipo de cambio**: baja del dólar y alza del precio del cobre → incentivo
-  a la importación【884362243500699†screenshot】.
-- **Alza del petróleo** → mayores gastos operativos.
-- **Amenazas externas**: terrorismo marítimo y volatilidad de la economía de
-  EE. UU.
-- **Política comercial**: imposición de aranceles en EE. UU. a mercancías
-  asiáticas.
-- **Marcos regulatorios** para la industria marítima.
-
-## Actividad 1.2 – Variables del entorno
+## Caso SMU – Variables del entorno
 
 En la actividad **Variables del entorno** se analiza el entorno competitivo
-de una empresa de telecomunicaciones (Entel) a partir de su análisis
-razonado.  La compañía opera en un mercado altamente competitivo y en
-constante cambio tecnológico.  Algunos aspectos destacados del análisis son:
+de una empresa de retail (SMU - Unimark) a partir de su análisis
+razonado.  La compañía opera en un mercado altamente competitivo.
+Algunos aspectos destacados del análisis son:
 
-- **Mercado maduro y competitivo.** La industria móvil muestra saturación y
-  una fuerte presión competitiva, lo que obliga a las empresas a innovar y
-  diferenciarse.
-- **Transformación digital y 4G+.** El despliegue de redes 4G+ y la alta
-  penetración de teléfonos inteligentes favorecen la migración de clientes
-  desde planes de prepago hacia pospago de mayor valor.
-- **Estrategias comerciales.** Lanzamiento de planes *Multi Smart* con datos
-  ilimitados, conectividad para múltiples dispositivos y alianzas con
-  plataformas digitales para mejorar la experiencia del cliente.
-- **Riesgos regulatorios y tarifarios.** Cambios en las normas de acceso y
-  tarifas de interconexión requieren un monitoreo constante.
-- **Oportunidades y amenazas.** La consolidación de clientes de alto
-  valor representa una oportunidad, mientras que la baja en recargas de
-  prepago, las promociones agresivas de la competencia y la incertidumbre
-  regulatoria constituyen amenazas.
+[Descargar análisis completo (PDF)](Clase_1_files/pdf/Análisis_Razonado76012676_202406.pdf){target="_blank"}
+
+- **Político.** Costos influidos por políticas públicas (salario mínimo) y seguridad; gobierno corporativo activo (Junta y decisiones).  
+- **Económico.** Consumo débil y efecto calendario (Semana Santa) presionan ingresos (-0,4% 1S24).  
+- **Social.** Cliente más sensible a precio: compra menos por visita y sustituye por marcas más económicas; señales de recuperación en mayo-junio.  
+- **Tecnológico.** Aceleración **omnicanal** y alianzas con *last milers*; ventas online +28% en 2T24 (4,1% de ventas en 1S24 y 4,7% en 2T24).  
+- **Ambiental.** Sin menciones explícitas en el análisis razonado; oportunidad para eficiencia energética y gestión de residuos en retail.  
+- **Legal.** Emisiones de bonos locales en **UF** (series AR, AQ, AS) y cumplimiento de normativas CMF/Ley 18.046 (Junta, dividendos, auditores, clasificadoras).
 
 ## Conclusiones
 
@@ -271,10 +265,7 @@ constante cambio tecnológico.  Algunos aspectos destacados del análisis son:
 - La **experiencia de aprendizaje “¿Cómo está la empresa?”** desarrolla
   competencias procedimentales, conceptuales y actitudinales para emitir un
   diagnóstico financiero basado en datos y variables del entorno.
-- El **análisis del entorno (PESTEA)** complementa el análisis interno y es
+- El **análisis del entorno (PESTEL)** complementa el análisis interno y es
   esencial para anticipar oportunidades y amenazas, como demuestra el
   ejemplo de la naviera chilena y el caso de la empresa de telecomunicaciones.
-- Finalmente, los modelos de administración del capital de trabajo (LEC,
-  Baumol, Miller–Orr) y la evaluación de inversiones de corto plazo serán
-  herramientas claves para aumentar el valor de la empresa y fundamentar
-  decisiones informadas.
+
