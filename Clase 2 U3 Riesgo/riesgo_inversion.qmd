@@ -1,0 +1,787 @@
+---
+title: "Unidad 3: Riesgos en Inversiones"
+subtitle: "Entendiendo el Riesgo y las Estrategias de Inversión"
+author: "Profesor Carlos Correa Iñiguez"
+format:
+  revealjs:
+    theme: [solarized]
+    css: custom.css
+    transition: slide
+    slide-number: true
+    chalkboard: true
+    logo: ""
+    footer: "Gestión de Riesgos | 2025"
+---
+
+## ¿Qué es Riesgo? {.center}
+
+> *"Es la posibilidad de no alcanzar tus objetivos"*
+
+### Razones por las que puedes no lograr tus objetivos:
+
+- Ya hemos abordado el **riesgo de poder adquisitivo**
+- Ahora abordaremos otra fuente clave de riesgo
+
+---
+
+## Riesgo de Volatilidad del Mercado
+
+### Portafolio Estable
+
+![Portafolio Estable: gráfico de estabilidad](portafolio_seguro.png)
+
+---
+
+## Portafolio Estable
+
+::: {.incremental}
+- Comportamiento constante: nov 23 - nov 24
+- Menor variabilidad
+- Mayor predictibilidad
+:::
+
+---
+
+## Portafolio Riesgoso
+
+![Portafolio Riesgoso: gráfico de volatilidad](portafolio_riesgoso.png)
+
+---
+
+## Portafolio Riesgoso
+
+### ¿Un poco más movido?
+
+::: {.incremental}
+- Mayor volatilidad: nov 23 - nov 24
+- Fluctuaciones significativas
+- **Pregunta clave:** ¿Por qué alguien tomaría este riesgo?
+:::
+
+---
+
+- **Pregunta clave:** ¿Por qué alguien tomaría este riesgo?
+![Riesgo](riesgo1.png)
+
+---
+
+## Recordemos Economía Básica {.center}
+
+### Principio Fundamental
+
+![Beneficio](chocolate.png)
+
+Cuando nos comeremos el chocolate:
+
+$$B(X) > C(X)$$
+
+::: {.fragment}
+¡Elige la opción con mayor **beneficio neto**!
+
+donde $B(X)$ = beneficio de la acción $X$
+:::
+
+---
+
+## Ejercicio Mental: ¿Montarías un Toro? 🐂
+
+![Beneficio](toro.png)
+
+---
+
+## Riesgo vs. Recompensa
+
+### ¿Cuál es tu precio?
+
+::: {.incremental}
+- ¿Por $10? 🤔
+- ¿Por $10.000? 🤨
+- ¿Por $500.000? 💰
+:::
+
+::: {.fragment .fade-in}
+**Reflexión:** El riesgo es aceptable cuando la recompensa potencial lo justifica
+:::
+
+---
+
+## La Decisión de Inversión
+
+### Dado que la elección tiene un costo:
+
+Las personas eligen $X$ si:
+
+$$B(X) > C(X)$$
+
+::: {.columns}
+::: {.column width="50%"}
+**Beneficios**
+
+- Retorno esperado
+- Crecimiento de capital
+- Ingresos pasivos
+:::
+
+::: {.column width="50%"}
+**Costos**
+
+- Volatilidad
+- Riesgo de pérdida
+- Incertidumbre
+:::
+:::
+
+---
+
+## Retorno Esperado
+
+### ¿Cuándo vale la pena el riesgo?
+
+::: {.incremental}
+- Si el **retorno esperado** > costo...
+- Estamos dispuestos a aceptar un portafolio riesgoso
+- Tomamos **riesgos calculados** para obtener mayores beneficios
+- Como "montar un toro", asumimos riesgos por recompensas potenciales
+:::
+
+---
+
+## Acciones, Bonos, Pagarés e Inflación
+
+![Riesgo - Retorno, Datos Históricos: 1926–2007](Riesgo_Retorno.png)
+
+::: {.callout-important}
+## Evidencia Empírica
+Los datos muestran una clara relación entre riesgo y retorno esperado a lo largo de casi un siglo de historia financiera.
+:::
+
+---
+
+## Relación Riesgo-Retorno {background-color="#f0f0f0"}
+
+![](relacion_riesgo_retorno.png)
+
+::: {.fragment}
+**Patrón claro:** Mayor riesgo → Mayor retorno potencial
+:::
+
+---
+
+## Reduciendo el Riesgo de Volatilidad
+
+![Riesgo - Retorno](relacion_riesgo_retorno1.png)
+
+### Una estrategia simple:
+
+Elegir inversiones con **menor variabilidad** de retornos
+
+::: {.fragment}
+::: {.callout-warning}
+## Pero recuerda...
+Cada elección conlleva un costo según aprendimos en economía
+:::
+:::
+
+---
+
+## El Trade-off Inevitable
+
+![Riesgo - Retorno](relacion_riesgo_retorno2.png)
+
+::: {.columns}
+::: {.column width="50%"}
+### Menor Riesgo
+- Menor volatilidad
+- Mayor estabilidad
+- **Pero:** Menores retornos
+:::
+
+::: {.column width="50%"}
+### Mayor Riesgo
+- Mayor volatilidad
+- Menos estabilidad
+- **Pero:** Mayores retornos potenciales
+:::
+:::
+
+---
+
+# Estrategias para Enfrentar el Riesgo {background-color="#2c3e50" .white}
+
+---
+
+## Estrategia 1: Market Timing
+
+### Comprar Barato, Vender Caro
+
+![Riesgo - Retorno](relacion_riesgo_retorno3.png)
+
+::: {.incremental}
+- Intenta aprovechar la volatilidad mediante el *timing*
+- Suena atractivo en teoría...
+- Pero, ¿funciona en la práctica?
+:::
+
+---
+
+## ¿Por qué Fallamos al Invertir?
+
+::: {.incremental}
+1. **Falta de Disciplina**
+   - Los inversores carecen de disciplina para "comprar y mantener"
+
+2. **Persecución del Fondo de Moda**
+   - Siguen lo que está "caliente" en el momento
+
+3. **Realidad del Mercado**
+   - ¡La estrella de este año es la basura del próximo año!
+
+4. **Comportamiento Erróneo**
+   - Compran alto y venden bajo 📉
+:::
+
+---
+
+## Diferencias Dramáticas en Retornos
+
+### Fondos vs. Inversores (Período de 10 años)
+
+![Market Timing](market_timing.png)
+
+- Retorno Total de Fondos Mutuos a 10 Años: 6.94%
+- Retorno Promedio del Inversor en los 10 Años: -20.24%
+
+---
+
+## No al Market Timing ❌
+
+![Market Timing](market_timing1.png)
+
+---
+
+### El problema fundamental:
+
+::: {.incremental}
+- Es extremadamente difícil predecir los movimientos del mercado
+- Los costos de transacción erosionan las ganancias
+- Las decisiones emocionales dominan sobre la lógica
+- Perder los mejores días del mercado destruye los retornos
+:::
+
+---
+
+## Estrategia 2: Inversión a Largo Plazo
+
+![Market Timing](market_timing2.png)
+
+---
+
+### Enfoque Prudente
+
+::: {.fragment}
+**Mantén tu inversión durante períodos extensos**
+:::
+
+::: {.fragment}
+- Reduce el impacto de la volatilidad a corto plazo
+- Permite el poder del interés compuesto
+- Evita decisiones emocionales
+:::
+
+---
+
+## Rendimiento Histórico a Largo Plazo
+
+### Acciones de Empresas Pequeñas
+
+![Market Timing](market_timing3.png)
+
+::: {.callout-tip}
+## Lección Histórica
+A pesar de la volatilidad a corto plazo, las inversiones en acciones han mostrado tendencias positivas consistentes en horizontes de 10, 20 y 30 años.
+:::
+
+---
+
+## Pregunta Crítica {.center}
+
+### ¿Por qué muchos inversores tienen problemas para seguir una estrategia a largo plazo?
+
+::: {.fragment .fade-in}
+**La respuesta está en cómo percibimos la realidad...**
+:::
+
+---
+
+## ¿Qué Ves? 👀
+
+![Market Timing](market_timing4.png)
+
+::: {.fragment}
+Los humanos **no siempre** ven las cosas de manera racional
+:::
+
+---
+
+## Economía Conductual: Insights Clave
+
+### Los Humanos No Somos Perfectamente Racionales
+
+::: {.incremental}
+- **Influencia de Emociones:**
+  - Sesgos cognitivos y percepciones distorsionadas
+
+- **Errores Comunes:**
+  - Apegos emocionales a inversiones
+  - Reacciones exageradas ante pérdidas o ganancias
+
+- **Implicaciones:**
+  - Decisiones subóptimas que afectan el rendimiento
+  - La conciencia de estos sesgos puede mejorar decisiones
+:::
+
+---
+
+## Enfoque en el Riesgo a Corto Plazo
+
+### Comportamiento Inconsistente en el Tiempo
+
+::: {.incremental}
+1. **Interés en el Largo Plazo:**
+   - Reconocen la importancia... pero actúan con mentalidad de corto plazo
+
+2. **Sensibilidad Excesiva:**
+   - Reaccionan exageradamente a cambios recientes del mercado
+
+3. **Horizonte Temporal Reducido:**
+   - Actúan como si su horizonte fuera mucho más corto de lo real
+:::
+
+---
+
+## Bulls and Bears del S&P 500
+
+![Fluctuaciones Históricas (1926 - 2013)](market_timing5.png)
+
+::: {.callout-note}
+## Observación
+A pesar de múltiples crisis y mercados bajistas, la tendencia general ha sido positiva en el largo plazo.
+:::
+
+---
+
+# Estrategia 3: Diversificación {background-color="#27ae60" .white}
+
+## No Pongas Todos tus Huevos en una Canasta 🥚
+
+![Diversificación](diversification.png)
+
+---
+
+## Beneficios de la Diversificación
+
+::: {.incremental}
+1. **Reducción del Riesgo**
+   - Minimiza el impacto de la caída de un solo activo
+
+2. **Estabilidad en los Rendimientos**
+   - Suaviza las fluctuaciones del rendimiento general
+
+3. **Acceso a Oportunidades**
+   - Beneficiarse de diferentes sectores o mercados
+:::
+
+---
+
+## Diversificación: Principio Visual
+
+### Diferentes Activos, Diferentes Comportamientos
+
+::: {.fragment}
+Cuando un activo baja, otro puede subir, reduciendo la volatilidad total del portafolio
+:::
+
+---
+
+## Evita la Tentación de Concentración
+
+::: {.callout-warning}
+## Riesgo de Concentración
+Poner todo tu capital en una sola acción expone tu portafolio completamente a los riesgos específicos de esa empresa.
+:::
+
+![Diversificación](ITAU.png)
+
+---
+
+## Evita la Tentación de Concentración
+
+![Diversificación](SQM_A.png)
+
+---
+
+## Diversificación Sectorial es Clave
+
+- Diferentes sectores reaccionan diferente a condiciones económicas
+
+- La diversificación geográfica también importa
+
+- No solo diversificar entre acciones, sino entre clases de activos
+
+---
+
+## 🎲 Actividad Práctica: Lanzamiento de Dados
+
+### Instrucciones:
+
+::: {.incremental}
+1. Divide en grupos de cuatro
+2. Cada persona lanza un dado **10 veces**
+3. Registra los resultados en un gráfico de puntos
+4. Usa la hoja de trabajo proporcionada
+:::
+
+---
+
+## Actividad: Parte 2
+
+### Análisis en Grupo
+
+::: {.incremental}
+- Observa todos los gráficos en tu mesa
+- Cada persona adivina quién tiene:
+  - La **media más alta**
+  - La **mayor volatilidad** (desviación estándar)
+
+**Opcional:** Calcula tu propia media y desviación estándar
+
+**Bonus:** Punto extra por cada adivinanza correcta ⭐
+:::
+
+---
+
+## Resultados de la Actividad
+
+![Resultados](dados1.png)
+
+---
+
+
+### ¿Qué Descubrimos?
+
+::: {.fragment}
+- La **media** es relativamente fácil de adivinar
+- La **desviación estándar** es más complicada
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+## Objetivo
+Visualizar que la desviación estándar mide la dispersión y es la medida más común del **riesgo de volatilidad**
+:::
+:::
+
+---
+
+## Media y Desviación Estándar
+
+### Conceptos Clave
+
+::: {.columns}
+::: {.column width="50%"}
+
+**Media (μ)**
+
+- Valor promedio
+
+- Centro de la distribución
+
+- Retorno esperado
+
+:::
+
+::: {.column width="50%"}
+**Desviación Estándar (σ)**
+
+- Medida de dispersión
+
+- Cuánto varían los datos
+
+- **Riesgo de volatilidad**
+
+:::
+:::
+
+---
+
+## Lecciones de la Actividad
+::: {.incremental}
+- La media nos da una idea del retorno esperado
+- La desviación estándar nos indica el riesgo asociado
+- Inversiones con alta desviación estándar son más volátiles
+- Diversificar puede reducir la desviación estándar del portafolio
+:::
+---
+
+## Aplicación al Mercado Financiero
+
+![Resultados](histograma.png)
+### Distribución de Retornos
+
+::: {.callout-important}
+## Analogía
+Los lanzamientos de dados simulan la variabilidad de retornos en el mercado financiero. Cada inversión tiene su propia distribución de resultados posibles.
+:::
+
+
+
+---
+
+## Resultados: Concha y Toro
+
+### Análisis de Volatilidad
+
+::: {.incremental}
+- Retornos históricos de la acción
+- Distribución de retornos mensuales/anuales
+- Identificación de períodos de alta/baja volatilidad
+:::
+
+---
+
+## Resultados: SQM
+
+### Comparación de Volatilidades
+
+::: {.callout-note}
+Comparar las desviaciones estándar de diferentes acciones nos ayuda a entender el perfil de riesgo de cada inversión.
+:::
+
+---
+
+## Dispersión: Concha y Toro
+
+### Visualización de la Volatilidad
+
+- Rango de retornos observados
+- Frecuencia de retornos extremos
+- Patrones de comportamiento
+
+---
+
+## Dispersión: SQM
+
+### Análisis Comparativo
+
+::: {.columns}
+::: {.column width="50%"}
+
+**Mayor dispersión:**
+
+- Mayor riesgo
+
+- Mayor volatilidad
+
+- Potencial de retornos extremos
+:::
+
+::: {.column width="50%"}
+
+**Menor dispersión:**
+
+- Menor riesgo
+
+- Mayor estabilidad
+
+- Retornos más predecibles
+:::
+:::
+
+---
+
+# Caso Especial: Inversiones en Departamentos {background-color="#34495e" .white}
+
+---
+
+## Exposición al Riesgo Negativo 📉
+
+### Amenazas a tu Inversión
+
+::: {.incremental}
+1. **Disminución del Valor Comercial**
+   - Barrio se vuelve peligroso → Pérdida de capital
+
+2. **Siniestros**
+   - Incendios, desastres naturales → Pérdidas de capital
+
+3. **Incapacidad para Arrendar**
+   - No encontrar inquilinos → Reducción de dividendos
+
+4. **Problemas con Pagos**
+   - Retrasos o reducción en arriendos → Menor flujo de ingresos
+:::
+
+---
+
+## Exposición al Riesgo Positivo 📈
+
+### Oportunidades de Crecimiento
+
+::: {.incremental}
+1. **Aumento en los Arriendos**
+   - Tarifas más altas → Mayor flujo de ingresos
+
+2. **Incremento en Valor de Propiedades**
+   - Apreciación del mercado → Ganancias de capital
+
+3. **Crecimiento Económico del Barrio**
+   - Mejoras en infraestructura → Aumento de demanda y valor
+:::
+
+---
+
+## Comparación con Bonos
+
+### ¿Cuándo se Parecen?
+
+::: {.fragment}
+Si los departamentos tuvieran:
+:::
+
+::: {.incremental}
+- **Dividendos fijos y conocidos**
+  - Similar a pagos de intereses de un bono
+
+- **Precio final predecible**
+  - Reducción de incertidumbre
+
+→ El nivel de riesgo sería comparable al de los bonos
+:::
+
+---
+
+## Gestión de Riesgo Inmobiliario
+
+### Estrategias Clave
+
+::: {.incremental}
+1. **Diversificación geográfica**
+2. **Seguro apropiado**
+3. **Análisis de mercado constante**
+4. **Mantenimiento preventivo**
+5. **Screening cuidadoso de inquilinos**
+:::
+
+---
+
+# Conclusiones {background-color="#2c3e50" .white}
+
+---
+
+## Conclusiones Principales
+
+### Adopta una Perspectiva a Largo Plazo
+
+::: {.incremental}
+- ✅ Reinvierte intereses y dividendos
+- ✅ No retires el capital prematuramente
+- ✅ Evita perseguir fondos de moda
+- ✅ Mantén disciplina en mercados volátiles
+:::
+
+---
+
+## Importancia de Comenzar Temprano ⏰
+
+::: {.callout-tip}
+## El Tiempo es tu Mejor Aliado
+El interés compuesto necesita tiempo para generar riqueza significativa. Cada año que esperas representa oportunidades de crecimiento perdidas.
+:::
+
+---
+
+## Presta Atención a las Tasas
+
+### Diferencias Aparentemente Pequeñas Importan
+
+::: {.fragment}
+**Ejemplo:** Una diferencia de 2% anual durante 30 años puede significar cientos de miles de dólares en tu patrimonio final.
+:::
+
+---
+
+## Diversificación en la Cartera
+
+### Estrategia Fundamental
+
+::: {.incremental}
+- Incluir **acciones** a través de fondos mutuos
+- Añadir **bonos** para estabilidad
+- Considerar **bienes raíces** para diversificación adicional
+- **Objetivo:** Mitigar riesgos sin sacrificar excesivamente retornos
+:::
+
+---
+
+## Resumen Final {.center}
+
+::: {.callout-important}
+## Tres Pilares del Éxito
+
+1. **Largo Plazo:** Paciencia y disciplina
+2. **Diversificación:** No todos los huevos en una canasta
+3. **Evitar Market Timing:** Mantenerse invertido es clave
+:::
+
+---
+
+# Preguntas y Discusión {background-color="#16a085" .white}
+
+---
+
+## Preguntas para Reflexionar
+
+::: {.incremental}
+1. ¿Qué estrategias podrías implementar para reducir el riesgo de no conseguir arrendar un departamento?
+
+2. ¿Cómo influye la ubicación en la gestión del riesgo de inversión inmobiliaria?
+
+3. ¿Qué medidas preventivas son efectivas para proteger tu inversión contra siniestros?
+:::
+
+---
+
+## Actividad de Cierre
+
+### Diseña tu Estrategia Personal
+
+::: {.incremental}
+- Define tu horizonte de inversión
+- Determina tu tolerancia al riesgo
+- Diseña una cartera diversificada apropiada
+- Establece reglas para mantener disciplina
+:::
+
+---
+
+## Recursos Adicionales
+
+### Para Profundizar
+
+::: {.incremental}
+- Literatura sobre economía conductual
+- Análisis histórico de mercados financieros
+- Herramientas de cálculo de riesgo y retorno
+- Comunidades de inversores para aprendizaje continuo
+:::
+
+---
+
+## ¡Gracias! {.center background-color="#2c3e50" .white}
+
+### Contacto y Preguntas
+
+**¿Preguntas?**
+
+*Recuerda: La mejor inversión es en tu educación financiera* 📚
+

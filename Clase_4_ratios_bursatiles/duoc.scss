@@ -1,0 +1,186 @@
+/* DUOC UC RevealJS Theme for Quarto
+   Author: Prof. Carlos Correa Íñiguez (via ChatGPT)
+   Notes: This file includes Quarto SCSS layer boundaries.
+*/
+
+/*-- scss:defaults --*/
+$duoc-azul:    #002F6C !default;  // DUOC blue (approx.)
+$duoc-amarillo:#FFB81C !default;  // DUOC yellow (approx.)
+
+/* Base tokens (Quarto/Bootstrap-style) */
+$body-bg:        #ffffff !default;
+$body-color:     #111111 !default;
+$link-color:     $duoc-azul !default;
+$selection-bg:   rgba($duoc-amarillo, .35) !default;
+
+$heading-color:  $duoc-azul !default;
+$code-color:     #0f3d63 !default;
+$code-block-bg:  #f6f8fa !default;
+$code-block-border-color: rgba(0,0,0,.06) !default;
+
+/* RevealJS presentation sizing */
+$presentation-font-size-root: 28px !default;     // Global base font size
+$presentation-line-height:     1.25  !default;
+$presentation-heading-font:    -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif !default;
+$presentation-body-font:       -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif !default;
+$presentation-monospace-font:  ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;
+
+/* Title slide options (Quarto) */
+$presentation-title-slide-text-align: left !default;
+$presentation-title-slide-padding:     2rem !default;
+
+/* Accent color for components */
+$primary: $duoc-azul !default;
+
+/*-- scss:mixins --*/
+@mixin duoc-shadow {
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+/* A subtle soft card background */
+@mixin duoc-soft-bg($base: #fffdf5) {
+  background: $base;
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba($duoc-amarillo,0.05) 100%);
+}
+
+/*-- scss:rules --*/
+
+/* Root CSS variables for runtime access (useful in inline HTML) */
+:root {
+  --duoc-azul: #{$duoc-azul};
+  --duoc-amarillo: #{$duoc-amarillo};
+}
+
+/* Typography */
+.reveal .slides {
+  font-size: $presentation-font-size-root;
+  line-height: $presentation-line-height;
+  font-family: $presentation-body-font;
+  color: $body-color;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: $heading-color;
+  font-family: $presentation-heading-font;
+  letter-spacing: .1px;
+}
+
+/* Links */
+.reveal a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 2px solid rgba($duoc-amarillo, .5);
+}
+.reveal a:hover { border-bottom-color: $duoc-amarillo; }
+
+/* Footer + slide numbers */
+.reveal .footer {
+  border-top: 4px solid $duoc-amarillo;
+  padding-top: .5rem;
+  font-size: .65em;
+  color: rgba(0,0,0,.65);
+}
+.reveal .slide-number {
+  color: $duoc-amarillo;
+  background: rgba($duoc-azul,.04);
+  border-radius: 6px;
+  padding: .15rem .4rem;
+}
+
+/* Logos */
+.reveal .slide-logo {
+  height: 48px !important; /* keep the logo tidy; adjust if needed */
+  width: auto !important;
+}
+
+/* Tables */
+.reveal table {
+  font-size: .9em;
+  border-collapse: collapse;
+}
+.reveal table th,
+.reveal table td {
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  padding: .45rem .6rem;
+}
+.reveal table thead th {
+  background: rgba($duoc-amarillo,.1);
+  color: $duoc-azul;
+  font-weight: 700;
+}
+
+/* Code blocks */
+.reveal pre code {
+  background: $code-block-bg;
+  border: 1px solid $code-block-border-color;
+  border-radius: 8px;
+  padding: .9rem 1rem;
+  font-family: $presentation-monospace-font;
+  font-size: .8em;
+  color: $code-color;
+}
+
+/* Lists */
+.reveal ul, .reveal ol {
+  padding-left: 1.2em;
+}
+.reveal li {
+  margin: .25rem 0;
+}
+
+/* DUOC helper components */
+.duoc-box {
+  border-left: 6px solid $duoc-amarillo;
+  padding: .9rem 1rem;
+  @include duoc-soft-bg(#fffef8);
+  @include duoc-shadow;
+}
+.duoc-badge {
+  display: inline-block;
+  padding: .2rem .6rem;
+  border-radius: .4rem;
+  background: $duoc-azul;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+/* Callouts (Quarto) */
+.callout {
+  border-left-width: 6px;
+  border-left-style: solid;
+  @include duoc-shadow;
+}
+.callout-note    { border-left-color: $duoc-azul; }
+.callout-warning { border-left-color: $duoc-amarillo; }
+.callout-tip     { border-left-color: mix($duoc-azul, $duoc-amarillo, 50%); }
+
+.callout .callout-title {
+  font-weight: 700;
+  color: $duoc-azul;
+}
+
+/* Images */
+.reveal section img {
+  border-radius: 8px;
+  @include duoc-shadow;
+}
+
+/* Small text helper */
+.mini { font-size: .7em; }
+
+/* Print tweaks */
+@media print {
+  .reveal .slides { font-size: 16px; }
+}
+
+/* Optional: Title slide accent */
+.reveal .title-slide {
+  background:
+    radial-gradient(1200px 400px at 0% 100%, rgba($duoc-amarillo,.10), transparent 60%),
+    radial-gradient(1200px 400px at 100% 0%, rgba($duoc-azul,.07), transparent 60%);
+  border-top: 6px solid $duoc-amarillo;
+}

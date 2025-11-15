@@ -1,0 +1,570 @@
+---
+title: "Introducción Unidad 3: Valoración de Inversiones y Riesgo"
+author: "Docente: Carlos Correa Iñiguez <ca.correai@profesor.duoc.cl>"
+format:
+    revealjs:
+        theme: solarized
+        css: duoc_css_mejorado.css
+        #logo: logo_duoc_uc.png
+        slideNumber: true
+        transition: slide
+        backgroundTransition: fade
+        self-contained: true
+        embed-resources: true
+        width: 1280
+        height: 720
+        margin: 0.1
+output-file: index.html  
+---
+
+# {.section-slide}
+
+Objetivos de la Clase
+
+---
+
+## Objetivos de Aprendizaje
+
+::: {.info-box}
+Al finalizar esta clase, serás capaz de:
+
+1. **Comprender** las principales opciones de inversión y su efecto en el retorno
+2. **Calcular** la tasa de retorno de diferentes instrumentos financieros
+3. **Distinguir** entre rentabilidad nominal y real
+4. **Aplicar** el concepto de retorno esperado en decisiones
+:::
+
+---
+
+## Problema en la Toma de Decisiones 
+
+![Problema de Inversión](figura1_Clase_Inversiones2.png)
+
+::: {.warning-box}
+**Reflexiona:** ¿Qué harías con $10.000.000 CLP hoy?
+:::
+
+---
+
+## Introducción a las Opciones de Inversión
+
+::: {.columns}
+::: {.column}
+### 💰 Equivalentes de Efectivo
+- Depósitos bancarios
+- Bonos del Tesoro (T-bills)
+- Certificados de depósito
+
+### 🏢 Activos Reales
+- Bienes raíces
+- Commodities
+- Oro y plata
+:::
+
+::: {.column}
+### 📊 Bonos
+- Bonos gubernamentales
+- Bonos corporativos
+- Bonos internacionales
+
+### 📈 Acciones
+- Grandes empresas
+- Pequeñas empresas
+- Mercados internacionales
+:::
+:::
+
+---
+
+## Alternativas de Inversión
+
+![Alternativas de Inversión](figura2_Clase_Inversiones2.png)
+
+---
+
+# {.section-slide}
+
+Caso Práctico
+## ¿Cómo Invertir mis Ahorros?
+
+---
+
+## Escenario: Tu Primera Gran Decisión Financiera
+
+::: {.success-box}
+**Situación:**
+
+- Recibes un regalo de graduación de **$10.000.000 CLP**
+- **Meta:** En 10 años comprar tu primera casa
+- **Necesitas:** Reunir el pie (20-30% del valor)
+:::
+
+---
+
+## Opciones de Inversión Disponibles
+
+- 🏦 **Cuenta de Ahorros**
+- 📜 **Bonos**
+- 📊 **Acciones**
+
+---
+
+# {.section-slide}
+
+¿Cómo invertir mis ahorros?
+
+---
+
+## Marco de Análisis: Alternativas y Criterios
+
+| Alternativas       | Riesgo | Retorno | Liquidez | Costo |
+|--------------------|:------:|:-------:|:--------:|:-----:|
+| Bonos              |   ?    |    ?    |    ?     |   ?   |
+| Acciones           |   ?    |    ?    |    ?     |   ?   |
+| Cuenta de Ahorros  |   ?    |    ?    |    ?     |   ?   |
+
+::: {.info-box}
+**Pregunta:** ¿Qué criterios son más importantes para ti?
+:::
+
+---
+
+# {.section-slide}
+
+Conceptos Clave en la Decisión
+
+---
+
+## Tres Pilares de la Decisión de Inversión
+
+### 📈 Retorno
+Ganancia esperada de la inversión
+
+### ⚠️ Riesgo
+Incertidumbre y volatilidad
+
+### 💧 Liquidez
+Facilidad para convertir en efectivo
+
+---
+
+# {.section-slide}
+
+¿Qué es el Retorno y Cómo se Calcula?
+
+---
+
+## Componentes del Retorno
+
+El retorno de una inversión proviene de dos fuentes:
+
+::: {.columns}
+::: {.column}
+### 📊 Apreciación
+Aumento en el valor del activo
+
+**Ejemplo:**
+- Compras a: $100
+- Vendes a: $110
+- Apreciación: $10
+:::
+
+::: {.column}
+### 💵 Ingresos
+Flujos periódicos generados
+
+**Tipos:**
+- Dividendos (acciones)
+- Intereses (bonos)
+- Renta (propiedades)
+:::
+:::
+
+---
+
+## Activos y sus Características
+
+| Activos | 📈 Apreciación | 💰 Generan Ingresos |
+|---------|:--------------:|:-------------------:|
+| Acciones | ✔️ | Dividendos |
+| Casas | ✔️ | Renta |
+| Coleccionables | ✔️ | — |
+| Terrenos | ✔️ | Renta |
+| Oro | ✔️ | — |
+| Bonos | — | Intereses |
+| Cuentas de ahorro | — | Intereses |
+
+---
+
+## ⚠️ Depreciación: El Lado Oscuro
+
+::: {.warning-box}
+**Realidad importante:** Todos los activos pueden perder valor
+:::
+
+### Depreciación Común
+- 🚗 Automóviles
+- 📺 Electrónicos
+- 🖥️ Computadores
+
+### Casos Excepcionales
+- 🏠 Crisis inmobiliaria EE.UU. (2007-2008)
+- 📉 Burbujas especulativas
+
+---
+
+# {.section-slide}
+
+Ejemplos de Cálculo
+
+---
+
+## Ejemplo 1: Inversión en Propiedad
+
+::: {.info-box}
+**Datos:**
+- Valor inicial: $100.000.000
+- Valor final: $110.000.000
+- Ingresos por arriendo: $500.000
+:::
+
+### Cálculo del Retorno Total
+
+$$
+\text{Retorno} = \text{Ingreso} + \text{Apreciación}
+$$
+
+$$
+\text{Retorno} = \$500.000 + \$10.000.000 = \$10.500.000
+$$
+
+---
+
+## Ejemplo 1: Tasa de Retorno
+
+### Fórmula de la Tasa de Retorno
+
+$$
+R = \frac{\text{Ingreso} + \text{Apreciación}}{\text{Valor Inicial}} \times 100
+$$
+
+### Aplicando los Valores
+
+$$
+R = \frac{500.000 + 10.000.000}{100.000.000} \times 100 = 10.5\%
+$$
+
+::: {.success-box}
+**Resultado:** La propiedad generó un retorno del **10.5%** anual
+:::
+
+---
+
+## Ejemplo 2: Inversión en Acciones
+
+::: {.info-box}
+**Datos:**
+- 10 acciones a $80 c/u (inversión: $800)
+- Precio actual: $85 por acción
+- Dividendos recibidos: $3 por acción
+:::
+
+::: {.columns}
+::: {.column}
+### Ingresos
+$$3 \times 10 = \$30$$
+:::
+
+::: {.column}
+### Apreciación
+$$5 \times 10 = \$50$$
+:::
+:::
+
+### Retorno Total
+$$\$30 + \$50 = \$80$$
+
+---
+
+## Ejemplo 2: Tasa de Retorno de Acciones
+
+### Cálculo de la Tasa
+
+$$
+R = \frac{\text{Ingreso} + \text{Apreciación}}{\text{Valor Inicial}} \times 100
+$$
+
+$$
+R = \frac{80}{800} \times 100 = 10\%
+$$
+
+::: {.success-box}
+**Resultado:** Las acciones generaron un retorno del **10%** anual
+:::
+
+---
+
+# {.section-slide}
+
+Real vs. Nominal
+## El Impacto de la Inflación
+
+---
+
+## Entendiendo Real vs. Nominal
+
+::: {.columns}
+::: {.column}
+### 💵 Nominal
+Tasa de crecimiento del dinero **sin ajustar** por inflación
+
+*"Cuántos pesos más tengo"*
+:::
+
+::: {.column}
+### 🛒 Real
+Tasa ajustada por inflación, refleja el **poder adquisitivo**
+
+*"Cuánto más puedo comprar"*
+:::
+:::
+
+---
+
+## Ecuación de Fisher
+
+### Relación entre Nominal, Real e Inflación
+
+$$
+i = r + p \quad \text{ó} \quad r = i - p
+$$
+
+Donde: $i$ = Tasa nominal, $r$ = Tasa real, $p$ = Inflación
+
+::: {.warning-box}
+**Importante:** Para incrementar tu riqueza real, necesitas que $r > 0$
+:::
+
+---
+
+## Ejemplo: Cálculo de Retorno Real
+
+::: {.info-box}
+**Supuesto:** Inflación del 4.1% durante el período
+:::
+
+| Ejemplo | Nominal | Inflación | Real | Interpretación |
+|:-------:|:-------:|:---------:|:----:|----------------|
+| 1 | 10.5% | 4.1% | **6.4%** | ✅ Ganancia real |
+| 2 | 10.0% | 4.1% | **5.9%** | ✅ Ganancia real |
+
+::: {.success-box}
+**Conclusión:** Ambas inversiones aumentaron el poder adquisitivo
+:::
+
+---
+
+# {.section-slide}
+
+Variación y Expectativas
+
+---
+
+## Variación de la Tasa de Retorno
+
+::: {.warning-box}
+**Realidad del mercado:** Las tasas de retorno no son constantes
+
+Factores que generan variación:
+- 📊 Cambios en precio de las acciones
+- 💰 Variación en dividendos
+- 🌍 Condiciones económicas
+- 📰 Noticias corporativas
+- 🔄 Ciclos del mercado
+:::
+
+---
+
+## La Pregunta Clave
+
+> Si no conocemos el retorno futuro, ¿cómo tomamos decisiones?
+
+**Respuesta:** Usamos la **tasa de retorno esperada**
+
+---
+
+## Tasa de Retorno Esperada
+
+::: {.info-box}
+**Definición:** Promedio ponderado de todas las tasas de retorno posibles, ponderado por su probabilidad de ocurrencia
+:::
+
+### Fórmula General
+
+$$
+E(R) = \sum_{i=1}^{n} P_i \times R_i
+$$
+
+Donde: $E(R)$ = Retorno esperado, $P_i$ = Probabilidad, $R_i$ = Retorno
+
+---
+
+# {.section-slide}
+
+Actividad Práctica
+## Simulación de Retorno Esperado
+
+---
+
+## Actividad: Cálculo de Tasa de Retorno Esperada
+
+::: {.success-box}
+**Objetivo:** Experimentar la convergencia hacia el valor esperado
+:::
+
+### Instrucciones
+
+1. Formar grupos de 4-5 participantes
+2. Recibir una bolsa con papeles de colores
+3. Extraer aleatoriamente un papel en cada ronda (10 rondas)
+4. Registrar según el color: 🟡 Amarillo: 4%, 🟠 Naranjo: 8%, 🩷 Rosado: 12%
+5. Calcular el promedio
+
+---
+
+## Resultados de la Actividad
+
+- ¿Promedio de tu grupo? Aproximadamente: **_____%**
+- ¿Promedio de todos los grupos? Aún más cercano a: **_____%**
+
+::: {.info-box}
+**¿Por qué converge a ese valor?**
+
+Este es el **retorno esperado**: el promedio de retornos que esperarías obtener en el largo plazo
+:::
+
+---
+
+## Cálculo Teórico del Retorno Esperado
+
+### Composición de la Bolsa
+
+| Color | Retorno | Cantidad | Probabilidad |
+|:-----:|:-------:|:--------:|:------------:|
+| 🟡 Amarillo | 4% | 1 de 4 | 0.25 |
+| 🟠 Naranjo | 8% | 1 de 4 | 0.25 |
+| 🩷 Rosado | 12% | 2 de 4 | 0.50 |
+
+### Cálculo del Retorno Esperado
+
+$
+E(R) = (0.25 \times 4) + (0.25 \times 8) + (0.50 \times 12) = 9\%
+$
+
+---
+
+# {.section-slide}
+
+Aplicación al Problema
+
+---
+
+## Retomando: ¿Cómo Invertir mis Ahorros?
+
+| Alternativa | Riesgo | Retorno | Liquidez | Costo |
+|-------------|:------:|:-------:|:--------:|:-----:|
+| **Bonos** | Bajo | Medio | Media | Bajo |
+| **Acciones** | Alto | Alto | Alta | Medio |
+| **Cuenta de Ahorros** | Muy Bajo | Bajo | Muy Alta | Muy Bajo |
+
+::: {.warning-box}
+**Realidad:** No existe la inversión perfecta. Cada opción tiene trade-offs.
+:::
+
+---
+
+# {.section-slide}
+
+Conclusiones
+
+---
+
+## Síntesis de la Clase
+
+::: {.success-box}
+### 1. Diversidad de Opciones
+Las inversiones varían en **retorno**, **riesgo**, **liquidez** y **costo**.
+:::
+
+::: {.info-box}
+### 2. Herramientas de Evaluación
+El **cálculo de la tasa de retorno** (nominal y real) evalúa la verdadera rentabilidad.
+:::
+
+::: {.warning-box}
+### 3. Proyección con Incertidumbre
+La **tasa de retorno esperada** proyecta resultados considerando la variabilidad del mercado.
+:::
+
+---
+
+## Próximos Pasos
+
+::: {.columns}
+::: {.column}
+### 📚 Para la próxima clase
+- Lectura: Capítulo 5
+- Revisar ejercicios prácticos
+- Preparar preguntas
+:::
+
+::: {.column}
+### 🎯 Aplicación práctica
+- Investigar opciones de inversión en Chile
+- Comparar tasas de retorno actuales
+- Analizar tu perfil de riesgo
+:::
+:::
+
+---
+
+# {.section-slide}
+
+¿Preguntas?
+
+### Carlos Correa Iñiguez
+📧 ca.correai@profesor.duoc.cl
+
+---
+
+## Referencias y Material Complementario
+
+::: {.info-box}
+### Lecturas Recomendadas
+- Bodie, Kane & Marcus (2018). *Investments*
+- Ross, Westerfield & Jaffe (2019). *Corporate Finance*
+
+### Recursos Online
+- **CMF Chile:** www.cmfchile.cl
+- **Banco Central:** www.bcentral.cl
+- **Yahoo Finance:** finance.yahoo.com
+:::
+
+```{=html}
+<style>
+.reveal .slides section::after {
+  content: '';
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 220px;
+  height: 110px;
+  background-image: url('logo_duoc_uc.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+  opacity: 0.9;
+}
+</style>
+```

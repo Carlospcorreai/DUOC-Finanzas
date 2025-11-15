@@ -1,0 +1,145 @@
+---
+title: "Ejercicio Impreso: Análisis Horizontal y Vertical (1.3)"
+subtitle: "Para completar a mano"
+author: "Mag. en Finanzas Carlos Correa Íñiguez"
+date: "2025-08-19"
+format:
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: false
+    geometry: margin=2.5cm
+fontsize: 11pt
+lang: es
+header-includes:
+  - |
+    \usepackage{booktabs}
+    \usepackage{array}
+    \usepackage{amsmath,amssymb}
+    \usepackage{enumitem}
+    \usepackage{setspace}
+    \usepackage{helvet}
+    \renewcommand{\familydefault}{\sfdefault}
+    \renewcommand{\arraystretch}{1.4}
+---
+
+## Instrucciones
+
+- **Objetivo**: aplicar **Análisis Horizontal (AH)** y **Análisis Vertical (AV)** sobre un Estado de Resultados (EERR) y un Estado de Situación Financiera (ESF).
+- **Cómo completar**: imprima este documento y escriba los **montos** en las columnas correspondientes, luego calcule **Δ absoluta**, **Δ %** y **AV %**.
+- **Bases**: EERR base **Ventas Netas = 100%**. ESF base **Total Activos = 100%**.
+- **Anote sus supuestos** (si realiza reclasificaciones o hay partidas no comparables).
+
+### Fórmulas de referencia
+
+- **Variación absoluta (AH)**: \(\Delta_{\text{abs}} = V_t - V_{t-1}\)  
+- **Variación porcentual (AH)**: \(\Delta\% = \dfrac{V_t - V_{t-1}}{|V_{t-1}|}\times 100\)  
+- **Análisis Vertical (AV)**: \(AV_i = \dfrac{\text{Cuenta } i}{\text{Base}} \times 100\)
+
+> Si \(V_{t-1}=0\) o cambia de signo, marque como **no comparable** y explique.
+
+---
+
+## Datos del caso
+
+- Periodos: **t-1 (2024)** y **t (2025)**.
+- Moneda: **MM$** (millones de pesos).  
+- Sector: **Comercial** (genérico).  
+
+---
+
+## Estado de Resultados — AH y AV (completar a mano)
+
+\small
+\begin{tabular}{@{}p{5.5cm} >{\raggedleft\arraybackslash}p{2.0cm} >{\raggedleft\arraybackslash}p{2.0cm} >{\raggedleft\arraybackslash}p{2.1cm} >{\raggedleft\arraybackslash}p{1.8cm} >{\raggedleft\arraybackslash}p{1.8cm} >{\raggedleft\arraybackslash}p{1.8cm}@{}}
+\toprule
+\textbf{Cuenta} & \textbf{t-1 (MM\$)} & \textbf{t (MM\$)} & \textbf{\(\Delta\) abs.} & \textbf{\(\Delta\)\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+Ventas netas                         & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100 & 100 \\
+Costo de ventas                      & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos de administración y ventas    & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Resultado operacional                & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos financieros                   & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Impuesto a la renta                  & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Resultado neto}              & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\bottomrule
+\end{tabular}
+\normalsize
+
+> **AV (EERR)**: cada fila sobre **Ventas netas** del periodo.
+
+---
+
+## Estado de Situación Financiera — AV y AH (completar a mano)
+
+\small
+\begin{tabular}{@{}p{5.5cm} >{\raggedleft\arraybackslash}p{2.0cm} >{\raggedleft\arraybackslash}p{2.0cm} >{\raggedleft\arraybackslash}p{2.1cm} >{\raggedleft\arraybackslash}p{1.8cm} >{\raggedleft\arraybackslash}p{1.8cm} >{\raggedleft\arraybackslash}p{1.8cm}@{}}
+\toprule
+\textbf{Cuenta} & \textbf{t-1 (MM\$)} & \textbf{t (MM\$)} & \textbf{\(\Delta\) abs.} & \textbf{\(\Delta\)\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{ACTIVOS}} \\
+Efectivo y equivalentes           & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deudores comerciales              & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Inventarios                       & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Propiedades, planta y equipo      & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros activos no corrientes       & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Total activos}            & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100 & 100 \\
+\midrule
+\multicolumn{7}{@{}l}{\textbf{PASIVOS Y PATRIMONIO}} \\
+Deuda CP                          & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Cuentas por pagar                 & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros pasivos CP                  & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deuda LP                          & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Patrimonio}               & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Pasivo + Patrimonio}      & \rule{2.0cm}{0.4pt} & \rule{2.0cm}{0.4pt} & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100 & 100 \\
+\bottomrule
+\end{tabular}
+\normalsize
+
+> **AV (ESF)**: cada fila sobre **Total Activos**. Verifique que **sume 100%** en cada periodo.
+
+---
+
+## Supuestos / Notas del equipo
+
+\vspace{0.4cm}\rule{\linewidth}{0.4pt}
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+
+---
+
+## Preguntas de análisis (responder a mano)
+
+1. **Drivers del resultado operacional**: indique tres factores que expliquen la variación y cómo los evidenció en las cifras.  
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+
+2. A partir del **AV del EERR**, ¿cambió la estructura de costos y gastos? ¿Cómo afectó a los **márgenes**?  
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+
+3. **Capital de trabajo**: interprete el comportamiento de **clientes** e **inventarios** (AH y AV) y su impacto en el **ciclo de conversión de efectivo**.  
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+
+4. **Estructura de capital**: ¿la empresa tiene espacio para **endeudarse**? Fundamente desde el ESF (AH y AV).  
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+
+5. Señale una **alerta** contable o de negocio a seguir (por ejemplo, erosión de margen, concentración de clientes, FX, inflación).  
+\vspace{0.8cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+\vspace{0.6cm}\rule{\linewidth}{0.4pt}
+
+---
+
+### Criterios de corrección sugeridos (docente)
+
+- Cálculo correcto de **\(\Delta\) abs.** y **\(\Delta\%\)** por cuenta (AH).  
+- **AV** consistente (bases y sumas al 100%).  
+- Coherencia entre **hechos numéricos** y **conclusiones**.  
+- Uso de **supuestos** transparentes y notas.  

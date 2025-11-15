@@ -1,0 +1,357 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=2cm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\renewcommand{\arraystretch}{1.25}
+\setlength{\tabcolsep}{4pt}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{spanish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Ejercicio Impreso: Análisis Horizontal y Vertical (1.3) --- Con datos},
+  pdfauthor={Mag. en Finanzas Carlos Correa Íñiguez},
+  pdflang={es},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Ejercicio Impreso: Análisis Horizontal y Vertical (1.3) --- Con
+datos}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Completar Δ, Δ\% y AV + análisis}
+\author{Mag. en Finanzas Carlos Correa Íñiguez}
+\date{2025-08-19}
+
+\begin{document}
+\maketitle
+
+
+\subsection{Instrucciones}\label{instrucciones}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Objetivo}: calcular \textbf{Δ (absoluta)}, \textbf{Δ\%} y
+  \textbf{AV} (t-1 y t) para EERR y ESF; luego \textbf{analizar}.
+\item
+  \textbf{Base AV}: en \textbf{EERR}, ( \text{Ventas Netas} = 100\% ).
+  En \textbf{ESF}, ( \text{Total Activos} = 100\% ).
+\item
+  \textbf{Formato}: complete a mano en las líneas. Use \textbf{MM\$}
+  (millones de pesos). Redondee \textbf{AV} a \textbf{1 decimal} y
+  \textbf{Δ\%} a \textbf{1 decimal}.
+\end{itemize}
+
+\subsubsection{Fórmulas de referencia}\label{fuxf3rmulas-de-referencia}
+
+\[
+\Delta_{\text{abs}} = V_t - V_{t-1}
+\qquad
+\Delta\% = \frac{V_t - V_{t-1}}{\lvert V_{t-1} \rvert}\times 100
+\qquad
+AV_i = \frac{\text{Cuenta } i}{\text{Base}} \times 100
+\]
+
+\begin{quote}
+Si (V\_\{t-1\}=0) o cambia de signo, marque como \textbf{no comparable
+(N/C)} y explique.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{\texorpdfstring{Estado de Resultados (MM\$) ---
+\textbf{Datos dados}; complete Δ, Δ\% y
+AV}{Estado de Resultados (MM\$) --- Datos dados; complete Δ, Δ\% y AV}}\label{estado-de-resultados-mm-datos-dados-complete-ux3b4-ux3b4-y-av}
+
+\small
+\begin{tabularx}{\textwidth}{@{}X R{1.8cm} R{1.8cm} R{2.1cm} R{1.8cm} R{1.8cm} R{1.8cm}@{}}
+\toprule
+\textbf{Cuenta} & \textbf{t-1} & \textbf{t} & \textbf{$\Delta$ abs.} & \textbf{$\Delta$\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+Ventas netas                      & 5{,}000  & 6{,}000  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+Costo de ventas                   & 3{,}000  & 3{,}420  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Ganancia bruta}           & 2{,}000  & 2{,}580  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos operacionales              & 1{,}200  & 1{,}300  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Resultado operacional}    &   800    & 1{,}280  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos financieros                &   200    &   260    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Resultado antes de impuestos      &   600    & 1{,}020  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Impuesto a la renta (aprox. 30\%) &   180    &   306    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Resultado neto}           &   420    &   714    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\bottomrule
+\end{tabularx}
+\normalsize
+
+\begin{quote}
+\textbf{Control}: verifique ( \text{Ventas} - \text{COGS} =
+\text{G. Bruta} ) y ( \text{G. Bruta} - \text{OPEX} =
+\text{Resultado Operacional} ).
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{\texorpdfstring{Estado de Situación Financiera (MM\$) ---
+\textbf{Datos dados}; complete Δ, Δ\% y
+AV}{Estado de Situación Financiera (MM\$) --- Datos dados; complete Δ, Δ\% y AV}}\label{estado-de-situaciuxf3n-financiera-mm-datos-dados-complete-ux3b4-ux3b4-y-av}
+
+\small
+\begin{tabularx}{\textwidth}{@{}X R{1.8cm} R{1.8cm} R{2.1cm} R{1.8cm} R{1.8cm} R{1.8cm}@{}}
+\toprule
+\textbf{Activos}                 & \textbf{t-1} & \textbf{t} & \textbf{$\Delta$ abs.} & \textbf{$\Delta$\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+Efectivo y equivalentes          &   400  &   500  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deudores comerciales             &   600  &   720  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Inventarios                      &   800  &   880  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Propiedades, planta y equipo     & 2{,}000& 2{,}500& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros activos no corrientes      &   200  &   200  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Total Activos}           & 4{,}000& 4{,}800& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+\midrule
+\textbf{Pasivos y Patrimonio}    &        &        &                   &                 &               &               \\
+Deuda CP                         &   800  &   960  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Cuentas por pagar                &   700  &   770  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros pasivos CP                 &   100  &   120  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deuda LP                         &   800  &   880  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Total Pasivos}           & 2{,}400& 2{,}730& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Patrimonio}              & 1{,}600& 2{,}070& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Pasivo + Patrimonio}     & 4{,}000& 4{,}800& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+\bottomrule
+\end{tabularx}
+\normalsize
+
+\begin{quote}
+\textbf{Control}: ( \text{Pasivo} + \text{Patrimonio} = \text{Activos} )
+en cada periodo.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Preguntas de análisis (responder a
+mano)}\label{preguntas-de-anuxe1lisis-responder-a-mano}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Drivers del resultado operacional}: indique tres factores que
+  expliquen la variación y cómo los evidenció en las cifras.\\
+
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}
+\item
+  A partir del \textbf{AV del EERR}, ¿cambió la \textbf{estructura de
+  costos y gastos}? ¿Cómo afectó a los \textbf{márgenes}?\\
+
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}
+\item
+  \textbf{Capital de trabajo}: interprete el comportamiento de
+  \textbf{clientes} e \textbf{inventarios} (AH y AV) y su impacto en el
+  \textbf{ciclo de conversión de efectivo}.\\
+
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}
+\item
+  \textbf{Estructura de capital}: ¿la empresa tiene \textbf{espacio para
+  endeudarse}? Fundamente desde el ESF (AH y AV).\\
+
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}
+\item
+  Señale una \textbf{alerta} contable o de negocio a seguir (erosión de
+  margen, concentración de clientes, FX, inflación).\\
+
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}\vspace{0.5cm}
+  \rule{\linewidth}{0.4pt}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Checklist de consistencia
+rápida}\label{checklist-de-consistencia-ruxe1pida}
+
+\begin{itemize}
+\tightlist
+\item
+  ( \text{Ventas} - \text{COGS} = \text{G. Bruta} ); ( \text{G. Bruta} -
+  \text{OPEX} = \text{Op.} ).\\
+\item
+  En EERR, ( \sum AV = 100\% ) (base ventas) por periodo.\\
+\item
+  En ESF, ( \sum AV = 100\% ) (base total activos) por periodo.\\
+\item
+  ( t-1 + \Delta\_\{\text{abs}\} = t ) en cada fila.\\
+\item
+  Señale \textbf{N/C} cuando corresponda y explique.
+\end{itemize}
+
+
+
+
+\end{document}

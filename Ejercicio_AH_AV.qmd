@@ -1,0 +1,137 @@
+---
+title: "Ejercicio Impreso: Análisis Horizontal y Vertical (1.3) — Con datos"
+subtitle: "Completar Δ, Δ% y AV + análisis"
+author: "Mag. en Finanzas Carlos Correa Íñiguez"
+date: "2025-08-19"
+from: markdown+tex_math_dollars
+format:
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: false
+    geometry: margin=2cm
+fontsize: 11pt
+lang: es
+header-includes:
+  - |
+    \usepackage{booktabs}
+    \usepackage{array}
+    \usepackage{tabularx}
+    \usepackage{amsmath,amssymb}
+    \usepackage{graphicx}
+    \renewcommand{\arraystretch}{1.25}
+    \setlength{\tabcolsep}{4pt}
+    \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+---
+
+## Instrucciones
+
+- **Objetivo**: calcular **Δ (absoluta)**, **Δ%** y **AV** (t-1 y t) para EERR y ESF; luego **analizar**.
+- **Base AV**: en **EERR**, \( \text{Ventas Netas} = 100\% \). En **ESF**, \( \text{Total Activos} = 100\% \).
+- **Formato**: complete a mano en las líneas. Use **MM$** (millones de pesos). Redondee **AV** a **1 decimal** y **Δ%** a **1 decimal**.
+
+### Fórmulas de referencia
+
+$$
+\Delta_{\text{abs}} = V_t - V_{t-1}
+\qquad
+\Delta\% = \frac{V_t - V_{t-1}}{\lvert V_{t-1} \rvert}\times 100
+\qquad
+AV_i = \frac{\text{Cuenta } i}{\text{Base}} \times 100
+$$
+
+> Si \(V_{t-1}=0\) o cambia de signo, marque como **no comparable (N/C)** y explique.
+
+---
+
+## Estado de Resultados (MM$) — **Datos dados**; complete Δ, Δ% y AV
+
+\small
+\begin{tabularx}{\textwidth}{@{}X R{1.8cm} R{1.8cm} R{2.1cm} R{1.8cm} R{1.8cm} R{1.8cm}@{}}
+\toprule
+\textbf{Cuenta} & \textbf{t-1} & \textbf{t} & \textbf{$\Delta$ abs.} & \textbf{$\Delta$\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+Ventas netas                      & 5{,}000  & 6{,}000  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+Costo de ventas                   & 3{,}000  & 3{,}420  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Ganancia bruta}           & 2{,}000  & 2{,}580  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos operacionales              & 1{,}200  & 1{,}300  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Resultado operacional}    &   800    & 1{,}280  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Gastos financieros                &   200    &   260    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Resultado antes de impuestos      &   600    & 1{,}020  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Impuesto a la renta (aprox. 30\%) &   180    &   306    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Resultado neto}           &   420    &   714    & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\bottomrule
+\end{tabularx}
+\normalsize
+
+> **Control**: verifique \( \text{Ventas} - \text{COGS} = \text{G. Bruta} \) y \( \text{G. Bruta} - \text{OPEX} = \text{Resultado Operacional} \).
+
+---
+
+## Estado de Situación Financiera (MM$) — **Datos dados**; complete Δ, Δ% y AV
+
+\small
+\begin{tabularx}{\textwidth}{@{}X R{1.8cm} R{1.8cm} R{2.1cm} R{1.8cm} R{1.8cm} R{1.8cm}@{}}
+\toprule
+\textbf{Activos}                 & \textbf{t-1} & \textbf{t} & \textbf{$\Delta$ abs.} & \textbf{$\Delta$\%} & \textbf{AV t-1 \%} & \textbf{AV t \%} \\
+\midrule
+Efectivo y equivalentes          &   400  &   500  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deudores comerciales             &   600  &   720  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Inventarios                      &   800  &   880  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Propiedades, planta y equipo     & 2{,}000& 2{,}500& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros activos no corrientes      &   200  &   200  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Total Activos}           & 4{,}000& 4{,}800& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+\midrule
+\textbf{Pasivos y Patrimonio}    &        &        &                   &                 &               &               \\
+Deuda CP                         &   800  &   960  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Cuentas por pagar                &   700  &   770  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Otros pasivos CP                 &   100  &   120  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+Deuda LP                         &   800  &   880  & \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Total Pasivos}           & 2{,}400& 2{,}730& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Patrimonio}              & 1{,}600& 2{,}070& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} & \rule{1.8cm}{0.4pt} \\
+\textbf{Pasivo + Patrimonio}     & 4{,}000& 4{,}800& \rule{2.1cm}{0.4pt} & \rule{1.8cm}{0.4pt} & 100.0 & 100.0 \\
+\bottomrule
+\end{tabularx}
+\normalsize
+
+> **Control**: \( \text{Pasivo} + \text{Patrimonio} = \text{Activos} \) en cada periodo.
+
+---
+
+## Preguntas de análisis (responder a mano)
+
+1. **Drivers del resultado operacional**: indique tres factores que expliquen la variación y cómo los evidenció en las cifras.  
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}
+
+2. A partir del **AV del EERR**, ¿cambió la **estructura de costos y gastos**? ¿Cómo afectó a los **márgenes**?  
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}
+
+3. **Capital de trabajo**: interprete el comportamiento de **clientes** e **inventarios** (AH y AV) y su impacto en el **ciclo de conversión de efectivo**.  
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}
+
+4. **Estructura de capital**: ¿la empresa tiene **espacio para endeudarse**? Fundamente desde el ESF (AH y AV).  
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}
+
+5. Señale una **alerta** contable o de negocio a seguir (erosión de margen, concentración de clientes, FX, inflación).  
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}\vspace{0.5cm}
+\rule{\linewidth}{0.4pt}
+
+---
+
+### Checklist de consistencia rápida
+
+- \( \text{Ventas} - \text{COGS} = \text{G. Bruta} \); \( \text{G. Bruta} - \text{OPEX} = \text{Op.} \).  
+- En EERR, \( \sum AV = 100\% \) (base ventas) por periodo.  
+- En ESF, \( \sum AV = 100\% \) (base total activos) por periodo.  
+- \( t-1 + \Delta_{\text{abs}} = t \) en cada fila.  
+- Señale **N/C** cuando corresponda y explique.
+

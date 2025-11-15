@@ -1,0 +1,1001 @@
+---
+title: Administracion del Efectivo
+author: Docente Carlos Correa Iniguez
+format:
+  revealjs:
+    theme: solarized
+    css: duoc_uc.css
+    embed-resources: true
+    output-file: index.html
+---
+
+## Objetivos de la Clase:
+<br><br>
+1. **Conocer los principales modelos de administración del efectivo**, entendiendo su importancia en la gestión financiera empresarial.
+<br><br>
+<br><br>
+2. **Aplicar los componentes clave de cada modelo**, asegurando una gestión eficiente y óptima del efectivo en la organización.
+
+---
+
+## Administración de la liquidez
+
+![Administración de la liquidez](Imagen2.png)
+
+---
+
+### Administración de Efectivo (Brealey)
+
+Según Brealey, el efectivo se define a menudo como **"un activo que no genera utilidades"**. 
+
+- Su tenencia es necesaria para pagar mano de obra, materia prima, impuestos, dividendos, y comprar activos fijos.
+<br><br>
+- Aunque el efectivo no genera intereses, la tarea del administrador financiero es **minimizar** la cantidad de efectivo manteniendo suficiente liquidez para:
+  - Aprovechar descuentos comerciales
+  - Mantener la reputación crediticia
+  - Satisfacer necesidades imprevistas
+
+---
+
+## Administración del Efectivo (Gitman)
+
+- Es un activo clave en la **gestión del capital de trabajo**.
+<br><br>
+- Permite pagar facturas a tiempo y funciona como un **colchón financiero** para imprevistos.
+<br><br>
+- Los activos circulantes, como cuentas por cobrar e inventarios, se convierten en efectivo, el **denominador común** de los activos líquidos.
+
+---
+
+## Estrategias de Administración de Efectivo
+
+Según Gitman, las principales estrategias son:
+
+1. **Cuentas por pagar**: Pagar lo más tarde posible sin afectar la reputación crediticia, aprovechando descuentos por pronto pago.
+<br><br>
+2. **Inventario**: Rotar el inventario rápidamente para evitar agotamientos que afecten la producción o las ventas.
+<br><br>
+3. **Cuentas por cobrar**: Cobrar lo más rápido posible sin presionar a los clientes, utilizando descuentos por pago de contado cuando sea económicamente viable.
+<br><br>
+
+---
+
+### Objetvos de la administración del efectivo:
+
+El principal objetivo de la administración del efectivo es **minimizar la inversión en efectivo** sin comprometer la eficiencia operativa de la empresa.
+<br><br>
+- **Saldo mínimo de efectivo**: Determinar la cantidad mínima de efectivo que debe mantener la empresa, considerando sus necesidades específicas y características operativas.
+<br><br>
+- **Ciclo de caja**: Definir el número de días que transcurren desde que la empresa realiza pagos a sus proveedores hasta que recibe los cobros de sus clientes, asegurando una gestión óptima del flujo de efectivo.
+
+---
+
+![Ciclo Operativo](Imagen1.png)
+
+---
+
+### Modelos de Administración del Efectivo
+
+1. **Modelo de Pérdida Operativa Mínima (POM)**:
+   Minimiza los costos del mantenimiento de efectivo, asegurando suficiente liquidez para las operaciones.
+<br><br>
+2. **Modelo de Baumol**:
+   Calcula el saldo óptimo de efectivo basado en los costos de transacción y el costo de oportunidad.
+<br><br>
+3. **Modelo de Miller y Orr**:
+   Controla los saldos de efectivo estableciendo límites superior e inferior, ajustando automáticamente según las fluctuaciones.
+
+---
+
+### Modelo de Pérdida Operativa Mínima (POM)
+
+- **Objetivo**: Minimizar los costos de mantener efectivo sin comprometer la operación.
+<br><br>
+- **Principio**: Determina el saldo mínimo de efectivo que la empresa debe mantener para operar eficientemente.
+<br><br>
+- **Ventaja**: Optimiza la liquidez, reduciendo el costo de oportunidad de mantener grandes cantidades de efectivo sin invertir.
+
+---
+
+### Fórmulas del Modelo POM
+
+#### 1. **Rotación de Caja**:
+   $$
+   R_c = \frac{\text{360}}{\text{Ciclo de Caja}}
+   $$
+   - $R_c$: Rotación de caja, mide cuántas veces la empresa "gira" su efectivo durante el año.
+
+### 2. **Caja Mínima**:
+   $$
+   C_{\text{mínima}} = \frac{\text{Desembolsos Anuales}}{\text{Rotación de Caja}}
+   $$
+   - **C_{\text{mínima}}**: Cantidad mínima de efectivo que la empresa debe mantener para operar.
+
+### Fórmula del POM (Pérdida Operativa Mínima):
+   $$
+   \text{POM} = C_{\text{mínima}} + \text{Costos de Oportunidad}
+   $$
+   - **POM**: Es la pérdida que incurre la empresa por mantener el saldo mínimo de caja, sumando el costo de oportunidad de no invertir ese efectivo.
+
+---
+
+### Ejemplo (POM)
+
+Indicadores de gestión:
+
+- **Período promedio de cobro**: 60 días
+<br><br>
+- **Período promedio de pago**: 45 días
+<br><br>
+- **Período promedio de inventario**: 75 días
+<br><br>
+- **Desembolsos anuales**: $10.000.000
+<br><br>
+- **Costo de oportunidad**: 18%
+
+---
+
+### Solucion Parte I: 
+#### Cálculos del Ciclo de Caja y POM
+
+1. **Ciclo Operativo**:
+   $$
+   \text{Ciclo Operativo} = PPI + PPC
+   $$
+   $$
+   \text{Ciclo Operativo} = 75 + 60 = 135 \, \text{días}
+   $$
+   Donde:
+   - $PPI$: Período Promedio de Inventario
+   - $PPC$: Período Promedio de Cobro
+
+---
+
+### Solucion Parte II: 
+2. **Ciclo de Efectivo**:
+    $$
+    \text{Ciclo de Efectivo} = \text{Ciclo Operativo} - PPP
+    $$
+    $$
+    \text{Ciclo de Efectivo} = 135 - 45 = 90 \, \text{días}
+    $$
+   Donde:
+   - $PPP$: Período Promedio de Pago
+
+---
+
+### Solucion Solucion Parte III
+
+#### Cálculos del Ciclo de Caja y POM
+
+3. **Rotación de Caja**:
+   $$
+   \text{Rotación de Caja} = \frac{360}{\text{Ciclo de Efectivo}} = \frac{360}{90} = 4 \, \text{veces}
+   $$
+
+4. **Caja Mínima**:
+   $$
+   \text{Caja Mínima} = \frac{\text{Desembolsos Anuales}}{\text{Rotación de Caja}} = \frac{10.000.000}{4} = 2.500.000
+   $$
+
+5. **Pérdida Operativa Mínima (POM)**:
+   $$
+   \text{POM} = \text{Caja Mínima} \times k_o = 2.500.000 \times 18\% = 450.000
+   $$
+   Donde:
+   - $k_o$: Costo de Oportunidad.
+
+---
+
+### Ciclo Operativo Ejemplo
+
+![Ciclo Operativo Ejemplo](Imagen4.png)
+
+---
+
+## Interpretación de Resultados I
+
+- **Ciclo Operativo**: La empresa tiene un ciclo operativo de **135 días**, que cubre el tiempo desde la compra de materias primas hasta el cobro de las ventas:
+<br><br>
+  1. Compra de mercaderías o materias primas.
+  2. Producción y obtención de productos terminados.
+  3. Venta de los productos.
+  4. Cobro a clientes (generación del flujo de caja).
+
+---
+
+## Interpretación de Resultados II
+- **Ciclo de Efectivo**: El ciclo de efectivo es de **90 días**, debido a un período de financiación de **45 días** otorgado por los proveedores.
+<br><br>
+- **Rotación de Caja**: La empresa rota su efectivo **4 veces al año**. Una mayor rotación significa que se requiere menos efectivo disponible para operar eficientemente.
+
+---
+
+### Modelo de W. Baumol
+
+- **Objetivo**: Minimizar costos de transacción y mantener un saldo óptimo de efectivo.
+<br><br>
+- **Principio**: Equilibra el costo de mantener efectivo y convertir activos.
+<br><br>
+- **Ventaja**: Ideal para empresas con flujos constantes, reduciendo la frecuencia de transacciones.
+
+---
+
+### Formula de Modelo de W. Baumol
+
+$$ 
+C = \sqrt{\frac{2 \cdot T \cdot b}{i}}
+$$
+- $C$: Saldo óptimo de efectivo.
+<br><br>
+- $T$: Necesidades de efectivo al año.
+<br><br>
+- $b$: Costo de convertir valores negociables.
+<br><br>
+- $i$: Tasa de interés.
+
+---
+
+## Modelo de Baumol
+
+El modelo de Baumol identifica dos costos principales:
+<br><br>
+1. **Costo de Transacción**: Representa el costo por ordenamiento o comercial.
+<br><br>
+2. **Costo de Oportunidad**: Representa el costo de mantener efectivo disponible.
+<br><br>
+- **Costo Total**: La suma de ambos costos corresponde al costo total del efectivo:
+$$
+\text{Costo Total} = \text{Costo de Transacción} + \text{Costo de Oportunidad} 
+$$
+
+---
+
+## Costo de Transacción (b)
+<br><br>
+- **Costo de Transacción (b)**: Es el costo de convertir valores negociables a efectivo. Este costo es constante y está influido por el número de transacciones realizadas, e incluye costos de oficina y transacción.
+<br><br>
+- **Número de Transacciones**: Se calcula como:
+
+  $$ 
+  \text{Número de Transacciones} = \frac{t}{c} 
+  $$
+
+  Donde:
+  
+  - t: Necesidades de efectivo al año.
+  - c: Saldo de efectivo óptimo.
+
+---  
+
+### Costo por Ordenamiento
+
+- El costo por ordenamiento se calcula como:
+    $$
+    \text{Costo por Ordenamiento} = b \times \left( \frac{t}{c} \right)
+    $$
+  Donde $b$ es el costo de cada transacción multiplicado por el número de transacciones necesarias en el periodo.
+    - t: Necesidades de efectivo al año.
+    - c: Saldo de efectivo óptimo.
+
+---
+
+## Costo de Oportunidad (i)
+
+- **Costo de Oportunidad (i)**: Se determina por la tasa de interés no aprovechada, que podría haberse obtenido al invertir el saldo de efectivo $c$ en el mercado financiero.
+
+<br><br>
+- Según el modelo de Baumol, los **saldos de efectivo** siguen un patrón constante, comenzando con un saldo $c$ al inicio del periodo y disminuyendo gradualmente hasta cero.
+
+- El saldo medio de efectivo se representa como:
+
+  $$ 
+  \text{Saldos Medios de Efectivo} = \frac{c}{2}
+  $$
+
+---
+
+### Costo de Mantenimiento de Efectivo
+
+- El costo de oportunidad $i$, multiplicado por los saldos medios de efectivo, da como resultado el **costo de mantenimiento**:
+
+  $$ 
+  \text{Costo de Mantenimiento} = i \times \left( \frac{c}{2} \right)
+  $$
+
+---
+
+## Costo Total de Efectivo
+
+- La suma del costo de mantenimiento y el costo de ordenamiento nos da el **Costo Total de Efectivo**:
+
+  $$ 
+  \text{Costo Total} = b \times \left( \frac{t}{c} \right) + i \times \left( \frac{c}{2} \right)
+  $$
+
+- A medida que **c** aumenta:
+  - El **Costo de Oportunidad** ($i \times \frac{c}{2}$) aumenta.
+  - El **Costo Comercial** ($b \times \frac{t}{c}$) disminuye.
+
+### Equilibrio de Costos
+
+- La cantidad óptima de efectivo se obtiene cuando el **Costo de Oportunidad** es igual al **Costo Comercial**:
+
+  $$ 
+  b \times \left( \frac{t}{c} \right) = i \times \left( \frac{c}{2} \right)
+  $$
+
+---
+
+### Ejemplo (Baumol)
+
+Una  empresa realiza sus compras de mercadería a 30 días (periodo de financiación de proveedor), el periodo de inventarios es de 45 días y el periodo de cuentas por cobrar es de 45 días.
+<br><br>
+Para un periodo de 60 días la empresa requiere $80.000.000.Se ha estimado que para una venta de valores negociables se incurrirá en un costo de $80.000 por cada transacción. La rentabilidad de los valores negociables se estima en 15% anual.
+
+---
+
+### Se pide:
+
+- a) Determinar el ciclo operativo y el ciclo de efectivo
+<br><br>
+- b) Cantidad de dinero por transacción (Modelo de W. Baumol)
+<br><br>
+- c) Número de transacciones en 60 días
+<br><br>
+- d) Costo total aplicado al efectivo
+
+---
+
+## Ciclo Operativo y Ciclo de Efectivo
+
+- **Ciclo Operativo**: 
+
+$$
+Ciclo\ Operativo = \text{PPI} (45\ días) + \text{PPC} (45\ días) = 90\ días
+$$
+
+El Ciclo Operativo corresponde a 90 días, comenzando el día en que se realizan las compras y terminando el día en que se realiza la cobranza de las ventas.
+
+___
+
+## Ciclo de Efectivo
+
+- **Ciclo de Efectivo**:
+
+$$
+Ciclo\ de\ Efectivo = (\text{PPI} - \text{PPP}) + \text{PPC}
+$$
+
+Sustituyendo los valores:
+
+$$
+Ciclo\ de\ Efectivo = (45 - 30) + 45 = 60\ días
+$$
+
+El ciclo de efectivo corresponde a 60 días, comenzando el día en que se debe pagar a proveedores y terminando el día en que se realiza la cobranza.
+
+---
+
+## Datos del Ejemplo
+
+- $t = 80.000.000$ (Requerimiento de efectivo para un periodo de 60 días)
+- $b = 80.000$ (Costo de conversión de valores negociables)
+- $n = 60$ días (Periodo de tiempo)
+- $i = 15\%$ anual
+
+---
+
+## Cálculo de la Tasa Bimestral
+
+La tasa de costo de oportunidad bimestral se calcula como:
+
+$$
+i = \left(\frac{0.15}{360}\right) \times 60 = 0.025 = 2.5\%
+$$
+
+### Cálculo del Nivel Óptimo de Efectivo
+
+El nivel óptimo de efectivo ($C$) se calcula utilizando la fórmula de Baumol:
+
+$$
+C = \sqrt{\frac{2 \cdot b \cdot t}{i}}
+$$
+
+Sustituyendo los valores:
+
+$$
+C = \sqrt{\frac{2 \cdot 80.000 \cdot 80.000.000}{0.025}} = 22.627.417
+$$
+
+Este es el **nivel óptimo de efectivo**.
+
+---
+
+## Datos para el Cálculo
+
+- $t = \text{Necesidades de efectivo al año} = 80.000.000$
+- $b = \text{Costo de transacción} = 80.000$
+
+### Cálculo del Número de Transacciones
+
+El número de transacciones se calcula como:
+
+$$
+\frac{t}{C} = \frac{80.000.000}{22.627.417} = 3.54
+$$
+
+### Cálculo del Costo Comercial
+
+El costo comercial se calcula como:
+
+$$
+\text{Costo Comercial} = b \times \frac{t}{C} = 80.000 \times \frac{80.000.000}{22.627.417} = 282.843
+$$
+
+Este es el **costo comercial** asociado al proceso.
+
+---
+
+## Cálculo del Costo de Mantenimiento
+
+El saldo promedio de efectivo se calcula como:
+
+$$
+\frac{C}{2} = \frac{22.627.417}{2} = 11.313.708
+$$
+
+El costo de mantenimiento se calcula como:
+
+$$
+\text{Costo de Mantenimiento} = i \times \left(\frac{C}{2}\right) = 0.025 \times \left(\frac{22.627.417}{2}\right) = 282.843
+$$
+
+### Cálculo del Costo Total
+
+El costo total se calcula sumando el costo comercial y el costo de oportunidad:
+
+$$
+\text{Costo Total} = \text{Costo Comercial} + \text{Costo de Oportunidad} 
+$$
+$$
+\text{Costo Total} = 282.843 + 282.843 = 565.685
+$$
+
+---
+
+## Resumen de Costos
+
+| **Cantidad de dinero** | **Nº de transacciones** | **Saldos medios** | **Costo comercial** | **Costo oportunidad** | **Costo Total** |
+|------------------------|-------------------------|-------------------|---------------------|-----------------------|-----------------|
+| 80.000.000             | 1,00                    | 40.000.000         | 80.000              | 1.000.000             | 1.080.000       |
+| 40.000.000             | 2,00                    | 20.000.000         | 160.000             | 500.000               | 660.000         |
+| 26.666.667             | 3,00                    | 13.333.333         | 240.000             | 333.333               | 573.333         |
+| **22.627.417**         | **3,54**                | **11.313.708**     | **282.843**         | **282.843**           | **565.685**     |
+| 16.000.000             | 5,00                    | 8.000.000          | 400.000             | 200.000               | 600.000         |
+| 13.333.333             | 6,00                    | 6.666.667          | 480.000             | 166.667               | 646.667         |
+
+
+- En el **óptimo**, el costo total es **mínimo**.
+- En el **óptimo**, el costo comercial es **igual** al costo de oportunidad.
+
+---
+
+## Modelo Miller-Or
+
+### ¿Qué es el Modelo de Miller-Orr?
+
+- Un modelo para gestionar de manera eficiente los **saldos de efectivo**.
+- Ideal para empresas con **flujos de caja irregulares**.
+- Define **límites superior** e **inferior** para controlar el efectivo disponible.
+
+### Cómo Funciona y Beneficios
+
+- Ajusta el saldo de caja al **nivel objetivo** cuando alcanza el límite inferior.
+- Equilibra entre los **costos de transacción** y los **costos de oportunidad**.
+- Más **realista** que el modelo de Baumol, adecuado para flujos de caja **variables**.
+
+---
+
+## Aspectos del Modelo de Miller-Orr
+
+- Variabilidad de los flujos: Medidos a través de la **varianza** ($\sigma^2$).
+- Costos de transacción: Representados por **b**.
+- Costo de oportunidad: Relacionado con la **tasa de interés** ($i$).
+
+---
+
+## Costos a Minimizar
+
+- **Costos de transacción esperados**.
+- **Costos de oportunidad esperados**.
+
+El modelo busca minimizar ambos para calcular los límites óptimos de efectivo.
+
+### Cálculos del Modelo
+
+El modelo permite calcular:
+
+- Saldo óptimo o deseable ($Z$).
+- Distancia entre límites.
+- Límite inferior ($Li$) y límite superior ($LS$).
+
+---
+
+## Fórmula del Saldo Óptimo ($Z$)
+
+$$ 
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4i}} 
+$$
+
+Donde:
+
+- $Z$: Saldo óptimo.
+
+- $b$: Costo de transacción.
+
+- $\sigma^2$: Varianza de los flujos diarios netos de efectivo.
+
+- $i$: Tasa diaria de interés (costo de oportunidad).
+
+### Punto de Reorden
+
+La empresa establece un **mínimo de caja** que se suma a $Z$ para definir el **punto de reorden**:
+
+$$ 
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4i}} + \text{Caja Mínima}
+$$
+
+---
+
+## Límite Superior ($LS$)
+
+El límite superior se calcula con la siguiente fórmula:
+
+$$ 
+LS = 3 \cdot Z 
+$$
+
+Cuando el saldo llega a $LS$, la empresa compra valores negociables, y el saldo regresa a $Z$.
+
+---
+
+## Ejemplo 1 Modelo de Miller
+
+1. **Datos del ejercicio**:
+    - Saldo mínimo de tesorería: M$ 4.000
+    - Varianza de los flujos diarios de tesorería: M$ 3.200.521
+    - Desviación típica: M$ 1.789
+    - Tasa de interés diaria: 0,015%
+    - Costos de transacción por compra/venta de valores: M$ 60
+
+---
+
+## Fórmulas del Modelo
+
+El modelo de Miller y Orr nos permite calcular:
+
+- **Saldo óptimo o deseable** ($Z$):
+$$
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}}
+$$
+
+Donde:
+
+- $b$ = Costos de transacción (M$ 60)
+
+- $\sigma^2$ = Varianza de los flujos diarios de tesorería (M$ 3.200.521)
+
+- $i$ = Tasa diaria de interés (0,015%)
+
+---
+
+## Cálculo del saldo óptimo
+
+Usando la fórmula:
+$$
+Z = \sqrt[3]{\frac{3 \cdot 60 \cdot 3.200.521}{4 \cdot 0,00015}} = \sqrt[3]{\frac{576.093.780}{0,0006}} = \sqrt[3]{960.156.300.000}
+$$
+
+$$
+Z \approx 989.98 \ \text{M}
+$$
+
+---
+
+## Cálculo del límite superior
+
+El **límite superior** ($LS$) se calcula como:
+$$
+LS = 3 \cdot Z - 2 \cdot \text{Caja mínima}
+$$
+$$
+LS = 3 \cdot 989.98 - 2 \cdot 4.000 = 2.969.94 \ \text{M}
+$$
+
+---
+
+## Límite inferior
+
+El **límite inferior** ($LI$) corresponde a la **caja mínima**, que es:
+$$
+LI = 4.000 \ \text{M}
+$$
+
+---
+
+## Solucion 
+
+1. **Saldo óptimo de efectivo**: M$ 989.98
+2. **Límite superior**: M$ 2.969.94
+3. **Límite inferior**: M$ 4.000
+
+## Ejemplo 2 Modelo Miller-Orr: 
+
+### Datos del Ejercicio
+
+- Egresos diarios promedio: $10,000
+- Desviación estándar de los egresos: $1,200
+- Costo por transacción: $130
+- Tasa de interés diaria: 0.01%
+- Caja mínima: $1,500
+
+### ¿Qué vamos a calcular?
+
+- **Punto de retorno o reorden**
+- **Límite superior e inferior** para la compra y venta de valores negociables
+
+---
+
+## Fórmulas del Modelo Miller
+
+- Fórmula del saldo óptimo o punto de retorno:
+$$
+Z = \sqrt[3]{\frac{3 \cdot b \cdot \sigma^2}{4 \cdot i}}
+$$
+- Fórmula del límite superior:
+$$
+LS = 3 \cdot Z - 2 \cdot \text{Caja Mínima}
+$$
+- **b**: Costo de transacción (130)
+- **σ**: Desviación estándar ($1,200)
+- **i**: Tasa de interés diaria (0.0001)
+
+---
+
+## Cálculos
+
+### Paso 1: Calcular el saldo óptimo
+$$
+Z = \sqrt[3]{\frac{3 \cdot 130 \cdot (1200)^2}{4 \cdot 0.0001}}
+$$
+$$
+Z ≈ \sqrt[3]{\frac{3 \cdot 130 \cdot 1,440,000}{0.0004}} ≈ \sqrt[3]{1,404,000,000,000} ≈ 11,195
+$$
+
+### Paso 2: Calcular el límite superior
+$$
+LS = 3 \cdot 11,195 - 2 \cdot 1,500 = 33,585 - 3,000 = 30,585
+$$
+
+---
+
+## Solución
+
+1. **Punto de retorno o reorden (Z)**: $11,195
+2. **Límite superior (LS)**: $30,585
+3. **Límite inferior (LI)**: Es el saldo mínimo de caja de $1,500.
+
+---
+
+## Explicación del Modelo
+
+- Cuando el saldo de efectivo llega al límite superior de $30,585, la empresa compra valores negociables y el saldo de efectivo se reduce al punto de reorden de $11,195.
+
+- Si el saldo cae al límite inferior de $1,500, la empresa vende valores negociables para aumentar el saldo a $11,195.
+
+
+## Referencias
+
+1. **Principios de Finanzas Corporativas**  
+   Autores: Brealey, Richard A.; Myers, Stewart C.; Allen, Franklin.
+<br><br>
+2. **Administración del Efectivo y Contabilidad Administrativa**  
+   [Título](https://www.gestiopolis.com/administracion-del-efectivo-y-contabilidad-administrativa/#google_vignette) - Gestiopolis.
+
+---
+
+## Rubrica para Informe EP 2
+
+- IL2.2 Calcula el nivel óptimo para el establecimiento de la mejor alternativa de administración del Ciclo de efectivo, del efectivo y equivalentes, de deudores comerciales y otras cuentas por cobrar y del inventario.
+
+- Determinar el saldo óptimo de efectivo, tomando en cuenta los siguientes conceptos:
+   - Es el saldo óptimo de efectivo.
+   - Costo de convertir valores negociables. Aquí se incluyen los costos de transacción y de oficina.
+   - Necesidades de efectivo al año.
+
+---
+
+## Indicador de Logro: IL2.2
+
+| Indicador de Logro  | Muy buen desempeño (100%) | Desempeño aceptable (60%) | Desempeño Incipiente (30%) |
+|---------------------|--------------------------|----------------------------|----------------------------|
+| IL2.2 Calcula el nivel óptimo para el establecimiento de la política financiera de administración del ciclo de efectivo, del déficit económico de tesorería y de decisiones de crédito y cobro. | Calcula el LEC de los últimos tres años mediante el modelo matemático. | Calcula el LEC de los últimos dos años mediante el modelo matemático. | Calcula el LEC del último año mediante el modelo matemático. |
+
+## Ejemplo: Viña Santa Rita
+
+1. Primero es necesario calcular el **PPI** (Período Promedio de Inventario), el **PPP** (Período Promedio de Pago) y el **PPC** (Período Promedio de Cobro). Estos valores nos permitirán estimar el ciclo operativo y el ciclo de efectivo de la empresa.
+
+---
+
+## Fórmulas para el cálculo
+
+2. Recordemos que el cálculo del **PPI**, **PPP** y **PPC** se obtiene de la siguiente manera:
+
+- **PPI** (Período Promedio de Inventario):
+$$ 
+PPI = \frac{\text{Inventario Promedio}}{\text{Costo de Ventas Diario}} 
+$$
+
+- **PPP** (Período Promedio de Pago):
+$$
+PPP = \frac{\text{Cuentas por Pagar Promedio}}{\text{Costo de Ventas Diario}} 
+$$
+
+- **PPC** (Período Promedio de Cobro):
+$$ 
+PPC = \frac{\text{Cuentas por Cobrar Promedio}}{\text{Ventas Diarias}} 
+$$
+
+---
+
+## Ejemplo Aplicado
+
+### Paso 1: Cálculo del PPI
+- Inventario Promedio:
+$$
+\text{Inventario Promedio} = \frac{\text{Inventario Inicial} + \text{Inventario Final}}{2}
+$$
+
+#### Viña Santa Rita (CMF):
+
+- Inventario Inicial: 80.509.166.000
+- Inventario Final: 77.701.915.000
+
+El Inventario Promedio sería:
+
+$$
+\text{Inventario Promedio} = \frac{77.701.915.000 + 80.509.166.000}{2}
+$$
+
+
+- Inventario Promedio = 79.105.540.500
+
+---
+
+### Viña Santa Rita (CMF)
+
+#### Costo de Ventas Diario:
+
+$$
+\text{Costo de Ventas Diario} = \frac{\text{Costo de Ventas Anual}}{360}
+$$
+
+- Costo de Ventas Anual: $111.797.509.000
+
+$$
+\text{Costo de Ventas Diario}= \frac{111.797.509.000}{360} = 310.548.636
+$$
+
+---
+
+### Viña Santa Rita (CMF)
+
+- **PPI** (Período Promedio de Inventario):
+$$ 
+PPI = \frac{\text{Inventario Promedio}}{\text{Costo de Ventas Diario}} 
+$$
+
+$$
+PPI = \frac{79.105.540.500}{310.548.636} \approx 254.73 , \text{días}
+$$
+
+---
+
+### Cálculo del PPC Viña Santa Rita
+
+- **PPC** (Período Promedio de Cobro):
+$$ 
+PPC = \frac{\text{Cuentas por Cobrar Promedio}}{\text{Ventas Diarias}} 
+$$
+
+$$
+\text{Cuentas por Cobrar Promedio} = \frac{\text{Cuentas por Cobrar Iniciales} + \text{Cuentas por Cobrar Finales}}{2}
+$$
+- Reemplazando:
+$$
+\text{Cuentas por Cobrar Promedio} = \frac{58.253.182.000 + 59.112.524.000}{2} = 58.682.853.000
+$$ 
+
+---
+
+### Viña Santa Rita (CMF)
+
+#### Ventas Diarias
+- El cálculo de las Ventas Diarias sería:
+$$
+\text{Ventas Diarias} = \frac{\text{Ventas Anuales}}{360}
+$$
+
+- Ventas Anuales: $163.827.341.000
+
+$$
+\text{Ventas Diarias} = \frac{163.827.341.000}{360} = 455.075.947,22
+$$
+
+## Cálculo del PPC
+
+### Fórmula:
+$$
+PPC = \frac{\text{Cuentas por Cobrar Promedio}}{\text{Ventas Diarias}}
+$$
+
+Reemplazando valores:
+$$
+PPC = \frac{58.253.182.000}{455.075.947,22} \approx 127,99 , \text{días}
+$$
+
+---
+
+### Paso 3: Cálculo del **PPP** (Período Promedio de Pago)
+#### **PPP** (Período Promedio de Pago)
+$$
+PPP = \frac{\text{Cuentas por Pagar Promedio}}{\text{Compras Diarias}}
+$$
+
+
+- **Cuentas por Pagar Promedio**:
+$$
+\text{Cuentas por Pagar Promedio} = \frac{\text{Cuentas por Pagar Iniciales} + \text{Cuentas por Pagar Finales}}{2}
+$$
+
+Reemplazando valores:
+$$
+\text{Cuentas por Pagar Promedio} = \frac{27.068.515.000 + 23.094.061.000}{2} = 25.081.288.000
+$$
+
+---
+
+### Cálculo de las Compras Diarias
+
+$$
+\text{Compras Diarias} = \frac{\text{Compras Anuales}}{360}
+$$
+
+- Compras Anuales: \$111.797.509.000
+
+Reemplazando valores:
+$$
+\text{Compras Diarias} = \frac{111.797.509.000}{360} = 310.548.636,11
+$$
+
+---
+
+### Cálculo del **PPP**
+
+$$
+PPP = \frac{\text{Cuentas por Pagar Promedio}}{\text{Compras Diarias}}
+$$
+
+Reemplazando valores:
+$$
+PPP = \frac{25.081.288.000}{310.548.636,11} \approx 80,77 \, \text{días}
+$$
+
+---
+
+## Resultados Finales
+
+- **Ciclo Operativo**:
+$$
+\text{Ciclo Operativo} = PPI + PPC = 254,73 + 127,99 = 382,72 \, \text{días}
+$$
+
+- **Ciclo de Efectivo**:
+$$
+\text{Ciclo de Efectivo} = Ciclo Operativo - PPP = 382,72 - 80,77 = 301,95 \, \text{días}
+$$
+
+Estos resultados muestran que Viña Santa Rita necesita **301,95 días** en promedio para convertir sus recursos en efectivo.
+
+---
+
+## Ciclo Operativo: Viña Santa Rita
+
+![Ciclo Operativo](Ejemplo_Sta_Rita.png)
+
+---
+
+- En una situación general, la empresa tiene dos opciones de financiamiento de corto plazo:  
+   - 1. Usar financiamiento de corto plazo, tales como factoring, línea crédito, créditos bancarios etc., lo cual genera un costo financiero por la tasa de interés y otros de la deuda financiera.
+   - 2. Si tuviera excedentes de Capital de Trabajo, tiene un costo de oportunidad ya que esos recursos podrían estar invertidos en depósitos a plazo, fondos mutuos, etc. y se dejaría de generar ganancia por intereses. (ingresos financieros)
+
+---
+
+## Paso 2: Cálculos en administración del Ciclo de Efectivo
+
+- 1. Calculo de POM.
+- 2. Calculo Modelo LEC: Lote Económico de Compras (Baumol)
+- 3. Miller-Orr, Saldo óptimo de efectivo, con límites y saldo para inversión de corto plazo en equivalentes al efectivo.
+
+---
+
+## 1. Calculo de POM.
+
+- Determinar la pérdida operativa mínima: 
+
+#### 1. **Rotación de Caja**:
+   $$
+   R_c = \frac{\text{360}}{\text{Ciclo de Caja}}
+   $$
+   - $R_c$: Rotación de caja, mide cuántas veces la empresa "gira" su efectivo durante el año.
+
+   $$
+   R_c = \frac{360}{\text{302 dias}}  \approx 1,19
+   $$
+
+---
+
+## Interpretación
+
+- Este resultado indica que la rotación de las cuentas en el período es de aproximadamente 1.19 veces por año.
+
+- Esto sugiere que la empresa convierte sus cuentas en efectivo alrededor de 1.19 veces al año, ya sea a través de inventarios o cuentas por cobrar, según el contexto.
+
+---
+
+## 2. Calcular Caja mínima o Saldo medio de Tesorería: (Egresos anuales/Rotación Caja)
+
+- Para calcular los egresos anuales, consideraremos las siguientes partidas clave del flujo de efectivo:
+	1.	**Pagos a proveedores por bienes y servicios**: Estos egresos representan los costos operativos esenciales para mantener el ciclo productivo de la empresa.
+	2.	**Pagos a y por cuenta de los empleados**: Incluye salarios, bonos y otros beneficios, reflejando el gasto en capital humano necesario para las operaciones.
+	3.	**Otros pagos por actividades de operación**: Comprende otros egresos menores que impactan en la caja y son parte de los costos operativos, como gastos administrativos o pagos menores.
+
+---
+
+## Calculo de Egresos Anuales
+
+- **Egresos Anuales:**
+$$
+\text{Egresos Anuales} = 125.825.795.000 + 26.234.231.000 + 8.780.316.000
+$$
+
+$$
+\text{Egresos Anuales} = 160.840.342.000
+$$
+
+**Caja Mínima:**
+
+$$
+\text{Caja Mínima} = \frac{\text{Egresos Anuales}}{\text{Rotación de Caja}} = \frac{160.840.342.000}{1,19} \approx 135.588.957.983
+$$
+
+---
+
+## Interpretación de los Cálculos
+
+Egresos Anuales:
+
+   - Representan la salida total de efectivo necesaria para la operación anual.
+   - Incluyen pagos esenciales como proveedores, empleados y gastos menores.
+
+Caja Mínima:
+
+   - Muestra el efectivo mínimo para operar sin interrupciones.
+   - Asegura liquidez para cubrir compromisos de corto plazo y enfrentar imprevistos.
+
+---
+
+
+## 3. Cálculo de la Pérdida Operativa Mínima (POM)
+# FIN

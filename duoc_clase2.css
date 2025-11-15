@@ -1,0 +1,18 @@
+:root{
+  --r-background-color: #ffffff;
+  --r-main-color: #222222;
+  --r-heading-color: #001a72; /* azul DUOC UC */
+  --r-link-color: #ffcc00;     /* amarillo DUOC UC */
+  --r-link-color-hover: #d4aa00;
+}
+.reveal section img { max-height: 60vh; }
+.reveal .slides { text-align: left; }
+.callout, .box {
+  border-left: 6px solid #ffcc00;
+  background: #fff8d6;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+table { font-size: 0.9em; }
+th, td { padding: 6px 10px; }

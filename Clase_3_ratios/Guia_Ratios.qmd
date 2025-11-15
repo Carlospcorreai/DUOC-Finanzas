@@ -1,0 +1,124 @@
+---
+title: "Guía de Ratios Financieros — Enunciados"
+subtitle: "Caso integral con interpretación — DUOC UC"
+author: "Prof. Carlos Correa Íñiguez"
+date: "2025-09-02"
+lang: es
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: "margin=2.5cm"
+    linestretch: 1.15
+    pdf-engine: pdflatex
+fontsize: 11pt
+---
+
+# Indicaciones generales
+
+Esta guía se resuelve en papel. En cada requerimiento: **fórmula → sustitución → resultado → interpretación** (la interpretación tiene mayor peso).
+Usa **promedios** de saldos para comparar con flujos (por ejemplo, cuentas por cobrar promedio).
+Redondeo sugerido: **2 decimales** en ratios y días; **1 decimal** en porcentajes.
+
+Ponderación sugerida: 40% cálculo correcto + **60% interpretación** (coherencia, diagnóstico y acciones).
+
+# 1. Ejercicio largo — Caso integral (ER + Balance)
+
+**Empresa:** *TecnoAndes S.A.* (cifras en **MM$**)  
+**Objetivo:** Calcular e **interpretar** ratios de **liquidez, actividad/rotación, endeudamiento, rentabilidad y eficiencia**, y elaborar un **diagnóstico** con acciones.
+
+## 1.1 Estado de Resultados
+
+| Concepto                          | 2025   | 2024   |
+|:----------------------------------|-------:|-------:|
+| Ventas brutas                     | 26.500 | 22.500 |
+| (-) Devoluciones y descuentos     |  1.500 |  1.500 |
+| **Ventas netas**                  | **25.000** | **21.000** |
+| (-) Costo de ventas               | 16.000 | 12.600 |
+| **Utilidad bruta**                | **9.000**  | **8.400**  |
+| (-) Gastos de venta y adm |  5.400 |  4.900 |
+| (-) Depreciación y amortización   |  1.100 |    900 |
+| (+/-) Otros operativos (neto)     |   −200 |   −100 |
+| **Resultado operativo (EBIT)**    | **2.300** | **2.500** |
+| (-) Gastos financieros            |    720 |    550 |
+| **Resultado antes de impuestos**  | **1.580** | **1.950** |
+| (-) Impuesto a la renta (20%)     |    316 |    390 |
+| **Utilidad neta**                 | **1.264** | **1.560** |
+
+## 1.2 Balance General
+
+**Activos**
+
+| Activos (MM$)                    | 2025 | 2024 |
+|:---------------------------------|-----:|-----:|
+| Efectivo y equivalentes          |   900 | 1.100 |
+| Cuentas por cobrar comerciales   | 3.600 | 2.400 |
+| Inventarios                      | 5.200 | 3.900 |
+| Otros activos corrientes         |   300 |   200 |
+| **Activo corriente**             | **10.000** | **7.600** |
+| Propiedades, planta y equipo (neto) | 6.500 | 6.100 |
+| Intangibles (neto)               |   900 | 1.100 |
+| Otros activos no corrientes      |   300 |   300 |
+| **Activo no corriente**          | **7.700** | **7.500** |
+| **Total Activos**                | **17.700** | **15.100** |
+
+**Pasivos y Patrimonio**
+
+| Pasivos y Patrimonio (MM$)       | 2025 | 2024 |
+|:---------------------------------|-----:|-----:|
+| Cuentas por pagar a proveedores  | 3.200 | 2.000 |
+| Deuda financiera CP              | 1.500 |   900 |
+| Provisiones y acumulaciones CP   |   600 |   450 |
+| Impuestos por pagar              |   200 |   150 |
+| **Pasivo corriente**             | **5.500** | **3.500** |
+| Deuda financiera LP              | 4.900 | 3.700 |
+| Otros pasivos no corrientes      |   300 |   400 |
+| **Pasivo no corriente**          | **5.200** | **4.100** |
+| **Total Pasivos**                | **10.700** | **7.600** |
+| Capital y aportes                | 5.500 | 5.500 |
+| Utilidades retenidas             | 1.500 | 2.000 |
+| **Patrimonio**                   | **7.000** | **7.500** |
+| **Total Pasivos + Patrimonio**   | **17.700** | **15.100** |
+
+## 1.3 Notas y supuestos
+
+Usa saldos **promedio** para cuentas de balance cuando compares con flujos. En particular:
+
+$$
+\mathrm{CxC}_{\text{prom}}=\frac{\mathrm{CxC}_{2024}+\mathrm{CxC}_{2025}}{2},\quad
+$$
+$$
+\mathrm{Inv}_{\text{prom}}=\frac{\mathrm{Inv}_{2024}+\mathrm{Inv}_{2025}}{2},\quad
+$$
+$$
+\mathrm{CxP}_{\text{prom}}=\frac{\mathrm{CxP}_{2024}+\mathrm{CxP}_{2025}}{2}.
+$$
+
+Supuestos adicionales:
+
+- Ventas a crédito: **80%** de las ventas netas.  
+- Compras (aprox.): $ \mathrm{Compras} = \mathrm{CV} + \Delta \mathrm{Inv} $.  
+- Compras a crédito para calcular la rotación de cuentas por pagar.  
+- Redondea a **2 decimales** y usa **días** donde corresponda.
+
+## 1.4 Requerimientos de cálculo
+
+1. **Liquidez (2025):** Razón Corriente, Prueba Ácida, Caja/PC, Capital de Trabajo.  
+2. **Actividad/Rotación (2025):** Rotación de CxC y **días**; Rotación de Inventario y **días**; Rotación de CxP y **días**; **Ciclo de conversión de caja (CCC)**.  
+3. **Endeudamiento (2025):** Deuda/Patrimonio (D/E), Deuda/Activo (%), **Deuda financiera/Patrimonio**.  
+4. **Rentabilidad (2025):** Margen Bruto, Margen Neto, **ROA** y **ROE** (denominadores promedio), **Cobertura de intereses** (EBIT/Intereses).  
+5. **Eficiencia:** Rotación de activos totales (Ventas / Activo promedio).
+
+## 1.5 Preguntas de interpretación (responder en papel)
+
+a) **Quick < 1:** ¿Cuándo puede ser razonable y cuándo riesgoso? Relaciona con **Caja/PC** e **inventarios**.  
+b) **CCC:** ¿Qué componente explica su valor? Propón **dos palancas** para bajarlo ≥ **10 días**.  
+c) **Inventarios −15%:** recalcula **días de inventario** y **CCC**. ¿Riesgos operativos?  
+d) **Pago +10 días:** efecto en **CCC**, relación con proveedores y liquidez.  
+e) **Incobrables 2% de ventas a crédito:** impacto en **margen neto**, **coverage** y **ROE** (explica el canal contable).  
+f) **Tasa +200 pb:** recalcula **intereses**, **coverage**, **margen neto** y **ROE**. Concluye sobre **riesgo**.  
+g) **Tendencia 2024→2025:** mejoras y deterioros (márgenes, cobertura, apalancamiento, capital de trabajo). ¿La rentabilidad compensa el riesgo?
+
+## 1.6 Diagnóstico ejecutivo (10–12 líneas)
+
+Integra resultados y respuestas en un **diagnóstico**: **2 fortalezas**, **2 debilidades** y **3 acciones** priorizadas (crédito, inventarios, proveedores, deuda, etc.).

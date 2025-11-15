@@ -1,0 +1,274 @@
+---
+title: "Indicadores Financieros — Clase DUOC"
+subtitle: "Liquidez · Rentabilidad · Endeudamiento · Actividad y Rotación"
+author: "Prof. Carlos Correa Íñiguez"
+date: today
+lang: es
+format:
+  revealjs:
+    theme: [default, "duoc.scss"]
+    slide-number: true
+    toc: false
+    toc-depth: 2
+    incremental: true
+    footer: "DUOC UC · Finanzas — 8/29/2025"
+    code-fold: false
+    math: mathjax
+---
+
+## Objetivos de la clase
+
+- Comprender **qué miden** las principales familias de indicadores financieros.  
+
+---
+
+## Objetivos de la clase
+
+- Calcular e **interpretar**:  
+  - *Liquidez:* razón corriente, razón ácida, capital de trabajo.  
+  - *Rentabilidad:* margen bruto, margen neto, ROA, ROE.  
+  - *Endeudamiento:* deuda-capital, leverage financiero, deuda-activo.  
+  - *Actividad/rotación:* CxC, inventarios, CxP, plazos, período de financiamiento, rotación de activos y de capital de trabajo. 
+
+---
+
+## Importante
+
+- Aplicar criterios para **comparar** en el tiempo y vs. industria.
+
+> **Nota:** los indicadores **se interpretan comparando** (histórico/pares). Un valor aislado rara vez basta.
+
+---
+
+## Mapa de contenidos
+
+1) Liquidez  
+2) Rentabilidad  
+3) Endeudamiento  
+4) Actividad y Rotación  
+5) Ejercicios rápidos  
+
+---
+
+## 1) Liquidez
+
+### Razón corriente
+
+$$
+\text{Razón Corriente}=\frac{\text{Activo corriente}}{\text{Pasivo corriente}}
+$$
+
+- > 1 → mayor holgura de corto plazo.  
+- < 1 → riesgo de iliquidez.  
+- Depende del **giro** y políticas.
+
+---
+
+### Razón ácida (o prueba ácida)
+
+$$
+\text{Razón Ácida}=\frac{\text{Activo corriente}-\text{Inventarios}}{\text{Pasivo corriente}}
+$$
+
+- Descuenta activos **menos líquidos** (p.ej., inventarios).  
+- Suele ser **menor** que la razón corriente.
+
+---
+
+### Capital de trabajo
+
+$$
+\text{Capital de Trabajo}=\text{Activo corriente}-\text{Pasivo corriente}
+$$
+
+- En **moneda** (no “veces”).  
+
+$$
+RC>1 \Rightarrow CT>0
+$$
+
+---
+
+## 2) Rentabilidad
+
+### Margen bruto y margen neto
+
+### Margen bruto
+
+$$
+\text{Margen Bruto}=\frac{\text{Ventas}-\text{Costo de ventas}}{\text{Ventas}}\times 100
+$$
+
+- Eficiencia operativa **antes** de gastos fijos/financieros.
+
+---
+
+### Margen neto
+
+$$
+\text{Margen Neto}=\frac{\text{Utilidad neta}}{\text{Ventas}}\times 100
+$$
+
+- Resultado **final** después de impuestos.
+---
+
+### ROA y ROE
+
+$$
+\text{ROA}=\frac{\text{Utilidad neta}}{\text{Activos totales}}\times 100
+\quad\quad
+\text{ROE}=\frac{\text{Utilidad neta}}{\text{Patrimonio}}\times 100
+$$
+
+- **ROA**: rendimiento de **todos** los activos.  
+- **ROE**: retorno para **los dueños** (impacta apalancamiento).
+
+---
+
+## 3) Endeudamiento
+
+### Estructura de financiamiento
+
+$$
+\text{Deuda-Capital}=\frac{\text{Pasivo total}}{\text{Patrimonio}}
+$$
+
+- **Deuda-Capital**: mide proporción de pasivos vs patrimonio.
+- Mayor ratio → mayor apalancamiento y riesgo financiero.
+
+---
+
+### Leverage financiero
+
+$$
+\text{Leverage financiero}=\frac{\text{Deuda financiera}}{\text{Patrimonio}}
+$$
+
+- Se enfoca solo en **deuda financiera** (excluye proveedores, etc.).
+- Útil para evaluar carga de intereses y capacidad de endeudamiento.
+
+---
+
+### Proporción de deuda
+
+$$
+\text{Deuda-Activo}=\frac{\text{Pasivo total}}{\text{Activos totales}}\times 100
+$$
+
+- Mayor deuda → mayor **riesgo financiero** y sensibilidad a tasas.
+- Complementa análisis de estructura financiera.
+
+---
+
+## 4) Actividad y Rotación
+
+### Cuentas por cobrar (CxC)
+
+Rotación CxC (convierte crédito en caja):
+$$
+\text{Rot. CxC}=\frac{\text{Ventas netas}}{\text{CxC promedio}}
+\quad\Rightarrow\quad
+\text{Plazo prom. CxC}=\frac{365}{\text{Rot. CxC}}
+$$
+
+---
+
+### Inventarios
+
+Rotación de existencias (flujo de stock):
+$$
+\text{Rot. Existencias}=\frac{\text{Costo de ventas}}{\text{Inventario promedio}}
+$$
+
+$$
+\text{Permanencia de stock}=\frac{365}{\text{Rot. Existencias}}
+$$
+
+---
+
+### Cuentas por pagar (CxP) y ciclo de caja
+
+$$
+\text{Rot. CxP}=\frac{\text{Compras}}{\text{CxP promedio}}
+$$
+
+$$
+\text{Plazo prom. CxP}=\frac{365}{\text{Rot. CxP}}
+$$
+
+$$
+\begin{align}
+\text{Período de financiamiento} &= \text{Plazo CxC} \\
+&\quad + \text{Permanencia stock} \\
+&\quad - \text{Plazo CxP}
+\end{align}
+$$
+
+> Indica los **días de capital de trabajo** a financiar.
+
+---
+
+### Rotaciones globales
+
+$$
+\text{Rot. Activos}=\frac{\text{Ventas}}{\text{Activos promedio}}
+$$
+
+$$
+\text{Rot. Capital de Trabajo}=\frac{\text{Ventas}}{\text{CT promedio}}
+$$
+
+- Cuántas “veces” los recursos **generan ventas**.
+
+---
+
+## 5) Ejercicios rápidos
+
+### Mini caso 1 (liquidez)
+
+- Activo cte: 1.200  
+- Pasivo cte: 800  
+- Inventarios: 300  
+
+**Calcule:** Razón Corriente, Razón Ácida, Capital de Trabajo.  
+**Interprete:** ¿holgura? ¿riesgos?
+
+---
+
+### Mini caso 2 (actividad)
+
+- Ventas netas: 18.250  
+- CxC (inicial 1.900; final 2.100)  
+- Costo de ventas: 12.100  
+- Inventario (inicial 2.600; final 2.400)
+
+**Calcule:** Rot. CxC, Plazo prom. CxC, Rot. existencias, Permanencia.  
+**Interprete:** ¿cuellos de botella en ciclo de caja?
+
+---
+
+### Mini caso 3 (apalancamiento y rentabilidad)
+
+- Pasivo total: 9.000 | Patrimonio: 6.000 | Activos: 15.000  
+- Deuda financiera: 5.000 | Utilidad neta: 1.050 | Ventas: 20.000
+
+**Calcule:** Deuda-Capital, Leverage financiero, Deuda-Activo, ROA, ROE, Rot. Activos.  
+**Discuta:** sensibilidad a tasas, retorno a accionistas.
+
+---
+
+## 6) Buenas prácticas
+
+::: {style="font-size: 0.85em;"}
+- **Comparar siempre**: series de tiempo.  
+- Ajustar por **estacionalidad** (plazos, rotaciones).  
+- Revisar **políticas** comerciales y de inventario.  
+- No mezclar cifras **nominales** con **promedios mal calculados**.  
+- Cuidar definiciones internas: *Ventas* vs *Ingresos de explotación*, *Compras* estimadas.
+:::
+
+::: {.callout-warning style="font-size: 0.8em;"}
+**Errores comunes:** usar "ventas" donde corresponde "costo de ventas", o rotaciones invertidas; interpretar razón corriente alta como "siempre buena" (puede reflejar **exceso de inventarios**).
+:::
+
+---

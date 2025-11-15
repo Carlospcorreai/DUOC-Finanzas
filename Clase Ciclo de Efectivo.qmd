@@ -1,19 +1,15 @@
 ---
-title: "Administración del Efectivo"
-author: "Docente: Carlos Correa Iñiguez (<ca.correai@profesor.duoc.cl>)"
+title: Administracion del Efectivo
+author: Docente Carlos Correa Iniguez
 format:
   revealjs:
     theme: solarized
     css: duoc_uc.css
-    self-contained: true
-    pdf: default   # Activa la exportación a PDF para Reveal.js
+    embed-resources: true
     output-file: index.html
-  pdf:
-    revealjs:
-    pdf: default
 ---
 
-### Objetivos de la Clase:
+## Objetivos de la Clase:
 <br><br>
 1. **Conocer los principales modelos de administración del efectivo**, entendiendo su importancia en la gestión financiera empresarial.
 <br><br>
@@ -22,7 +18,7 @@ format:
 
 ---
 
-### Administración de la liquidez
+## Administración de la liquidez
 
 ![Administración de la liquidez](Imagen2.png)
 
@@ -1254,8 +1250,11 @@ $$
 
 1. **Monitoreo Diario**: Implementar sistemas para seguimiento diario del saldo de caja en pesos.
 2. **Actualizar Parámetros**:
-   - Revisar periódicamente la **varianza (\(\sigma^2\))** de los flujos de efectivo.
-   - Actualizar la **tasa de interés (i)** según el mercado.
+
+   - Revisar periódicamente la **varianza $(\sigma^2)$** de los flujos de efectivo.
+
+   - Actualizar la **tasa de interés $(i)$** según el mercado.
+
 3. **Análisis de Sensibilidad**: Evaluar cómo cambios en los parámetros afectan el modelo.
 
 ---
@@ -1271,17 +1270,226 @@ $$
 
 ---
 
----
-
-## 4. Cálculo del Lote Económico de Inventario (EOQ)
-
-### Introducción
-
-El **Lote Económico de Pedido (EOQ)** es una herramienta que permite determinar la cantidad óptima de unidades que una empresa debe solicitar para minimizar los costos totales de inventario, que incluyen los costos de pedido y los costos de mantenimiento.
+## Modelos de Inventarios
+### Modelo de Lote Económico de Pedido (EOQ)
 
 ---
 
-### Supuestos Necesarios
+## Modelo de Lote Económico de Pedido (EOQ)
+
+### Definición y Objetivo
+
+El **Lote Económico de Pedido (EOQ - Economic Order Quantity)** es un modelo de gestión de inventarios que determina la cantidad óptima de unidades que debe ordenar una empresa para minimizar los costos totales asociados al inventario.
+
+---
+
+### Objetivos del Modelo EOQ
+
+- **Minimizar costos totales**: Equilibrar los costos de ordenar con los costos de mantener inventario.
+<br><br>
+- **Optimizar la gestión de inventario**: Determinar cuándo y cuánto ordenar.
+<br><br>
+- **Mejorar la eficiencia operativa**: Reducir tanto el exceso como la escasez de inventario.
+
+---
+
+### Supuestos del Modelo EOQ
+
+1. **Demanda constante y conocida**: La demanda es uniforme durante el período.
+<br><br>
+2. **Tiempo de entrega constante**: El tiempo entre el pedido y la recepción es fijo.
+<br><br>
+3. **No hay descuentos por cantidad**: El precio unitario es constante.
+<br><br>
+4. **Sin ruptura de stock**: No se permite faltante de inventario.
+<br><br>
+5. **Reposición instantánea**: El inventario se repone completamente al llegar el pedido.
+
+---
+
+## Motivación
+
+Controlar inventarios implica responder dos preguntas clave:
+
+1. **¿Cuándo** ordenar? (punto de reorden, *reorder point*).
+2. **¿Cuánto** ordenar? (tamaño de lote óptimo, *EOQ*).
+
+El EOQ busca **equilibrar** los costos de **ordenar** con los costos de **mantener inventario** para minimizar el costo total.
+
+---
+
+### Costos de Pedido (Costos de Ordenar)
+
+Los costos de pedido o costos de preparación son gastos incurridos en el proceso de pedido de mercancías:
+
+- **Preparación de documentación**: Solicitudes de compra y órdenes de compra
+<br><br>
+- **Recepción e inspección**: Control de calidad de mercancías recibidas
+<br><br>
+- **Tramitación**: Procesamiento de facturas y pagos
+<br><br>
+- **Gastos de envío**: Si los paga la empresa compradora
+<br><br>
+- **Notación en EOQ**: Se denota como **K** (costo de pedido por orden)
+
+---
+
+### Fórmula del Costo de Pedido:
+$$
+\text{Costo de Pedido} = \frac{\text{Costo Total de Pedidos}}{\text{Número Total de Unidades Pedidas}} \times 100\%
+$$
+
+---
+
+### Costos de Mantenimiento (Costos de Almacenamiento)
+
+Los costos de mantenimiento o costos de transporte de existencias son **costos fijos** incurridos al almacenar las existencias:
+
+- **Alquiler de almacén**: Costos de espacio físico para almacenamiento
+<br><br>
+- **Impuestos y seguros**: Protección legal y fiscal del inventario
+<br><br>
+- **Depreciación o merma**: Pérdida de valor por obsolescencia o deterioro
+<br><br>
+- **Gestión de inventario**: Costos operativos de administrar las existencias
+<br><br>
+- **Notación en EOQ**: Se denota como **H** (costo de mantenimiento por unidad por período)
+
+---
+
+### Fórmula del Costo de Mantenimiento:
+$$
+\text{Costo de Mantenimiento} = \frac{\text{Costo Total de Mantenimiento}}{\text{Número Total de Unidades en Inventario}} \times 100\%
+$$
+
+---
+### Ejemplo Numérico: Trade-off entre Costos
+
+**Supuestos del ejemplo:**
+
+- **Demanda anual (D)**: 12,000 unidades/año
+- **Costo por orden (K)**: \$60 por orden
+- **Costo de mantención por unidad-año (h)**: \$3
+
+**Objetivo:** Mostrar cómo varían los costos según el tamaño del pedido (Q).
+
+**Donde:**
+
+- **D**: Demanda anual (unidades por año)
+- **K**: Costo por orden (\$ por orden)
+- **h**: Costo de mantención por unidad por año (\$ por unidad por año)
+- **Q**: Tamaño del pedido (unidades por pedido)
+
+---
+### Fórmulas Clave
+
+**Costo de ordenar por año:**
+$$
+C_{\text{orden}}(Q) = K \cdot \frac{D}{Q}
+$$
+
+**Costo de mantención por año:**
+$$
+C_{\text{mant}}(Q) = h \cdot \frac{Q}{2}
+$$
+
+**Costo total (sin costo de compra):**
+$$
+C(Q) = K \cdot \frac{D}{Q} + h \cdot \frac{Q}{2}
+$$
+
+---
+
+### Análisis de Diferentes Tamaños de Pedido
+
+| Q (unidades) | Órdenes/año (D/Q) | Costo ordenar | Inventario prom. (Q/2) | Costo mant. | Costo total |
+|--------------|-------------------|---------------|------------------------|-------------|-------------|
+| 300          | 40.00             | \$2,400       | 150                    | \$450       | \$2,850     |
+| 600          | 20.00             | \$1,200       | 300                    | \$900       | \$2,100     |
+| **700**      | **17.14**         | **\$1,029**   | **350**                | **\$1,050** | **\$2,079** |
+| 900          | 13.33             | \$800         | 450                    | \$1,350     | \$2,150     |
+| 1,200        | 10.00             | \$600         | 600                    | \$1,800     | \$2,400     |
+
+---
+
+### Comportamiento de los Costos en el Modelo EOQ
+
+### Observaciones del Ejemplo
+
+**Trade-off entre costos:**
+
+- Al **duplicar Q** (de 600 a 1,200 unidades):
+  - El inventario promedio aumenta de 300 a 600 unidades
+  - El costo de mantención se **duplica**: \$900 → \$1,800
+  - Las órdenes anuales disminuyen de 20 a 10
+  - El costo de ordenar se **reduce a la mitad**: \$1,200 → \$600
+
+---
+
+### Punto Óptimo del Ejemplo
+
+**EOQ teórico:**
+$$
+Q^* = \sqrt{\frac{2 \cdot K \cdot D}{h}} = \sqrt{\frac{2 \cdot 60 \cdot 12,000}{3}} = \sqrt{480,000} \approx 693 \text{ unidades}
+$$
+
+**Observación:** Q = 700 unidades está muy cerca del óptimo teórico y presenta el **costo total mínimo** en la tabla (\$2,079).
+
+---
+
+### Idea Clave del Trade-off
+
+- **Pedidos pequeños (Q bajo)**:
+  - ✓ Menor costo de mantención (menos inventario)
+  - ✗ Mayor costo de ordenar (más órdenes frecuentes)
+
+- **Pedidos grandes (Q alto)**:
+  - ✗ Mayor costo de mantención (más inventario promedio = Q/2)
+  - ✓ Menor costo de ordenar (menos órdenes anuales)
+
+**El EOQ encuentra el equilibrio perfecto** donde ambos costos se minimizan.
+
+---
+
+## EOQ: Patrón de Inventario Tipo Sierra
+
+![Patrón de Inventario EOQ](imagen_eoq_sierra.png)
+
+**Lectura del gráfico:** 
+- Se **reordena** cuando el inventario cae a **r = d·L** (línea punteada horizontal)
+- Tras **L** días, llega el pedido: el nivel vuelve instantáneamente a $Q^*$
+- El patrón se repite formando un comportamiento "tipo sierra"
+
+**Donde:**
+- $Q^*$: Cantidad óptima de pedido (EOQ)
+- **r**: Punto de reorden 
+- **d**: Demanda diaria promedio
+- **L**: Tiempo de entrega (lead time)
+
+---
+
+## Resumen
+
+- EOQ equilibra $\frac{K \cdot D}{Q}$ (ordenar) con $\frac{h \cdot Q}{2}$ (mantener).
+
+- Óptimo: 
+  $$Q^* = \sqrt{\frac{2 \cdot K \cdot D}{h}}$$
+  
+- En $Q^*$, costos de ordenar y mantener **se igualan**.
+
+- Con $L$ constante: **reordenar en** $r = d \cdot L$ (agregar $SS$ si hay variabilidad).
+
+---
+
+## Referencias sugeridas
+
+- Hillier & Lieberman, *Introducción a la Investigación de Operaciones* (cap. de inventarios).
+- Hadley & Whitin, *Analysis of Inventory Systems*.
+- Anderson et al., *Métodos Cuantitativos para los Negocios*.
+
+---
+
+### Ejemplo Práctico: Viña Santa Rita
 
 Para realizar el cálculo del EOQ para Viña Santa Rita, asumiremos los siguientes datos:
 
@@ -1310,10 +1518,10 @@ $$
 
 Donde:
 
-- \( Q^* \): Cantidad óptima de pedido.
-- \( D \): Demanda anual en unidades.
-- \( S \): Costo de realizar un pedido.
-- \( H \): Costo de mantenimiento por unidad.
+- $( Q^*)$: Cantidad óptima de pedido.
+- $( D )$: Demanda anual en unidades.
+- $( S )$: Costo de realizar un pedido.
+- $( H )$: Costo de mantenimiento por unidad.
 
 ---
 
@@ -1389,7 +1597,7 @@ Es importante analizar cómo cambios en la demanda, el costo de pedido o el cost
 
 #### Ejemplo: Incremento del 10% en la Demanda
 
-- Nueva demanda: \( D = 500,000 \times 1.10 = 550,000 \) unidades.
+- Nueva demanda: $( D = 500,000 \times 1.10 = 550,000 )$ unidades.
 
 Nuevo EOQ:
 
@@ -1425,6 +1633,8 @@ $$
   - Arnold, J. R., Chapman, S. N., & Clive, L. M. (2008). *Introducción a la administración de operaciones*.
 
 ---
+
+# Modelos de Cuenta por Cobrar
 
 ---
 

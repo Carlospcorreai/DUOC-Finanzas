@@ -1,0 +1,235 @@
+---
+title: "Unidad I: Análisis Horizontal y Vertical (1.3)"
+subtitle: "Fórmulas, interpretación y ejemplo aplicado"
+author: "Mag. en Finanzas Carlos Correa Íñiguez"
+date: "2025-08-19"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    progress: true
+    transition: fade
+    toc: false
+    center-title-slide: true
+    smaller: true
+    ratio: "16:9"
+css: duoc_clase2.css
+lang: es
+---
+
+## Objetivos de aprendizaje
+
+- Explicar **qué es** el **análisis horizontal** y el **análisis vertical** en estados financieros.
+- Aplicar **fórmulas** para variaciones absolutas y porcentuales por **cuenta**.
+- Interpretar **cambios de estructura** (análisis vertical) y su impacto en **márgenes y solvencia**.
+- Elaborar un **comentario ejecutivo** a partir de los resultados obtenidos.
+
+---
+
+## Análisis Horizontal (AH): definición y fórmula
+
+- Compara una **misma cuenta** entre dos periodos consecutivos (_t_ vs _t-1_).
+- Mide **aumentos/disminuciones** en términos **absolutos** y **porcentuales**.
+
+**Fórmulas**
+- Variación absoluta: 
+
+$$\Delta_{abs} = V_t - V_{t-1}$$
+
+---
+
+## Análisis Horizontal (AH): definición y fórmula (continuación)
+
+**Fórmulas**
+
+- Variación porcentual: 
+
+\begin{align*}
+\Delta\% = \dfrac{V_t - V_{t-1}}{|V_{t-1}|}\times 100
+\end{align*}
+
+**Notas de interpretación**
+
+- Si
+
+\begin{align*}
+V_{t-1}=0
+\end{align*}
+
+reportar la variación como **no comparable** o usar tasas de crecimiento compuestas a más años.
+
+---
+
+## Análisis Horizontal (AH): definición y fórmula (continuación)
+
+- Si 
+
+\begin{align*}
+V_{t-1}<0,
+\end{align*}
+
+La razón puede ser **difícil de leer**: priorizar el **comentario cualitativo** (cambio de signo, salida de pérdidas, etc.).
+
+---
+
+## Análisis Vertical (AV): definición y bases
+
+- Convierte los estados en **porcentajes** de una **base común** (tamaño común / _common-size_).
+- **Estado de Resultados (EERR):** base = **Ingresos de actividades ordinarias** (100%).  
+- **Estado de Situación Financiera (ESF):** base = **Total Activos** (o **Pasivo + Patrimonio** = 100%).
+
+**Fórmula general**
+- Participación de la cuenta:
+$$
+\text{AV}_i = \dfrac{\text{Cuenta } i}{\text{Base}}\times 100
+$$
+
+**Lectura típica**
+- En EERR: márgenes **Bruto**, **Operacional**, **Neto** en **% de ventas**.  
+- En ESF: **composición** del activo (disponible, clientes, inventarios, PPE, etc.) y de fuentes (deuda CP/LP y patrimonio).
+
+---
+
+## Procedimiento sugerido (paso a paso)
+
+1. **Homogeneizar** periodos y moneda (IFRS, notas contables, re-clasificaciones).
+2. Armar una **matriz de cuentas** por periodo (t-1, t).  
+3. Calcular:
+
+$$
+\Delta_{abs} \text{ y } \Delta\%
+$$ 
+por cuenta (AH).
+
+4. Calcular **AV** por cuenta en cada periodo (EERR sobre ventas; ESF sobre total activos).
+5. **Interpretar**: identificar **drivers** (volumen, precio, mix, FX, inflación, re-medición), y **efectos** en liquidez/endeudamiento/márgenes.
+6. Redactar **conclusiones ejecutivas** (3–5 bullets + 1 gráfico/tabla clave).
+
+---
+
+## Ejemplo 1 (síntesis de caso real)
+
+- EERR de una firma de energía (año _t_ vs _t-1_):
+  - **Ingresos**: ↑ **10,1%**.
+  - **Ganancia bruta**: ↑ **2,2%**.
+  - **Gastos por función** (distribución y administración): ↑ **6,7%**.
+  - **Resultado no operacional**: **-5.911** vs **-7.213** (mejora).  
+- **Lectura**: Crecimiento de ventas con **márgenes contenidos** por mayor gasto operativo; mejora no operacional por **menores pérdidas** extraordinarias.
+
+> *Este ejemplo ilustra el uso de AH/AV y la importancia del comentario cualitativo (drivers: precios internacionales, mix hacia cliente final, efectos no recurrentes).*
+
+---
+
+## Ejemplo 2 (aplicado y con mayor análisis) — Compañía ABC
+
+Monto expresado en **MM$**. Periodos: **2024** (_t-1_) y **2025** (_t_).
+
+### 2.1. Estado de Resultados (AH + AV)
+
+| Cuenta                   | 2024 | 2025 | Δ abs. | Δ %   | AV 2024 | AV 2025 |
+|:-------------------------|-----:|-----:|------:|:-----:|--------:|--------:|
+| Ventas netas             | 5.000| 6.000| 1.000 | 20,0% | 100,0%  | 100,0%  |
+| Costo de ventas          | 3.000| 3.420|   420 | 14,0% |  60,0%  |  57,0%  |
+| **Ganancia bruta**       | 2.000| 2.580|   580 | 29,0% |  40,0%  |  43,0%  |
+| Gastos operacionales     | 1.200| 1.300|   100 |  8,3% |  24,0%  |  21,7%  |
+| **Resultado operacional**|   800| 1.280|   480 | 60,0% |  16,0%  |  21,3%  |
+| Gastos financieros       |   200|   260|    60 | 30,0% |   4,0%  |   4,3%  |
+| Resultado antes de impuestos | 600| 1.020| 420 | 70,0% |  12,0%  |  17,0%  |
+| Impuesto a la renta (≈30%)   | 180|   306| 126 | 70,0% |   3,6%  |   5,1%  |
+| **Resultado neto**       |   420|   714|   294 | 70,0% |   8,4%  |  11,9%  |
+
+**Claves de interpretación**
+- **Ventas +20%** con **COGS +14%** ⇒ mejora de **margen bruto** (40% → 43%, **+3 pp**).
+- **Gastos operacionales +8,3%** por debajo del crecimiento de ventas ⇒ apalancamiento operativo positivo.
+- **Gastos financieros +30%**: revisar **apalancamiento** y **costo de deuda**; el peso sobre ventas sube levemente (4,0% → 4,3%).
+- **Margen neto** mejora (8,4% → 11,9%) por combinación de mejor bruto y control de OPEX.
+
+---
+
+### 2.2. Estado de Situación Financiera (AV + AH)
+
+| Activos (MM$)                 | 2024 | 2025 | Δ abs. | Δ %   | AV 2024 | AV 2025 |
+|:------------------------------|-----:|-----:|------:|:-----:|--------:|--------:|
+| Efectivo y equivalentes       |   400|   500|   100 | 25,0% |  10,0%  |  10,4%  |
+| Deudores comerciales          |   600|   720|   120 | 20,0% |  15,0%  |  15,0%  |
+| Inventarios                   |   800|   880|    80 | 10,0% |  20,0%  |  18,3%  |
+| Propiedades, planta y equipo  | 2.000| 2.500|   500 | 25,0% |  50,0%  |  52,1%  |
+| Otros activos no corrientes   |   200|   200|     0 |  0,0% |   5,0%  |   4,2%  |
+| **Total Activos**             | 4.000| 4.800|   800 | 20,0% | 100,0%  | 100,0%  |
+
+| Pasivos y Patrimonio (MM$)    | 2024 | 2025 | Δ abs. | Δ %   | AV 2024 | AV 2025 |
+|:------------------------------|-----:|-----:|------:|:-----:|--------:|--------:|
+| Deuda CP                      |   800|   960|   160 | 20,0% |  20,0%  |  20,0%  |
+| Cuentas por pagar             |   700|   770|    70 | 10,0% |  17,5%  |  16,0%  |
+| Otros pasivos CP              |   100|   120|    20 | 20,0% |   2,5%  |   2,5%  |
+| Deuda LP                      |   800|   880|    80 | 10,0% |  20,0%  |  18,3%  |
+| **Total Pasivos**             | 2.400| 2.730|   330 | 13,8% |  60,0%  |  56,9%  |
+| **Patrimonio**                | 1.600| 2.070|   470 | 29,4% |  40,0%  |  43,1%  |
+| **Pasivo + Patrimonio**       | 4.000| 4.800|   800 | 20,0% | 100,0%  | 100,0%  |
+
+**Claves de interpretación**
+- **Mayor inversión en PPE (+25%)** y **menor peso relativo de inventarios**: señales de **expansión** y **eficiencia de capital de trabajo**.
+- **Apalancamiento disminuye** en términos relativos (Pasivos: 60,0% → 56,9%): mejora de **solidez** y **capacidad de endeudamiento**.
+- Revisar ciclo **Efectivo–Clientes–Inventarios**: crecimiento alineado con ventas (+20%).
+
+---
+
+## Comentario ejecutivo (ejemplo de redacción)
+
+- La compañía crece **+20%** en ventas, expandiendo **margen bruto +3 pp** por mejor precio/mix y control de costos.
+- OPEX crece **por debajo** de ventas (**+8,3%**), elevando el **margen operacional a 21,3%**.
+- El **apalancamiento financiero** presiona levemente, pero el **margen neto** mejora (11,9%).
+- En balance, aumenta **PPE** y cae el peso de **inventarios**, mientras la **estructura de capital** se fortalece (Pasivos/Activos ↓).
+
+---
+
+## Alertas y buenas prácticas
+
+- **Consistencia contable**: verificar **re-clasificaciones** y notas (IFRS).
+- **Inflación / FX**: separar **efecto precio** de **volumen** cuando sea posible.
+- **No comparables**: reportar explícitamente cambios de **criterio** o **eventos no recurrentes**.
+- **Ratios conexos**: margen bruto/operativo/neto, **ciclo de conversión de efectivo**, **apalancamiento**, **cobertura de intereses**.
+
+---
+
+## Plantilla rápida para tus análisis
+
+**Estado de Resultados (completa):**
+
+| Cuenta | t-1 | t | Δ abs. | Δ % | AV t-1 | AV t |
+|---|---:|---:|---:|---:|---:|---:|
+
+**Estado de Situación Financiera (completa):**
+
+| Cuenta | t-1 | t | Δ abs. | Δ % | AV t-1 | AV t |
+|---|---:|---:|---:|---:|---:|---:|
+
+---
+
+## Conclusiones
+
+- **Análisis Vertical:**
+    - Evalúa la composición interna de los estados financieros en un período dado
+    - Muestra la importancia relativa de cada partida con respecto a un total
+
+- **Análisis Horizontal:**
+    - Estudia la evolución de los estados financieros a lo largo del tiempo
+    - Identifica aumentos o disminuciones en las partidas y las tendencias resultantes
+
+- **Complementariedad:**
+    - Ambos análisis son necesarios para obtener una visión completa de la situación financiera
+    - El análisis vertical revela la estructura actual, mientras que el horizontal muestra cómo ha evolucionado esa estructura
+
+## Conclusiones (continuación)
+
+- **Toma de Decisiones:**
+    - Permiten identificar áreas de mejora, riesgos y oportunidades
+    - Facilitan la toma de decisiones estratégicas y financieras
+
+- **Identificación de Tendencias:**
+    - El análisis horizontal ayuda a detectar patrones de crecimiento o declive
+    - Crucial para la planificación a futuro
+
+- **Entendimiento Profundo:**
+    - Al combinar ambos análisis, se obtiene una comprensión más profunda de la salud financiera
+    - Va más allá de simples cifras

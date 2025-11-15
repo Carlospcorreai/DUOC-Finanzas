@@ -1,0 +1,732 @@
+/* =====================================================
+   DUOC UC - Estilo para Presentaciones Reveal.js
+   Basado en la identidad visual de www.duoc.cl
+   ===================================================== */
+
+/* Importar fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* =====================================================
+   VARIABLES DE COLOR - PALETA DUOC UC
+   ===================================================== */
+:root {
+  /* Colores principales */
+  --duoc-azul-principal: #003d7a;
+  --duoc-azul-oscuro: #002855;
+  --duoc-azul-claro: #0066cc;
+  
+  /* Colores de acento */
+  --duoc-naranja: #ff6b35;
+  --duoc-naranja-claro: #ff8c61;
+  --duoc-rojo: #e63946;
+  
+  /* Colores neutros */
+  --duoc-negro: #000000;
+  --duoc-gris-oscuro: #2b2d42;
+  --duoc-gris-medio: #8d99ae;
+  --duoc-gris-claro: #edf2f4;
+  --duoc-blanco: #ffffff;
+  
+  /* Gradientes */
+  --duoc-gradiente-azul: linear-gradient(135deg, #003d7a 0%, #0066cc 100%);
+  --duoc-gradiente-naranja: linear-gradient(135deg, #ff6b35 0%, #ff8c61 100%);
+}
+
+/* =====================================================
+   CONFIGURACIÓN GENERAL
+   ===================================================== */
+.reveal {
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--duoc-negro);
+  background: var(--duoc-blanco);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides > section {
+  height: 100%;
+  padding: 15px 35px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.reveal .slides > section > section {
+  height: 100%;
+  padding: 15px 35px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Control de tamaño de contenido */
+.reveal p {
+  margin: 0.4em 0;
+  line-height: 1.3;
+}
+
+/* Prevenir overflow en todos los elementos */
+.reveal * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* =====================================================
+   TIPOGRAFÍA
+   ===================================================== */
+
+/* Títulos principales */
+.reveal h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9em;
+  font-weight: 800;
+  color: var(--duoc-azul-principal);
+  text-transform: none;
+  line-height: 1.1;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  letter-spacing: -0.02em;
+}
+
+/* Subtítulos de sección */
+.reveal h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--duoc-azul-principal);
+  text-transform: none;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  border-left: 5px solid var(--duoc-naranja);
+  padding-left: 15px;
+}
+
+/* Subtítulos secundarios */
+.reveal h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--duoc-azul-claro);
+  text-transform: none;
+  margin-top: 0.4em;
+  margin-bottom: 0.25em;
+}
+
+.reveal h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--duoc-negro);
+  text-transform: none;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+/* Énfasis */
+.reveal strong {
+  color: var(--duoc-azul-principal);
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.reveal em {
+  color: var(--duoc-naranja);
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* =====================================================
+   DIAPOSITIVA DE TÍTULO
+   ===================================================== */
+.reveal .title-slide {
+  background: var(--duoc-gradiente-azul);
+  color: var(--duoc-blanco);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.reveal .title-slide h1 {
+  color: var(--duoc-blanco);
+  font-size: 2.2em;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+}
+
+.reveal .title-slide .author,
+.reveal .title-slide .date {
+  color: var(--duoc-gris-claro);
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+/* =====================================================
+   LISTAS
+   ===================================================== */
+.reveal ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0;
+}
+
+.reveal ul li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+}
+
+.reveal ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0.3em;
+  color: var(--duoc-naranja);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.reveal ol {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0;
+}
+
+.reveal ol li {
+  position: relative;
+  padding-left: 2.2em;
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+  counter-increment: item;
+}
+
+.reveal ol li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: var(--duoc-naranja);
+  color: var(--duoc-blanco);
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75em;
+}
+
+/* =====================================================
+   TABLAS
+   ===================================================== */
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.8em 0;
+  font-size: 0.75em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.reveal table thead {
+  background: var(--duoc-azul-principal);
+  color: var(--duoc-blanco);
+}
+
+.reveal table thead th {
+  padding: 0.6em 0.8em;
+  font-weight: 700;
+  text-align: left;
+  border: none;
+}
+
+.reveal table tbody tr {
+  border-bottom: 1px solid var(--duoc-gris-claro);
+  transition: background-color 0.2s ease;
+}
+
+.reveal table tbody tr:hover {
+  background-color: rgba(0, 61, 122, 0.05);
+}
+
+.reveal table tbody td {
+  padding: 0.6em 0.8em;
+  border: none;
+}
+
+.reveal table tbody tr:nth-child(even) {
+  background-color: var(--duoc-gris-claro);
+}
+
+/* =====================================================
+   BLOQUES DE CÓDIGO Y MATEMÁTICAS
+   ===================================================== */
+.reveal pre {
+  background: var(--duoc-gris-oscuro);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 0.8em 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal code {
+  background: var(--duoc-gris-claro);
+  color: var(--duoc-negro);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85em;
+}
+
+.reveal pre code {
+  background: transparent;
+  color: #a8dadc;
+  padding: 0;
+  font-size: 0.75em;
+}
+
+/* Fórmulas matemáticas */
+.reveal .math {
+  color: var(--duoc-azul-principal);
+  font-size: 1em;
+}
+
+/* =====================================================
+   BLOQUES DE CITA Y DESTACADOS
+   ===================================================== */
+.reveal blockquote {
+  background: var(--duoc-gris-claro);
+  border-left: 4px solid var(--duoc-naranja);
+  padding: 0.8em 1.2em;
+  margin: 0.6em 0;
+  font-style: italic;
+  color: var(--duoc-negro);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.85em;
+  line-height: 1.3;
+}
+
+.reveal blockquote p {
+  margin: 0;
+}
+
+/* =====================================================
+   IMÁGENES
+   ===================================================== */
+.reveal img {
+  max-width: 100%;
+  max-height: 450px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  margin: 0.6em auto;
+  display: block;
+}
+
+.reveal figure {
+  margin: 0.8em 0;
+}
+
+.reveal figcaption {
+  font-size: 0.6em;
+  color: var(--duoc-gris-medio);
+  text-align: center;
+  margin-top: 0.3em;
+  font-style: italic;
+}
+
+/* =====================================================
+   CAJAS DESTACADAS
+   ===================================================== */
+
+/* Caja de información */
+.info-box {
+  background: linear-gradient(135deg, rgba(0, 102, 204, 0.1) 0%, rgba(0, 61, 122, 0.05) 100%);
+  border-left: 4px solid var(--duoc-azul-claro);
+  padding: 0.6em 0.8em;
+  margin: 0.5em 0;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  font-size: 0.8em;
+  line-height: 1.25;
+}
+
+.info-box p {
+  margin: 0.25em 0;
+}
+
+.info-box ul, .info-box ol {
+  margin: 0.25em 0;
+  padding-left: 1.5em;
+}
+
+.info-box li {
+  margin-bottom: 0.15em;
+  padding-left: 0.3em;
+}
+
+.info-box h3 {
+  font-size: 0.95em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+/* Caja de advertencia */
+.warning-box {
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(255, 140, 97, 0.05) 100%);
+  border-left: 4px solid var(--duoc-naranja);
+  padding: 0.6em 0.8em;
+  margin: 0.5em 0;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  font-size: 0.8em;
+  line-height: 1.25;
+}
+
+.warning-box p {
+  margin: 0.25em 0;
+}
+
+.warning-box ul, .warning-box ol {
+  margin: 0.25em 0;
+  padding-left: 1.5em;
+}
+
+.warning-box li {
+  margin-bottom: 0.15em;
+  padding-left: 0.3em;
+}
+
+.warning-box h3 {
+  font-size: 0.95em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+/* Caja de éxito */
+.success-box {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%);
+  border-left: 4px solid #10b981;
+  padding: 0.6em 0.8em;
+  margin: 0.5em 0;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  font-size: 0.8em;
+  line-height: 1.25;
+}
+
+.success-box p {
+  margin: 0.25em 0;
+}
+
+.success-box ul, .success-box ol {
+  margin: 0.25em 0;
+  padding-left: 1.5em;
+}
+
+.success-box li {
+  margin-bottom: 0.15em;
+  padding-left: 0.3em;
+}
+
+/* =====================================================
+   NAVEGACIÓN Y CONTROLES
+   ===================================================== */
+.reveal .controls {
+  color: var(--duoc-naranja);
+}
+
+.reveal .progress {
+  background: var(--duoc-gris-claro);
+  color: var(--duoc-naranja);
+  height: 4px;
+}
+
+.reveal .slide-number {
+  background-color: var(--duoc-azul-principal);
+  color: var(--duoc-blanco);
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.6em;
+}
+
+/* =====================================================
+   ENLACES
+   ===================================================== */
+.reveal a {
+  color: var(--duoc-azul-claro);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.reveal a:hover {
+  color: var(--duoc-naranja);
+  border-bottom-color: var(--duoc-naranja);
+}
+
+/* =====================================================
+   SECCIONES ESPECIALES
+   ===================================================== */
+
+/* Diapositiva de sección */
+.reveal .section-slide {
+  background: var(--duoc-blanco);
+  color: var(--duoc-azul-principal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 1.5em;
+}
+
+.reveal .section-slide h1 {
+  color: var(--duoc-azul-principal);
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin: 0.2em 0;
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.reveal .section-slide h2 {
+  color: var(--duoc-azul-principal);
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin: 0.3em 0;
+  font-size: 2.8em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.reveal .section-slide h3 {
+  color: var(--duoc-azul-claro);
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+/* Columnas */
+.reveal .columns {
+  display: flex;
+  gap: 1.2em;
+  align-items: flex-start;
+  margin: 0.5em 0;
+}
+
+.reveal .column {
+  flex: 1;
+  font-size: 0.95em;
+}
+
+/* =====================================================
+   ANIMACIONES Y TRANSICIONES
+   ===================================================== */
+.reveal .slide-background {
+  background-color: var(--duoc-blanco);
+}
+
+.reveal .fragment.highlight-current-blue {
+  opacity: 1;
+  visibility: inherit;
+}
+
+.reveal .fragment.highlight-current-blue.current-fragment {
+  color: var(--duoc-azul-claro);
+  font-weight: 700;
+}
+
+/* =====================================================
+   PIE DE PÁGINA PERSONALIZADO
+   ===================================================== */
+.reveal .footer {
+  position: absolute;
+  bottom: 0.8em;
+  left: 0.8em;
+  font-size: 0.45em;
+  color: var(--duoc-gris-medio);
+}
+
+/* =====================================================
+   LOGO INSTITUCIONAL
+   ===================================================== */
+.reveal .slide-logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  max-width: 220px;
+  max-height: 110px;
+  z-index: 1000;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.reveal .slide-logo:hover {
+  opacity: 1;
+}
+
+/* Logo en diapositivas de título - más grande */
+.reveal .title-slide .slide-logo {
+  max-width: 280px;
+  max-height: 140px;
+  opacity: 1;
+}
+
+/* Logo en diapositivas de sección */
+.reveal .section-slide .slide-logo {
+  opacity: 0.95;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .reveal .slide-logo {
+    max-width: 120px;
+    max-height: 70px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* Comentario: El logo debe llamarse logo_duoc_uc.png */
+
+/* =====================================================
+   UTILIDADES
+   ===================================================== */
+
+/* Texto centrado */
+.text-center {
+  text-align: center !important;
+}
+
+/* Texto destacado */
+.text-highlight {
+  background: linear-gradient(120deg, rgba(255, 107, 53, 0.3) 0%, rgba(255, 107, 53, 0.3) 100%);
+  background-size: 100% 40%;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  padding: 0 0.2em;
+}
+
+/* Texto grande */
+.text-large {
+  font-size: 1.15em !important;
+  font-weight: 600;
+}
+
+/* Espaciado reducido */
+.mt-1 { margin-top: 0.6em; }
+.mt-2 { margin-top: 1em; }
+.mb-1 { margin-bottom: 0.6em; }
+.mb-2 { margin-bottom: 1em; }
+
+/* Clase para slides más compactos */
+.compact h2 {
+  font-size: 1.25em;
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
+}
+
+.compact h3 {
+  font-size: 0.95em;
+  margin-top: 0.25em;
+  margin-bottom: 0.2em;
+}
+
+.compact p, .compact li {
+  font-size: 0.85em;
+  line-height: 1.2;
+  margin: 0.2em 0;
+}
+
+.compact .info-box,
+.compact .warning-box,
+.compact .success-box {
+  padding: 0.5em 0.7em;
+  margin: 0.4em 0;
+  font-size: 0.75em;
+}
+
+.compact table {
+  font-size: 0.7em;
+}
+
+/* Ajuste para slides con múltiples cajas */
+.reveal section:has(.info-box + .info-box),
+.reveal section:has(.warning-box + .warning-box),
+.reveal section:has(.success-box + .success-box),
+.reveal section:has(.info-box + .warning-box),
+.reveal section:has(.info-box + .success-box),
+.reveal section:has(.warning-box + .success-box) {
+  font-size: 0.95em;
+}
+
+.reveal section:has(.info-box + .info-box + .info-box),
+.reveal section:has(.warning-box + .warning-box + .warning-box),
+.reveal section:has(.success-box + .success-box + .success-box) {
+  font-size: 0.9em;
+}
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+@media screen and (max-width: 768px) {
+  .reveal {
+    font-size: 18px;
+  }
+  
+  .reveal h1 {
+    font-size: 1.7em;
+  }
+  
+  .reveal h2 {
+    font-size: 1.2em;
+  }
+  
+  .reveal .columns {
+    flex-direction: column;
+  }
+  
+  .reveal .slides > section {
+    padding: 12px 20px;
+  }
+  
+  .reveal table {
+    font-size: 0.6em;
+  }
+  
+  .info-box, .warning-box, .success-box {
+    padding: 0.6em 0.8em;
+    font-size: 0.8em;
+  }
+}
+
+/* Ajuste para presentaciones con mucho contenido */
+@media screen and (max-height: 800px) {
+  .reveal {
+    font-size: 24px;
+  }
+  
+  .reveal h1 {
+    font-size: 1.8em;
+  }
+  
+  .reveal h2 {
+    font-size: 1.3em;
+  }
+}

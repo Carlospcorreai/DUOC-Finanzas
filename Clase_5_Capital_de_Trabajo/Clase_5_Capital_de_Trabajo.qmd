@@ -1,0 +1,262 @@
+---
+title: "Capital de Trabajo — DUOC UC"
+subtitle: "Base conceptual, gestión y casos prácticos"
+author: "Prof. Carlos Correa"
+format:
+  revealjs:
+    slide-number: true
+    transition: fade
+    incremental: true
+    overview: true
+    footer: "DUOC UC — FZA6118 · Finanzas para la toma de decisiones"
+    controls: true
+execute:
+  echo: false
+---
+
+<!-- ===== Estilo DUOC (inline) ===== -->
+```{=html}
+<style>
+:root{ --duoc-blue:#002F6D; --duoc-gold:#FFB81C; --duoc-gray:#2F3A3F; }
+.reveal .slide-number{background:rgba(0,0,0,.65); padding:4px 10px; border-radius:10px}
+.reveal h1{ color:var(--duoc-blue); font-size:2.2em }
+.reveal h2{ color:var(--duoc-blue); font-size:1.7em }
+.reveal h3{ color:var(--duoc-blue); font-size:1.35em }
+.reveal p, .reveal li{ font-size:1.2em; line-height:1.35 }
+.reveal .slides section{ font-size:1.28rem }
+.reveal strong{ color:var(--duoc-blue) }
+.reveal a{ color:var(--duoc-blue) }
+.duoc-pill{ display:inline-block; background:var(--duoc-gold); color:#111; padding:.15rem .7rem; border-radius:999px; font-weight:700; }
+.duoc-box{ border-left:6px solid var(--duoc-gold); padding:1rem 1.1rem; background:#FFF8E6; border-radius:.6rem }
+blockquote{ border-left:4px solid var(--duoc-blue); padding-left:1rem; color:#0f2542 }
+.mermaid{ background:#f9fbff; border:1px solid #dfe7f5; border-radius:12px; padding:8px }
+.small{ font-size:1.05rem }
+.tiny{ font-size:.95rem }
+.grid-2{ display:grid; grid-template-columns: 1fr 1fr; gap: 1rem }
+.grid-3{ display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem }
+hr{ border:0; border-top:2px solid #eee; margin:1rem 0 }
+code, pre{ font-size:1.05em }
+</style>
+```
+
+# Portada
+
+**Capital de Trabajo**  
+<span class="duoc-pill">Base conceptual · Gestión · Casos</span>
+
+- Asignatura: **FZA6118 — Finanzas para la Toma de Decisiones**
+- Nivel: **Profesional**
+- Resultados de aprendizaje: **Administrar el capital de trabajo** para apoyar decisiones organizacionales.
+
+---
+
+## Objetivo de la clase
+
+<div class="duoc-box">
+Conocer la base conceptual del **capital de trabajo (CT)** y sus componentes para **gestionar los recursos financieros** de la empresa: definir, medir (ratios), decidir **políticas** de inversión y financiamiento, y comprender su relación con **liquidez, rentabilidad y riesgo**.
+</div>
+
+---
+
+# ¿Qué es el Capital de Trabajo?
+
+**Definiciones clave**
+
+- (Contable): `CT = Activos corrientes - Pasivos corrientes`
+- (Financiera) Nivel de **activos y pasivos corrientes necesarios** para operar en el corto plazo.
+
+**Operaciones típicas (ciclo del negocio)**
+
+- **Comprar** insumos · **Producir** · **Vender** · **Cobrar**
+
+**Idea fuerza**: más recursos en activos corrientes ⇒ **más liquidez** pero potencialmente **menor rentabilidad** (fondos inmovilizados). Buscar **equilibrio**.
+
+---
+
+## Ciclo Operativo vs. Ciclo de Efectivo
+
+- **Ciclo Operativo**: desde la **compra** de inventario hasta el **cobro** de ventas.
+- **Ciclo de Efectivo (CCE)**: desde el **pago a proveedores** hasta el **cobro** de clientes.
+
+### Fórmulas prácticas (sin LaTeX)
+
+- **PPI (DII)** = Inventario promedio / (Costo de ventas / 365)
+- **PPC (DSO)** = Cuentas por cobrar / (Ventas / 365)
+- **PPP (DPO)** = Cuentas por pagar / (Costo de ventas / 365)
+
+**Ciclo de Efectivo (CCE)** = PPI + PPC − PPP
+
+> Nota: En ausencia de "Compras" en estados, usar Costo de Ventas como aproximación consistente para PPP.
+
+## Diagrama del Ciclo de Efectivo
+
+```{mermaid}
+flowchart LR
+  C[Efectivo] -->|Compra| I[Inventario]
+  I -->|PPI (DII)| V[Venta a crédito]
+  V -->|PPC (DSO)| COB[Cobranza]
+  COB --> CE[Efectivo]
+  C -->|PPP (DPO)| P[Pago a Proveedores]
+  P --> CE
+```
+
+<div class="small">
+**Mini-ejemplo**: Costo de ventas=3650; Ventas=4380; Inv.prom=300; CxC=360; CxP=200 ⇒  
+PPI=30; PPC=30; PPP=20 ⇒ **CCE = 40 días**.
+</div>
+
+---
+
+# Componentes del CT
+
+- **Efectivo y equivalentes**: monto justo para operaciones; excedentes pueden invertirse en instrumentos de corto plazo.
+- **Cuentas por Cobrar**: aumentar ventas **sin** disparar incobrables; políticas de crédito y cobranza sólidas.
+- **Inventarios**: evitar quiebres de stock y minimizar costos de mantener; cuidar obsolescencia y deterioro.
+
+> Meta: **niveles óptimos** que equilibren **liquidez** y **rentabilidad**.
+
+---
+
+## Tipos de Activos en el CT
+
+<div class="grid-3 small">
+<div>
+<strong>Temporales</strong>
+<ul>
+<li>Fluctúan por estacionalidad o ciclos del negocio.</li>
+<li>Variaciones en caja, CxC e inventarios.</li>
+</ul>
+</div>
+<div>
+<strong>Permanentes</strong>
+<ul>
+<li>Nivel base mínimo y relativamente estable.</li>
+<li>Requeridos de forma continua para operar.</li>
+</ul>
+</div>
+<div>
+<strong>Fijos (No corrientes)</strong>
+<ul>
+<li>Propiedades, planta y equipo (PPE).</li>
+<li>Más rentables a LP, poca liquidez inmediata.</li>
+</ul>
+</div>
+</div>
+
+---
+
+# Ratios de Liquidez y Gestión
+
+- **Razón Corriente** = AC / PC · **Prueba Ácida** = (Efectivo + Valores + CxC) / PC
+- **Rotación de inventarios** y **días de inventario (PPI)**
+- **Días de CxC (PPC)** y **Días de CxP (PPP)**
+- Impacto directo en **CCE** y necesidades de financiamiento de corto plazo.
+
+---
+
+## Políticas de Inversión en CT
+
+<div class="grid-3 small">
+<div>
+<strong>Relajada</strong>
+<ul>
+<li>Altos saldos de efectivo, valores e inventarios.</li>
+<li>Crédito liberal ⇒ mayores CxC.</li>
+<li>+Liquidez, −Rentabilidad (fondos inmovilizados).</li>
+</ul>
+</div>
+<div>
+<strong>Restringida</strong>
+<ul>
+<li>Mínimos en efectivo, inventarios y CxC.</li>
+<li>Mayor riesgo de stock-out / iliquidez.</li>
+<li>+Rentabilidad potencial por capital liberado.</li>
+</ul>
+</div>
+<div>
+<strong>Moderada</strong>
+<ul>
+<li>Equilibrio entre liquidez y rentabilidad.</li>
+<li>Ajuste según volatilidad y costo financiero.</li>
+</ul>
+</div>
+</div>
+
+---
+
+## Políticas de Financiamiento
+
+<div class="grid-3 small">
+<div>
+<strong>Agresiva</strong>
+<ul>
+<li>Parte de los activos corrientes permanentes con **deuda CP**.</li>
+<li>Menor costo promedio, mayor **riesgo de refinanciar**.</li>
+</ul>
+</div>
+<div>
+<strong>Conservadora</strong>
+<ul>
+<li>Activos fijos y corrientes (perm.) con **LP / patrimonio**.</li>
+<li>Menor riesgo, mayor costo de capital.</li>
+</ul>
+</div>
+<div>
+<strong>Moderada</strong>
+<ul>
+<li>Activos fijos y perm. con **LP**; temporales con **CP**.</li>
+<li>Busca riesgo y retorno intermedios.</li>
+</ul>
+</div>
+</div>
+
+---
+
+# Caso comparativo A · B · C
+
+**Enunciado**: tres empresas con distinta política de financiamiento.
+
+- **A (Agresiva)**: menor liquidez (RC baja), mayor ROE.  
+- **B (Conservadora)**: mayor CT y RC, menor ROE, menor riesgo.  
+- **C (Moderada)**: indicadores intermedios.
+
+<div class="tiny">Conclusión: se confirma la relación **riesgo–retorno**: políticas más agresivas elevan el ROE esperado, pero exigen una gestión fina de liquidez.</div>
+
+---
+
+## Casos prácticos breves (ilustrativos)
+
+- **Inventarios**: política JIT vs. stock de seguridad alto. ¿Efecto en PPI y CCE?
+- **CxC**: descuento por pronto pago para reducir PPC. ¿Impacto en ventas y costo financiero?
+- **CxP**: negociación de plazos con proveedores para aumentar PPP. ¿Efecto en la relación de suministro?
+- **Caja**: invertir excedentes en instrumentos CP manteniendo liquidez operativa.
+
+> Actividad: para un rubro (retail, manufactura, servicios), propón **dos acciones** para acortar el **CCE** y estima el **ahorro de caja** (en días y monto).
+
+---
+
+# Taller (10–15 min)
+
+1) Calcular **PPI, PPC, PPP y CCE** con datos entregados por el docente.  
+2) Asignar una **política de inversión** y otra de **financiamiento** acorde a los resultados.  
+3) Proponer **medidas** para mejorar el CCE sin deteriorar las ventas.
+
+---
+
+## Cierre
+
+- El CT es el **pulso de caja** del negocio.  
+- Medir (ratios) → Diagnosticar (liquidez vs. rentabilidad) → **Decidir políticas** (inversión/financiamiento).  
+- Ajustes en inventarios, CxC, CxP y caja **mueven** el CCE y el valor económico de la empresa.
+
+---
+
+## Apéndice: fórmulas resumidas
+
+- Razón Corriente = $AC / PC$
+- Prueba Ácida = $(Efectivo + Valores + CxC) / PC$
+- Rotación de Inventarios = $CV / Inventario promedio$
+- PPI (DII) = $Inventario promedio / (CV / 365)$
+- PPC (DSO) = $CxC / (Ventas / 365)$
+- PPP (DPO) = $CxP / (CV / 365)$
+- CCE = $PPI + PPC − PPP$

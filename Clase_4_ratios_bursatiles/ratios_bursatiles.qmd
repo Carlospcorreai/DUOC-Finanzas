@@ -1,0 +1,317 @@
+---
+title: "Ratios Bursátiles"
+subtitle: "Escuela de Administración y Negocios — DUOC UC"
+author: "Prof. Carlos Correa Íñiguez"
+lang: es
+format:
+  revealjs:
+    theme: [default, duoc.scss]
+    slide-number: true
+    incremental: true
+    transition: fade
+    toc: false
+    #logo: images/duoc-logo.png   # opcional (ajusta la ruta o comenta esta línea)
+    footer: "DUOC UC — Finanzas Corporativas"
+    embed-resources: true
+    df-print: default
+header-includes: |
+  <style>
+    :root{
+      --duoc-azul: #002F6C;
+      --duoc-amarillo: #FFB81C;
+    }
+    .reveal .slides { font-size: 28px; }
+    .reveal h1, .reveal h2, .reveal h3 { color: var(--duoc-azul); }
+    .reveal strong { color: var(--duoc-azul); }
+    .reveal .footer { border-top: 4px solid var(--duoc-amarillo); }
+    .reveal .slide-number { color: var(--duoc-amarillo); }
+    .duoc-box { border-left: 6px solid var(--duoc-amarillo); padding: 0.8rem 1rem; background: #fffdf5; }
+    .duoc-badge { display:inline-block; padding: .2rem .6rem; border-radius: .4rem; background: var(--duoc-azul); color: #fff; font-weight:600; }
+    table { font-size: 0.8em; }
+    .mini { font-size: .7em; }
+  </style>
+---
+
+#
+
+## Objetivo de la clase
+
+<div class="duoc-box">
+<strong>Objetivo:</strong> Conocer y aplicar los principales <em>ratios bursátiles</em> y las cuentas/variables que intervienen en su cálculo.
+</div>
+
+---
+
+## Objetivos específicos
+
+- Entender qué miden y para qué se usan
+- Manejar sus fórmulas e insumos (**estados financieros (EEFF)** + mercado)
+- Interpretar su evolución y coherencia entre sí
+
+---
+
+## ¿Qué son los ratios bursátiles?
+
+- Herramientas para analizar **valoración** y **desempeño** de empresas **listadas**
+- Se apoyan en **dos fuentes**: **estados financieros (EEFF)** y precios del mercado
+
+---
+
+## Usos principales
+
+- Comparar contra pares/sector
+- Detectar sobre/subvaloración
+- Evaluar política de dividendos
+
+::: callout-note
+**Idea clave**: conectan **utilidad**, **dividendos** y **precio**.
+:::
+
+---
+
+## Definiciones rápidas
+
+| Sigla | Nombre | Definición breve |
+|---|---|---|
+| **UPA (Utilidad por Acción, EPS)** | Utilidad por Acción | Utilidad atribuible a accionistas comunes **por cada acción** en circulación en el período. |
+| **PER (Precio/Utilidad)** | Precio / Utilidad | Veces que el mercado paga la **utilidad por acción** actual (o de 12m). |
+| **RPD (Rentabilidad por Dividendo, Dividend Yield)** | Rentabilidad por Dividendo | **Dividendo anual por acción** como % del precio actual. |
+| **RDD (Razón de Distribución, Payout)** | Razón de Distribución | % de la **utilidad** que se reparte como **dividendo**. |
+| **RRI (Razón de Retención, Retention)** | Razón de Retención | % de la **utilidad** que se **reinvierte** (1 − RDD). |
+| **TCP (Tasa de Crecimiento Patrimonial, g sostenible)** | Tasa Crec. Patrimonial | Crecimiento sostenible del patrimonio/beneficio si **ROE (Rentabilidad del Patrimonio)** y **payout** son estables. |
+
+---
+
+## Fórmulas básicas (1/2)
+
+| Indicador | Fórmula |
+|---|---|
+| **UPA (Utilidad por Acción, EPS)** | $\displaystyle \text{UPA} = \frac{\text{Utilidad del ejercicio}}{\#\,\text{acciones}}$ |
+| **PER (Precio/Utilidad)** | $\displaystyle \text{PER} = \frac{\text{Precio por acción}}{\text{UPA}}$ |
+| **RPD (Rentabilidad por Dividendo)** | $\displaystyle \text{RPD} = \frac{\text{Dividendo por acción}}{\text{Precio por acción}}$ |
+
+---
+
+## UPA — Utilidad por Acción (UPA)
+
+$$\displaystyle \text{UPA} = \frac{\text{Utilidad del ejercicio}}{\#\,\text{acciones en circulación}}$$
+
+::: callout-note
+**Definición.** **UPA (Utilidad por Acción)** mide la **utilidad** atribuible a cada acción común. Resume en una cifra cuánto “ganó” la empresa por acción en el período.
+:::
+
+- Mide la utilidad atribuible a cada acción común
+
+---
+
+## UPA — Consideraciones (Utilidad por Acción)
+
+- Cuidado con **aumentos/disminuciones** de capital
+- Considerar recompras y acciones preferentes
+- Para series, usar el **promedio ponderado** de acciones
+
+::: callout-tip
+**Lectura.** **UPA (Utilidad por Acción)** más alta, *ceteris paribus*, sustenta múltiplos mayores; pero revise **calidad** de utilidades (no recurrentes).
+:::
+
+---
+
+## PER — Precio/Utilidad (PER)
+
+$$\displaystyle \text{PER} = \frac{P_0}{\text{UPA}}$$
+
+::: callout-note
+**Definición.** **PER (Precio/Utilidad)** indica cuántas **veces de utilidad** está incorporando el **precio** hoy. Refleja expectativas de crecimiento, riesgo y calidad de resultados.
+:::
+
+- Relaciona el precio de mercado con la utilidad por acción
+
+---
+
+## PER — Interpretación (Precio/Utilidad)
+
+- "Cuántas veces" paga el mercado la utilidad anual actual
+- **Más alto**: mayores expectativas de crecimiento/retorno
+- **Más bajo**: puede sugerir riesgo o infravaloración
+
+::: callout-warning
+Comparar con el **sector** y revisar si la utilidad es extraordinaria.
+:::
+
+---
+
+## RPD — Rentabilidad por Dividendo (RPD)
+
+$$\displaystyle \text{RPD} = \frac{\text{Dividendo por acción (DPS — Dividendo por Acción)}}{P_0}$$
+
+::: callout-note
+**Definición.** **RPD (Rentabilidad por Dividendo)** mide el **flujo de efectivo anual** al accionista vía dividendos respecto del precio actual. Es un “yield” de ingreso.
+:::
+
+- Flujo de caja anual al accionista respecto del precio actual
+
+---
+
+## RPD — Consideraciones (Rentabilidad por Dividendo)
+
+- Útil para inversionistas de **ingreso**
+- **RPD (Rentabilidad por Dividendo)** muy elevada puede anticipar **riesgos**:
+    - Precio deprimido
+    - Dividendos insostenibles
+
+---
+
+## RDD — Razón de Distribución (Payout, RDD)
+
+$$\displaystyle \text{RDD} = \frac{\text{Dividendos}}{\text{Utilidad}}$$
+
+::: callout-note
+**Definición.** **RDD (Razón de Distribución)** es el porcentaje de la **utilidad** que la empresa **distribuye** a los accionistas. El complemento es la **RRI (Razón de Retención)**.
+:::
+
+- Proporción de utilidad repartida como dividendos
+
+---
+
+## RRI — Razón de Retención (RRI)
+
+$$\displaystyle \text{RRI} = 1 - \text{RDD}$$
+
+::: callout-note
+**Definición.** **RRI (Razón de Retención)** es la porción de la **utilidad** que se **reinvierte** para financiar crecimiento orgánico sin emitir capital adicional.
+:::
+
+- Parte de la utilidad que se **reinvierte**
+- Junto con **ROE (Rentabilidad del Patrimonio)**, determina el **crecimiento** potencial
+
+---
+
+## TCP — Tasa de Crecimiento Patrimonial (g sostenible, TCP)
+
+$$\displaystyle \text{TCP} = \text{ROE (Rentabilidad\ del\ Patrimonio)} \times \text{RRI (Razón\ de\ Retención)}$$
+
+::: callout-note
+**Definición.** **TCP (Tasa de Crecimiento Patrimonial)**, también llamada **crecimiento sostenible (g)**: ritmo máximo al que pueden crecer utilidades/patrimonio con **ROE (Rentabilidad del Patrimonio)** y **RDD/RRI (Razón de Distribución/Razón de Retención)** estables, sin nueva emisión de acciones.
+:::
+
+- Crecimiento del patrimonio/beneficio bajo supuestos de estabilidad
+
+---
+
+## TCP — Intuición (Tasa de Crecimiento Patrimonial)
+
+A mayor **rentabilidad** y **retención**, mayor capacidad de **crecer** sin financiamiento externo
+
+---
+
+## Coherencia entre ratios
+
+- **PER (Precio/Utilidad)** alto suele acompañarse de **ROE (Rentabilidad del Patrimonio)** alto y/o **TCP (Tasa de Crecimiento Patrimonial)** elevado
+- **RPD (Rentabilidad por Dividendo)** se conecta con tasa requerida (*k*) y crecimiento (*g*)
+
+---
+
+## Verificación de consistencia
+
+Si **PER (Precio/Utilidad)** bajo pero **ROE (Rentabilidad del Patrimonio)** alto y deuda moderada:
+- Podría haber **subvaloración**
+- O riesgo no observado
+
+---
+
+## Insumos necesarios
+
+- **Estado de Resultados (EE.RR.)**: utilidad del ejercicio
+- **Número de acciones** en circulación
+- **Precio de la acción** (mercado)
+- **Dividendos repartidos**
+- **ROE (Rentabilidad del Patrimonio)**
+
+---
+
+## Ejemplo integrado — Datos
+
+- Utilidad neta: $120.000$ MM
+- Acciones en circulación: $6.000$ MM
+- Dividendo total: $48.000$ MM
+- Precio de la acción: $P_0 = 160$
+- **ROE (Rentabilidad del Patrimonio)**: $18\%$
+
+---
+
+## Ejemplo integrado — Cálculos
+
+- **UPA (Utilidad por Acción)** $= 120.000 / 6.000 = 20$
+- **DPS (Dividendo por Acción)** $= 48.000 / 6.000 = 8$
+- **RDD (Razón de Distribución)** $= 48.000 / 120.000 = 40\%$
+
+---
+
+## Ejemplo integrado — Ratios
+
+- **PER (Precio/Utilidad)** $= 160/20 = 8{,}0\times$
+- **RPD (Rentabilidad por Dividendo)** $= 8/160 = 5{,}0\%$
+- **RRI (Razón de Retención)** $= 1 - 0{,}40 = 0{,}60$
+- **TCP (Tasa de Crecimiento Patrimonial)** $= 18\% \times 60\% = 10{,}8\%$
+
+---
+
+## Ejemplo integrado — Interpretación
+
+**Lectura**: múltiplo moderado (**PER 8×**), **RPD 5%** y crecimiento sostenible (**TCP ~11%**)
+
+→ Perfil mixto de **ingreso + crecimiento**
+
+---
+
+## Fuentes de información (1/2)
+
+- **UPA (Utilidad por Acción)** y **Dividendos**: Estados financieros (**Estado de Resultados (EE.RR.)**), notas y hechos esenciales
+- **Acciones en circulación**: memorias/nota de capital emitido
+
+---
+
+## Fuentes de información (2/2)
+
+- **Precio por acción**: series de precios oficiales de la bolsa/**Comisión para el Mercado Financiero (CMF)**
+  
+::: callout-tip
+Usa precio de **cierre** para la fecha de análisis y fija una **fecha de corte** para evitar descalces.
+:::
+
+---
+
+## Actividad guiada — Pasos
+
+1. Selecciona una empresa listada en Chile
+2. Obtén: **UPA (Utilidad por Acción)**, **DPS (Dividendo por Acción)**, **ROE (Rentabilidad del Patrimonio)** y **acciones en circulación**
+3. Descarga el **precio de cierre** de la acción
+
+---
+
+## Actividad guiada — Análisis
+
+4. Calcula **PER (Precio/Utilidad)**, **RPD (Rentabilidad por Dividendo)**, **RDD (Razón de Distribución)**, **RRI (Razón de Retención)** y **TCP (Tasa de Crecimiento Patrimonial)**
+5. Redacta 2 conclusiones:
+     - ¿La valoración es coherente con **ROE (Rentabilidad del Patrimonio)** y crecimiento (**TCP**)?
+     - ¿Qué riesgos observas?
+
+---
+
+## Glosario mínimo
+
+- **UPA (Utilidad por Acción, EPS)**: utilidad atribuible por acción común.
+- **DPS (Dividendo por Acción)**: efectivo anual pagado por acción.
+- **Payout — RDD (Razón de Distribución)**: % de utilidad distribuida a accionistas.
+- **RRI (Razón de Retención)**: % de utilidad reinvertida.
+- **ROE (Rentabilidad del Patrimonio)**: Utilidad / Patrimonio promedio.
+- **TCP (Tasa de Crecimiento Patrimonial, g sostenible)**: **ROE × RRI**.
+- **CMF (Comisión para el Mercado Financiero)**: regulador chileno de valores.
+
+---
+
+## Créditos y notas
+
+- Basado en la presentación de **Ratios Bursátiles** del curso (DUOC)
+- Adaptado a formato Quarto Reveal
+- Puedes complementar con **Precio/Valor Libro (P/BV)** y **Valor Empresa/EBITDA (EV/EBITDA)** en unidades posteriores

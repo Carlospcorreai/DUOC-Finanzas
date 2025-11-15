@@ -1,0 +1,14 @@
+---
+title: "Administración del Efectivo"
+author: "Docente: Carlos Correa Iñiguez (ca.correai@profesor.duoc.cl)"
+format:
+  revealjs:
+    theme: solarized
+    css: duoc_uc.css
+    embed-resources: true
+    output-file: index.html
+---
+
+# Prueba
+
+Esta es una prueba.

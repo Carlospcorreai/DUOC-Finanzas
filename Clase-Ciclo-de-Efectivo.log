@@ -1,23 +1,23 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.5)  12 NOV 2024 20:41
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.3)  3 OCT 2025 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Clase-Ciclo-de-Efectivo.tex
 (./Clase-Ciclo-de-Efectivo.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2024/10/24 v3.43 KOMA-Script document class (article)
+Document Class: scrartcl 2025/09/09 v3.48 KOMA-Script document class (article)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
 ))) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -25,21 +25,21 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 )) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
-\scr@dte@tocline@numbox=\box52
+\scr@dte@tocline@numbox=\box53
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 135.
+(tocbasic)             for `toc' on input line 141.
 Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2466.
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2486.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2024/10/24 v3.43 KOMA-Script font size class option (11pt)
+File: scrsize11pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (11pt)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2024/10/24 v3.43 KOMA-Script package (type area)
+Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
 \ta@bcor=\skip50
-\ta@div=\count192
+\ta@div=\count271
 Package typearea Info: You've used standard option `letterpaper'.
 (typearea)             This is correct!
 (typearea)             Internally I'm using `paper=letter'.
@@ -66,120 +66,120 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1802.
+(typearea)              on input line 1807.
 )
-\c@part=\count193
-\c@section=\count194
-\c@subsection=\count195
-\c@subsubsection=\count196
-\c@paragraph=\count197
-\c@subparagraph=\count198
+\c@part=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
 \scr@dte@section@maxnumwidth=\skip55
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 5107.
+(scrartcl)           for `\section on input line 5161.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 5107.
+(scrartcl)           for `\section on input line 5161.
 \scr@dte@part@maxnumwidth=\skip56
 Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 5115.
+(scrartcl)           for `\part on input line 5169.
 \scr@dte@subsection@maxnumwidth=\skip57
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 5125.
+(scrartcl)           for `\subsection on input line 5179.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 5125.
+(scrartcl)           for `\subsection on input line 5179.
 \scr@dte@subsubsection@maxnumwidth=\skip58
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 5135.
+(scrartcl)           for `\subsubsection on input line 5189.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 5135.
+(scrartcl)           for `\subsubsection on input line 5189.
 \scr@dte@paragraph@maxnumwidth=\skip59
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 5146.
+(scrartcl)           for `\paragraph on input line 5200.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 5146.
+(scrartcl)           for `\paragraph on input line 5200.
 \scr@dte@subparagraph@maxnumwidth=\skip60
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 5156.
+(scrartcl)           for `\subparagraph on input line 5210.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 5156.
+(scrartcl)           for `\subparagraph on input line 5210.
 \abovecaptionskip=\skip61
 \belowcaptionskip=\skip62
-\c@pti@nb@sid@b@x=\box53
+\c@pti@nb@sid@b@x=\box54
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6337.
+(tocbasic)             for `lof' on input line 6410.
 \scr@dte@figure@maxnumwidth=\skip63
-\c@figure=\count199
+\c@figure=\count278
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6353.
+(tocbasic)             for `lot' on input line 6422.
 \scr@dte@table@maxnumwidth=\skip64
-\c@table=\count266
-Class scrartcl Info: Redefining `\numberline' on input line 6523.
-\bibindent=\dimen141
+\c@table=\count279
+Class scrartcl Info: Redefining `\numberline' on input line 6592.
+\bibindent=\dimen148
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/10/30 v2.17s AMS math features
+Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip65
 For additional information on amsmath, use the `?' option.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+Package: amstext 2024/11/17 v2.01 AMS text
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen142
+\ex@=\dimen149
 )) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
+\pmbraise@=\dimen150
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count267
+\inf@bad=\count280
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count268
-\leftroot@=\count269
+\uproot@=\count281
+\leftroot@=\count282
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count270
-\DOTSCASE@=\count271
-LaTeX Info: Redefining \ldots on input line 502.
-LaTeX Info: Redefining \dots on input line 505.
-LaTeX Info: Redefining \cdots on input line 638.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 740.
-LaTeX Info: Redefining \Big on input line 741.
-LaTeX Info: Redefining \bigg on input line 742.
-LaTeX Info: Redefining \Bigg on input line 743.
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 761.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 762.
-\macc@depth=\count272
-LaTeX Info: Redefining \bmod on input line 923.
-LaTeX Info: Redefining \pmod on input line 928.
-LaTeX Info: Redefining \smash on input line 958.
-LaTeX Info: Redefining \relbar on input line 988.
-LaTeX Info: Redefining \Relbar on input line 989.
-\c@MaxMatrixCols=\count273
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count285
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count286
 \dotsspace@=\muskip17
-\c@parentequation=\count274
-\dspbrk@lvl=\count275
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
 \tag@help=\toks19
-\row@=\count276
-\column@=\count277
-\maxfields@=\count278
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
 \andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
 \@envbody=\toks21
 \multlinegap=\skip66
 \multlinetaggap=\skip67
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2972.
-LaTeX Info: Redefining \] on input line 2973.
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -190,15 +190,14 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
+Package: expl3 2025-09-02 L3 programming layer (loader) 
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count279
-\l__pdf_internal_box=\box56
-\g__pdf_backend_annotation_int=\count280
-\g__pdf_backend_link_int=\count281
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count292
+\g__pdfannot_backend_int=\count293
+\g__pdfannot_backend_link_int=\count294
 ))
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
@@ -208,34 +207,161 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count282
-\l__fontspec_language_int=\count283
-\l__fontspec_strnum_int=\count284
-\l__fontspec_tmp_int=\count285
-\l__fontspec_tmpa_int=\count286
-\l__fontspec_tmpb_int=\count287
-\l__fontspec_tmpc_int=\count288
-\l__fontspec_em_int=\count289
-\l__fontspec_emdef_int=\count290
-\l__fontspec_strong_int=\count291
-\l__fontspec_strongdef_int=\count292
-\l__fontspec_tmpa_dim=\dimen151
-\l__fontspec_tmpb_dim=\dimen152
-\l__fontspec_tmpc_dim=\dimen153
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count295
+\l__fontspec_language_int=\count296
+\l__fontspec_strnum_int=\count297
+\l__fontspec_tmp_int=\count298
+\l__fontspec_tmpa_int=\count299
+\l__fontspec_tmpb_int=\count300
+\l__fontspec_tmpc_int=\count301
+\l__fontspec_em_int=\count302
+\l__fontspec_emdef_int=\count303
+\l__fontspec_strong_int=\count304
+\l__fontspec_strongdef_int=\count305
+\l__fontspec_tmpa_dim=\dimen158
+\l__fontspec_tmpb_dim=\dimen159
+\l__fontspec_tmpc_dim=\dimen160
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1) on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) on input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) on input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding TS1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) on input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) on input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) on input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input line 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on input line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encoding TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (encoding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encoding TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (encoding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1) on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encoding TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) on input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on input line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on input line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1) on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encoding TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) on input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1) on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1) on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1) on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on input line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on input line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on input line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on input line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) on input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on input line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) on input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) on input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) on input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on input line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on input line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on input line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1) on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on input line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) on input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on input line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1) on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on input line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding TS1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on input line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on input line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on input line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on input line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on input line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on input line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1) on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on input line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) on input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding TS1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on input line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on input line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) on input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1) on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on input line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on input line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on input line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on input line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) on input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) on input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1) on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on input line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1) on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on input line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1) on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) on input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding TS1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1) on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on input line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on input line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on input line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input line 194.
 ))
-\g__um_fam_int=\count293
-\g__um_fonts_used_int=\count294
-\l__um_primecount_int=\count295
+\g__um_fam_int=\count306
+\g__um_fonts_used_int=\count307
+\l__um_primecount_int=\count308
 \g__um_primekern_muskip=\muskip18
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
@@ -271,6 +397,39 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count309
+)
+\MT@toks=\toks23
+\MT@tempbox=\box57
+\MT@count=\count310
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen161
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count311
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip68
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -278,7 +437,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+File: xetex.def 2025/09/29 v5.0o Graphics/color driver for xetex
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -295,74 +454,72 @@ File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count296
-\LTcapwidth=\dimen154
-\LT@head=\box57
-\LT@firsthead=\box58
-\LT@foot=\box59
-\LT@lastfoot=\box60
-\LT@gbox=\box61
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
-\LT@p@ftn=\toks23
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count312
+\LTcapwidth=\dimen162
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count313
+\LT@rows=\count314
+\c@LT@tables=\count315
+\c@LT@chunks=\count316
+\LT@p@ftn=\toks25
 )
 Class scrartcl Info: longtable captions redefined on input line 72.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen155
-\lightrulewidth=\dimen156
-\cmidrulewidth=\dimen157
-\belowrulesep=\dimen158
-\belowbottomsep=\dimen159
-\aboverulesep=\dimen160
-\abovetopsep=\dimen161
-\cmidrulesep=\dimen162
-\cmidrulekern=\dimen163
-\defaultaddspace=\dimen164
-\@cmidla=\count301
-\@cmidlb=\count302
-\@aboverulesep=\dimen165
-\@belowrulesep=\dimen166
-\@thisruleclass=\count303
-\@lastruleclass=\count304
-\@thisrulewidth=\dimen167
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count317
+\@cmidlb=\count318
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count319
+\@lastruleclass=\count320
+\@thisrulewidth=\dimen175
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen168
-\ar@mcellbox=\box62
-\extrarowheight=\dimen169
-\NC@list=\toks24
-\extratabsurround=\skip72
-\backup@length=\skip73
-\ar@cellbox=\box63
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box63
+\extrarowheight=\dimen177
+\NC@list=\toks26
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box64
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count305
-\calc@Bcount=\count306
-\calc@Adimen=\dimen170
-\calc@Bdimen=\dimen171
-\calc@Askip=\skip74
-\calc@Bskip=\skip75
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count307
-\calc@Cskip=\skip76
-) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count308
-) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box64
-\fn@width=\dimen172
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count321
+\calc@Bcount=\count322
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count323
+\calc@Cskip=\skip77
+) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box65
+\FNH@width=\dimen180
+\FNH@toks=\toks27
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
@@ -372,53 +529,54 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
 )
-\Gin@req@height=\dimen173
-\Gin@req@width=\dimen174
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen175
-\captionmargin=\dimen176
-\caption@leftmargin=\dimen177
-\caption@rightmargin=\dimen178
-\caption@width=\dimen179
-\caption@indent=\dimen180
-\caption@parindent=\dimen181
-\caption@hangindent=\dimen182
-Package caption Info: KOMA-Script document class detected.
-(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/caption/caption-koma.sto
-File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
-))
-\c@caption@flags=\count309
-\c@continuedfloat=\count310
+\caption@tempdima=\dimen183
+\captionmargin=\dimen184
+\caption@leftmargin=\dimen185
+\caption@rightmargin=\dimen186
+\caption@width=\dimen187
+\caption@indent=\dimen188
+\caption@parindent=\dimen189
+\caption@hangindent=\dimen190
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\@abovecaptionbreak \vskip \abovecaptionskip \@abovecaptionbreak \@@makecaption \@firstofone {#1}{#2}\@belowcaptionbreak \vskip \belowcaptionskip \@belowcaptionbreak  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count324
+\c@continuedfloat=\count325
 Package caption Info: longtable package is loaded.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)
-Package caption Info: KOMA-Script scrextend package detected.
-\caption@addmargin@hsize=\dimen183
-\caption@addmargin@linewidth=\dimen184
-) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+)) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count311
-\float@exts=\toks25
-\float@box=\box65
-\@float@everytoks=\toks26
-\@floatcapt=\box66
+\c@float@type=\count326
+\float@exts=\toks28
+\float@box=\box66
+\@float@everytoks=\toks29
+\@floatcapt=\box67
 )
-\@float@every@codelisting=\toks27
-\c@codelisting=\count312
+\@float@every@codelisting=\toks30
+\c@codelisting=\count327
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count313
+\c@subfigure=\count328
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count314
+\c@subtable=\count329
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-10-30 v7.01k Hypertext links for LaTeX
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -438,7 +596,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 )) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
@@ -446,83 +604,78 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count315
+\c@section@level=\count330
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen185
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\@linkdim=\dimen191
+\Hy@linkcounter=\count331
+\Hy@pagecounter=\count332
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-10-30 v7.01k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count333
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-10-30 v7.01k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count319
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count334
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen186
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen192
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count320
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Fld@menulength=\count335
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count336
+\c@Item=\count337
+\c@Hfootnote=\count338
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2024-10-30 v7.01k Hyperref driver for XeTeX
-\pdfm@box=\box67
-\c@Hy@AnnotLevel=\count324
-\HyField@AnnotCount=\count325
-\Fld@listcount=\count326
-\c@bookmark@seq@number=\count327
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box68
+\c@Hy@AnnotLevel=\count339
+\HyField@AnnotCount=\count340
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip77
+\Hy@SectionHShift=\skip78
 ) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count328
-))
+\BKM@id=\count343
+)) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
 Package hyperref Info: Option `colorlinks' set `true' on input line 153.
 No file Clase-Ciclo-de-Efectivo.aux.
 \openout1 = `Clase-Ciclo-de-Efectivo.aux'.
@@ -780,6 +933,21 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 161.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 161.
+LaTeX Info: Redefining \microtypecontext on input line 161.
+Package microtype Info: Applying patch `item' on input line 161.
+Package microtype Info: Applying patch `toc' on input line 161.
+Package microtype Info: Applying patch `eqnum' on input line 161.
+Package microtype Info: Applying patch `footnote' on input line 161.
+Package microtype Info: Applying patch `verbatim' on input line 161.
+LaTeX Info: Redefining \microtypesetup on input line 161.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -788,6 +956,10 @@ Package hyperref Info: Link coloring ON on input line 161.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 163.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -813,10 +985,14 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Trying to load font information for U+msa on input line 163.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 163.
 (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/Users/ccorreai/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 File: Imagen2.png Graphic file (type bmp)
 <Imagen2.png>
@@ -906,6 +1082,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 [17]
 Missing character: There is no σ (U+03C3) in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no σ (U+03C3) in font [lmroman10-bold]:mapping=tex-text;!
 
 
 [18]
@@ -964,14 +1141,17 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.2125 \end{align*}
-                    
-Here is how much of TeX's memory you used:
- 21692 strings out of 475994
- 419121 string characters out of 5777917
- 1099760 words of memory out of 5000000
- 44227 multiletter control sequences out of 15000+600000
- 567382 words of font info for 103 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 108i,8n,123p,10918b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+ 
+Here is how much of TeX's memory you used:
+ 23754 strings out of 470334
+ 462840 string characters out of 5482778
+ 1163595 words of memory out of 5000000
+ 51860 multiletter control sequences out of 15000+600000
+ 637034 words of font info for 107 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 108i,8n,114p,11226b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 Output written on Clase-Ciclo-de-Efectivo.pdf (31 pages).
